@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_WaldbetretungTyp"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">XP_WaldbetretungTyp</identifier>
+   <name>XP_WaldbetretungTyp</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_WaldbetretungTyp_1000">
+         <description>Radfahren</description>
+         <identifier codeSpace="urn:xplan">XP_WaldbetretungTyp:1000</identifier>
+         <name>Radfahren</name>
+         <name codeSpace="lesbarerName">Radfahren</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_WaldbetretungTyp_2000">
+         <description>Reiten</description>
+         <identifier codeSpace="urn:xplan">XP_WaldbetretungTyp:2000</identifier>
+         <name>Reiten</name>
+         <name codeSpace="lesbarerName">Reiten</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_WaldbetretungTyp_3000">
+         <description>Fahren</description>
+         <identifier codeSpace="urn:xplan">XP_WaldbetretungTyp:3000</identifier>
+         <name>Fahren</name>
+         <name codeSpace="lesbarerName">Fahren</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_WaldbetretungTyp_4000">
+         <description>Hundesport</description>
+         <identifier codeSpace="urn:xplan">XP_WaldbetretungTyp:4000</identifier>
+         <name>Hundesport</name>
+         <name codeSpace="lesbarerName">Hundesport</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

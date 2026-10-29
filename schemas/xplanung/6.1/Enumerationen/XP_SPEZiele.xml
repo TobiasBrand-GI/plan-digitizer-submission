@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_SPEZiele"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung der Ziele für Schutz-, Pflege- und Entwicklungsmaßnahmen.</description>
+   <identifier codeSpace="urn:xplan">XP_SPEZiele</identifier>
+   <name>XP_SPEZiele</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_SPEZiele_1000">
+         <description>Schutz und Pflege</description>
+         <identifier codeSpace="urn:xplan">XP_SPEZiele:1000</identifier>
+         <name>SchutzPflege</name>
+         <name codeSpace="lesbarerName">Schutz und Pflege</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_SPEZiele_2000">
+         <description>Entwicklung</description>
+         <identifier codeSpace="urn:xplan">XP_SPEZiele:2000</identifier>
+         <name>Entwicklung</name>
+         <name codeSpace="lesbarerName">Entwicklung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_SPEZiele_3000">
+         <description>Neu-Anlage</description>
+         <identifier codeSpace="urn:xplan">XP_SPEZiele:3000</identifier>
+         <name>Anlage</name>
+         <name codeSpace="lesbarerName">Anlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_SPEZiele_4000">
+         <description>Schutz, Pflege und Entwicklung</description>
+         <identifier codeSpace="urn:xplan">XP_SPEZiele:4000</identifier>
+         <name>SchutzPflegeEntwicklung</name>
+         <name codeSpace="lesbarerName">Schutz, Pflege und Entwicklung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_SPEZiele_9999">
+         <description>Sonstiges Ziel</description>
+         <identifier codeSpace="urn:xplan">XP_SPEZiele:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

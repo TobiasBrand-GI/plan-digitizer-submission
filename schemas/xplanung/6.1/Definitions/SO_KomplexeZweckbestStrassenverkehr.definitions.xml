@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="2828"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Spezifikation der Zweckbestimmung einer Fläche oder Anlage für den Strassenverkehr</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:dataType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">SO_KomplexeZweckbestStrassenverkehr</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2828_8777">
+         <gml:description>Allgemeine Zweckbestimmung der Fläche oder Anlage</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:allgemein</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">allgemein</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2828_8777_868_7765">
+               <gml:description>Autobahn oder autobahnähnliche Straße.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:allgemein:1000</gml:identifier>
+               <gml:name>AutobahnUndAehnlich</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2828_8777_868_7766">
+               <gml:description>Sonstige örtliche oder überörtliche Hauptverkehrsstraße bzw. Weg.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:allgemein:1200</gml:identifier>
+               <gml:name>Hauptverkehrsstrasse</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2828_8777_868_7767">
+               <gml:description>Sonstiger Verkehrsweg oder Anlage. Planinhalte nach § 5.3 PlanZV ("Überörtliche Wege und örtliche Hauptwege") werden ebenfalls auf diesen Enumerationswert abgebildet.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:allgemein:1400</gml:identifier>
+               <gml:name>SonstigerVerkehrswegAnlage</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2828_8777_868_2051">
+               <gml:description>Bereich einer Verkehrsfläche, der der Verkehrsberuhigung in geschlossenen Ortschaften dient.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:allgemein:14000</gml:identifier>
+               <gml:name>VerkehrsberuhigterBereich</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2828_8777_868_2052">
+               <gml:description>Platz</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:allgemein:14001</gml:identifier>
+               <gml:name>Platz</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2828_8777_868_2053">
+               <gml:description>Fußgängerbereich</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:allgemein:14002</gml:identifier>
+               <gml:name>Fussgaengerbereich</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2828_8777_868_2054">
+               <gml:description>Rad- und Fußweg</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:allgemein:14003</gml:identifier>
+               <gml:name>RadGehweg</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2828_8777_868_2055">
+               <gml:description>Radweg</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:allgemein:14004</gml:identifier>
+               <gml:name>Radweg</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2828_8777_868_2056">
+               <gml:description>Fußweg</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:allgemein:14005</gml:identifier>
+               <gml:name>Gehweg</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2828_8777_868_2057">
+               <gml:description>Wanderweg</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:allgemein:14006</gml:identifier>
+               <gml:name>Wanderweg</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2828_8777_868_2058">
+               <gml:description>Reit- und Kutschweg</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:allgemein:14007</gml:identifier>
+               <gml:name>ReitKutschweg</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2828_8777_868_2059">
+               <gml:description>Rastanlage</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:allgemein:14008</gml:identifier>
+               <gml:name>Rastanlage</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2828_8777_868_2060">
+               <gml:description>Busbahnhof, auch zentraler Omnibusbahnhof (ZOB)</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:allgemein:14009</gml:identifier>
+               <gml:name>Busbahnhof</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2828_8777_868_2061">
+               <gml:description>Brückenbereich, hier: Überführender Verkehrsweg.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:allgemein:140010</gml:identifier>
+               <gml:name>UeberfuehrenderVerkehrsweg</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2828_8777_868_2062">
+               <gml:description>Brückenbereich, hier: Unterführender Verkehrsweg.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:allgemein:140011</gml:identifier>
+               <gml:name>UnterfuehrenderVerkehrsweg</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2828_8777_868_7899">
+               <gml:description>Wege, die überwiegend land- und forstwirtschaftlichen Zwecken dienen und keine überörtliche Bedeutung haben</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:allgemein:140012</gml:identifier>
+               <gml:name>Wirtschaftsweg</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2828_8777_868_7900">
+               <gml:description>Landwirtschaftlicher Verkehr</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:allgemein:140013</gml:identifier>
+               <gml:name>LandwirtschaftlicherVerkehr</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2828_8777_868_8786">
+               <gml:description>Anschlussfläche</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:allgemein:14014</gml:identifier>
+               <gml:name>Anschlussflaeche</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2828_8777_868_8787">
+               <gml:description>Verkehrsgrün</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:allgemein:14015</gml:identifier>
+               <gml:name>Verkehrsgruen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2828_8777_868_7768">
+               <gml:description>Fläche oder Anlage für den ruhenden Verkehr</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:allgemein:1600</gml:identifier>
+               <gml:name>RuhenderVerkehr</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2828_8777_868_7849">
+               <gml:description>Parkplatz, Parkfläche</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:allgemein:16000</gml:identifier>
+               <gml:name>Parkplatz</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2828_8777_868_7850">
+               <gml:description>Abstellplatz für Fahräder</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:allgemein:16001</gml:identifier>
+               <gml:name>FahrradAbstellplatz</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2828_8777_868_7901">
+               <gml:description>Park-and-Ride Anlagen sind Parkanlagen, die in der Nähe von Haltestellen des öffentlichen Nahverkehrs (ÖPNV) für Pkw, teilweise auch Motorräder und Busse, zur Verfügung gestellt werden.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:allgemein:16002</gml:identifier>
+               <gml:name>P_RAnlage</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2828_8777_868_7904">
+               <gml:description>Bike-and-Ride Anlagen sind Radabstellanlagen, die in der Nähe von Haltestellen des öffentlichen Nahverkehrs (ÖPNV) zur Verfügung gestellt werden.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:allgemein:16003</gml:identifier>
+               <gml:name>B_RAnlage</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2828_8777_868_7905">
+               <gml:description>Parkhaus</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:allgemein:16004</gml:identifier>
+               <gml:name>Parkhaus</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2828_8777_868_7902">
+               <gml:description>Anlage für die organisierte gemeinschaftliche Nutzung von Automobilen.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:allgemein:16005</gml:identifier>
+               <gml:name>CarSharing</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2828_8777_868_7903">
+               <gml:description>Anlage für die organisierte gemeinschaftliche Nutzung von Fahrrädern.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:allgemein:16006</gml:identifier>
+               <gml:name>BikeSharing</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2828_8777_868_7906">
+               <gml:description>Mischverkehrsfläche, oder „Shared Space“, „Begegnungszone“, ist eine Verkehrsfläche, auf der eine möglichst gemeinsame Nutzung des Straßenraumes und eine Gleichberechtigung aller Verkehrsteilnehmerinnen und Verkehrsteilnehmer angestrebt wird.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:allgemein:3400</gml:identifier>
+               <gml:name>Mischverkehrsflaeche</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2828_8777_868_7907">
+               <gml:description>Flächen für Ladeinfrastruktur elektrisch betriebener Fahrzeuge .</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:allgemein:3500</gml:identifier>
+               <gml:name>Ladestation</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2828_8777_868_7769">
+               <gml:description>Sonstige Zweckbestimmung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:allgemein:9999</gml:identifier>
+               <gml:name>Sonstiges</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>1</def:cardinality>
+         <def:valueTypeName>SO_ZweckbestimmungStrassenverkehr</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2828_8778">
+         <gml:description>ber eine Codeliste definierte Zweckbestimmungen, die die allgemeine Zweckbestimmung nher detaillieren.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:detail</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">detail</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeName>SO_DetailZweckbestStrassenverkehr</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2828_8779">
+         <gml:description>Textliche Ergänzung der spezifizierten Zweckbestimmung(en)</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:textlicheErgaenzung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">textlicheErgaenzung</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2828_8780">
+         <gml:description>Aufschrift</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_KomplexeZweckbestStrassenverkehr:aufschrift</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">aufschrift</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>dataType</def:classification>
+</def:TypeDefinition>

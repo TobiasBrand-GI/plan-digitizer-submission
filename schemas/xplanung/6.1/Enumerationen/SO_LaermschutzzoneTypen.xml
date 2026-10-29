@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="SO_LaermschutzzoneTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Einteilung von Lärmschutzzonen</description>
+   <identifier codeSpace="urn:xplan">SO_LaermschutzzoneTypen</identifier>
+   <name>SO_LaermschutzzoneTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="SO_LaermschutzzoneTypen_1000">
+         <description>Tag-Zone 1</description>
+         <identifier codeSpace="urn:xplan">SO_LaermschutzzoneTypen:1000</identifier>
+         <name>TagZone1</name>
+         <name codeSpace="lesbarerName">Tag-Zone 1</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_LaermschutzzoneTypen_2000">
+         <description>Tag-Zone 2</description>
+         <identifier codeSpace="urn:xplan">SO_LaermschutzzoneTypen:2000</identifier>
+         <name>TagZone2</name>
+         <name codeSpace="lesbarerName">Tag-Zone 2</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_LaermschutzzoneTypen_3000">
+         <description>Nacht-Zone</description>
+         <identifier codeSpace="urn:xplan">SO_LaermschutzzoneTypen:3000</identifier>
+         <name>Nacht</name>
+         <name codeSpace="lesbarerName">Nacht</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

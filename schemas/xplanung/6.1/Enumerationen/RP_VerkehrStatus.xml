@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_VerkehrStatus"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Verkehrsstati.</description>
+   <identifier codeSpace="urn:xplan">RP_VerkehrStatus</identifier>
+   <name>RP_VerkehrStatus</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_VerkehrStatus_1000">
+         <description>Ausbau.</description>
+         <identifier codeSpace="urn:xplan">RP_VerkehrStatus:1000</identifier>
+         <name>Ausbau</name>
+         <name codeSpace="lesbarerName">Ausbau</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_VerkehrStatus_1001">
+         <description>Linienführung offen.</description>
+         <identifier codeSpace="urn:xplan">RP_VerkehrStatus:1001</identifier>
+         <name>LinienfuehrungOffen</name>
+         <name codeSpace="lesbarerName">Linienführung Offen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_VerkehrStatus_2000">
+         <description>Sicherung.</description>
+         <identifier codeSpace="urn:xplan">RP_VerkehrStatus:2000</identifier>
+         <name>Sicherung</name>
+         <name codeSpace="lesbarerName">Sicherung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_VerkehrStatus_3000">
+         <description>Neubau.</description>
+         <identifier codeSpace="urn:xplan">RP_VerkehrStatus:3000</identifier>
+         <name>Neubau</name>
+         <name codeSpace="lesbarerName">Neubau</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_VerkehrStatus_4000">
+         <description>Im Bau befindliche Verkehrsinfrastruktur.</description>
+         <identifier codeSpace="urn:xplan">RP_VerkehrStatus:4000</identifier>
+         <name>ImBau</name>
+         <name codeSpace="lesbarerName">Im Bau</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_VerkehrStatus_5000">
+         <description>Vorhandene planfestgestellte linienbestimmte Grobtrasse.</description>
+         <identifier codeSpace="urn:xplan">RP_VerkehrStatus:5000</identifier>
+         <name>VorhPlanfestgestLinienbestGrobtrasse</name>
+         <name codeSpace="lesbarerName">Vorh. planfestgestellte linienbestimmte Grobtrasse</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_VerkehrStatus_6000">
+         <description>Bedarfsplanmassnahme ohne räumliche Festlegung.</description>
+         <identifier codeSpace="urn:xplan">RP_VerkehrStatus:6000</identifier>
+         <name>BedarfsplanmassnahmeOhneRaeumlFestlegung</name>
+         <name codeSpace="lesbarerName">Bedarfsplanmaßnahme ohne räuml. Festlegung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_VerkehrStatus_7000">
+         <description>Korridor.</description>
+         <identifier codeSpace="urn:xplan">RP_VerkehrStatus:7000</identifier>
+         <name>Korridor</name>
+         <name codeSpace="lesbarerName">Korridor</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_VerkehrStatus_8000">
+         <description>Verlegung.</description>
+         <identifier codeSpace="urn:xplan">RP_VerkehrStatus:8000</identifier>
+         <name>Verlegung</name>
+         <name codeSpace="lesbarerName">Verlegung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_VerkehrStatus_9999">
+         <description>Sonstiger Verkehrsstatus.</description>
+         <identifier codeSpace="urn:xplan">RP_VerkehrStatus:9999</identifier>
+         <name>SonstigerVerkehrStatus</name>
+         <name codeSpace="lesbarerName">Sonstiger Verkehr Status</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

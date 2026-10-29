@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="2662"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Flächenhafte Festlegung einer Sichtfläche bzw. eines Sichtdreiecks</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:SO_Sichtflaeche</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">SO_Sichtflaeche</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2662_8106">
+         <gml:description>Klassifikation der Einmündung einer untergeordneten auf eine übergeordnete Straße gemäß den "Richtlinien für die Anlage von Stadtstraßen" (TAST 06)</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Sichtflaeche:art</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">art</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2662_8106_2697_8096">
+               <gml:description>Haltesichtweite</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Sichtflaeche:art:1000</gml:identifier>
+               <gml:name>Haltesichtweite</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2662_8106_2697_8097">
+               <gml:description>Anfahrsichtfeld</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Sichtflaeche:art:2000</gml:identifier>
+               <gml:name>Anfahrsichtfeld</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2662_8106_2697_8098">
+               <gml:description>Annäherungssichtfeld</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Sichtflaeche:art:3000</gml:identifier>
+               <gml:name>Annaeherungssichtfeld</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2662_8106_2697_8099">
+               <gml:description>Sichtfeld an Überquerungsstellen</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Sichtflaeche:art:4000</gml:identifier>
+               <gml:name>Ueberquerung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2662_8106_2697_8110">
+               <gml:description>Sonstige Sichtfläche</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Sichtflaeche:art:9999</gml:identifier>
+               <gml:name>SonstigeSichtflaeche</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>SO_SichtflaecheArt</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2662_8107">
+         <gml:description>Klassifikation des Knotenpunktes, dem die Sichtfläche zugeordnet ist</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Sichtflaeche:knotenpunkt</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">knotenpunkt</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2662_8107_2698_8100">
+               <gml:description>Knotenpunkt Anliegerstraße - Anliegerweg</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Sichtflaeche:knotenpunkt:1000</gml:identifier>
+               <gml:name>AnlgStr-AnlgWeg</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2662_8107_2698_8101">
+               <gml:description>Knotenpunkt Anliegerstraße - Anliegerstraße</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Sichtflaeche:knotenpunkt:2000</gml:identifier>
+               <gml:name>AnlgStr-AnlgStr</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2662_8107_2698_8102">
+               <gml:description>Knotenpunkt Sammelstraße - Anliegerstraße</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Sichtflaeche:knotenpunkt:3000</gml:identifier>
+               <gml:name>SammelStr-AnlgStr</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2662_8107_2698_8103">
+               <gml:description>Knotenpunkt mit einer Haupt-Sammelstraße</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Sichtflaeche:knotenpunkt:4000</gml:identifier>
+               <gml:name>HauptSammelStr</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2662_8107_2698_8104">
+               <gml:description>Knotenpunkt mit einer angebaute Hauptverkehrsstraße (Bebauung parallel zur Straße ist vorhanden)</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Sichtflaeche:knotenpunkt:5000</gml:identifier>
+               <gml:name>HauptVerkStrAngeb</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2662_8107_2698_8105">
+               <gml:description>Knotenpunkt mit einer nicht angebaute Hauptverkehrsstraße (Keine Bebauung parallel zur Straße )</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Sichtflaeche:knotenpunkt:6000</gml:identifier>
+               <gml:name>HauptVerkStrNichtAngeb</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2662_8107_2698_8111">
+               <gml:description>Sonstiger Knotenpunkt</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Sichtflaeche:knotenpunkt:9999</gml:identifier>
+               <gml:name>SonstigerKnotenpunkt</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>SO_SichtflaecheKnotenpunktTypen</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2662_8108">
+         <gml:description>Zulässige Geschwindigkeit in der übergeordneten Straße, im km/h</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Sichtflaeche:geschwindigkeit</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">geschwindigkeit</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Velocity</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2662_8109">
+         <gml:description>Schenkellänge des Sichtdreiecks gemäß RAST 06</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Sichtflaeche:schenkellaenge</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">schenkellaenge</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Length</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:SO_Flaechenobjekt"/>
+</def:TypeDefinition>

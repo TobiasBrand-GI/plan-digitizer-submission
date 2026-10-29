@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_AbwasserTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von Abwasserinfrastruktur.</description>
+   <identifier codeSpace="urn:xplan">RP_AbwasserTypen</identifier>
+   <name>RP_AbwasserTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AbwasserTypen_1000">
+         <description>Kläranlage.</description>
+         <identifier codeSpace="urn:xplan">RP_AbwasserTypen:1000</identifier>
+         <name>Klaeranlage</name>
+         <name codeSpace="lesbarerName">Kläranlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AbwasserTypen_1001">
+         <description>Zentrale Kläranlage.</description>
+         <identifier codeSpace="urn:xplan">RP_AbwasserTypen:1001</identifier>
+         <name>ZentraleKlaeranlage</name>
+         <name codeSpace="lesbarerName">Zentrale Kläranlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AbwasserTypen_1002">
+         <description>Großklärwerk.</description>
+         <identifier codeSpace="urn:xplan">RP_AbwasserTypen:1002</identifier>
+         <name>Grossklaerwerk</name>
+         <name codeSpace="lesbarerName">Grossklärwerk</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AbwasserTypen_2000">
+         <description>Hauptwasserableitung.</description>
+         <identifier codeSpace="urn:xplan">RP_AbwasserTypen:2000</identifier>
+         <name>Hauptwasserableitung</name>
+         <name codeSpace="lesbarerName">Hauptwasserableitung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AbwasserTypen_3000">
+         <description>Abwasserverwertungsfläche.</description>
+         <identifier codeSpace="urn:xplan">RP_AbwasserTypen:3000</identifier>
+         <name>Abwasserverwertungsflaeche</name>
+         <name codeSpace="lesbarerName">Abwasserverwertungsfläche</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AbwasserTypen_4000">
+         <description>Abwasserbehandlungsanlage.</description>
+         <identifier codeSpace="urn:xplan">RP_AbwasserTypen:4000</identifier>
+         <name>Abwasserbehandlungsanlage</name>
+         <name codeSpace="lesbarerName">Abwasserbehandlungsanlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AbwasserTypen_9999">
+         <description>Sonstige Abwasserinfrastruktur.</description>
+         <identifier codeSpace="urn:xplan">RP_AbwasserTypen:9999</identifier>
+         <name>SonstigeAbwasserinfrastruktur</name>
+         <name codeSpace="lesbarerName">Sonstige Abwasserinfrastruktur</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

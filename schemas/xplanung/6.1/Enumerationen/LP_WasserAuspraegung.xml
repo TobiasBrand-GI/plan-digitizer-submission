@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_WasserAuspraegung"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Ausprägungen in Bezug auf Planungsgegenstand Wasser, an die sich das Ziel, das Erfordernis oder die Maßnahme richtet..</description>
+   <identifier codeSpace="urn:xplan">LP_WasserAuspraegung</identifier>
+   <name>LP_WasserAuspraegung</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_1100">
+         <description>Ziele, Erfordernisse oder Maßnahmen begründet durch Hochwasserschutz.</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:1100</identifier>
+         <name>Hochwasserschutz</name>
+         <name codeSpace="lesbarerName">Hochwasserschutz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_1200">
+         <description>ZEM begründet mit Lage in Überschwemmungsgebiet. Das wasserrechtliche Gebiet selbst sollte in SO_Wasserrecht angelegt werden.</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:1200</identifier>
+         <name>Ueberschwemmungsgebiet</name>
+         <name codeSpace="lesbarerName">Überschwemmungsgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_1300">
+         <description>Hochwasservorsorge</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:1300</identifier>
+         <name>Hochwasservorsorge</name>
+         <name codeSpace="lesbarerName">Hochwasservorsorge</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_1310">
+         <description>Retentionsraum</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:1310</identifier>
+         <name>Retentionsraum</name>
+         <name codeSpace="lesbarerName">Retentionsraum</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_1320">
+         <description>Polderfläche</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:1320</identifier>
+         <name>Polderflaeche</name>
+         <name codeSpace="lesbarerName">Polderfläche</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_1400">
+         <description>Deichrückverlegung</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:1400</identifier>
+         <name>Deichrueckverlegung</name>
+         <name codeSpace="lesbarerName">Deichrückverlegung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_1500">
+         <description>Ziele, Erfordernisse oder Maßnahmen begründet mit Lage in Trinkwassergewinnungsgebiet. Das wasserrechtliche Gebiet selbst sollte in SO_Wasserrecht angelegt werden.</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:1500</identifier>
+         <name>Trinkwassergewinnung</name>
+         <name codeSpace="lesbarerName">Trinkwassergewinnung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_1600">
+         <description>Ziele, Erfordernisse oder Maßnahmen begründet mit Lage in Trinkwasserschutz-Einzugsgebiet. Das wasserrechtliche Gebiet selbst sollte in SO_Wasserrecht angelegt werden.</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:1600</identifier>
+         <name>Trinkwasserschutz</name>
+         <name codeSpace="lesbarerName">Trinkwasserschutz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_1700">
+         <description>Ziele, Erfordernisse oder Maßnahmen begründet mit Lage in Grundwasserneubildungsgebiet. Das wasserrechtliche Gebiet selbst sollte in SO_Wasserrecht angelegt werden.</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:1700</identifier>
+         <name>Grundwasserneubildungsgebiet</name>
+         <name codeSpace="lesbarerName">Grundwasserneubildungsgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_2100">
+         <description>Längsdurchgängigkeit von Gewässern</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:2100</identifier>
+         <name>LaengsdurchgaengigkeitGewaesser</name>
+         <name codeSpace="lesbarerName">Längsdurchgängigkeit Gewässer</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_2200">
+         <description>Mindestwasserführung von Gewässern</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:2200</identifier>
+         <name>MindestwasserfuehrungGewaesser</name>
+         <name codeSpace="lesbarerName">Mindestwasserführung Gewässer</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_2300">
+         <description>Drainage</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:2300</identifier>
+         <name>Drainage</name>
+         <name codeSpace="lesbarerName">Drainage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_2400">
+         <description>Entwässerungsgraben</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:2400</identifier>
+         <name>Entwaesserungsgraben</name>
+         <name codeSpace="lesbarerName">Entwässerungsgraben</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_3100">
+         <description>Naturnähe von Gewässern</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:3100</identifier>
+         <name>NaturnaeheGewaesser</name>
+         <name codeSpace="lesbarerName">Naturnahe Gewässer</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_3200">
+         <description>Naturnahe Uferbereiche von Standgewässern/Fließgewässern</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:3200</identifier>
+         <name>NaturnaheUferbereiche</name>
+         <name codeSpace="lesbarerName">Naturnahe Uferbereiche</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_3300">
+         <description>Ökologische Funktion Fließgewässer</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:3300</identifier>
+         <name>OekologischeFunktionFliessgewaesser</name>
+         <name codeSpace="lesbarerName">Ökologische Funktion Fliessgewässer</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_3400">
+         <description>Ökologische Funktion Quellbereich</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:3400</identifier>
+         <name>OekologischeFunktionQuellbereich</name>
+         <name codeSpace="lesbarerName">Ökologische Funktion Quellbereich</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_3500">
+         <description>Ökologische Funktion Stillgewässer</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:3500</identifier>
+         <name>OekologischeFunktionStillgewaesser</name>
+         <name codeSpace="lesbarerName">Ökologische Funktion Stillgewässer</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_3600">
+         <description>Gewässerstruktur</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:3600</identifier>
+         <name>Gewaesserstruktur</name>
+         <name codeSpace="lesbarerName">Gewässerstruktur</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_3700">
+         <description>Gewässerdynamik</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:3700</identifier>
+         <name>Gewaesserdynamik</name>
+         <name codeSpace="lesbarerName">Gewässerdynamik</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_5100">
+         <description>Gewässerrandstreifen</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:5100</identifier>
+         <name>Gewaesserrandstreifen</name>
+         <name codeSpace="lesbarerName">Gewässerrandstreifen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_5200">
+         <description>Gewässerschutzstreifen</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:5200</identifier>
+         <name>Gewaesserschutzstreifen</name>
+         <name codeSpace="lesbarerName">Gewässerschutzstreifen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_5300">
+         <description>Pufferzone</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:5300</identifier>
+         <name>Pufferzone</name>
+         <name codeSpace="lesbarerName">Pufferzone</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_5400">
+         <description>Ufergehölze</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:5400</identifier>
+         <name>Ufergehoelze</name>
+         <name codeSpace="lesbarerName">Ufergehölze</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_6100">
+         <description>Fischaufstiegs- bzw. -abstiegsanlage</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:6100</identifier>
+         <name>FischaufstiegsAbstiegsanlage</name>
+         <name codeSpace="lesbarerName">Fischaufstiegs- oder abstiegsanlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_6200">
+         <description>Wehr</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:6200</identifier>
+         <name>Wehr</name>
+         <name codeSpace="lesbarerName">Wehr</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_6300">
+         <description>Verrohrung</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:6300</identifier>
+         <name>Verrohrung</name>
+         <name codeSpace="lesbarerName">Verrohrung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_6400">
+         <description>Sohlstufe</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:6400</identifier>
+         <name>Sohlstufe</name>
+         <name codeSpace="lesbarerName">Sohlstufe</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_7100">
+         <description>Gewässergüte</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:7100</identifier>
+         <name>Gewaesserguete</name>
+         <name codeSpace="lesbarerName">Gewässergüte</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_7200">
+         <description>Stoffeinträge in Grundwasser</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:7200</identifier>
+         <name>StoffeintraegeInGrundwasser</name>
+         <name codeSpace="lesbarerName">Stoffeinträge in Grundwasser</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_7300">
+         <description>Stoffeinträge in Oberflächengewässer</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:7300</identifier>
+         <name>StoffeintraegeInOberflaechengewaesser</name>
+         <name codeSpace="lesbarerName">Stoffeinträge in Oberflächengewässer</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_8100">
+         <description>Versickerungsfläche</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:8100</identifier>
+         <name>Versickerungsflaeche</name>
+         <name codeSpace="lesbarerName">Versickerungsfläche</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_8200">
+         <description>Verlandungsbereich</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:8200</identifier>
+         <name>Verlandungsbereiche</name>
+         <name codeSpace="lesbarerName">Verlandungsbereiche</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_WasserAuspraegung_9999">
+         <description>Sonstiger Planungsgegenstand Schutzgut Wasser (siehe wasserText)</description>
+         <identifier codeSpace="urn:xplan">LP_WasserAuspraegung:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

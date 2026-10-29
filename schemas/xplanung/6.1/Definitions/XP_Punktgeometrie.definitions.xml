@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="616"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Spezieller Geometrietyp für Punkte, die wahlweise als Einzelpunkt oder als Aggregation von Punkten gebildet werden können.</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:unionType:xplan::xplan:6.1:XP_Punktgeometrie</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">XP_Punktgeometrie</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="616_961">
+         <gml:description>Punktgeometrie</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Punktgeometrie:Punkt</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">Punkt</gml:name>
+         <def:cardinality>1</def:cardinality>
+         <def:valueTypeName>GM_Point</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="616_962">
+         <gml:description>Multipunkt-Geometrie</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Punktgeometrie:MultiPunkt</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">MultiPunkt</gml:name>
+         <def:cardinality>1</def:cardinality>
+         <def:valueTypeName>GM_MultiPoint</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>unionType</def:classification>
+</def:TypeDefinition>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_Aenderungsarten"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung verschiedener Arten von Planänderungen.</description>
+   <identifier codeSpace="urn:xplan">XP_Aenderungsarten</identifier>
+   <name>XP_Aenderungsarten</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Aenderungsarten_1000">
+         <description>Einzelne Planinhalte im Planungsbereich werden durch neue Inhalte ersetzt, neue Inhalte werden ergänzt, bestehen Inhalte werden gestrichen oder bleiben erhalten.</description>
+         <identifier codeSpace="urn:xplan">XP_Aenderungsarten:1000</identifier>
+         <name>Aenderung</name>
+         <name codeSpace="lesbarerName">Änderung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Aenderungsarten_10000">
+         <description>Einzelne Planinhalte im Planungsbereich werden durch neue Inhalte ersetzt.</description>
+         <identifier codeSpace="urn:xplan">XP_Aenderungsarten:10000</identifier>
+         <name>Ersetzung</name>
+         <name codeSpace="lesbarerName">Ersetzung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Aenderungsarten_10001">
+         <description>Alle bestehenden Inhalte bleiben erhalten, und es werden neue Inhalte ergänzt.</description>
+         <identifier codeSpace="urn:xplan">XP_Aenderungsarten:10001</identifier>
+         <name>Ergaenzung</name>
+         <name codeSpace="lesbarerName">Ergänzung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Aenderungsarten_10002">
+         <description>Einzelne Planinhalte im Planungsbereich werden ersatzlos gestrichen.</description>
+         <identifier codeSpace="urn:xplan">XP_Aenderungsarten:10002</identifier>
+         <name>Streichung</name>
+         <name codeSpace="lesbarerName">Streichung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Aenderungsarten_2000">
+         <description>Alle Inhalte des geänderten Plans im Geltungsbereich des ändernden Plans werden ersatzlos außer Kraft gesetzt.</description>
+         <identifier codeSpace="urn:xplan">XP_Aenderungsarten:2000</identifier>
+         <name>Aufhebung</name>
+         <name codeSpace="lesbarerName">Aufhebung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Aenderungsarten_3000">
+         <description>Alle Inhalte des geänderten Plans im Geltungsbereich des ändernden Plans werden außer Kraft gesetzt und durch die neuen Inhalte ersetzt.</description>
+         <identifier codeSpace="urn:xplan">XP_Aenderungsarten:3000</identifier>
+         <name>Ueberplanung</name>
+         <name codeSpace="lesbarerName">Überplanung</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

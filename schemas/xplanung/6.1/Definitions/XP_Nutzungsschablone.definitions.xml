@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="2864"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Modelliert eine Nutzungsschablone. Die darzustellenden Attributwerte werden zeilenweise in die Nutzungsschablone geschrieben.</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:XP_Nutzungsschablone</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">XP_Nutzungsschablone</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2864_8848">
+         <gml:description>Anzahl der Spalten in der Nutzungsschablone</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Nutzungsschablone:spaltenAnz</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">spaltenAnz</gml:name>
+         <def:cardinality>1</def:cardinality>
+         <def:valueTypeName>Integer</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2864_8849">
+         <gml:description>Anzahl der Zeilen in der Nutzungsschablone</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Nutzungsschablone:zeilenAnz</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">zeilenAnz</gml:name>
+         <def:cardinality>1</def:cardinality>
+         <def:valueTypeName>Integer</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:XP_PTO"/>
+</def:TypeDefinition>

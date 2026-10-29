@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_BesondereArtDerBaulNutzung"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung der verschiedenen Typen der "Art der Baulichen Nutzung" laut BauGB.</description>
+   <identifier codeSpace="urn:xplan">XP_BesondereArtDerBaulNutzung</identifier>
+   <name>XP_BesondereArtDerBaulNutzung</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_BesondereArtDerBaulNutzung_1000">
+         <description>Kleinsiedlungsgebiet nach § 2 BauNVO.</description>
+         <identifier codeSpace="urn:xplan">XP_BesondereArtDerBaulNutzung:1000</identifier>
+         <name>Kleinsiedlungsgebiet</name>
+         <name codeSpace="lesbarerName">Kleinsiedlungsgebiet</name>
+         <name codeSpace="kuerzel">WS</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_BesondereArtDerBaulNutzung_1100">
+         <description>Reines Wohngebiet nach § 3 BauNVO.</description>
+         <identifier codeSpace="urn:xplan">XP_BesondereArtDerBaulNutzung:1100</identifier>
+         <name>ReinesWohngebiet</name>
+         <name codeSpace="lesbarerName">Reines Wohngebiet</name>
+         <name codeSpace="kuerzel">WR</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_BesondereArtDerBaulNutzung_1200">
+         <description>Allgemeines Wohngebiet nach § 4 BauNVO.</description>
+         <identifier codeSpace="urn:xplan">XP_BesondereArtDerBaulNutzung:1200</identifier>
+         <name>AllgWohngebiet</name>
+         <name codeSpace="lesbarerName">Allgemeines Wohngebiet</name>
+         <name codeSpace="kuerzel">WA</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_BesondereArtDerBaulNutzung_1300">
+         <description>Gebiet zur Erhaltung und Entwicklung der Wohnnutzung (Besonderes Wohngebiet) nach § 4a BauNVO.</description>
+         <identifier codeSpace="urn:xplan">XP_BesondereArtDerBaulNutzung:1300</identifier>
+         <name>BesonderesWohngebiet</name>
+         <name codeSpace="lesbarerName">Besonderes Wohngebiet</name>
+         <name codeSpace="kuerzel">WB</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_BesondereArtDerBaulNutzung_1400">
+         <description>Dorfgebiet nach §5 BauNVO.</description>
+         <identifier codeSpace="urn:xplan">XP_BesondereArtDerBaulNutzung:1400</identifier>
+         <name>Dorfgebiet</name>
+         <name codeSpace="lesbarerName">Dorfgebiet</name>
+         <name codeSpace="kuerzel">MD</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_BesondereArtDerBaulNutzung_1450">
+         <description>Dörfliches Wohngebiet nach §5a BauNVO</description>
+         <identifier codeSpace="urn:xplan">XP_BesondereArtDerBaulNutzung:1450</identifier>
+         <name>DoerflichesWohngebiet</name>
+         <name codeSpace="lesbarerName">Dörfliches Wohngebiet</name>
+         <name codeSpace="kuerzel">MDW</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_BesondereArtDerBaulNutzung_1500">
+         <description>Mischgebiet nach §6 BauNVO.</description>
+         <identifier codeSpace="urn:xplan">XP_BesondereArtDerBaulNutzung:1500</identifier>
+         <name>Mischgebiet</name>
+         <name codeSpace="lesbarerName">Mischgebiet</name>
+         <name codeSpace="kuerzel">MI</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_BesondereArtDerBaulNutzung_1550">
+         <description>Urbanes Gebiet nach § 6a BauNVO</description>
+         <identifier codeSpace="urn:xplan">XP_BesondereArtDerBaulNutzung:1550</identifier>
+         <name>UrbanesGebiet</name>
+         <name codeSpace="lesbarerName">Urbanes Gebiet</name>
+         <name codeSpace="kuerzel">MU</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_BesondereArtDerBaulNutzung_1600">
+         <description>Kerngebiet nach § 7 BauNVO.</description>
+         <identifier codeSpace="urn:xplan">XP_BesondereArtDerBaulNutzung:1600</identifier>
+         <name>Kerngebiet</name>
+         <name codeSpace="lesbarerName">Kerngebiet</name>
+         <name codeSpace="kuerzel">MK</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_BesondereArtDerBaulNutzung_1700">
+         <description>Gewerbegebiet nach § 8 BauNVO.</description>
+         <identifier codeSpace="urn:xplan">XP_BesondereArtDerBaulNutzung:1700</identifier>
+         <name>Gewerbegebiet</name>
+         <name codeSpace="lesbarerName">Gewerbegebiet</name>
+         <name codeSpace="kuerzel">GE</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_BesondereArtDerBaulNutzung_1800">
+         <description>Industriegebiet nach § 9 BauNVO.</description>
+         <identifier codeSpace="urn:xplan">XP_BesondereArtDerBaulNutzung:1800</identifier>
+         <name>Industriegebiet</name>
+         <name codeSpace="lesbarerName">Industriegebiet</name>
+         <name codeSpace="kuerzel">GI</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_BesondereArtDerBaulNutzung_2000">
+         <description>Sondergebiet, das der Erholung dient nach § 10 BauNVO von 1977 und 1990.</description>
+         <identifier codeSpace="urn:xplan">XP_BesondereArtDerBaulNutzung:2000</identifier>
+         <name>SondergebietErholung</name>
+         <name codeSpace="lesbarerName">Sondergebiet Erholung</name>
+         <name codeSpace="kuerzel">SO E</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_BesondereArtDerBaulNutzung_2100">
+         <description>Sonstiges Sondergebiet nach§ 11 BauNVO 1977 und 1990; z.B. Klinikgebiet</description>
+         <identifier codeSpace="urn:xplan">XP_BesondereArtDerBaulNutzung:2100</identifier>
+         <name>SondergebietSonst</name>
+         <name codeSpace="lesbarerName">Sonstiges Sondergebiet</name>
+         <name codeSpace="kuerzel">SO</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_BesondereArtDerBaulNutzung_3000">
+         <description>Wochenendhausgebiet nach §10 der BauNVO von 1962 und 1968</description>
+         <identifier codeSpace="urn:xplan">XP_BesondereArtDerBaulNutzung:3000</identifier>
+         <name>Wochenendhausgebiet</name>
+         <name codeSpace="lesbarerName">Wochenendhausgebiet</name>
+         <name codeSpace="kuerzel">SO</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_BesondereArtDerBaulNutzung_4000">
+         <description>Sondergebiet nach §11der BauNVO von 1962 und 1968</description>
+         <identifier codeSpace="urn:xplan">XP_BesondereArtDerBaulNutzung:4000</identifier>
+         <name>Sondergebiet</name>
+         <name codeSpace="lesbarerName">Sondergebiet</name>
+         <name codeSpace="kuerzel">SO</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_BesondereArtDerBaulNutzung_9999">
+         <description>Sonstiges Gebiet</description>
+         <identifier codeSpace="urn:xplan">XP_BesondereArtDerBaulNutzung:9999</identifier>
+         <name>SonstigesGebiet</name>
+         <name codeSpace="lesbarerName">Sonstiges Gebiet</name>
+         <name codeSpace="kuerzel">SG</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

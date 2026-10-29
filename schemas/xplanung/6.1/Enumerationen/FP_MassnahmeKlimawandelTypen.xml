@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="FP_MassnahmeKlimawandelTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">FP_MassnahmeKlimawandelTypen</identifier>
+   <name>FP_MassnahmeKlimawandelTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="FP_MassnahmeKlimawandelTypen_1000">
+         <description>Erhalt vegetationsbestandener Freiflächen</description>
+         <identifier codeSpace="urn:xplan">FP_MassnahmeKlimawandelTypen:1000</identifier>
+         <name>ErhaltFreiflaechen</name>
+         <name codeSpace="lesbarerName">Erhalt Freiflächen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="FP_MassnahmeKlimawandelTypen_10000">
+         <description>Erhalt privater Grünflächen</description>
+         <identifier codeSpace="urn:xplan">FP_MassnahmeKlimawandelTypen:10000</identifier>
+         <name>ErhaltPrivGruen</name>
+         <name codeSpace="lesbarerName">Erhalt private Grünflächen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="FP_MassnahmeKlimawandelTypen_10001">
+         <description>Erhalt öffentlicher Grünflächen</description>
+         <identifier codeSpace="urn:xplan">FP_MassnahmeKlimawandelTypen:10001</identifier>
+         <name>ErhaltOeffentlGruen</name>
+         <name codeSpace="lesbarerName">Erhalt öffentliche Grünflächen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="FP_MassnahmeKlimawandelTypen_10002">
+         <description>Erhalt einer Kaltluftschneise</description>
+         <identifier codeSpace="urn:xplan">FP_MassnahmeKlimawandelTypen:10002</identifier>
+         <name>ErhaltKaltluftschneise</name>
+         <name codeSpace="lesbarerName">Erhalt Kaltluftschneise</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="FP_MassnahmeKlimawandelTypen_9999">
+         <description>Sonstige Massnahme</description>
+         <identifier codeSpace="urn:xplan">FP_MassnahmeKlimawandelTypen:9999</identifier>
+         <name>SonstMassnahme</name>
+         <name codeSpace="lesbarerName">Sonstige Maßnahme</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

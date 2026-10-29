@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="1063"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Umgrenzung eines sonstigen Gebietes nach BauGB</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:SO_Gebiet</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">SO_Gebiet</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="1063_2626">
+         <gml:description>Zuständige Gemeinde</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Gebiet:gemeinde</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">gemeinde</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:XP_Gemeinde"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="1063_2627">
+         <gml:description>Klassifikation des Gebietes nach BauGB.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Gebiet:gebietsArt</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">gebietsArt</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1063_2627_1061_2608">
+               <gml:description>Umlegungsgebiet (§ 45 ff BauGB).</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Gebiet:gebietsArt:1000</gml:identifier>
+               <gml:name>Umlegungsgebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1063_2627_1061_2609">
+               <gml:description>Gebiet nach § 136 ff BauGB</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Gebiet:gebietsArt:1100</gml:identifier>
+               <gml:name>StaedtebaulicheSanierung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1063_2627_1061_2610">
+               <gml:description>Gebiet nach § 165 ff BauGB</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Gebiet:gebietsArt:1200</gml:identifier>
+               <gml:name>StaedtebaulicheEntwicklungsmassnahme</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1063_2627_1061_2611">
+               <gml:description>Gebiet nach § 171 a-d BauGB</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Gebiet:gebietsArt:1300</gml:identifier>
+               <gml:name>Stadtumbaugebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1063_2627_1061_2612">
+               <gml:description>Gebiet nach § 171 e BauGB</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Gebiet:gebietsArt:1400</gml:identifier>
+               <gml:name>SozialeStadt</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1063_2627_1061_2613">
+               <gml:description>Gebiet nach §171 f BauGB</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Gebiet:gebietsArt:1500</gml:identifier>
+               <gml:name>BusinessImprovementDistrict</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1063_2627_1061_2614">
+               <gml:description>Gebiet nach §171 f BauGB</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Gebiet:gebietsArt:1600</gml:identifier>
+               <gml:name>HousingImprovementDistrict</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1063_2627_1061_2615">
+               <gml:description>Allgemeines Erhaltungsgebiet nach §172 BauGB</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Gebiet:gebietsArt:1700</gml:identifier>
+               <gml:name>Erhaltungsgebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1063_2627_1061_2616">
+               <gml:description>Gebiet einer Satzung/Verordnung nach § 172 Abs. 1.1 BauGB</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Gebiet:gebietsArt:17000</gml:identifier>
+               <gml:name>ErhaltungsgebietStaedtebaulicheGestalt</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1063_2627_1061_2617">
+               <gml:description>Gebiet einer Satzung/Verordnung nach § 172 Abs. 1.2 BauGB</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Gebiet:gebietsArt:17001</gml:identifier>
+               <gml:name>ErhaltungsgebietWohnbevoelkerung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1063_2627_1061_2618">
+               <gml:description>Gebiet einer Satzung/Verordnung nach § 172 Abs. 1.3 BauGB</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Gebiet:gebietsArt:17002</gml:identifier>
+               <gml:name>ErhaltungsgebietUmstrukturierung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1063_2627_1061_8173">
+               <gml:description>Städtebauliches Entwicklungskonzept zur Stärkung der Innenentwicklung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Gebiet:gebietsArt:2300</gml:identifier>
+               <gml:name>StaedtebaulEntwicklungskonzeptInnenentwicklung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1063_2627_1061_8174">
+               <gml:description>Gebiet mit einem angespannten Wohnungsmarkt</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Gebiet:gebietsArt:2400</gml:identifier>
+               <gml:name>GebietMitAngespanntemWohnungsmarkt</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1063_2627_1061_8177">
+               <gml:description>Gebiet mit angespanntem Wohnungsmarkt, in dem die Begründung oder Teilung von Wohnungseigentum oder Teileigentum der Genehmigung bedarf.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Gebiet:gebietsArt:2500</gml:identifier>
+               <gml:name>GenehmigungWohnungseigentum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1063_2627_1061_2619">
+               <gml:description>Sonstiger Gebietstyp</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Gebiet:gebietsArt:9999</gml:identifier>
+               <gml:name>Sonstiges</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>SO_GebietsArt</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="1063_2628">
+         <gml:description>Über eine Codeliste definierte Klassifikation einer nicht auf dem BauGB beruhenden, z.B. länderspezifischen Gebietsausweisung. In dem Fall muss das Attribut "gebietsArt" den Wert 9999 (Sonstiges) haben.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Gebiet:sonstGebietsArt</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">sonstGebietsArt</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>SO_SonstGebietsArt</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="1063_2629">
+         <gml:description>Rechtsstand der Gebietsausweisung</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Gebiet:rechtsstandGebiet</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">rechtsstandGebiet</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1063_2629_1062_2620">
+               <gml:description>Vorbereitende Untersuchung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Gebiet:rechtsstandGebiet:1000</gml:identifier>
+               <gml:name>VorbereitendeUntersuchung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1063_2629_1062_2621">
+               <gml:description>Aufstellung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Gebiet:rechtsstandGebiet:2000</gml:identifier>
+               <gml:name>Aufstellung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1063_2629_1062_2622">
+               <gml:description>Festlegung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Gebiet:rechtsstandGebiet:3000</gml:identifier>
+               <gml:name>Festlegung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1063_2629_1062_2623">
+               <gml:description>Abgeschlossen</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Gebiet:rechtsstandGebiet:4000</gml:identifier>
+               <gml:name>Abgeschlossen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1063_2629_1062_2624">
+               <gml:description>Verstetigung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Gebiet:rechtsstandGebiet:5000</gml:identifier>
+               <gml:name>Verstetigung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1063_2629_1062_2625">
+               <gml:description>Sonstiges</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Gebiet:rechtsstandGebiet:9999</gml:identifier>
+               <gml:name>Sonstiges</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>SO_RechtsstandGebietTyp</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="1063_2630">
+         <gml:description>Über eine Codeliste definierter sonstiger Rechtsstand der Gebietsausweisung, der nicht durch die Liste SO_RechtsstandGebietTyp wiedergegeben werden kann. Das Attribut "rechtsstandGebiet" muss in diesem Fall den Wert 9999 (Sonstiges) haben.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Gebiet:sonstRechtsstandGebiet</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">sonstRechtsstandGebiet</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>SO_SonstRechtsstandGebietTyp</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="1063_2631">
+         <gml:description>Datum des Aufstellungsbeschlusses</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Gebiet:aufstellungsbeschhlussDatum</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">aufstellungsbeschhlussDatum</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Date</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="1063_2632">
+         <gml:description>Start-Datum der Durchführung</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Gebiet:durchfuehrungStartDatum</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">durchfuehrungStartDatum</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Date</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="1063_2633">
+         <gml:description>End-Datum der Durchführung</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Gebiet:durchfuehrungEndDatum</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">durchfuehrungEndDatum</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Date</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="1063_2634">
+         <gml:description>Maßnahmen-Träger</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Gebiet:traegerMassnahme</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">traegerMassnahme</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:SO_Flaechenobjekt"/>
+</def:TypeDefinition>

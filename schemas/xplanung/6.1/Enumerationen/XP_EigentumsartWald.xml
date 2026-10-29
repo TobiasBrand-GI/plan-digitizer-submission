@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_EigentumsartWald"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">XP_EigentumsartWald</identifier>
+   <name>XP_EigentumsartWald</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_EigentumsartWald_1000">
+         <description>Öffentlicher Wald allgemein</description>
+         <identifier codeSpace="urn:xplan">XP_EigentumsartWald:1000</identifier>
+         <name>OeffentlicherWald</name>
+         <name codeSpace="lesbarerName">Öffentlicher Wald</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_EigentumsartWald_1100">
+         <description>Staatswald</description>
+         <identifier codeSpace="urn:xplan">XP_EigentumsartWald:1100</identifier>
+         <name>Staatswald</name>
+         <name codeSpace="lesbarerName">Staatswald</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_EigentumsartWald_1200">
+         <description>Körperschaftswald</description>
+         <identifier codeSpace="urn:xplan">XP_EigentumsartWald:1200</identifier>
+         <name>Koerperschaftswald</name>
+         <name codeSpace="lesbarerName">Körperschaftswald</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_EigentumsartWald_12000">
+         <description>Kommunalwald</description>
+         <identifier codeSpace="urn:xplan">XP_EigentumsartWald:12000</identifier>
+         <name>Kommunalwald</name>
+         <name codeSpace="lesbarerName">Kommunalwald</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_EigentumsartWald_12001">
+         <description>Stiftungswald</description>
+         <identifier codeSpace="urn:xplan">XP_EigentumsartWald:12001</identifier>
+         <name>Stiftungswald</name>
+         <name codeSpace="lesbarerName">Stiftungswald</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_EigentumsartWald_2000">
+         <description>Privatwald allgemein</description>
+         <identifier codeSpace="urn:xplan">XP_EigentumsartWald:2000</identifier>
+         <name>Privatwald</name>
+         <name codeSpace="lesbarerName">Privatwald</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_EigentumsartWald_20000">
+         <description>Gemeinschaftswald</description>
+         <identifier codeSpace="urn:xplan">XP_EigentumsartWald:20000</identifier>
+         <name>Gemeinschaftswald</name>
+         <name codeSpace="lesbarerName">Gemeinschaftswald</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_EigentumsartWald_20001">
+         <description>Genossenschaftswald</description>
+         <identifier codeSpace="urn:xplan">XP_EigentumsartWald:20001</identifier>
+         <name>Genossenschaftswald</name>
+         <name codeSpace="lesbarerName">Genossenschaftswald</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_EigentumsartWald_3000">
+         <description>Kirchenwald</description>
+         <identifier codeSpace="urn:xplan">XP_EigentumsartWald:3000</identifier>
+         <name>Kirchenwald</name>
+         <name codeSpace="lesbarerName">Kirchenwald</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_EigentumsartWald_9999">
+         <description>Sonstiger Wald</description>
+         <identifier codeSpace="urn:xplan">XP_EigentumsartWald:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

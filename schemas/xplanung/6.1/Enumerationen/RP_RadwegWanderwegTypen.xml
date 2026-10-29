@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_RadwegWanderwegTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von Rad- und Wanderwegen.</description>
+   <identifier codeSpace="urn:xplan">RP_RadwegWanderwegTypen</identifier>
+   <name>RP_RadwegWanderwegTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RadwegWanderwegTypen_1000">
+         <description>Wanderweg.</description>
+         <identifier codeSpace="urn:xplan">RP_RadwegWanderwegTypen:1000</identifier>
+         <name>Wanderweg</name>
+         <name codeSpace="lesbarerName">Wanderweg</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RadwegWanderwegTypen_1001">
+         <description>Fernwanderweg.</description>
+         <identifier codeSpace="urn:xplan">RP_RadwegWanderwegTypen:1001</identifier>
+         <name>Fernwanderweg</name>
+         <name codeSpace="lesbarerName">Fernwanderweg</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RadwegWanderwegTypen_2000">
+         <description>Radwandern.</description>
+         <identifier codeSpace="urn:xplan">RP_RadwegWanderwegTypen:2000</identifier>
+         <name>Radwandern</name>
+         <name codeSpace="lesbarerName">Radwandern</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RadwegWanderwegTypen_2001">
+         <description>Fernradweg.</description>
+         <identifier codeSpace="urn:xplan">RP_RadwegWanderwegTypen:2001</identifier>
+         <name>Fernradweg</name>
+         <name codeSpace="lesbarerName">Fernradweg</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RadwegWanderwegTypen_3000">
+         <description>Reiten.</description>
+         <identifier codeSpace="urn:xplan">RP_RadwegWanderwegTypen:3000</identifier>
+         <name>Reiten</name>
+         <name codeSpace="lesbarerName">Reiten</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RadwegWanderwegTypen_4000">
+         <description>Wasserwandern.</description>
+         <identifier codeSpace="urn:xplan">RP_RadwegWanderwegTypen:4000</identifier>
+         <name>Wasserwandern</name>
+         <name codeSpace="lesbarerName">Wasserwandern</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RadwegWanderwegTypen_9999">
+         <description>Sonstiger Wanderweg.</description>
+         <identifier codeSpace="urn:xplan">RP_RadwegWanderwegTypen:9999</identifier>
+         <name>SonstigerWanderweg</name>
+         <name codeSpace="lesbarerName">Sonstiger Wanderweg</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

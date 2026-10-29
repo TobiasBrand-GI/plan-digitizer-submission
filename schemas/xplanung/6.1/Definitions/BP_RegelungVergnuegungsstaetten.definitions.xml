@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="706"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Festsetzung nach §9 Abs. 2b BauGB (Zulässigkeit von Vergnügungsstätten).</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:BP_RegelungVergnuegungsstaetten</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">BP_RegelungVergnuegungsstaetten</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="706_1486">
+         <gml:description>Zulässigkeit von Vergnügungsstätten.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_RegelungVergnuegungsstaetten:zulaessigkeit</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">zulaessigkeit</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="706_1486_716_1504">
+               <gml:description>Generelle Zulässigkeit</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_RegelungVergnuegungsstaetten:zulaessigkeit:1000</gml:identifier>
+               <gml:name>Zulaessig</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="706_1486_716_1505">
+               <gml:description>Generelle Nicht-Zulässigkeit.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_RegelungVergnuegungsstaetten:zulaessigkeit:2000</gml:identifier>
+               <gml:name>NichtZulaessig</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="706_1486_716_1506">
+               <gml:description>Ausnahmsweise Zulässigkeit</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_RegelungVergnuegungsstaetten:zulaessigkeit:3000</gml:identifier>
+               <gml:name>AusnahmsweiseZulaessig</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>BP_Zulaessigkeit</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:BP_Ueberlagerungsobjekt"/>
+</def:TypeDefinition>

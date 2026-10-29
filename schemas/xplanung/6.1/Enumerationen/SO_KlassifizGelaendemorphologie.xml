@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="SO_KlassifizGelaendemorphologie"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">SO_KlassifizGelaendemorphologie</identifier>
+   <name>SO_KlassifizGelaendemorphologie</name>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizGelaendemorphologie_1000">
+         <description>Terrassenkante</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizGelaendemorphologie:1000</identifier>
+         <name>Terassenkante</name>
+         <name codeSpace="lesbarerName">Terassenkante</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizGelaendemorphologie_1100">
+         <description>Trockengefallene Gewässerrinne</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizGelaendemorphologie:1100</identifier>
+         <name>Rinne</name>
+         <name codeSpace="lesbarerName">Rinne</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizGelaendemorphologie_1200">
+         <description>Ehemalige Fluss- und Bachmäander</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizGelaendemorphologie:1200</identifier>
+         <name>EhemMaeander</name>
+         <name codeSpace="lesbarerName">Ehemaliger Mäander</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizGelaendemorphologie_9999">
+         <description>Sonstige Struktur der Geländemorphologie</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizGelaendemorphologie:9999</identifier>
+         <name>SonstigeStruktur</name>
+         <name codeSpace="lesbarerName">Sonstige Struktur</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

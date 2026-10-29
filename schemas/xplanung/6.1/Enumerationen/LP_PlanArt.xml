@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_PlanArt"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">LP_PlanArt</identifier>
+   <name>LP_PlanArt</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_PlanArt_1000">
+         <description>Überörtliche konkretisierte Ziele, Erfordernisse und Maßnahmen des Naturschutzes und der Landschaftspflege auf räumlicher Ebene eines Bundeslandes</description>
+         <identifier codeSpace="urn:xplan">LP_PlanArt:1000</identifier>
+         <name>Landschaftsprogramm</name>
+         <name codeSpace="lesbarerName">Landschaftsprogramm</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_PlanArt_2000">
+         <description>Überörtliche konkretisierte Ziele, Erfordernisse und Maßnahmen des Naturschutzes und der Landschaftspflege für räumliche Teilbereiche eines Bundeslandes, z.B. eines (Land-)Kreises.</description>
+         <identifier codeSpace="urn:xplan">LP_PlanArt:2000</identifier>
+         <name>Landschaftsrahmenplan</name>
+         <name codeSpace="lesbarerName">Landschaftsrahmenplan</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_PlanArt_3000">
+         <description>Planwerk mit konkretisierten Zielen, Erfordernissen und Maßnahmen des Naturschutzes und der Landschaftspflege auf gesamtstädtischer räumlicher Ebene</description>
+         <identifier codeSpace="urn:xplan">LP_PlanArt:3000</identifier>
+         <name>Landschaftsplan</name>
+         <name codeSpace="lesbarerName">Landschaftsplan</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_PlanArt_4000">
+         <description>Die für die örtliche Ebene konkretisierten Ziele, Erfordernisse und Maßnahmen des Naturschutzes und der Landschaftspflege werden für Teile eines Gemeindegebiets in Grünordnungsplänen dargestellt. (§ 11, Abs .1  BNatSchG)</description>
+         <identifier codeSpace="urn:xplan">LP_PlanArt:4000</identifier>
+         <name>Gruenordnungsplan</name>
+         <name codeSpace="lesbarerName">Grünordnungsplan</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_PlanArt_9999">
+         <description>Sonstige Planart</description>
+         <identifier codeSpace="urn:xplan">LP_PlanArt:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

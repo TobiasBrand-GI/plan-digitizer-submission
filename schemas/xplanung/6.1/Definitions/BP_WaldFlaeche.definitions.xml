@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="754"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Festsetzung von Waldflächen  (§ 9, Abs. 1, Nr. 18b BauGB).</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:BP_WaldFlaeche</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">BP_WaldFlaeche</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="754_1725">
+         <gml:description>Funktion der Waldfläche</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_WaldFlaeche:zweckbestimmung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">zweckbestimmung</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:BP_KomplexeZweckbestWald"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="754_8054">
+         <gml:description>Festlegung der Eigentumsart des Waldes</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_WaldFlaeche:eigentumsart</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">eigentumsart</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="754_8054_2672_8032">
+               <gml:description>Öffentlicher Wald allgemein</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_WaldFlaeche:eigentumsart:1000</gml:identifier>
+               <gml:name>OeffentlicherWald</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="754_8054_2672_8033">
+               <gml:description>Staatswald</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_WaldFlaeche:eigentumsart:1100</gml:identifier>
+               <gml:name>Staatswald</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="754_8054_2672_8034">
+               <gml:description>Körperschaftswald</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_WaldFlaeche:eigentumsart:1200</gml:identifier>
+               <gml:name>Koerperschaftswald</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="754_8054_2672_8035">
+               <gml:description>Kommunalwald</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_WaldFlaeche:eigentumsart:12000</gml:identifier>
+               <gml:name>Kommunalwald</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="754_8054_2672_8036">
+               <gml:description>Stiftungswald</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_WaldFlaeche:eigentumsart:12001</gml:identifier>
+               <gml:name>Stiftungswald</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="754_8054_2672_8037">
+               <gml:description>Privatwald allgemein</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_WaldFlaeche:eigentumsart:2000</gml:identifier>
+               <gml:name>Privatwald</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="754_8054_2672_8038">
+               <gml:description>Gemeinschaftswald</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_WaldFlaeche:eigentumsart:20000</gml:identifier>
+               <gml:name>Gemeinschaftswald</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="754_8054_2672_8039">
+               <gml:description>Genossenschaftswald</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_WaldFlaeche:eigentumsart:20001</gml:identifier>
+               <gml:name>Genossenschaftswald</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="754_8054_2672_8040">
+               <gml:description>Kirchenwald</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_WaldFlaeche:eigentumsart:3000</gml:identifier>
+               <gml:name>Kirchenwald</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="754_8054_2672_8041">
+               <gml:description>Sonstiger Wald</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_WaldFlaeche:eigentumsart:9999</gml:identifier>
+               <gml:name>Sonstiges</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>XP_EigentumsartWald</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="754_8055">
+         <gml:description>Festlegung zusätzlicher, normalerweise nicht-gestatteter Aktivitäten, die in dem Wald ausgeführt werden dürfen, nach §14 Abs. 2 Bundeswaldgesetz.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_WaldFlaeche:betreten</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">betreten</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="754_8055_2673_8042">
+               <gml:description>Radfahren</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_WaldFlaeche:betreten:1000</gml:identifier>
+               <gml:name>Radfahren</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="754_8055_2673_8043">
+               <gml:description>Reiten</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_WaldFlaeche:betreten:2000</gml:identifier>
+               <gml:name>Reiten</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="754_8055_2673_8044">
+               <gml:description>Fahren</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_WaldFlaeche:betreten:3000</gml:identifier>
+               <gml:name>Fahren</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="754_8055_2673_8045">
+               <gml:description>Hundesport</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_WaldFlaeche:betreten:4000</gml:identifier>
+               <gml:name>Hundesport</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeName>XP_WaldbetretungTyp</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:BP_Flaechenschlussobjekt"/>
+</def:TypeDefinition>

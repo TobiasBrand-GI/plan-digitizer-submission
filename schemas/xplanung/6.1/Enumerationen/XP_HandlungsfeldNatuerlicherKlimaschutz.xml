@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_HandlungsfeldNatuerlicherKlimaschutz"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">XP_HandlungsfeldNatuerlicherKlimaschutz</identifier>
+   <name>XP_HandlungsfeldNatuerlicherKlimaschutz</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_HandlungsfeldNatuerlicherKlimaschutz_1000">
+         <description>Schutz intakter Moore und Wiedervernässung</description>
+         <identifier codeSpace="urn:xplan">XP_HandlungsfeldNatuerlicherKlimaschutz:1000</identifier>
+         <name>MooreVernaessung</name>
+         <name codeSpace="lesbarerName">Moore und Wiedervernässung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_HandlungsfeldNatuerlicherKlimaschutz_2000">
+         <description>Naturnaher Wasserhaushalt mit lebendigen Flüssen, Seen und Auen</description>
+         <identifier codeSpace="urn:xplan">XP_HandlungsfeldNatuerlicherKlimaschutz:2000</identifier>
+         <name>NaturnaherWasserhaushalt</name>
+         <name codeSpace="lesbarerName">Naturnaher Wasserhaushalt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_HandlungsfeldNatuerlicherKlimaschutz_3000">
+         <description>Meere und Küsten</description>
+         <identifier codeSpace="urn:xplan">XP_HandlungsfeldNatuerlicherKlimaschutz:3000</identifier>
+         <name>MeereKuesten</name>
+         <name codeSpace="lesbarerName">Meere und Küsten</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_HandlungsfeldNatuerlicherKlimaschutz_4000">
+         <description>Wildnis und Schutzgebiete</description>
+         <identifier codeSpace="urn:xplan">XP_HandlungsfeldNatuerlicherKlimaschutz:4000</identifier>
+         <name>WildnisSchutzgebiete</name>
+         <name codeSpace="lesbarerName">Wildnis und Schutzgebiete&#xD;
+</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_HandlungsfeldNatuerlicherKlimaschutz_5000">
+         <description>Waldökosysteme</description>
+         <identifier codeSpace="urn:xplan">XP_HandlungsfeldNatuerlicherKlimaschutz:5000</identifier>
+         <name>Waldoekosysteme</name>
+         <name codeSpace="lesbarerName">Waldökosysteme</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_HandlungsfeldNatuerlicherKlimaschutz_6000">
+         <description>Böden als Kohlenstoffspeicher</description>
+         <identifier codeSpace="urn:xplan">XP_HandlungsfeldNatuerlicherKlimaschutz:6000</identifier>
+         <name>BoedenKohlenstoffspeicher</name>
+         <name codeSpace="lesbarerName">Böden als Kohlenstoffspeicher</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_HandlungsfeldNatuerlicherKlimaschutz_7000">
+         <description>Natürlicher Klimaschutz auf Siedlungs- und Verkehrsflächen</description>
+         <identifier codeSpace="urn:xplan">XP_HandlungsfeldNatuerlicherKlimaschutz:7000</identifier>
+         <name>SiedlungsVerkehrsflaechen</name>
+         <name codeSpace="lesbarerName">Siedlungs- und Verkehrsflächen</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

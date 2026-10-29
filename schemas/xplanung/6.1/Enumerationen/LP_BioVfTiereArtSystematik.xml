@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_BioVfTiereArtSystematik"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Auflistung zur systematischen Einordnung von Tierart an.</description>
+   <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik</identifier>
+   <name>LP_BioVfTiereArtSystematik</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_1100">
+         <description>Großsäuger</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:1100</identifier>
+         <name>GrossSaeuger</name>
+         <name codeSpace="lesbarerName">Großsäuger</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_1110">
+         <description>Luchs</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:1110</identifier>
+         <name>Luchs</name>
+         <name codeSpace="lesbarerName">Luchs</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_1120">
+         <description>Wolf</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:1120</identifier>
+         <name>Wolf</name>
+         <name codeSpace="lesbarerName">Wolf</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_1200">
+         <description>Mittelsäuger</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:1200</identifier>
+         <name>Mittelsaeuger</name>
+         <name codeSpace="lesbarerName">Mittelsäuger</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_1210">
+         <description>Wildkatze</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:1210</identifier>
+         <name>Wildkatze</name>
+         <name codeSpace="lesbarerName">Wildkatze</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_1220">
+         <description>Fischotter</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:1220</identifier>
+         <name>Fischotter</name>
+         <name codeSpace="lesbarerName">Fischotter</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_1230">
+         <description>Biber</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:1230</identifier>
+         <name>Biber</name>
+         <name codeSpace="lesbarerName">Biber</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_1240">
+         <description>Marder</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:1240</identifier>
+         <name>Marder</name>
+         <name codeSpace="lesbarerName">Marder</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_1300">
+         <description>Kleinsäuger</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:1300</identifier>
+         <name>Kleinsaeuger</name>
+         <name codeSpace="lesbarerName">Kleinsäuger</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_1310">
+         <description>Kleinsäuger, Nagetiere</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:1310</identifier>
+         <name>KleinsaeugerNagetiere</name>
+         <name codeSpace="lesbarerName">Kleinsäuger, Nagetiere</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_1311">
+         <description>Feldhamster</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:1311</identifier>
+         <name>Feldhamster</name>
+         <name codeSpace="lesbarerName">Feldhamster</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_1312">
+         <description>Mäuse</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:1312</identifier>
+         <name>Maeuse</name>
+         <name codeSpace="lesbarerName">Mäuse</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_1320">
+         <description>Kleinsäuger (Hasenartige)</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:1320</identifier>
+         <name>KleinsaeugerHasenartige</name>
+         <name codeSpace="lesbarerName">Kleinsäuger Hasenartige</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_1330">
+         <description>Kleinsäuger (Insektenfresser)</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:1330</identifier>
+         <name>KleinsaeugerInsektenfresser</name>
+         <name codeSpace="lesbarerName">Kleinsäuger Insektenfresser</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_1331">
+         <description>Spitzmäuse</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:1331</identifier>
+         <name>Spitzmaeuse</name>
+         <name codeSpace="lesbarerName">Spitzmäuse</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_1340">
+         <description>Kleinsäuger (Fledermäuse)</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:1340</identifier>
+         <name>KleinsaeugerFledermaeuse</name>
+         <name codeSpace="lesbarerName">Kleinsäuger Fledermäuse</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_1400">
+         <description>Meeressäuger</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:1400</identifier>
+         <name>Meeressaeuger</name>
+         <name codeSpace="lesbarerName">Meeressäuger</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_2100">
+         <description>Vögel</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:2100</identifier>
+         <name>Voegel</name>
+         <name codeSpace="lesbarerName">Vögel</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_2110">
+         <description>Zugvögel</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:2110</identifier>
+         <name>ZugVoegel</name>
+         <name codeSpace="lesbarerName">Zugvögel</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_2120">
+         <description>Brutvögel</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:2120</identifier>
+         <name>BrutVoegel</name>
+         <name codeSpace="lesbarerName">Brutvögel</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_2200">
+         <description>Reptilien</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:2200</identifier>
+         <name>Reptilien</name>
+         <name codeSpace="lesbarerName">Reptilien</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_2300">
+         <description>Amphibien</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:2300</identifier>
+         <name>Amphibien</name>
+         <name codeSpace="lesbarerName">Amphibien</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_2400">
+         <description>Fische</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:2400</identifier>
+         <name>Fische</name>
+         <name codeSpace="lesbarerName">Fische</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_3000">
+         <description>Gliederfuesser</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:3000</identifier>
+         <name>Gliederfuesser</name>
+         <name codeSpace="lesbarerName">Gliederfüßer</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_3110">
+         <description>Libellen</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:3110</identifier>
+         <name>Libellen</name>
+         <name codeSpace="lesbarerName">Libellen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_3120">
+         <description>Tagfalter</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:3120</identifier>
+         <name>Tagfalter</name>
+         <name codeSpace="lesbarerName">Tagfalter</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_3130">
+         <description>Käfer</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:3130</identifier>
+         <name>Kaefer</name>
+         <name codeSpace="lesbarerName">Käfer</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_3140">
+         <description>Heuschrecken</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:3140</identifier>
+         <name>Heuschrecken</name>
+         <name codeSpace="lesbarerName">Heuschrecken</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_3150">
+         <description>Spinnen</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:3150</identifier>
+         <name>Spinnen</name>
+         <name codeSpace="lesbarerName">Spinnen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_3200">
+         <description>Krebstiere</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:3200</identifier>
+         <name>Krebstiere</name>
+         <name codeSpace="lesbarerName">Krebstiere</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_4100">
+         <description>Mollusken</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:4100</identifier>
+         <name>Mollusken</name>
+         <name codeSpace="lesbarerName">Mollusken</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTiereArtSystematik_9999">
+         <description>Sonstige (siehe bioVfTiereSystematikText)</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTiereArtSystematik:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

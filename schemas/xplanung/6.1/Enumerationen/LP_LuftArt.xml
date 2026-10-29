@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_LuftArt"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Ausprägungen in Bezug auf Planungsgegenstand Luft, an die sich das Ziel, das Erfordernis oder die Maßnahme richtet..</description>
+   <identifier codeSpace="urn:xplan">LP_LuftArt</identifier>
+   <name>LP_LuftArt</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_LuftArt_1000">
+         <description>Geruchsbelastung</description>
+         <identifier codeSpace="urn:xplan">LP_LuftArt:1000</identifier>
+         <name>Geruchsbelastung</name>
+         <name codeSpace="lesbarerName">Geruchsbelastung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_LuftArt_2000">
+         <description>Lärmbelastung</description>
+         <identifier codeSpace="urn:xplan">LP_LuftArt:2000</identifier>
+         <name>Laermbelastung</name>
+         <name codeSpace="lesbarerName">Lärmbelastung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_LuftArt_3000">
+         <description>lufthygienische Funktion / Stoffliche Belastung</description>
+         <identifier codeSpace="urn:xplan">LP_LuftArt:3000</identifier>
+         <name>lufthygienischeFktStofflBelastung</name>
+         <name codeSpace="lesbarerName">Lufthygienische Fkt., Stoffl. Belastung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_LuftArt_4000">
+         <description>Staubbelastung</description>
+         <identifier codeSpace="urn:xplan">LP_LuftArt:4000</identifier>
+         <name>Staubbelastung</name>
+         <name codeSpace="lesbarerName">Staubbelastung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_LuftArt_9999">
+         <description>Sonstiger Planungsgegenstand Schutzgut Luft (siehe luftText)</description>
+         <identifier codeSpace="urn:xplan">LP_LuftArt:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_Rechtsstand"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">RP_Rechtsstand</identifier>
+   <name>RP_Rechtsstand</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Rechtsstand_1000">
+         <description>Aufstellungsbeschluss.</description>
+         <identifier codeSpace="urn:xplan">RP_Rechtsstand:1000</identifier>
+         <name>Aufstellungsbeschluss</name>
+         <name codeSpace="lesbarerName">Aufstellungsbeschluss</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Rechtsstand_2000">
+         <description>Entwurf.</description>
+         <identifier codeSpace="urn:xplan">RP_Rechtsstand:2000</identifier>
+         <name>Entwurf</name>
+         <name codeSpace="lesbarerName">Entwurf</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Rechtsstand_2001">
+         <description>Entwurf genehmigt.</description>
+         <identifier codeSpace="urn:xplan">RP_Rechtsstand:2001</identifier>
+         <name>EntwurfGenehmigt</name>
+         <name codeSpace="lesbarerName">Entwurf genehmigt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Rechtsstand_2002">
+         <description>Entwurf geändert.</description>
+         <identifier codeSpace="urn:xplan">RP_Rechtsstand:2002</identifier>
+         <name>EntwurfGeaendert</name>
+         <name codeSpace="lesbarerName">Entwurf geändert</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Rechtsstand_2003">
+         <description>Entwurf aufgegeben.</description>
+         <identifier codeSpace="urn:xplan">RP_Rechtsstand:2003</identifier>
+         <name>EntwurfAufgegeben</name>
+         <name codeSpace="lesbarerName">Entwurf aufgegeben</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Rechtsstand_2004">
+         <description>Entwurf ruht.</description>
+         <identifier codeSpace="urn:xplan">RP_Rechtsstand:2004</identifier>
+         <name>EntwurfRuht</name>
+         <name codeSpace="lesbarerName">Entwurf ruht</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Rechtsstand_3000">
+         <description>Plan.</description>
+         <identifier codeSpace="urn:xplan">RP_Rechtsstand:3000</identifier>
+         <name>Plan</name>
+         <name codeSpace="lesbarerName">Plan</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Rechtsstand_4000">
+         <description>Inkraftgetreten.</description>
+         <identifier codeSpace="urn:xplan">RP_Rechtsstand:4000</identifier>
+         <name>Inkraftgetreten</name>
+         <name codeSpace="lesbarerName">In Kraft getreten</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Rechtsstand_5000">
+         <description>Allgemeine Planungsabsicht.</description>
+         <identifier codeSpace="urn:xplan">RP_Rechtsstand:5000</identifier>
+         <name>AllgemeinePlanungsabsicht</name>
+         <name codeSpace="lesbarerName">Allgemeine Planungsabsicht</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Rechtsstand_5500">
+         <description>Der Plan ist teilweise außer Kraft getreten</description>
+         <identifier codeSpace="urn:xplan">RP_Rechtsstand:5500</identifier>
+         <name>TeilweiseAusserKraft</name>
+         <name codeSpace="lesbarerName">Teilweise außer Kraft</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Rechtsstand_6000">
+         <description>Außer Kraft.</description>
+         <identifier codeSpace="urn:xplan">RP_Rechtsstand:6000</identifier>
+         <name>AusserKraft</name>
+         <name codeSpace="lesbarerName">Außer Kraft</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Rechtsstand_7000">
+         <description>Plan ungültig.</description>
+         <identifier codeSpace="urn:xplan">RP_Rechtsstand:7000</identifier>
+         <name>PlanUngueltig</name>
+         <name codeSpace="lesbarerName">Plan ungültig</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="2667"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Bereich, in denen Verbote oder Beschränkungen für die Errichtung baulicher Anlagen bestehen</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:SO_Baubeschraenkung</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">SO_Baubeschraenkung</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2667_8027">
+         <gml:description>Klassifizierung des Bauverbots bzw. der Baubeschränkung</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Baubeschraenkung:artDerFestlegung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">artDerFestlegung</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2667_8027_2668_8018">
+               <gml:description>Bereich, in denen keine baulichen Anlagen errichtet werden dürfen</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Baubeschraenkung:artDerFestlegung:1000</gml:identifier>
+               <gml:name>Bauverbotszone</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2667_8027_2668_8019">
+               <gml:description>Bereich, in denen Bau-Beschränkungen bestehen.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Baubeschraenkung:artDerFestlegung:2000</gml:identifier>
+               <gml:name>Baubeschraenkungszone</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2667_8027_2668_8025">
+               <gml:description>Bereich um Wälder, Moore und Heiden, in dem aus Brandschutzgründen keinen baulichen Anlagen errichtet werden dürfen.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Baubeschraenkung:artDerFestlegung:3000</gml:identifier>
+               <gml:name>Waldabstand</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2667_8027_2668_8020">
+               <gml:description>Bereich mit sonstigen Baubeschränkungen.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Baubeschraenkung:artDerFestlegung:9999</gml:identifier>
+               <gml:name>SonstigeBeschraenkung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>SO_KlassifizBaubeschraenkung</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2667_8028">
+         <gml:description>Detaillierte Klassifizierung des Bauverbots bzw. der Baubeschränkung über eine Codeliste</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Baubeschraenkung:detailArtDerFestlegung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">detailArtDerFestlegung</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>SO_DetailKlassifizBaubeschraenkung</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2667_8029">
+         <gml:description>Rechtliche Grundlage des Bauverbots bzw. der Baubeschränkung</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Baubeschraenkung:rechtlicheGrundlage</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">rechtlicheGrundlage</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2667_8029_2669_8021">
+               <gml:description>Luftverkehrsrecht</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Baubeschraenkung:rechtlicheGrundlage:1000</gml:identifier>
+               <gml:name>Luftverkehrsrecht</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2667_8029_2669_8022">
+               <gml:description>Strassenverkehrsrecht</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Baubeschraenkung:rechtlicheGrundlage:2000</gml:identifier>
+               <gml:name>Strassenverkehrsrecht</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2667_8029_2669_8024">
+               <gml:description>Sonstige Rechtsverordnung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Baubeschraenkung:rechtlicheGrundlage:9999</gml:identifier>
+               <gml:name>SonstigesRecht</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>SO_RechtlicheGrundlageBaubeschraenkung</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2667_8030">
+         <gml:description>Informelle bezeichnung der Festlegung</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Baubeschraenkung:name</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">name</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2667_8031">
+         <gml:description>Amtliche Bezeichnung / Kennziffer der Festlegung</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Baubeschraenkung:nummer</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">nummer</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:SO_Geometrieobjekt"/>
+</def:TypeDefinition>

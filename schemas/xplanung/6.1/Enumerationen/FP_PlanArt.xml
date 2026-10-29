@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="FP_PlanArt"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung verschiedener Arten von Flächennutzungsplänen</description>
+   <identifier codeSpace="urn:xplan">FP_PlanArt</identifier>
+   <name>FP_PlanArt</name>
+   <dictionaryEntry>
+      <Definition gml:id="FP_PlanArt_1000">
+         <description>Flächennutzungsplan nach § 5 BauGB.</description>
+         <identifier codeSpace="urn:xplan">FP_PlanArt:1000</identifier>
+         <name>FPlan</name>
+         <name codeSpace="lesbarerName">FPlan</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="FP_PlanArt_2000">
+         <description>Gemeinsamer Flächennutzungsplan nach § 204 BauGB</description>
+         <identifier codeSpace="urn:xplan">FP_PlanArt:2000</identifier>
+         <name>GemeinsamerFPlan</name>
+         <name codeSpace="lesbarerName">Gemeinsamer FPlan</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="FP_PlanArt_3000">
+         <description>Regionaler Flächennutzungsplan, der zugleich die Funktion eines Regionalplans als auch eines gemeinsamen Flächennutzungsplans nach § 204 BauGB erfüllt</description>
+         <identifier codeSpace="urn:xplan">FP_PlanArt:3000</identifier>
+         <name>RegFPlan</name>
+         <name codeSpace="lesbarerName">Regionaler FPlan</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="FP_PlanArt_4000">
+         <description>Flächennutzungsplan mit regionalplanerischen Festlegungen (nur in HH, HB, B).</description>
+         <identifier codeSpace="urn:xplan">FP_PlanArt:4000</identifier>
+         <name>FPlanRegPlan</name>
+         <name codeSpace="lesbarerName">FPlan und Regionalplan</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="FP_PlanArt_5000">
+         <description>Sachlicher Teilflächennutzungsplan nach §5 Abs. 2b BauGB.</description>
+         <identifier codeSpace="urn:xplan">FP_PlanArt:5000</identifier>
+         <name>SachlicherTeilplan</name>
+         <name codeSpace="lesbarerName">Sachlicher Teilplan</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="FP_PlanArt_9999">
+         <description>Sonstiger Flächennutzungsplan</description>
+         <identifier codeSpace="urn:xplan">FP_PlanArt:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

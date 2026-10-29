@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="SO_SichtflaecheArt"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung der Typen von Sichtflächen</description>
+   <identifier codeSpace="urn:xplan">SO_SichtflaecheArt</identifier>
+   <name>SO_SichtflaecheArt</name>
+   <dictionaryEntry>
+      <Definition gml:id="SO_SichtflaecheArt_1000">
+         <description>Haltesichtweite</description>
+         <identifier codeSpace="urn:xplan">SO_SichtflaecheArt:1000</identifier>
+         <name>Haltesichtweite</name>
+         <name codeSpace="lesbarerName">Haltesichtweite</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_SichtflaecheArt_2000">
+         <description>Anfahrsichtfeld</description>
+         <identifier codeSpace="urn:xplan">SO_SichtflaecheArt:2000</identifier>
+         <name>Anfahrsichtfeld</name>
+         <name codeSpace="lesbarerName">Anfahrsichtfeld</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_SichtflaecheArt_3000">
+         <description>Annäherungssichtfeld</description>
+         <identifier codeSpace="urn:xplan">SO_SichtflaecheArt:3000</identifier>
+         <name>Annaeherungssichtfeld</name>
+         <name codeSpace="lesbarerName">Annäherungssichtfeld</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_SichtflaecheArt_4000">
+         <description>Sichtfeld an Überquerungsstellen</description>
+         <identifier codeSpace="urn:xplan">SO_SichtflaecheArt:4000</identifier>
+         <name>Ueberquerung</name>
+         <name codeSpace="lesbarerName">Überquerung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_SichtflaecheArt_9999">
+         <description>Sonstige Sichtfläche</description>
+         <identifier codeSpace="urn:xplan">SO_SichtflaecheArt:9999</identifier>
+         <name>SonstigeSichtflaeche</name>
+         <name codeSpace="lesbarerName">Sonstige Sichtfläche</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

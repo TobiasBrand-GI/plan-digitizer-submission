@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="SO_SchutzzonenWasserrecht"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Wasserschutzgebietszonen nach WasserSchutzgesetz (WSG) bzw. Heilquellenschutzzonen nach HeilQuellenSchutzGesetz (HQSG)</description>
+   <identifier codeSpace="urn:xplan">SO_SchutzzonenWasserrecht</identifier>
+   <name>SO_SchutzzonenWasserrecht</name>
+   <dictionaryEntry>
+      <Definition gml:id="SO_SchutzzonenWasserrecht_1000">
+         <description>Zone 1</description>
+         <identifier codeSpace="urn:xplan">SO_SchutzzonenWasserrecht:1000</identifier>
+         <name>Zone_1</name>
+         <name codeSpace="lesbarerName">Zone 1</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_SchutzzonenWasserrecht_1100">
+         <description>Zone 2</description>
+         <identifier codeSpace="urn:xplan">SO_SchutzzonenWasserrecht:1100</identifier>
+         <name>Zone_2</name>
+         <name codeSpace="lesbarerName">Zone 2</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_SchutzzonenWasserrecht_1200">
+         <description>Zone 3</description>
+         <identifier codeSpace="urn:xplan">SO_SchutzzonenWasserrecht:1200</identifier>
+         <name>Zone_3</name>
+         <name codeSpace="lesbarerName">Zone 3</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_SchutzzonenWasserrecht_1300">
+         <description>Zone 3a e(xistiert nur bei Wasserschutzgebieten).</description>
+         <identifier codeSpace="urn:xplan">SO_SchutzzonenWasserrecht:1300</identifier>
+         <name>Zone_3a</name>
+         <name codeSpace="lesbarerName">Zone 3a</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_SchutzzonenWasserrecht_1400">
+         <description>Zone 3b (existiert nur bei Wasserschutzgebieten).</description>
+         <identifier codeSpace="urn:xplan">SO_SchutzzonenWasserrecht:1400</identifier>
+         <name>Zone_3b</name>
+         <name codeSpace="lesbarerName">Zone 3b</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_SchutzzonenWasserrecht_1500">
+         <description>Zone 4 e(xistiert nur bei Heilquellen).</description>
+         <identifier codeSpace="urn:xplan">SO_SchutzzonenWasserrecht:1500</identifier>
+         <name>Zone_4</name>
+         <name codeSpace="lesbarerName">Zone 4</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

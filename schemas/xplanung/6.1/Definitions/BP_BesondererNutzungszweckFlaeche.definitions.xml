@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="735"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Festsetzung einer Fläche mit besonderem Nutzungszweck, der durch besondere städtebauliche Gründe erfordert wird (§9 Abs. 1 Nr. 9 BauGB.). Das gleiche Attribut darf nicht gleichzeitig in "BP_BesondererNutzungszweckFlaeche" und einem überlagernden Objekt "BP_UeberbaubareGrundstuecksFlaeche" belegt werden.</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:BP_BesondererNutzungszweckFlaeche</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">BP_BesondererNutzungszweckFlaeche</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="735_1655">
+         <gml:description>Angabe des besonderen Nutzungszwecks.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_BesondererNutzungszweckFlaeche:zweckbestimmung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">zweckbestimmung</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="735_7995">
+         <gml:description>Festsetzung der Bauweise  (§9, Abs. 1, Nr. 2 BauGB).</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_BesondererNutzungszweckFlaeche:bauweise</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">bauweise</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="735_7995_730_1623">
+               <gml:description>Offene Bauweise</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_BesondererNutzungszweckFlaeche:bauweise:1000</gml:identifier>
+               <gml:name>OffeneBauweise</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="735_7995_730_1624">
+               <gml:description>Geschlossene Bauweise</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_BesondererNutzungszweckFlaeche:bauweise:2000</gml:identifier>
+               <gml:name>GeschlosseneBauweise</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="735_7995_730_1625">
+               <gml:description>Abweichende Bauweise</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_BesondererNutzungszweckFlaeche:bauweise:3000</gml:identifier>
+               <gml:name>AbweichendeBauweise</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>BP_Bauweise</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="735_8895">
+         <gml:description>Textuelle Präzisierung oder Ergänzung der durch "bauweise" spezifizierten Bauweise.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_BesondererNutzungszweckFlaeche:bauweiseText</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">bauweiseText</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="735_7996">
+         <gml:description>Nähere Bezeichnung einer "Abweichenden Bauweise" ("bauweise" == 3000).</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_BesondererNutzungszweckFlaeche:abweichendeBauweise</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">abweichendeBauweise</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>BP_AbweichendeBauweise</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="735_7997">
+         <gml:description>Detaillierte Festsetzung der Bauweise (§9, Abs. 1, Nr. 2 BauGB).</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_BesondererNutzungszweckFlaeche:bebauungsArt</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">bebauungsArt</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="735_7997_715_1497">
+               <gml:description>Nur Einzelhäuser zulässig.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_BesondererNutzungszweckFlaeche:bebauungsArt:1000</gml:identifier>
+               <gml:name>Einzelhaeuser</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="735_7997_715_1498">
+               <gml:description>Nur Doppelhäuser zulässig.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_BesondererNutzungszweckFlaeche:bebauungsArt:2000</gml:identifier>
+               <gml:name>Doppelhaeuser</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="735_7997_715_1499">
+               <gml:description>Nur Hausgruppen zulässig.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_BesondererNutzungszweckFlaeche:bebauungsArt:3000</gml:identifier>
+               <gml:name>Hausgruppen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="735_7997_715_8891">
+               <gml:description>Nur Einzel- oder Doppelhäuser zulässig.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_BesondererNutzungszweckFlaeche:bebauungsArt:4000</gml:identifier>
+               <gml:name>EinzelDoppelhaeuser</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="735_7997_715_8892">
+               <gml:description>Nur Einzelhäuser oder Hausgruppen zulässig.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_BesondererNutzungszweckFlaeche:bebauungsArt:5000</gml:identifier>
+               <gml:name>EinzelhaeuserHausgruppen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="735_7997_715_8893">
+               <gml:description>Nur Doppelhäuser oder Hausgruppen zulässig.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_BesondererNutzungszweckFlaeche:bebauungsArt:6000</gml:identifier>
+               <gml:name>DoppelhaeuserHausgruppen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="735_7997_715_1503">
+               <gml:description>Nur Reihenhäuser zulässig.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_BesondererNutzungszweckFlaeche:bebauungsArt:7000</gml:identifier>
+               <gml:name>Reihenhaeuser</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>BP_BebauungsArt</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:BP_Flaechenobjekt"/>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:mixinType:xplan::xplan:6.1:BP_GestaltungBaugebiet"/>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:mixinType:xplan::xplan:6.1:BP_FestsetzungenBaugebiet"/>
+</def:TypeDefinition>

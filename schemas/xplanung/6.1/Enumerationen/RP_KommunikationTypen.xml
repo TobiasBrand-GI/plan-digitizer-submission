@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_KommunikationTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von Kommunikationsinfrastruktur.</description>
+   <identifier codeSpace="urn:xplan">RP_KommunikationTypen</identifier>
+   <name>RP_KommunikationTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_KommunikationTypen_1000">
+         <description>Richtfunkstrecke.</description>
+         <identifier codeSpace="urn:xplan">RP_KommunikationTypen:1000</identifier>
+         <name>Richtfunkstrecke</name>
+         <name codeSpace="lesbarerName">Richtfunkstrecke</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_KommunikationTypen_2000">
+         <description>Fernmeldeanlage.</description>
+         <identifier codeSpace="urn:xplan">RP_KommunikationTypen:2000</identifier>
+         <name>Fernmeldeanlage</name>
+         <name codeSpace="lesbarerName">Fernmeldeanlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_KommunikationTypen_2001">
+         <description>Sende- und/oder Empfangsstation.</description>
+         <identifier codeSpace="urn:xplan">RP_KommunikationTypen:2001</identifier>
+         <name>SendeEmpfangsstation</name>
+         <name codeSpace="lesbarerName">Sende- und/oder Empfangsstation</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_KommunikationTypen_2002">
+         <description>Ton- und/oder Fernsehsender.</description>
+         <identifier codeSpace="urn:xplan">RP_KommunikationTypen:2002</identifier>
+         <name>TonFernsehsender</name>
+         <name codeSpace="lesbarerName">Radio- und/oder Fernsehsender</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_KommunikationTypen_9999">
+         <description>Sonstige Kommunikationstypen.</description>
+         <identifier codeSpace="urn:xplan">RP_KommunikationTypen:9999</identifier>
+         <name>SonstigeKommunikation</name>
+         <name codeSpace="lesbarerName">Sonstige Kommunikation</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

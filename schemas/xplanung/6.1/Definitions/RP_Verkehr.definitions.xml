@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="2599"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Enthält allgemeine Verkehrs-Infrastruktur, die auch multiple Typen (etwa Straße und Schiene) beinhalten kann. Die Klasse selbst vererbt an spezialisierte Verkehrsarten, ist aber nicht abstrakt (d.h. sie kann selbst auch verwendet werden).</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:RP_Verkehr</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">RP_Verkehr</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2599_7511">
+         <gml:description>Allgemeine Klassifikation der Verkehrs-Arten.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Verkehr:allgemeinerTyp</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">allgemeinerTyp</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2599_7511_2607_7551">
+               <gml:description>Schienenverkehr.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Verkehr:allgemeinerTyp:1000</gml:identifier>
+               <gml:name>Schienenverkehr</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2599_7511_2607_7552">
+               <gml:description>Straßenverkehr.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Verkehr:allgemeinerTyp:2000</gml:identifier>
+               <gml:name>Strassenverkehr</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2599_7511_2607_7553">
+               <gml:description>Luftverkehr.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Verkehr:allgemeinerTyp:3000</gml:identifier>
+               <gml:name>Luftverkehr</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2599_7511_2607_7554">
+               <gml:description>Wasserverkehr.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Verkehr:allgemeinerTyp:4000</gml:identifier>
+               <gml:name>Wasserverkehr</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2599_7511_2607_7555">
+               <gml:description>Sonstiger Verkehr.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Verkehr:allgemeinerTyp:9999</gml:identifier>
+               <gml:name>SonstigerVerkehr</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeName>RP_VerkehrTypen</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2599_7512">
+         <gml:description>Klassifikation von Verkehrsstati.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Verkehr:status</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">status</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2599_7512_2577_7344">
+               <gml:description>Ausbau.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Verkehr:status:1000</gml:identifier>
+               <gml:name>Ausbau</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2599_7512_2577_7345">
+               <gml:description>Linienführung offen.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Verkehr:status:1001</gml:identifier>
+               <gml:name>LinienfuehrungOffen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2599_7512_2577_7346">
+               <gml:description>Sicherung.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Verkehr:status:2000</gml:identifier>
+               <gml:name>Sicherung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2599_7512_2577_7347">
+               <gml:description>Neubau.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Verkehr:status:3000</gml:identifier>
+               <gml:name>Neubau</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2599_7512_2577_7348">
+               <gml:description>Im Bau befindliche Verkehrsinfrastruktur.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Verkehr:status:4000</gml:identifier>
+               <gml:name>ImBau</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2599_7512_2577_7349">
+               <gml:description>Vorhandene planfestgestellte linienbestimmte Grobtrasse.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Verkehr:status:5000</gml:identifier>
+               <gml:name>VorhPlanfestgestLinienbestGrobtrasse</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2599_7512_2577_7350">
+               <gml:description>Bedarfsplanmassnahme ohne räumliche Festlegung.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Verkehr:status:6000</gml:identifier>
+               <gml:name>BedarfsplanmassnahmeOhneRaeumlFestlegung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2599_7512_2577_7351">
+               <gml:description>Korridor.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Verkehr:status:7000</gml:identifier>
+               <gml:name>Korridor</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2599_7512_2577_7352">
+               <gml:description>Verlegung.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Verkehr:status:8000</gml:identifier>
+               <gml:name>Verlegung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2599_7512_2577_7353">
+               <gml:description>Sonstiger Verkehrsstatus.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Verkehr:status:9999</gml:identifier>
+               <gml:name>SonstigerVerkehrStatus</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeName>RP_VerkehrStatus</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2599_7513">
+         <gml:description>Bezeichnung eines Verkehrstyps.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Verkehr:bezeichnung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">bezeichnung</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:RP_Geometrieobjekt"/>
+</def:TypeDefinition>

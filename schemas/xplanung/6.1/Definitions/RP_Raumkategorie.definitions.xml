@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="2609"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Raumkategorien sind nach bestimmten Kriterien abgegrenze Gebiete, in denen vergleichbare Strukturen bestehen und in denen die Raumordnung gleichartige Ziele verfolgt. Kriterien können z.B. siedlungsstrukturell, qualitativ oder potentialorientiert sein.</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:RP_Raumkategorie</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">RP_Raumkategorie</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2609_7557">
+         <gml:description>Klassifikation verschiedener besonderer Raumkategorien.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:besondererTyp</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">besondererTyp</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2609_7557_2620_7646">
+               <gml:description>Grenzgebiete.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:besondererTyp:1000</gml:identifier>
+               <gml:name>Grenzgebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2609_7557_2620_7647">
+               <gml:description>Bergbaufolgelandschaft.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:besondererTyp:2000</gml:identifier>
+               <gml:name>Bergbaufolgelandschaft</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2609_7557_2620_7648">
+               <gml:description>Braunkohlenfolgelandschaften.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:besondererTyp:3000</gml:identifier>
+               <gml:name>Braunkohlenfolgelandschaft</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>RP_BesondereRaumkategorieTypen</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2609_7556">
+         <gml:description>Klassifikation verschiedener Raumkategorien.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:typ</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">typ</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2609_7556_2619_7618">
+               <gml:description>Ordnungsraum. Von der Ministerkonferenz für Raumordnung nach einheitlichen Abgrenzungskritierien definierter Strukturraum. Besteht aus Verdichtungsraum und der Randzone des Verdichtungsraums.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:typ:1000</gml:identifier>
+               <gml:name>Ordnungsraum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2609_7556_2619_7619">
+               <gml:description>Ordnungsraum in Bezug auf Tourismus und Erholung.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:typ:1001</gml:identifier>
+               <gml:name>OrdnungsraumTourismusErholung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2609_7556_2619_7620">
+               <gml:description>Verdichtungsraum mit höherer Dichte an Siedlungen und Infrastruktur.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:typ:1100</gml:identifier>
+               <gml:name>Verdichtungsraum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2609_7556_2619_7621">
+               <gml:description>Kernzone des Verdichtungsraums.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:typ:1101</gml:identifier>
+               <gml:name>KernzoneVerdichtungsraum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2609_7556_2619_7622">
+               <gml:description>Randzone des Verdichtungsraums.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:typ:1102</gml:identifier>
+               <gml:name>RandzoneVerdichtungsraum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2609_7556_2619_7623">
+               <gml:description>Ballungskernzone.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:typ:1103</gml:identifier>
+               <gml:name>Ballungskernzone</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2609_7556_2619_7624">
+               <gml:description>Ballungsrandzone.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:typ:1104</gml:identifier>
+               <gml:name>Ballungsrandzone</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2609_7556_2619_7625">
+               <gml:description>Hochverdichteter Raum</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:typ:1105</gml:identifier>
+               <gml:name>HochverdichteterRaum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2609_7556_2619_7626">
+               <gml:description>Stadt-Umland-Bereich im Verdichtungsraum</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:typ:1106</gml:identifier>
+               <gml:name>StadtUmlandBereichVerdichtungsraum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2609_7556_2619_7627">
+               <gml:description>Ländlicher Raum.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:typ:1200</gml:identifier>
+               <gml:name>LaendlicherRaum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2609_7556_2619_7628">
+               <gml:description>Verdichteter Bereich im ländlichen Raum.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:typ:1201</gml:identifier>
+               <gml:name>VerdichteterBereichImLaendlichenRaum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2609_7556_2619_7629">
+               <gml:description>Gestaltungsraum.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:typ:1202</gml:identifier>
+               <gml:name>Gestaltungsraum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2609_7556_2619_7630">
+               <gml:description>Ländlicher Gestaltungsraum.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:typ:1203</gml:identifier>
+               <gml:name>LaendlicherGestaltungsraum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2609_7556_2619_7631">
+               <gml:description>Stadt-Umland-Raum</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:typ:1300</gml:identifier>
+               <gml:name>StadtUmlandRaum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2609_7556_2619_7632">
+               <gml:description>Stadt-Umland-Bereich im ländlichen Raum.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:typ:1301</gml:identifier>
+               <gml:name>StadtUmlandBereichLaendlicherRaum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2609_7556_2619_7633">
+               <gml:description>Abgrenzung eines Ordnungsraums.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:typ:1400</gml:identifier>
+               <gml:name>AbgrenzungOrdnungsraum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2609_7556_2619_7634">
+               <gml:description>Dünnbesiedeltes, abgelegenes Gebiet.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:typ:1500</gml:identifier>
+               <gml:name>DuennbesiedeltesAbgelegenesGebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2609_7556_2619_7635">
+               <gml:description>Umkreis von zehn Kilometern.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:typ:1600</gml:identifier>
+               <gml:name>Umkreis10KM</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2609_7556_2619_7636">
+               <gml:description>Raum mit besonderem Handlungsbedarf, zum Beispiel vor dem Hintergrund des demographischen Wandels.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:typ:1700</gml:identifier>
+               <gml:name>RaumMitBesonderemHandlungsbedarf</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2609_7556_2619_7637">
+               <gml:description>Funktionsraum.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:typ:1800</gml:identifier>
+               <gml:name>Funktionsraum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2609_7556_2619_7638">
+               <gml:description>Grenze eines Wirtschaftsraums.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:typ:1900</gml:identifier>
+               <gml:name>GrenzeWirtschaftsraum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2609_7556_2619_7639">
+               <gml:description>Funktionsschwerpunkt.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:typ:2000</gml:identifier>
+               <gml:name>Funktionsschwerpunkt</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2609_7556_2619_7640">
+               <gml:description>Grundversorgung-Raumkategorie</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:typ:2100</gml:identifier>
+               <gml:name>Grundversorgung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2609_7556_2619_7641">
+               <gml:description>Alpengebiet-Raumkategorie.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:typ:2200</gml:identifier>
+               <gml:name>Alpengebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2609_7556_2619_7642">
+               <gml:description>Räume mit günstigen Entwicklungsaufgaben.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:typ:2300</gml:identifier>
+               <gml:name>RaeumeMitGuenstigenEntwicklungsvoraussetzungen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2609_7556_2619_7643">
+               <gml:description>Raeume mit ausgeglichenen Entwicklungsvoraussetzungen.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:typ:2400</gml:identifier>
+               <gml:name>RaeumeMitAusgeglichenenEntwicklungspotenzialen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2609_7556_2619_7644">
+               <gml:description>Räume mit besonderen Entwicklungspotentialen.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:typ:2500</gml:identifier>
+               <gml:name>RaeumeMitBesonderenEntwicklungsaufgaben</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2609_7556_2619_7645">
+               <gml:description>Sonstige Raumkategorien</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Raumkategorie:typ:9999</gml:identifier>
+               <gml:name>SonstigeRaumkategorie</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeName>RP_RaumkategorieTypen</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:RP_Geometrieobjekt"/>
+</def:TypeDefinition>

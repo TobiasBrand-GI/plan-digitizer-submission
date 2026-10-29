@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="709"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Zuordnung von Gemeinschaftsanlagen zu Grundstücken.</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:BP_GemeinschaftsanlagenZuordnung</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">BP_GemeinschaftsanlagenZuordnung</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="Tas983">
+         <gml:description>Relation auf die zugeordneten Gemeinschaftsanlagen-Flächen, die außerhalb des Baugebiets liegen.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_GemeinschaftsanlagenZuordnung:zuordnung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">zuordnung</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:BP_GemeinschaftsanlagenFlaeche"/>
+         <def:type>associationRole</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:BP_Geometrieobjekt"/>
+</def:TypeDefinition>

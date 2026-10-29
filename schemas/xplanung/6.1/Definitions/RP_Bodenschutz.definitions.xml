@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="2569"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Maßnahmen, die zum Schutz von Böden und Bodenfunktionen (auch vorsorglich) unter dem Aspekt des Natur- und Umweltschutzes getroffen werden.</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:RP_Bodenschutz</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">RP_Bodenschutz</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2569_7318">
+         <gml:description>Klassifikation von Bodenschutztypen.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Bodenschutz:typ</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">typ</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2569_7318_2563_7269">
+               <gml:description>Beseitigung von erheblicher Bodenbelastung.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Bodenschutz:typ:1000</gml:identifier>
+               <gml:name>BeseitigungErheblicherBodenbelastung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2569_7318_2563_7270">
+               <gml:description>Sicherung und/oder Sanierung von Altlasten.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Bodenschutz:typ:2000</gml:identifier>
+               <gml:name>SicherungSanierungAltlasten</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2569_7318_2563_7271">
+               <gml:description>Erosionsschutz.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Bodenschutz:typ:3000</gml:identifier>
+               <gml:name>Erosionsschutz</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2569_7318_2563_7927">
+               <gml:description>Bodenschutz zum Torferhalt dient dem Erhalt von vorhandenen Torfkörpern als natürlichen Speicher von Kohlenstoffen, als Beitrag zum Klimaschutz.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Bodenschutz:typ:4000</gml:identifier>
+               <gml:name>Torferhalt</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2569_7318_2563_7272">
+               <gml:description>Sonstiger Bodenschutz.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Bodenschutz:typ:9999</gml:identifier>
+               <gml:name>SonstigerBodenschutz</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>RP_BodenschutzTypen</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:RP_Freiraum"/>
+</def:TypeDefinition>

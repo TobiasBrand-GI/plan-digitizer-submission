@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_BioVfBestandteil"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Auflistung von Bestandteilen der Biologischen Vielfalt</description>
+   <identifier codeSpace="urn:xplan">LP_BioVfBestandteil</identifier>
+   <name>LP_BioVfBestandteil</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfBestandteil_1000">
+         <description>Zielart</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfBestandteil:1000</identifier>
+         <name>Art</name>
+         <name codeSpace="lesbarerName">Art</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfBestandteil_2000">
+         <description>Zielbiotop (Lebensraum)</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfBestandteil:2000</identifier>
+         <name>BiotopLebensraum</name>
+         <name codeSpace="lesbarerName">Biotop, Lebensraum</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfBestandteil_4000">
+         <description>Lebensstätte (Arthabitat)</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfBestandteil:4000</identifier>
+         <name>LebensstaetteArthabitat</name>
+         <name codeSpace="lesbarerName">Lebensstätte, Arthabitat</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfBestandteil_9999">
+         <description>Sonstiger Bestandteil Biologische Vielfalt (siehe bioVielfaltTypText)</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfBestandteil:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

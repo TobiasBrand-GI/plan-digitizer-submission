@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="1042"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Festlegung nach Forstrecht</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:SO_Forstrecht</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">SO_Forstrecht</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="1042_2539">
+         <gml:description>Klassifizierung der Eigentumsart des Waldes.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:artDerFestlegung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">artDerFestlegung</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1042_2539_2672_8032">
+               <gml:description>Öffentlicher Wald allgemein</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:artDerFestlegung:1000</gml:identifier>
+               <gml:name>OeffentlicherWald</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1042_2539_2672_8033">
+               <gml:description>Staatswald</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:artDerFestlegung:1100</gml:identifier>
+               <gml:name>Staatswald</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1042_2539_2672_8034">
+               <gml:description>Körperschaftswald</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:artDerFestlegung:1200</gml:identifier>
+               <gml:name>Koerperschaftswald</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1042_2539_2672_8035">
+               <gml:description>Kommunalwald</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:artDerFestlegung:12000</gml:identifier>
+               <gml:name>Kommunalwald</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1042_2539_2672_8036">
+               <gml:description>Stiftungswald</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:artDerFestlegung:12001</gml:identifier>
+               <gml:name>Stiftungswald</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1042_2539_2672_8037">
+               <gml:description>Privatwald allgemein</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:artDerFestlegung:2000</gml:identifier>
+               <gml:name>Privatwald</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1042_2539_2672_8038">
+               <gml:description>Gemeinschaftswald</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:artDerFestlegung:20000</gml:identifier>
+               <gml:name>Gemeinschaftswald</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1042_2539_2672_8039">
+               <gml:description>Genossenschaftswald</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:artDerFestlegung:20001</gml:identifier>
+               <gml:name>Genossenschaftswald</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1042_2539_2672_8040">
+               <gml:description>Kirchenwald</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:artDerFestlegung:3000</gml:identifier>
+               <gml:name>Kirchenwald</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1042_2539_2672_8041">
+               <gml:description>Sonstiger Wald</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:artDerFestlegung:9999</gml:identifier>
+               <gml:name>Sonstiges</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>XP_EigentumsartWald</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="1042_2540">
+         <gml:description>Über eine Codeliste definierte detailliertere Klassifizierung der Eigentumsart des Waldes</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:detailArtDerFestlegung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">detailArtDerFestlegung</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>SO_DetailKlassifizNachForstrecht</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="1042_8058">
+         <gml:description>Klassifizierung der Fukktion des Waldes</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:funktion</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">funktion</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1042_8058_641_1236">
+               <gml:description>Naturwald</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:funktion:1000</gml:identifier>
+               <gml:name>Naturwald</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1042_8058_641_8046">
+               <gml:description>Waldschutzgebiet</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:funktion:10000</gml:identifier>
+               <gml:name>Waldschutzgebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1042_8058_641_1237">
+               <gml:description>Nutzwald</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:funktion:1200</gml:identifier>
+               <gml:name>Nutzwald</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1042_8058_641_1238">
+               <gml:description>Erholungswald</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:funktion:1400</gml:identifier>
+               <gml:name>Erholungswald</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1042_8058_641_1239">
+               <gml:description>Schutzwald</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:funktion:1600</gml:identifier>
+               <gml:name>Schutzwald</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1042_8058_641_8048">
+               <gml:description>Bodenschutzwald</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:funktion:16000</gml:identifier>
+               <gml:name>Bodenschutzwald</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1042_8058_641_8047">
+               <gml:description>Biotopschutzwald</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:funktion:16001</gml:identifier>
+               <gml:name>Biotopschutzwald</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1042_8058_641_8049">
+               <gml:description>Naturnaher Wald</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:funktion:16002</gml:identifier>
+               <gml:name>NaturnaherWald</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1042_8058_641_8050">
+               <gml:description>Wald zum Schutz vor schädlichen Umwelteinwirkungen</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:funktion:16003</gml:identifier>
+               <gml:name>SchutzwaldSchaedlicheUmwelteinwirkungen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1042_8058_641_8051">
+               <gml:description>Schonwald</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:funktion:16004</gml:identifier>
+               <gml:name>Schonwald</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1042_8058_641_8052">
+               <gml:description>Bannwald</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:funktion:1700</gml:identifier>
+               <gml:name>Bannwald</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1042_8058_641_1240">
+               <gml:description>Fläche für die Forstwirtschaft.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:funktion:1800</gml:identifier>
+               <gml:name>FlaecheForstwirtschaft</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1042_8058_641_8053">
+               <gml:description>Immissionsgeschädigter Wald</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:funktion:1900</gml:identifier>
+               <gml:name>ImmissionsgeschaedigterWald</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1042_8058_641_1241">
+               <gml:description>Sonstigr Wald</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:funktion:9999</gml:identifier>
+               <gml:name>Sonstiges</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeName>XP_ZweckbestimmungWald</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="1042_8059">
+         <gml:description>Festlegung zusätzlicher, normalerweise nicht-gestatteter Aktivitäten, die in dem Wald ausgeführt werden dürfen, nach §14 Abs. 2 Bundeswaldgesetz.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:betreten</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">betreten</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1042_8059_2673_8042">
+               <gml:description>Radfahren</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:betreten:1000</gml:identifier>
+               <gml:name>Radfahren</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1042_8059_2673_8043">
+               <gml:description>Reiten</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:betreten:2000</gml:identifier>
+               <gml:name>Reiten</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1042_8059_2673_8044">
+               <gml:description>Fahren</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:betreten:3000</gml:identifier>
+               <gml:name>Fahren</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1042_8059_2673_8045">
+               <gml:description>Hundesport</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:betreten:4000</gml:identifier>
+               <gml:name>Hundesport</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeName>XP_WaldbetretungTyp</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="1042_2541">
+         <gml:description>Informelle Bezeichnung der Festlegung</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:name</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">name</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="1042_2542">
+         <gml:description>Amtliche Bezeichnung / Kennziffer der Festlegung</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_Forstrecht:nummer</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">nummer</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:SO_Geometrieobjekt"/>
+</def:TypeDefinition>

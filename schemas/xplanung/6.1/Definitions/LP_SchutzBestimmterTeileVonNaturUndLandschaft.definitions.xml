@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="1056"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Schutzgebietskategorien gemäß Kapitel 4 BNatSchG „Schutz bestimmter Teile von Natur und Landschaft“.</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">LP_SchutzBestimmterTeileVonNaturUndLandschaft</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="1056_8376">
+         <gml:description>Kategorien der Schutzgebiete und sonstigen geschützten Bestandteilen von Natur und Landschaft nach Kap. 4 Bundesnaturschutzgesetz (BNatSchG) und Landes-Naturschutzgesetzen.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:artDerFestlegung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">artDerFestlegung</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8376_645_8394">
+               <gml:description>Naturschutzgebiet gemäß §23 BNatSchG.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:artDerFestlegung:1000</gml:identifier>
+               <gml:name>Naturschutzgebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8376_645_9044">
+               <gml:description>Nationalpark gemäß §24 BNatSchG</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:artDerFestlegung:1100</gml:identifier>
+               <gml:name>Nationalpak</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8376_645_8396">
+               <gml:description>Biosphärenreservat gemäß §25 BNatSchG.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:artDerFestlegung:1200</gml:identifier>
+               <gml:name>Biosphaerenreservat</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8376_645_8397">
+               <gml:description>Landschaftsschutzgebiet gemäß §26 BNatSchG.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:artDerFestlegung:1300</gml:identifier>
+               <gml:name>Landschaftsschutzgebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8376_645_8398">
+               <gml:description>Naturpark gemäß §27 BNatSchG.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:artDerFestlegung:1400</gml:identifier>
+               <gml:name>Naturpark</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8376_645_8399">
+               <gml:description>Naturdenkmal gemäß §28 BNatSchG.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:artDerFestlegung:1500</gml:identifier>
+               <gml:name>Naturdenkmal</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8376_645_8400">
+               <gml:description>Geschützter Bestandteil der Landschaft gemäß §29 BNatSchG.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:artDerFestlegung:1600</gml:identifier>
+               <gml:name>GeschuetzterLandschaftsBestandteil</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8376_645_8401">
+               <gml:description>Gesetzlich geschützte Biotope gemäß §30 BNatSchG.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:artDerFestlegung:1700</gml:identifier>
+               <gml:name>GesetzlichGeschuetztesBiotop</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8376_645_8402">
+               <gml:description>Schutzgebiet nach Europäischem Recht. Dies umfasst das "Gebiet Gemeinschaftlicher Bedeutung" (FFH-Gebiet) und das "Europäische Vogelschutzgebiet"</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:artDerFestlegung:1800</gml:identifier>
+               <gml:name>Natura2000</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8376_645_8403">
+               <gml:description>Gebiete von gemeinschaftlicher Bedeutung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:artDerFestlegung:18000</gml:identifier>
+               <gml:name>GebietGemeinschaftlicherBedeutung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8376_645_8404">
+               <gml:description>Europäische Vogelschutzgebiete</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:artDerFestlegung:18001</gml:identifier>
+               <gml:name>EuropaeischesVogelschutzgebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8376_645_8405">
+               <gml:description>Nationales Naturmonument gemäß §24 Abs. (4)  BNatSchG.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:artDerFestlegung:2000</gml:identifier>
+               <gml:name>NationalesNaturmonument</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8376_645_8406">
+               <gml:description>Sonstige Schutzgebietskategorie (z.B. geschützte Parkanlagen), siehe artDerFestlegungText.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:artDerFestlegung:9999</gml:identifier>
+               <gml:name>Sonstiges</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>1</def:cardinality>
+         <def:valueTypeName>LP_KlassifizierungNaturschutzrecht</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="1056_8377">
+         <gml:description>Erläuterung zu Sonstige Schutzgebietskategorie oder ergänzende Information zu ausgewählten Schutzgebietskategorien.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:artDerFestlegungText</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">artDerFestlegungText</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="1056_8378">
+         <gml:description>Rechtsstand des Schutzgebiets oder des geschützten Bestandteils von Natur und Landschaft.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:rechtsstandSchG</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">rechtsstandSchG</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8378_2769_8387">
+               <gml:description>Schutzgebiet geplant.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:rechtsstandSchG:1000</gml:identifier>
+               <gml:name>Geplant</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8378_2769_8388">
+               <gml:description>Das Schutzgebiet besteht.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:rechtsstandSchG:2000</gml:identifier>
+               <gml:name>Bestehend</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8378_2769_8389">
+               <gml:description>Schutzgebiet fortfallend, untergegangen oder aufgehoben. Der Code ist veraltert und wird in der nächsten Hauptversion gestrichen.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:rechtsstandSchG:3000</gml:identifier>
+               <gml:name>FortfallendAufgehoben</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8378_2769_9045">
+               <gml:description>Schutzgebiet künftig fortfallend.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:rechtsstandSchG:3100</gml:identifier>
+               <gml:name>Fortfallend</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8378_2769_9046">
+               <gml:description>Schutzgebiet aufgehoben.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:rechtsstandSchG:3200</gml:identifier>
+               <gml:name>Aufgehoben</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8378_2769_8390">
+               <gml:description>Als Schutzgebiet geeignet.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:rechtsstandSchG:4000</gml:identifier>
+               <gml:name>Eignung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8378_2769_8391">
+               <gml:description>Erweiterung eines bestehenden Schutzgebiets.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:rechtsstandSchG:5000</gml:identifier>
+               <gml:name>Erweiterung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8378_2769_8392">
+               <gml:description>Qualifizierung eines Schutzgebietes  (z.B. Änderung der Schutzgebietsverordnung, Änderung der Schutzgebietskategorie usw.)</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:rechtsstandSchG:6000</gml:identifier>
+               <gml:name>Qualifizierung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8378_2769_9023">
+               <gml:description>Unbekannter Rechtsstand</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:rechtsstandSchG:9998</gml:identifier>
+               <gml:name>Unbekannt</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8378_2769_8393">
+               <gml:description>Sonstiger Rechtsstand (siehe rechtsstandSchGText).</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:rechtsstandSchG:9999</gml:identifier>
+               <gml:name>Sonstiges</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>1</def:cardinality>
+         <def:valueTypeName>LP_RechtsstandSchutzGeb</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="1056_8379">
+         <gml:description>Erläuterung zu Sonstigem Rechtsstand (wenn rechtsstandSchG = 9999) oder ergänzende Information zu ausgewähltem Rechtsstand.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:rechtsstandSchGText</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">rechtsstandSchGText</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="1056_8380">
+         <gml:description>Name des Schutzgebietes, z.B. "Leineaue zwischen Ruthe und Koldingen".</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:name</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">name</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="1056_8381">
+         <gml:description>Schutzgebietsnummer, eindeutiges Kennzeichen des Gebiets, z.B. "NSG HA 203".</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:nummer</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">nummer</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="1056_8382">
+         <gml:description>Angabe einer gesetzlich geschützten Biotoptypen-Art gemäß §30 Abs. 2 Ziffern 1-6 BNatSchG.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:gesetzlGeschBiotop</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">gesetzlGeschBiotop</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8382_2768_8369">
+               <gml:description>Natürliche oder naturnahe Bereiche fließender und stehender Binnengewässer einschließlich ihrer Ufer und der dazugehörigen uferbegleitenden natürlichen oder naturnahen Vegetation sowie ihrer natürlichen oder naturnahen Verlandungsbereiche, Altarme und regelmäßig überschwemmten Bereiche (gemäß §30 Abs. 2 Ziffern 1 BNatSchG).</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:gesetzlGeschBiotop:1000</gml:identifier>
+               <gml:name>GewaesserBiotope</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8382_2768_8370">
+               <gml:description>Moore, Sümpfe, Röhrichte, Großseggenrieder, seggen- und binsenreiche Nasswiesen, Quellbereiche, Binnenlandsalzstellen (gemäß §30 Abs. 2 Ziffern 2 BNatSchG).</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:gesetzlGeschBiotop:2000</gml:identifier>
+               <gml:name>FeuchtNassBiotope</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8382_2768_8371">
+               <gml:description>Offene Binnendünen, offene natürliche Block-, Schutt- und Geröllhalden, Lehm- und Lösswände, Zwergstrauch-, Ginster- und Wacholderheiden, Borstgrasrasen, Trockenrasen, Schwermetallrasen, Wälder und Gebüsche trockenwarmer Standorte (gemäß §30 Abs. 2 Ziffern 3 BNatSchG).</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:gesetzlGeschBiotop:3000</gml:identifier>
+               <gml:name>TrockenBiotope</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8382_2768_8372">
+               <gml:description>Bruch-, Sumpf- und Auenwälder, Schlucht-, Blockhalden- und Hangschuttwälder, subalpine Lärchen- und Lärchen-Arvenwälder (gemäß §30 Abs. 2 Ziffern 4 BNatSchG).</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:gesetzlGeschBiotop:4000</gml:identifier>
+               <gml:name>WaldBiotope</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8382_2768_8373">
+               <gml:description>Offene Felsbildungen, Höhlen sowie naturnahe Stollen, alpine Rasen sowie Schneetälchen und Krummholzgebüsche (gemäß §30 Abs. 2 Ziffern 5 BNatSchG).</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:gesetzlGeschBiotop:5000</gml:identifier>
+               <gml:name>FelsenAlpinBiotope</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8382_2768_8374">
+               <gml:description>Fels- und Steilküsten, Küstendünen und Strandwälle, Strandseen, Boddengewässer mit Verlandungsbereichen, Salzwiesen und Wattflächen im Küstenbereich, Seegraswiesen und sonstige marine Makrophytenbestände, Riffe, sublitorale Sandbänke, Schlickgründe mit bohrender Bodenmegafauna sowie artenreiche Kies-, Grobsand- und Schilfgründe im Meeres- und Küstenbereich (gemäß §30 Abs. 2 Ziffern 6 BNatSchG).</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:gesetzlGeschBiotop:6000</gml:identifier>
+               <gml:name>KuestenBiotope</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8382_2768_9002">
+               <gml:description>Unbekannter Typ</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:gesetzlGeschBiotop:9998</gml:identifier>
+               <gml:name>Unbekannt</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8382_2768_8375">
+               <gml:description>Sonstige gesetzlich geschützte Biotope, siehe gesetzlGeschBiotopText und / oder detailGesetzlGeschBiotopLR.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:gesetzlGeschBiotop:9999</gml:identifier>
+               <gml:name>Sonstiges</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>LP_GesGeschBiotopTyp</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="1056_8383">
+         <gml:description>Erläuterung zu Sonstige gesetzlich geschützte Biotope (wenn gesetzlichGeschuetztBiotop = 9999) oder ergänzende Information zu anderem ausgewählten gesetzlich geschütztem Biotoptyp.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:gesetzlGeschBiotopText</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">gesetzlGeschBiotopText</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="1056_8384">
+         <gml:description>Über eine Codeliste definierte weitere gesetzlich geschützte Biotope z.B. nach Landesrecht.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:detailGesetzlGeschBiotopLR</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">detailGesetzlGeschBiotopLR</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>LP_DetailGesetzlGeschBiotopLR</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="1056_8385">
+         <gml:description>Angabe der Schutzzone für zonierte Schutzgebiete, insbesondere Biosphärenreservate und Nationalparke.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:schutzzone</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">schutzzone</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8385_1059_8407">
+               <gml:description>Schutzzone 1</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:schutzzone:1000</gml:identifier>
+               <gml:name>Schutzzone_1</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8385_1059_8408">
+               <gml:description>Schutzzone 2</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:schutzzone:1100</gml:identifier>
+               <gml:name>Schutzzone_2</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8385_1059_8409">
+               <gml:description>Schutzzone 3</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:schutzzone:1200</gml:identifier>
+               <gml:name>Schutzzone_3</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8385_1059_8410">
+               <gml:description>Kernzone</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:schutzzone:2000</gml:identifier>
+               <gml:name>Kernzone</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8385_1059_8411">
+               <gml:description>Pflegezone</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:schutzzone:2100</gml:identifier>
+               <gml:name>Pflegezone</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8385_1059_8412">
+               <gml:description>Entwicklungszone</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:schutzzone:2200</gml:identifier>
+               <gml:name>Entwicklungszone</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8385_1059_8413">
+               <gml:description>Regenerationszone</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:schutzzone:2300</gml:identifier>
+               <gml:name>Regenerationszone</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1056_8385_1059_8414">
+               <gml:description>Sonstige Zone, siehe schutzZoneText.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:schutzzone:9999</gml:identifier>
+               <gml:name>Sonstiges</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>LP_SchutzzonenNaturschutzrecht</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="1056_8386">
+         <gml:description>Erläuterung zu Sonstige Schutzzone (Konformitätsregel, wenn schutzzone = 9999, dann Belegung Pflicht oder ergänzende Information zu ausgewählten Schutzzonen.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_SchutzBestimmterTeileVonNaturUndLandschaft:schutzzonenText</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">schutzzonenText</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:LP_Geometrieobjekt"/>
+</def:TypeDefinition>

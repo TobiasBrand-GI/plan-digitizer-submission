@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="711"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Festsetzung der speziellen Bauweise / baulichen Besonderheit eines Gebäudes oder Bauwerks.</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:BP_SpezielleBauweise</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">BP_SpezielleBauweise</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="711_1491">
+         <gml:description>Typ der speziellen Bauweise.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_SpezielleBauweise:typ</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">typ</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="711_1491_726_1570">
+               <gml:description>Durchfahrt</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_SpezielleBauweise:typ:1000</gml:identifier>
+               <gml:name>Durchfahrt</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="711_1491_726_1571">
+               <gml:description>Durchgang</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_SpezielleBauweise:typ:1100</gml:identifier>
+               <gml:name>Durchgang</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="711_1491_726_1572">
+               <gml:description>Durchfahrt oder Durchgang</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_SpezielleBauweise:typ:1200</gml:identifier>
+               <gml:name>DurchfahrtDurchgang</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="711_1491_726_1573">
+               <gml:description>Auskragung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_SpezielleBauweise:typ:1300</gml:identifier>
+               <gml:name>Auskragung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="711_1491_726_1574">
+               <gml:description>Arkade</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_SpezielleBauweise:typ:1400</gml:identifier>
+               <gml:name>Arkade</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="711_1491_726_1575">
+               <gml:description>Luftgeschoss</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_SpezielleBauweise:typ:1500</gml:identifier>
+               <gml:name>Luftgeschoss</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="711_1491_726_7946">
+               <gml:description>Brücke</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_SpezielleBauweise:typ:1600</gml:identifier>
+               <gml:name>Bruecke</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="711_1491_726_7947">
+               <gml:description>Tunnel</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_SpezielleBauweise:typ:1700</gml:identifier>
+               <gml:name>Tunnel</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="711_1491_726_7948">
+               <gml:description>Rampe</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_SpezielleBauweise:typ:1800</gml:identifier>
+               <gml:name>Rampe</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="711_1491_726_1576">
+               <gml:description>Sonstige spezielle Bauweise.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_SpezielleBauweise:typ:9999</gml:identifier>
+               <gml:name>Sonstiges</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>BP_SpezielleBauweiseTypen</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="711_1492">
+         <gml:description>Über eine Codeliste definierter Typ der speziellen Bauweise, wenn "typ" den Wert 9999 (Sonstiges) hat.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_SpezielleBauweise:sonstTyp</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">sonstTyp</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>BP_SpezielleBauweiseSonstTypen</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="711_1493">
+         <gml:description>Minimale Breite von Baugrundstücken.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_SpezielleBauweise:Bmin</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">Bmin</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Length</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="711_1494">
+         <gml:description>Maximale Breite von Baugrundstücken.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_SpezielleBauweise:Bmax</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">Bmax</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Length</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="711_1495">
+         <gml:description>Minimale Tiefe von Baugrundstücken.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_SpezielleBauweise:Tmin</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">Tmin</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Length</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="711_1496">
+         <gml:description>Maximale Tiefe von Baugrundstücken.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_SpezielleBauweise:Tmax</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">Tmax</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Length</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="711_8975">
+         <gml:description>Die untere Stockwerkszahl bei Aussparungen. Dabei hat das Erdgeschoss (unterstes Geschoss, das ebenerdig betreten werden kann) den Index 0.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_SpezielleBauweise:geschossMin</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">geschossMin</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Integer</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="711_8976">
+         <gml:description>Die obere Stockwerkszahl bei Aussparungen. Dabei hat das Erdgeschoss (unterstes Geschoss, das ebenerdig betreten werden kann) den Index 0.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_SpezielleBauweise:geschossMax</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">geschossMax</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Integer</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="Tas1260">
+         <gml:description>Relation auf Angaben zu Wegerechten.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_SpezielleBauweise:wegerecht</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">wegerecht</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:BP_Wegerecht"/>
+         <def:type>associationRole</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:BP_Ueberlagerungsobjekt"/>
+</def:TypeDefinition>

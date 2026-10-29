@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="BP_ZweckbestimmungGemeinschaftsanlagen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">BP_ZweckbestimmungGemeinschaftsanlagen</identifier>
+   <name>BP_ZweckbestimmungGemeinschaftsanlagen</name>
+   <dictionaryEntry>
+      <Definition gml:id="BP_ZweckbestimmungGemeinschaftsanlagen_1000">
+         <description>Gemeinschaftliche Stellplätze</description>
+         <identifier codeSpace="urn:xplan">BP_ZweckbestimmungGemeinschaftsanlagen:1000</identifier>
+         <name>Gemeinschaftsstellplaetze</name>
+         <name codeSpace="lesbarerName">Gemeinschaftsstellplätze</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_ZweckbestimmungGemeinschaftsanlagen_2000">
+         <description>Gemeinschaftsgaragen</description>
+         <identifier codeSpace="urn:xplan">BP_ZweckbestimmungGemeinschaftsanlagen:2000</identifier>
+         <name>Gemeinschaftsgaragen</name>
+         <name codeSpace="lesbarerName">Gemeinschaftsgaragen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_ZweckbestimmungGemeinschaftsanlagen_3000">
+         <description>Spielplatz</description>
+         <identifier codeSpace="urn:xplan">BP_ZweckbestimmungGemeinschaftsanlagen:3000</identifier>
+         <name>Spielplatz</name>
+         <name codeSpace="lesbarerName">Spielplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_ZweckbestimmungGemeinschaftsanlagen_3100">
+         <description>Carport</description>
+         <identifier codeSpace="urn:xplan">BP_ZweckbestimmungGemeinschaftsanlagen:3100</identifier>
+         <name>Carport</name>
+         <name codeSpace="lesbarerName">Carport</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_ZweckbestimmungGemeinschaftsanlagen_3200">
+         <description>Gemeinschafts-Tiefgarage</description>
+         <identifier codeSpace="urn:xplan">BP_ZweckbestimmungGemeinschaftsanlagen:3200</identifier>
+         <name>GemeinschaftsTiefgarage</name>
+         <name codeSpace="lesbarerName">Gemeinschafts-Tiefgarage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_ZweckbestimmungGemeinschaftsanlagen_3300">
+         <description>Nebengebäude</description>
+         <identifier codeSpace="urn:xplan">BP_ZweckbestimmungGemeinschaftsanlagen:3300</identifier>
+         <name>Nebengebaeude</name>
+         <name codeSpace="lesbarerName">Nebengebäude</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_ZweckbestimmungGemeinschaftsanlagen_3400">
+         <description>Abfall-Sammelanlagen</description>
+         <identifier codeSpace="urn:xplan">BP_ZweckbestimmungGemeinschaftsanlagen:3400</identifier>
+         <name>AbfallSammelanlagen</name>
+         <name codeSpace="lesbarerName">Abfallsammelanlagen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_ZweckbestimmungGemeinschaftsanlagen_3500">
+         <description>Energie-Verteilungsanlagen</description>
+         <identifier codeSpace="urn:xplan">BP_ZweckbestimmungGemeinschaftsanlagen:3500</identifier>
+         <name>EnergieVerteilungsanlagen</name>
+         <name codeSpace="lesbarerName">Energieverteilungsanlagen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_ZweckbestimmungGemeinschaftsanlagen_3600">
+         <description>Abfall-Wertstoffbehälter</description>
+         <identifier codeSpace="urn:xplan">BP_ZweckbestimmungGemeinschaftsanlagen:3600</identifier>
+         <name>AbfallWertstoffbehaelter</name>
+         <name codeSpace="lesbarerName">Abfallwertstoffbehälter</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_ZweckbestimmungGemeinschaftsanlagen_3700">
+         <description>Freizeiteinrichtungen</description>
+         <identifier codeSpace="urn:xplan">BP_ZweckbestimmungGemeinschaftsanlagen:3700</identifier>
+         <name>Freizeiteinrichtungen</name>
+         <name codeSpace="lesbarerName">Freizeiteinrichtungen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_ZweckbestimmungGemeinschaftsanlagen_3800">
+         <description>Lärmschutz-Anlagen</description>
+         <identifier codeSpace="urn:xplan">BP_ZweckbestimmungGemeinschaftsanlagen:3800</identifier>
+         <name>Laermschutzanlagen</name>
+         <name codeSpace="lesbarerName">Lärmschutzanlagen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_ZweckbestimmungGemeinschaftsanlagen_3900">
+         <description>Anlagen für Abwasser oder Regenwasser</description>
+         <identifier codeSpace="urn:xplan">BP_ZweckbestimmungGemeinschaftsanlagen:3900</identifier>
+         <name>AbwasserRegenwasser</name>
+         <name codeSpace="lesbarerName">Abwasser und Regenwasser</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_ZweckbestimmungGemeinschaftsanlagen_4000">
+         <description>Fläche für Ausgleichsmaßnahmen</description>
+         <identifier codeSpace="urn:xplan">BP_ZweckbestimmungGemeinschaftsanlagen:4000</identifier>
+         <name>Ausgleichsmassnahmen</name>
+         <name codeSpace="lesbarerName">Ausgleichsmaßnahmen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_ZweckbestimmungGemeinschaftsanlagen_4100">
+         <description>Fahrrad Stellplätze</description>
+         <identifier codeSpace="urn:xplan">BP_ZweckbestimmungGemeinschaftsanlagen:4100</identifier>
+         <name>Fahrradstellplaetze</name>
+         <name codeSpace="lesbarerName">Fahrradstellplätze</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_ZweckbestimmungGemeinschaftsanlagen_4200">
+         <description>Gemeinschaftlich genutzter Dachgarten</description>
+         <identifier codeSpace="urn:xplan">BP_ZweckbestimmungGemeinschaftsanlagen:4200</identifier>
+         <name>Gemeinschaftsdachgaerten</name>
+         <name codeSpace="lesbarerName">Gemeinschaftsdachgärten</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_ZweckbestimmungGemeinschaftsanlagen_4300">
+         <description>Gemeinschaftlich nutzbare Dachflächen.</description>
+         <identifier codeSpace="urn:xplan">BP_ZweckbestimmungGemeinschaftsanlagen:4300</identifier>
+         <name>GemeinschaftlichNutzbareDachflaechen</name>
+         <name codeSpace="lesbarerName">Gemeinschaftlich nutzbare Dachflächen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_ZweckbestimmungGemeinschaftsanlagen_9999">
+         <description>Sonstige Zweckbestimmung</description>
+         <identifier codeSpace="urn:xplan">BP_ZweckbestimmungGemeinschaftsanlagen:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

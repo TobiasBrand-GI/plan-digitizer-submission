@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="2725"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Spezifikation der Zweckbestimmung einer Gemeinschaftsanlage</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:dataType:xplan::xplan:6.1:BP_KomplexeZweckbestGemeinschaftsanlagen</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">BP_KomplexeZweckbestGemeinschaftsanlagen</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2725_8217">
+         <gml:description>Allgemeine Zweckbestimmung der Fläche</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGemeinschaftsanlagen:allgemein</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">allgemein</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2725_8217_732_1626">
+               <gml:description>Gemeinschaftliche Stellplätze</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGemeinschaftsanlagen:allgemein:1000</gml:identifier>
+               <gml:name>Gemeinschaftsstellplaetze</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2725_8217_732_1627">
+               <gml:description>Gemeinschaftsgaragen</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGemeinschaftsanlagen:allgemein:2000</gml:identifier>
+               <gml:name>Gemeinschaftsgaragen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2725_8217_732_1628">
+               <gml:description>Spielplatz</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGemeinschaftsanlagen:allgemein:3000</gml:identifier>
+               <gml:name>Spielplatz</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2725_8217_732_1629">
+               <gml:description>Carport</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGemeinschaftsanlagen:allgemein:3100</gml:identifier>
+               <gml:name>Carport</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2725_8217_732_1630">
+               <gml:description>Gemeinschafts-Tiefgarage</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGemeinschaftsanlagen:allgemein:3200</gml:identifier>
+               <gml:name>GemeinschaftsTiefgarage</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2725_8217_732_1631">
+               <gml:description>Nebengebäude</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGemeinschaftsanlagen:allgemein:3300</gml:identifier>
+               <gml:name>Nebengebaeude</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2725_8217_732_1632">
+               <gml:description>Abfall-Sammelanlagen</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGemeinschaftsanlagen:allgemein:3400</gml:identifier>
+               <gml:name>AbfallSammelanlagen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2725_8217_732_1633">
+               <gml:description>Energie-Verteilungsanlagen</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGemeinschaftsanlagen:allgemein:3500</gml:identifier>
+               <gml:name>EnergieVerteilungsanlagen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2725_8217_732_1634">
+               <gml:description>Abfall-Wertstoffbehälter</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGemeinschaftsanlagen:allgemein:3600</gml:identifier>
+               <gml:name>AbfallWertstoffbehaelter</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2725_8217_732_1635">
+               <gml:description>Freizeiteinrichtungen</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGemeinschaftsanlagen:allgemein:3700</gml:identifier>
+               <gml:name>Freizeiteinrichtungen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2725_8217_732_1636">
+               <gml:description>Lärmschutz-Anlagen</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGemeinschaftsanlagen:allgemein:3800</gml:identifier>
+               <gml:name>Laermschutzanlagen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2725_8217_732_1637">
+               <gml:description>Anlagen für Abwasser oder Regenwasser</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGemeinschaftsanlagen:allgemein:3900</gml:identifier>
+               <gml:name>AbwasserRegenwasser</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2725_8217_732_1638">
+               <gml:description>Fläche für Ausgleichsmaßnahmen</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGemeinschaftsanlagen:allgemein:4000</gml:identifier>
+               <gml:name>Ausgleichsmassnahmen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2725_8217_732_7916">
+               <gml:description>Fahrrad Stellplätze</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGemeinschaftsanlagen:allgemein:4100</gml:identifier>
+               <gml:name>Fahrradstellplaetze</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2725_8217_732_7917">
+               <gml:description>Gemeinschaftlich genutzter Dachgarten</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGemeinschaftsanlagen:allgemein:4200</gml:identifier>
+               <gml:name>Gemeinschaftsdachgaerten</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2725_8217_732_7918">
+               <gml:description>Gemeinschaftlich nutzbare Dachflächen.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGemeinschaftsanlagen:allgemein:4300</gml:identifier>
+               <gml:name>GemeinschaftlichNutzbareDachflaechen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2725_8217_732_1639">
+               <gml:description>Sonstige Zweckbestimmung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGemeinschaftsanlagen:allgemein:9999</gml:identifier>
+               <gml:name>Sonstiges</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>1</def:cardinality>
+         <def:valueTypeName>BP_ZweckbestimmungGemeinschaftsanlagen</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2725_8218">
+         <gml:description>Über eine Codelist definierte detailliertere Festlegung der Zweckbestimmung.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGemeinschaftsanlagen:detail</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">detail</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeName>BP_DetailZweckbestGemeinschaftsanlagen</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2725_8219">
+         <gml:description>Textliche Ergänzung der spezifizierten Zweckbestimmung(en).</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGemeinschaftsanlagen:textlicheErgaenzung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">textlicheErgaenzung</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2725_8220">
+         <gml:description>Aufschrift</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGemeinschaftsanlagen:aufschrift</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">aufschrift</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>dataType</def:classification>
+</def:TypeDefinition>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="BP_BebauungsArt"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung verschiedener Brbauungs-Arten eines Baugebiets.</description>
+   <identifier codeSpace="urn:xplan">BP_BebauungsArt</identifier>
+   <name>BP_BebauungsArt</name>
+   <dictionaryEntry>
+      <Definition gml:id="BP_BebauungsArt_1000">
+         <description>Nur Einzelhäuser zulässig.</description>
+         <identifier codeSpace="urn:xplan">BP_BebauungsArt:1000</identifier>
+         <name>Einzelhaeuser</name>
+         <name codeSpace="lesbarerName">Einzelhäuser</name>
+         <name codeSpace="kuerzel">E</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_BebauungsArt_2000">
+         <description>Nur Doppelhäuser zulässig.</description>
+         <identifier codeSpace="urn:xplan">BP_BebauungsArt:2000</identifier>
+         <name>Doppelhaeuser</name>
+         <name codeSpace="lesbarerName">Doppelhäuser</name>
+         <name codeSpace="kuerzel">D</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_BebauungsArt_3000">
+         <description>Nur Hausgruppen zulässig.</description>
+         <identifier codeSpace="urn:xplan">BP_BebauungsArt:3000</identifier>
+         <name>Hausgruppen</name>
+         <name codeSpace="lesbarerName">Hausgruppen</name>
+         <name codeSpace="kuerzel">H</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_BebauungsArt_4000">
+         <description>Nur Einzel- oder Doppelhäuser zulässig.</description>
+         <identifier codeSpace="urn:xplan">BP_BebauungsArt:4000</identifier>
+         <name>EinzelDoppelhaeuser</name>
+         <name codeSpace="lesbarerName">Einzel- und Doppelhäuser</name>
+         <name codeSpace="kuerzel">ED</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_BebauungsArt_5000">
+         <description>Nur Einzelhäuser oder Hausgruppen zulässig.</description>
+         <identifier codeSpace="urn:xplan">BP_BebauungsArt:5000</identifier>
+         <name>EinzelhaeuserHausgruppen</name>
+         <name codeSpace="lesbarerName">Einzelhäuser Hausgruppen</name>
+         <name codeSpace="kuerzel">EH</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_BebauungsArt_6000">
+         <description>Nur Doppelhäuser oder Hausgruppen zulässig.</description>
+         <identifier codeSpace="urn:xplan">BP_BebauungsArt:6000</identifier>
+         <name>DoppelhaeuserHausgruppen</name>
+         <name codeSpace="lesbarerName">Doppelhäuser und Hausgruppen</name>
+         <name codeSpace="kuerzel">DH</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_BebauungsArt_7000">
+         <description>Nur Reihenhäuser zulässig.</description>
+         <identifier codeSpace="urn:xplan">BP_BebauungsArt:7000</identifier>
+         <name>Reihenhaeuser</name>
+         <name codeSpace="lesbarerName">Reihenhäuser</name>
+         <name codeSpace="kuerzel">Rh</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

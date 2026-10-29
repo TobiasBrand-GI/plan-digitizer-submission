@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="2719"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Spezifikation der Zweckbestimmung einer Grünfläche</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:dataType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">BP_KomplexeZweckbestGruen</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2719_8198">
+         <gml:description>Allgemeine Zweckbestimmung der Fläche</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">allgemein</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_7735">
+               <gml:description>Parkanlage; auch: Erholungsgrün, Grünanlage, Naherholung.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:1000</gml:identifier>
+               <gml:name>Parkanlage</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_1314">
+               <gml:description>Historische Parkanlage</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:10000</gml:identifier>
+               <gml:name>ParkanlageHistorisch</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_1315">
+               <gml:description>Naturnahe Parkanlage</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:10001</gml:identifier>
+               <gml:name>ParkanlageNaturnah</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_1316">
+               <gml:description>Parkanlage mit Waldcharakter</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:10002</gml:identifier>
+               <gml:name>ParkanlageWaldcharakter</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_1317">
+               <gml:description>Ufernahe Parkanlage</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:10003</gml:identifier>
+               <gml:name>NaturnaheUferParkanlage</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_7736">
+               <gml:description>Dauerkleingarten; auch: Gartenfläche, Hofgärten, Gartenland.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:1200</gml:identifier>
+               <gml:name>Dauerkleingarten</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_1318">
+               <gml:description>Erholungsgarten</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:12000</gml:identifier>
+               <gml:name>ErholungsGaerten</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_7737">
+               <gml:description>Sportplatz</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:1400</gml:identifier>
+               <gml:name>Sportplatz</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_1319">
+               <gml:description>Reitsportanlage</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:14000</gml:identifier>
+               <gml:name>Reitsportanlage</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_1320">
+               <gml:description>Hundesportanlage</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:14001</gml:identifier>
+               <gml:name>Hundesportanlage</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_1321">
+               <gml:description>Wassersportanlage</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:14002</gml:identifier>
+               <gml:name>Wassersportanlage</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_1322">
+               <gml:description>Schießstand</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:14003</gml:identifier>
+               <gml:name>Schiessstand</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_1323">
+               <gml:description>Golfplatz</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:14004</gml:identifier>
+               <gml:name>Golfplatz</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_1324">
+               <gml:description>Anlage für Skisport</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:14005</gml:identifier>
+               <gml:name>Skisport</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_1325">
+               <gml:description>Tennisanlage</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:14006</gml:identifier>
+               <gml:name>Tennisanlage</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_7738">
+               <gml:description>Spielplatz</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:1600</gml:identifier>
+               <gml:name>Spielplatz</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_1327">
+               <gml:description>Bolzplatz</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:16000</gml:identifier>
+               <gml:name>Bolzplatz</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_1328">
+               <gml:description>Abenteuerspielplatz</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:16001</gml:identifier>
+               <gml:name>Abenteuerspielplatz</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_7739">
+               <gml:description>Zeltplatz</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:1800</gml:identifier>
+               <gml:name>Zeltplatz</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_1329">
+               <gml:description>Campingplatz</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:18000</gml:identifier>
+               <gml:name>Campingplatz</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_7740">
+               <gml:description>Badeplatz, auch Schwimmbad, Liegewiese.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:2000</gml:identifier>
+               <gml:name>Badeplatz</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_7741">
+               <gml:description>Anlage für Freizeit und Erholung.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:2200</gml:identifier>
+               <gml:name>FreizeitErholung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_1330">
+               <gml:description>Anlage für Kleintierhaltung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:22000</gml:identifier>
+               <gml:name>Kleintierhaltung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_1331">
+               <gml:description>Festplatz</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:22001</gml:identifier>
+               <gml:name>Festplatz</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_7742">
+               <gml:description>Spezielle Grünfläche</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:2400</gml:identifier>
+               <gml:name>SpezGruenflaeche</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_1332">
+               <gml:description>Straßenbegleitgrün</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:24000</gml:identifier>
+               <gml:name>StrassenbegleitGruen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_1333">
+               <gml:description>Böschungsfläche</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:24001</gml:identifier>
+               <gml:name>BoeschungsFlaeche</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_1335">
+               <gml:description>Uferstreifen</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:24003</gml:identifier>
+               <gml:name>Uferschutzstreifen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_1336">
+               <gml:description>Abschirmgrün</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:24004</gml:identifier>
+               <gml:name>Abschirmgruen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_1337">
+               <gml:description>Umweltbildungspark, Schaugatter</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:24005</gml:identifier>
+               <gml:name>UmweltbildungsparkSchaugatter</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_1338">
+               <gml:description>Fläche für den ruhenden Verkehr.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:24006</gml:identifier>
+               <gml:name>RuhenderVerkehr</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_7743">
+               <gml:description>Friedhof</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:2600</gml:identifier>
+               <gml:name>Friedhof</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_8151">
+               <gml:description>Naturerfahrungsräume sollen insbesondere Kindern und Jugendlichen die Möglichkeit geben, in ihrem direkten Umfeld Natur vorzufinden, um eigenständäg Erfahrung mit Pflanzen und Tieren sammeln zu können.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:2700</gml:identifier>
+               <gml:name>Naturerfahrungsraum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_7744">
+               <gml:description>Sonstige Zweckbestimmung, falls keine der aufgeführten Klassifikationen anwendbar ist.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:9999</gml:identifier>
+               <gml:name>Sonstiges</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2719_8198_651_1339">
+               <gml:description>Gärtnerei</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:allgemein:99990</gml:identifier>
+               <gml:name>Gaertnerei</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>1</def:cardinality>
+         <def:valueTypeName>XP_ZweckbestimmungGruen</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2719_8199">
+         <gml:description>Über eine Codeliste definierte Zweckbestimmungen, die die allgemeine Zweckbestimmung näher detaillieren.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:detail</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">detail</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeName>BP_DetailZweckbestGruenFlaeche</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2719_8200">
+         <gml:description>Textliche Ergänzung der spezifizierten Zweckbestimmung(en).</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:textlicheErgaenzung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">textlicheErgaenzung</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2719_8201">
+         <gml:description>Aufschrift</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestGruen:aufschrift</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">aufschrift</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>dataType</def:classification>
+</def:TypeDefinition>

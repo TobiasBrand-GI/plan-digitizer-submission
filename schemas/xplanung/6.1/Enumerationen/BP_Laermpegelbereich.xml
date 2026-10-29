@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="BP_Laermpegelbereich"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">BP_Laermpegelbereich</identifier>
+   <name>BP_Laermpegelbereich</name>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Laermpegelbereich_1000">
+         <description>Lärmpegelbereich I nach  DIN 4109.</description>
+         <identifier codeSpace="urn:xplan">BP_Laermpegelbereich:1000</identifier>
+         <name>I</name>
+         <name codeSpace="lesbarerName">I</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Laermpegelbereich_1100">
+         <description>Lärmpegelbereich II nach  DIN 4109.</description>
+         <identifier codeSpace="urn:xplan">BP_Laermpegelbereich:1100</identifier>
+         <name>II</name>
+         <name codeSpace="lesbarerName">II</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Laermpegelbereich_1200">
+         <description>Lärmpegelbereich III nach  DIN 4109.</description>
+         <identifier codeSpace="urn:xplan">BP_Laermpegelbereich:1200</identifier>
+         <name>III</name>
+         <name codeSpace="lesbarerName">III</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Laermpegelbereich_1300">
+         <description>Lärmpegelbereich IV nach  DIN 4109.</description>
+         <identifier codeSpace="urn:xplan">BP_Laermpegelbereich:1300</identifier>
+         <name>IV</name>
+         <name codeSpace="lesbarerName">IV</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Laermpegelbereich_1400">
+         <description>Lärmpegelbereich V nach  DIN 4109.</description>
+         <identifier codeSpace="urn:xplan">BP_Laermpegelbereich:1400</identifier>
+         <name>V</name>
+         <name codeSpace="lesbarerName">V</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Laermpegelbereich_1500">
+         <description>Lärmpegelbereich VI nach  DIN 4109.</description>
+         <identifier codeSpace="urn:xplan">BP_Laermpegelbereich:1500</identifier>
+         <name>VI</name>
+         <name codeSpace="lesbarerName">VI</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Laermpegelbereich_1600">
+         <description>Lärmpegelbereich VII nach  DIN 4109.</description>
+         <identifier codeSpace="urn:xplan">BP_Laermpegelbereich:1600</identifier>
+         <name>VII</name>
+         <name codeSpace="lesbarerName">VII</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Laermpegelbereich_1700">
+         <description>Spezifizierung eines Lärmpegelbereiches über das Codelist-Attribut "sonstLaermpegelbereich"</description>
+         <identifier codeSpace="urn:xplan">BP_Laermpegelbereich:1700</identifier>
+         <name>SpefizBereich</name>
+         <name codeSpace="lesbarerName">Spezifizierung Bereich</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

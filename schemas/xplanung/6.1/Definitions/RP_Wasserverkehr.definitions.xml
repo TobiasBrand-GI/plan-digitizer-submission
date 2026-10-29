@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="2581"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Wasserverkehr-Infrastruktur.</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:RP_Wasserverkehr</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">RP_Wasserverkehr</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2581_7381">
+         <gml:description>Klassifikation von Wasserverkehr-Infrastruktur.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Wasserverkehr:typ</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">typ</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2581_7381_2582_7382">
+               <gml:description>Hafen.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Wasserverkehr:typ:1000</gml:identifier>
+               <gml:name>Hafen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2581_7381_2582_7383">
+               <gml:description>Seehafen.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Wasserverkehr:typ:1001</gml:identifier>
+               <gml:name>Seehafen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2581_7381_2582_7384">
+               <gml:description>Binnenhafen.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Wasserverkehr:typ:1002</gml:identifier>
+               <gml:name>Binnenhafen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2581_7381_2582_7385">
+               <gml:description>Sportboothafen.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Wasserverkehr:typ:1003</gml:identifier>
+               <gml:name>Sportboothafen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2581_7381_2582_7386">
+               <gml:description>Lände.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Wasserverkehr:typ:1004</gml:identifier>
+               <gml:name>Laende</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2581_7381_2582_7387">
+               <gml:description>Umschlagplatz.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Wasserverkehr:typ:2000</gml:identifier>
+               <gml:name>Umschlagplatz</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2581_7381_2582_7388">
+               <gml:description>Schleuse und/oder Hebewerk.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Wasserverkehr:typ:3000</gml:identifier>
+               <gml:name>SchleuseHebewerk</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2581_7381_2582_7389">
+               <gml:description>Schifffahrt.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Wasserverkehr:typ:4000</gml:identifier>
+               <gml:name>Schifffahrt</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2581_7381_2582_7390">
+               <gml:description>Wichtiger Schifffahrtsweg.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Wasserverkehr:typ:4001</gml:identifier>
+               <gml:name>WichtigerSchifffahrtsweg</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2581_7381_2582_7391">
+               <gml:description>Sonstiger Schifffahrtsweg.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Wasserverkehr:typ:4002</gml:identifier>
+               <gml:name>SonstigerSchifffahrtsweg</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2581_7381_2582_7392">
+               <gml:description>Wasserstraße.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Wasserverkehr:typ:4003</gml:identifier>
+               <gml:name>Wasserstrasse</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2581_7381_2582_7393">
+               <gml:description>Reede.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Wasserverkehr:typ:5000</gml:identifier>
+               <gml:name>Reede</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2581_7381_2582_7394">
+               <gml:description>Sonstiger Wasserverkehr.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Wasserverkehr:typ:9999</gml:identifier>
+               <gml:name>SonstigerWasserverkehr</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeName>RP_WasserverkehrTypen</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:RP_Verkehr"/>
+</def:TypeDefinition>

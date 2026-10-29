@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_Traegerschaft"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">XP_Traegerschaft</identifier>
+   <name>XP_Traegerschaft</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Traegerschaft_1000">
+         <description>Einrichtung des Bundes</description>
+         <identifier codeSpace="urn:xplan">XP_Traegerschaft:1000</identifier>
+         <name>EinrichtungBund</name>
+         <name codeSpace="lesbarerName">Einrichtung Bund</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Traegerschaft_2000">
+         <description>Einrichtung eines Bundeslandes</description>
+         <identifier codeSpace="urn:xplan">XP_Traegerschaft:2000</identifier>
+         <name>EinrichtungLand</name>
+         <name codeSpace="lesbarerName">Einrichtung Land</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Traegerschaft_3000">
+         <description>Einrichtung eines Landkreises</description>
+         <identifier codeSpace="urn:xplan">XP_Traegerschaft:3000</identifier>
+         <name>EinrichtungKreis</name>
+         <name codeSpace="lesbarerName">Einrichtung Kreis</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Traegerschaft_4000">
+         <description>Kommunaler Träger</description>
+         <identifier codeSpace="urn:xplan">XP_Traegerschaft:4000</identifier>
+         <name>KommunaleEinrichtung</name>
+         <name codeSpace="lesbarerName">Kommunale Einrichtung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Traegerschaft_5000">
+         <description>Träger ist eine Religionsgemeinschaft</description>
+         <identifier codeSpace="urn:xplan">XP_Traegerschaft:5000</identifier>
+         <name>ReligioeserTraeger</name>
+         <name codeSpace="lesbarerName">Religiöser Träger</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Traegerschaft_6000">
+         <description>Sonstiger, z.B. privater Träger</description>
+         <identifier codeSpace="urn:xplan">XP_Traegerschaft:6000</identifier>
+         <name>SonstTraeger</name>
+         <name codeSpace="lesbarerName">Sonstiger Träger</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

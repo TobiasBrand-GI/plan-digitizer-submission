@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="2803"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Komplexes Attribut mit Angaben zum Planungsgegenstand Biologische Vielfalt / Tiere</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:dataType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">LP_BioVfTiereArtKomplex</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2803_8638">
+         <gml:description>Textliche Angabe zur Tierart; alternativ oder zusätzlich auch bioVfTierArtSystematik</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTierArtName</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">bioVfTierArtName</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2803_8639">
+         <gml:description>Gibt systematische Einordnung einer Tierart an</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">bioVfTiereSystematik</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8566">
+               <gml:description>Großsäuger</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:1100</gml:identifier>
+               <gml:name>GrossSaeuger</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8567">
+               <gml:description>Wolf</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:1120</gml:identifier>
+               <gml:name>Wolf</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8568">
+               <gml:description>Luchs</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:1110</gml:identifier>
+               <gml:name>Luchs</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8569">
+               <gml:description>Mittelsäuger</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:1200</gml:identifier>
+               <gml:name>Mittelsaeuger</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8570">
+               <gml:description>Wildkatze</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:1210</gml:identifier>
+               <gml:name>Wildkatze</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8571">
+               <gml:description>Fischotter</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:1220</gml:identifier>
+               <gml:name>Fischotter</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8572">
+               <gml:description>Biber</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:1230</gml:identifier>
+               <gml:name>Biber</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8573">
+               <gml:description>Marder</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:1240</gml:identifier>
+               <gml:name>Marder</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8574">
+               <gml:description>Kleinsäuger</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:1300</gml:identifier>
+               <gml:name>Kleinsaeuger</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8575">
+               <gml:description>Kleinsäuger, Nagetiere</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:1310</gml:identifier>
+               <gml:name>KleinsaeugerNagetiere</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8576">
+               <gml:description>Feldhamster</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:1311</gml:identifier>
+               <gml:name>Feldhamster</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8577">
+               <gml:description>Mäuse</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:1312</gml:identifier>
+               <gml:name>Maeuse</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8578">
+               <gml:description>Kleinsäuger (Hasenartige)</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:1320</gml:identifier>
+               <gml:name>KleinsaeugerHasenartige</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8579">
+               <gml:description>Kleinsäuger (Insektenfresser)</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:1330</gml:identifier>
+               <gml:name>KleinsaeugerInsektenfresser</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8580">
+               <gml:description>Spitzmäuse</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:1331</gml:identifier>
+               <gml:name>Spitzmaeuse</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8581">
+               <gml:description>Kleinsäuger (Fledermäuse)</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:1340</gml:identifier>
+               <gml:name>KleinsaeugerFledermaeuse</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8582">
+               <gml:description>Meeressäuger</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:1400</gml:identifier>
+               <gml:name>Meeressaeuger</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8583">
+               <gml:description>Vögel</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:2100</gml:identifier>
+               <gml:name>Voegel</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8584">
+               <gml:description>Zugvögel</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:2110</gml:identifier>
+               <gml:name>ZugVoegel</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8585">
+               <gml:description>Brutvögel</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:2120</gml:identifier>
+               <gml:name>BrutVoegel</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8586">
+               <gml:description>Reptilien</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:2200</gml:identifier>
+               <gml:name>Reptilien</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8587">
+               <gml:description>Amphibien</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:2300</gml:identifier>
+               <gml:name>Amphibien</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8588">
+               <gml:description>Fische</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:2400</gml:identifier>
+               <gml:name>Fische</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8589">
+               <gml:description>Gliederfuesser</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:3000</gml:identifier>
+               <gml:name>Gliederfuesser</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8590">
+               <gml:description>Libellen</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:3110</gml:identifier>
+               <gml:name>Libellen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8591">
+               <gml:description>Tagfalter</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:3120</gml:identifier>
+               <gml:name>Tagfalter</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8592">
+               <gml:description>Käfer</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:3130</gml:identifier>
+               <gml:name>Kaefer</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8593">
+               <gml:description>Heuschrecken</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:3140</gml:identifier>
+               <gml:name>Heuschrecken</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8594">
+               <gml:description>Spinnen</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:3150</gml:identifier>
+               <gml:name>Spinnen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8595">
+               <gml:description>Krebstiere</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:3200</gml:identifier>
+               <gml:name>Krebstiere</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8596">
+               <gml:description>Mollusken</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:4100</gml:identifier>
+               <gml:name>Mollusken</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8639_2795_8597">
+               <gml:description>Sonstige (siehe bioVfTiereSystematikText)</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematik:9999</gml:identifier>
+               <gml:name>Sonstiges</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>1</def:cardinality>
+         <def:valueTypeName>LP_BioVfTiereArtSystematik</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2803_8640">
+         <gml:description>Textliche Erläuterung zu sonstiger Tierartensystematik (bioVfTiereSystematik= 9999) oder ergänzende Information zu ausgewählter Gruppe.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTiereSystematikText</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">bioVfTiereSystematikText</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2803_8641">
+         <gml:description>Rechtliche Grundlage für den Schutz einer Tierart an.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTierArtRechtlicherSchutz</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">bioVfTierArtRechtlicherSchutz</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8641_2820_8757">
+               <gml:description>Art nach Anhang IV FFH-RL</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTierArtRechtlicherSchutz:1000</gml:identifier>
+               <gml:name>ArtAnhangIV_FFH_RL</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8641_2820_8758">
+               <gml:description>Art nach Anhang I/ Art. 4 Abs. 2 Vogelschutz-Richtlinie</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTierArtRechtlicherSchutz:2000</gml:identifier>
+               <gml:name>ArtAnhang_I_Art4_Abs2_VS_RL</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8641_2820_8759">
+               <gml:description>Art nach Anlage 1 BArtSchV</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTierArtRechtlicherSchutz:3000</gml:identifier>
+               <gml:name>ArtAnlage1_BArtSchV</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8641_2820_8760">
+               <gml:description>Verantwortungsart (gem. § 54 Abs. 1 Nr. 2 BNatSchG oder Landesnaturschutzgesetz)</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTierArtRechtlicherSchutz:5000</gml:identifier>
+               <gml:name>Verantwortungsart</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8641_2820_8761">
+               <gml:description>Sonstige rechtliche Grundlage (siehe bioVfTierArtRechtlicherSchutzText)</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTierArtRechtlicherSchutz:9999</gml:identifier>
+               <gml:name>Sonstige</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeName>LP_BioVfTierArtRechtlicherSchutz</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2803_8642">
+         <gml:description>Textliche Erläuterung zu sonstigem rechtlichen Schutz (bioVfTierArtRechtlicherSchutz = 9999) oder ergänzende Information zu ausgewähltem Rechtlichem Schutz.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTierArtRechtlicherSchutzText</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">bioVfTierArtRechtlicherSchutzText</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2803_8643">
+         <gml:description>Gibt besondere Habitatanforderungen einer Tierart an.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTierArtHabitatanforderung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">bioVfTierArtHabitatanforderung</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8643_2804_8645">
+               <gml:description>Art mit (sehr) großem Habitatsanforderungen</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTierArtHabitatanforderung:1000</gml:identifier>
+               <gml:name>GrosserHabitatsAnspruch</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8643_2804_8646">
+               <gml:description>Gebäudebewohnende Art</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTierArtHabitatanforderung:2000</gml:identifier>
+               <gml:name>Gebaeudebewohnend</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2803_8643_2804_8647">
+               <gml:description>Sonstige Habitatanforderungen (siehe bioBioVfTierArtHabitatanforderungText)</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTierArtHabitatanforderung:9999</gml:identifier>
+               <gml:name>Sonstige</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>LP_BioVfTierArtHabitatanforderung</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2803_8644">
+         <gml:description>Erläuterung zu Sonstige Habitatanforderungen oder ergänzende Information zu ausgewählten Habitatanforderungen.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BioVfTiereArtKomplex:bioVfTierArtHabitatanforderungText</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">bioVfTierArtHabitatanforderungText</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>dataType</def:classification>
+</def:TypeDefinition>

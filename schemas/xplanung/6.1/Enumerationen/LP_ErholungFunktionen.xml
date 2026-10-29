@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_ErholungFunktionen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Auflistung von Erholungsfunktionen.</description>
+   <identifier codeSpace="urn:xplan">LP_ErholungFunktionen</identifier>
+   <name>LP_ErholungFunktionen</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_1000">
+         <description>Grünflächen allgemein</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:1000</identifier>
+         <name>Gruenflaechen</name>
+         <name codeSpace="lesbarerName">Grünflächen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_1100">
+         <description>Parkanlage / Grünanlage</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:1100</identifier>
+         <name>ParkanlageGruenanlage</name>
+         <name codeSpace="lesbarerName">Parkanlage, Grünanlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_1200">
+         <description>Dauerkleingarten</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:1200</identifier>
+         <name>Dauerkleingaerten</name>
+         <name codeSpace="lesbarerName">Dauerkleingärten</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_1300">
+         <description>Sportplatz</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:1300</identifier>
+         <name>Sportplatz</name>
+         <name codeSpace="lesbarerName">Sportplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_1400">
+         <description>Spielplatz</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:1400</identifier>
+         <name>Spielplatz</name>
+         <name codeSpace="lesbarerName">Spielplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_1500">
+         <description>Badeplatz, Freibad</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:1500</identifier>
+         <name>BadeplatzFreibad</name>
+         <name codeSpace="lesbarerName">Badeplatz, Freibad</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_1600">
+         <description>Liegewiese</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:1600</identifier>
+         <name>Liegewiese</name>
+         <name codeSpace="lesbarerName">Liegewiese</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_2000">
+         <description>Erholungsinfrastruktur</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:2000</identifier>
+         <name>Erholungsinfrastruktur</name>
+         <name codeSpace="lesbarerName">Erholungsinfrastruktur</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_2100">
+         <description>Schutzhütte</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:2100</identifier>
+         <name>Schutzhuette</name>
+         <name codeSpace="lesbarerName">Schutzhütte</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_2110">
+         <description>Rastplatz</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:2110</identifier>
+         <name>Rastplatz</name>
+         <name codeSpace="lesbarerName">Rastplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_2120">
+         <description>Informationstafel</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:2120</identifier>
+         <name>Informationstafel</name>
+         <name codeSpace="lesbarerName">Informationstafel</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_2130">
+         <description>Feuerstelle, Grillplatz</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:2130</identifier>
+         <name>FeuerstelleGrillplatz</name>
+         <name codeSpace="lesbarerName">Feuerstelle, Grillplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_2200">
+         <description>Aussichtsturm</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:2200</identifier>
+         <name>Aussichtsturm</name>
+         <name codeSpace="lesbarerName">Aussichtsturm</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_2210">
+         <description>Aussichtspunkt</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:2210</identifier>
+         <name>Aussichtspunkt</name>
+         <name codeSpace="lesbarerName">Aussichtspunkt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_2300">
+         <description>Angelteich</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:2300</identifier>
+         <name>Angelteich</name>
+         <name codeSpace="lesbarerName">Angelteich</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_2400">
+         <description>Modellflugplatz</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:2400</identifier>
+         <name>Modellflugplatz</name>
+         <name codeSpace="lesbarerName">Modellflugplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_2410">
+         <description>Gleitschirmplatz</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:2410</identifier>
+         <name>Gleitschirmplatz</name>
+         <name codeSpace="lesbarerName">Gleitschirmplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_2500">
+         <description>Wildgehege, Schaugatter</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:2500</identifier>
+         <name>WildgehegeSchaugatter</name>
+         <name codeSpace="lesbarerName">Wildgehege, Schaugatter</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_2600">
+         <description>Parkplatz</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:2600</identifier>
+         <name>Parkplatz</name>
+         <name codeSpace="lesbarerName">Parkplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_2700">
+         <description>Zeltplatz</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:2700</identifier>
+         <name>ZeltplatzCampingplatz</name>
+         <name codeSpace="lesbarerName">Zeltplatz, Campingplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_2750">
+         <description>Jugendzeltplatz, Jugendcamp</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:2750</identifier>
+         <name>JugendzeltplatzEinzelcamp</name>
+         <name codeSpace="lesbarerName">Jugendzeltplatz, Einzelcamp</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_2900">
+         <description>Erholungsinfrastruktur mit besonderer Bedeutung</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:2900</identifier>
+         <name>ErholungsInfrastrukturBesBedeutung</name>
+         <name codeSpace="lesbarerName">Erholungs-Infrastruktur mit besonderer Bedeutung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_3000">
+         <description>Wandern allgemein</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:3000</identifier>
+         <name>WandernAllgemein</name>
+         <name codeSpace="lesbarerName">Wandern allgemein</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_3100">
+         <description>Wanderweg</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:3100</identifier>
+         <name>Wanderweg</name>
+         <name codeSpace="lesbarerName">Wanderweg</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_3200">
+         <description>Lehrpfad</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:3200</identifier>
+         <name>Lehrpfad</name>
+         <name codeSpace="lesbarerName">Lehrpfad</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_3300">
+         <description>Reitweg</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:3300</identifier>
+         <name>Reitweg</name>
+         <name codeSpace="lesbarerName">Reitweg</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_3400">
+         <description>Radweg</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:3400</identifier>
+         <name>Radweg</name>
+         <name codeSpace="lesbarerName">Radweg</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_4000">
+         <description>Wintersport allgemein</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:4000</identifier>
+         <name>Wintersport</name>
+         <name codeSpace="lesbarerName">Wintersport</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_4100">
+         <description>Skiabfahrt</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:4100</identifier>
+         <name>Skiabfahrt</name>
+         <name codeSpace="lesbarerName">Skiabfahrt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_4200">
+         <description>Langlaufloipe</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:4200</identifier>
+         <name>Skilanglaufloipe</name>
+         <name codeSpace="lesbarerName">Skilanglaufloipe</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_4300">
+         <description>Rodelbahn, Bobbahn</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:4300</identifier>
+         <name>RodelbahnBobbahn</name>
+         <name codeSpace="lesbarerName">Rodelbahn, Bobbahn</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_5000">
+         <description>Wassersport allgemein</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:5000</identifier>
+         <name>WassersportSchifffahrt</name>
+         <name codeSpace="lesbarerName">Wassersport, Schifffahrt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_5100">
+         <description>Wasserwanderweg</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:5100</identifier>
+         <name>Wasserwanderweg</name>
+         <name codeSpace="lesbarerName">Wasserwanderweg</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_5200">
+         <description>Schifffahrtsroute</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:5200</identifier>
+         <name>Schifffahrtsroute</name>
+         <name codeSpace="lesbarerName">Schifffahrtsroute</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_5300">
+         <description>Schiffsanlegestelle mit Motorbooten</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:5300</identifier>
+         <name>AnlegestelleMitMotorbooten</name>
+         <name codeSpace="lesbarerName">Anlegestelle mit Motorbooten</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_5310">
+         <description>Schiffsanlegestelle ohne Motorboote</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:5310</identifier>
+         <name>AnlegestelleOhneMotorboote</name>
+         <name codeSpace="lesbarerName">Anlegestelle ohne Motorboote</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_6000">
+         <description>Kabinenseilbahn</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:6000</identifier>
+         <name>Seilbahn</name>
+         <name codeSpace="lesbarerName">Seilbahn</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_6100">
+         <description>Sessellift, Schlepplift</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:6100</identifier>
+         <name>SesselliftSchlepplift</name>
+         <name codeSpace="lesbarerName">Sessellift, Schlepplift</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_6200">
+         <description>Kabinenseilbahn</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:6200</identifier>
+         <name>Kabinenseilbahn</name>
+         <name codeSpace="lesbarerName">Kabinenseilbahn</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_7000">
+         <description>Bildungsstätte</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:7000</identifier>
+         <name>Bildungsstaette</name>
+         <name codeSpace="lesbarerName">Bildungsstätte</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_7100">
+         <description>Umweltbildungsstätte</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:7100</identifier>
+         <name>Umweltbildungsstaette</name>
+         <name codeSpace="lesbarerName">Umweltbildungsstätte</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_7200">
+         <description>Museum</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:7200</identifier>
+         <name>Museum</name>
+         <name codeSpace="lesbarerName">Museum</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ErholungFunktionen_9999">
+         <description>Sonstiges (siehe erholungFunktionText)</description>
+         <identifier codeSpace="urn:xplan">LP_ErholungFunktionen:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

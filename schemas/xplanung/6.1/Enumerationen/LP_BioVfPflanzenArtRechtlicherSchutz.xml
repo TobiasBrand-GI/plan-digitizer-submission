@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_BioVfPflanzenArtRechtlicherSchutz"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Gibt rechtliche Grundlage für den Schutz einer Pflanzenart an</description>
+   <identifier codeSpace="urn:xplan">LP_BioVfPflanzenArtRechtlicherSchutz</identifier>
+   <name>LP_BioVfPflanzenArtRechtlicherSchutz</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfPflanzenArtRechtlicherSchutz_1000">
+         <description>Art nach Anhang IV FFH-RL</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfPflanzenArtRechtlicherSchutz:1000</identifier>
+         <name>AnhangIV_FFH_RL</name>
+         <name codeSpace="lesbarerName">Anhang IV FFH RL</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfPflanzenArtRechtlicherSchutz_2000">
+         <description>Art nach Anlage 1 BArtSchV</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfPflanzenArtRechtlicherSchutz:2000</identifier>
+         <name>Anlage1_BArtSchV</name>
+         <name codeSpace="lesbarerName">Anlage 1 BArtSchV</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfPflanzenArtRechtlicherSchutz_3000">
+         <description>Verantwortungsart (gem. § 54 Abs. 1 Nr. 2 BNatSchG oder Landesnaturschutzgesetz)</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfPflanzenArtRechtlicherSchutz:3000</identifier>
+         <name>Verantwortungsart</name>
+         <name codeSpace="lesbarerName">Verantwortungsart</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfPflanzenArtRechtlicherSchutz_9999">
+         <description>Sonstige rechtliche Grundlage (siehe bioVfPflanzenRechtlicherSchutzText)</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfPflanzenArtRechtlicherSchutz:9999</identifier>
+         <name>Sonstige</name>
+         <name codeSpace="lesbarerName">Sonstige</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

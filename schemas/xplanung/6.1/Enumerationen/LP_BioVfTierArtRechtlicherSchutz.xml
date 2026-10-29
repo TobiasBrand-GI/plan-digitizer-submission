@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_BioVfTierArtRechtlicherSchutz"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Gibt rechtliche Grundlage für den Schutz einer Pflanzenart an</description>
+   <identifier codeSpace="urn:xplan">LP_BioVfTierArtRechtlicherSchutz</identifier>
+   <name>LP_BioVfTierArtRechtlicherSchutz</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTierArtRechtlicherSchutz_1000">
+         <description>Art nach Anhang IV FFH-RL</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTierArtRechtlicherSchutz:1000</identifier>
+         <name>ArtAnhangIV_FFH_RL</name>
+         <name codeSpace="lesbarerName">Art Anhang IV  FFH RL</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTierArtRechtlicherSchutz_2000">
+         <description>Art nach Anhang I/ Art. 4 Abs. 2 Vogelschutz-Richtlinie</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTierArtRechtlicherSchutz:2000</identifier>
+         <name>ArtAnhang_I_Art4_Abs2_VS_RL</name>
+         <name codeSpace="lesbarerName">Art Anhang I Art4 Abs2 VS RL</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTierArtRechtlicherSchutz_3000">
+         <description>Art nach Anlage 1 BArtSchV</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTierArtRechtlicherSchutz:3000</identifier>
+         <name>ArtAnlage1_BArtSchV</name>
+         <name codeSpace="lesbarerName">Art Anlage 1 BArt Sch V</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTierArtRechtlicherSchutz_5000">
+         <description>Verantwortungsart (gem. § 54 Abs. 1 Nr. 2 BNatSchG oder Landesnaturschutzgesetz)</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTierArtRechtlicherSchutz:5000</identifier>
+         <name>Verantwortungsart</name>
+         <name codeSpace="lesbarerName">Verantwortungsart</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTierArtRechtlicherSchutz_9999">
+         <description>Sonstige rechtliche Grundlage (siehe bioVfTierArtRechtlicherSchutzText)</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTierArtRechtlicherSchutz:9999</identifier>
+         <name>Sonstige</name>
+         <name codeSpace="lesbarerName">Sonstige</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

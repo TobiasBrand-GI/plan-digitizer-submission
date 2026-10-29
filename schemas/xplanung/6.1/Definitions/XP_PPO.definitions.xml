@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="2866"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Punktförmiges Präsentationsobjekt. Entspricht der ALKIS-Objektklasse AP_PPO.</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:XP_PPO</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">XP_PPO</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2866_8850">
+         <gml:description>Position des zur Visualisierung benutzten  Textes oder Symbols,</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_PPO:position</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">position</gml:name>
+         <def:cardinality>1</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:unionType:xplan::xplan:6.1:XP_Punktgeometrie"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2866_8851">
+         <gml:description>Winkel um den der Text oder die Signatur mit punktförmiger Bezugsgeometrie aus der Horizontalen gedreht ist, Angabe in Grad. Zählweise im mathematisch positiven Sinn (von Ost über Nord nach West und Süd).</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_PPO:drehwinkel</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">drehwinkel</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Angle</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2866_8857">
+         <gml:description>Individueller Skalierungsfaktor, der auf den aus dem Erstellungs-Maßstab abgeleiteten Faktor (Attribut erstellungsMassstab von XP_Plan) aufmultizipliert wird.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_PPO:skalierung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">skalierung</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Decimal</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="Tas1373">
+         <gml:description>Die Relation ermöglicht es, einem punktförmigen Präsentationsobjekt ein linienförmiges Präsentationsobjekt zuzuweisen. Einziger bekannter Anwendungsfall ist der Zuordnungspfeil eines Symbols oder einer Nutzungsschablone.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_PPO:hat</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">hat</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:XP_LPO"/>
+         <def:type>associationRole</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:XP_AbstraktesPraesentationsobjekt"/>
+</def:TypeDefinition>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_ABEMassnahmenTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Liste der nach §9, Abs.1, Nr. 25 möglichen Maßnahmen</description>
+   <identifier codeSpace="urn:xplan">XP_ABEMassnahmenTypen</identifier>
+   <name>XP_ABEMassnahmenTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ABEMassnahmenTypen_1000">
+         <description>Bindungen für Bepflanzungen und für die Erhaltung von Bäumen, Sträuchern und sonstigen Bepflanzungen sowie von Gewässern. Dies entspricht dem Planzeichen 13.2.2 der PlanzV 1990.</description>
+         <identifier codeSpace="urn:xplan">XP_ABEMassnahmenTypen:1000</identifier>
+         <name>BindungErhaltung</name>
+         <name codeSpace="lesbarerName">Bindung und Erhaltung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ABEMassnahmenTypen_2000">
+         <description>Anpflanzung von Bäumen, Sträuchern oder sonstigen Bepflanzungen. Dies entspricht dem Planzeichen 13.2.1 der PlanzV 1990.</description>
+         <identifier codeSpace="urn:xplan">XP_ABEMassnahmenTypen:2000</identifier>
+         <name>Anpflanzung</name>
+         <name codeSpace="lesbarerName">Anpflanzung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ABEMassnahmenTypen_3000">
+         <description>Anpflanzen von Bäumen, Sträuchern und sonstigen Bepflanzungen, sowie Bindungen für Bepflanzungen und für die Erhaltung von Bäumen, Sträuchern und sonstigen Bepflanzungen sowie von Gewässern</description>
+         <identifier codeSpace="urn:xplan">XP_ABEMassnahmenTypen:3000</identifier>
+         <name>AnpflanzungBindungErhaltung</name>
+         <name codeSpace="lesbarerName">Anpflanzung, Bindung und Erhaltung</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

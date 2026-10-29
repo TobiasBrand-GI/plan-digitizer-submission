@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_AbfallentsorgungTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen der Abfallentsorgung.</description>
+   <identifier codeSpace="urn:xplan">RP_AbfallentsorgungTypen</identifier>
+   <name>RP_AbfallentsorgungTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AbfallentsorgungTypen_1000">
+         <description>Beseitung beziehungsweise Entsorgung von Abfall.</description>
+         <identifier codeSpace="urn:xplan">RP_AbfallentsorgungTypen:1000</identifier>
+         <name>BeseitigungEntsorgung</name>
+         <name codeSpace="lesbarerName">Beseitigung, Entsorgung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AbfallentsorgungTypen_1100">
+         <description>Abfallbeseitigungsanlage</description>
+         <identifier codeSpace="urn:xplan">RP_AbfallentsorgungTypen:1100</identifier>
+         <name>Abfallbeseitigungsanlage</name>
+         <name codeSpace="lesbarerName">Abfallbeseitigungsanlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AbfallentsorgungTypen_1101">
+         <description>Zentrale Abfallbeseitungsanlage.</description>
+         <identifier codeSpace="urn:xplan">RP_AbfallentsorgungTypen:1101</identifier>
+         <name>ZentraleAbfallbeseitigungsanlage</name>
+         <name codeSpace="lesbarerName">Zentrale Abfallbeseitigungsanlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AbfallentsorgungTypen_1200">
+         <description>Deponie.</description>
+         <identifier codeSpace="urn:xplan">RP_AbfallentsorgungTypen:1200</identifier>
+         <name>Deponie</name>
+         <name codeSpace="lesbarerName">Deponie</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AbfallentsorgungTypen_1300">
+         <description>Untertageeinlagerung von Abfall.</description>
+         <identifier codeSpace="urn:xplan">RP_AbfallentsorgungTypen:1300</identifier>
+         <name>Untertageeinlagerung</name>
+         <name codeSpace="lesbarerName">Untertageeinlagerung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AbfallentsorgungTypen_1400">
+         <description>Behandlung von Abfall.</description>
+         <identifier codeSpace="urn:xplan">RP_AbfallentsorgungTypen:1400</identifier>
+         <name>Behandlung</name>
+         <name codeSpace="lesbarerName">Behandlung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AbfallentsorgungTypen_1500">
+         <description>Kompostierung von Abfall.</description>
+         <identifier codeSpace="urn:xplan">RP_AbfallentsorgungTypen:1500</identifier>
+         <name>Kompostierung</name>
+         <name codeSpace="lesbarerName">Kompostierung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AbfallentsorgungTypen_1600">
+         <description>Verbrennung von Abfall.</description>
+         <identifier codeSpace="urn:xplan">RP_AbfallentsorgungTypen:1600</identifier>
+         <name>Verbrennung</name>
+         <name codeSpace="lesbarerName">Verbrennung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AbfallentsorgungTypen_1700">
+         <description>Umladestation.</description>
+         <identifier codeSpace="urn:xplan">RP_AbfallentsorgungTypen:1700</identifier>
+         <name>Umladestation</name>
+         <name codeSpace="lesbarerName">Umladestation</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AbfallentsorgungTypen_1800">
+         <description>Standortsicherung.</description>
+         <identifier codeSpace="urn:xplan">RP_AbfallentsorgungTypen:1800</identifier>
+         <name>Standortsicherung</name>
+         <name codeSpace="lesbarerName">Standortsicherung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AbfallentsorgungTypen_9999">
+         <description>Sonstige Abfallentsorgung.</description>
+         <identifier codeSpace="urn:xplan">RP_AbfallentsorgungTypen:9999</identifier>
+         <name>SonstigeAbfallentsorgung</name>
+         <name codeSpace="lesbarerName">Sonstige Abfallentsorgung</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

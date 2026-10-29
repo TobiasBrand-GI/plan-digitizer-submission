@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_ZentralerOrtTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von Zentralen Orten.</description>
+   <identifier codeSpace="urn:xplan">RP_ZentralerOrtTypen</identifier>
+   <name>RP_ZentralerOrtTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtTypen_1000">
+         <description>Oberzentrum.</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtTypen:1000</identifier>
+         <name>Oberzentrum</name>
+         <name codeSpace="lesbarerName">Oberzentrum</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtTypen_1001">
+         <description>Gemeinsames Oberzentrum.</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtTypen:1001</identifier>
+         <name>GemeinsamesOberzentrum</name>
+         <name codeSpace="lesbarerName">Gemeinsames Oberzentrum</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtTypen_1500">
+         <description>Oberbereich.</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtTypen:1500</identifier>
+         <name>Oberbereich</name>
+         <name codeSpace="lesbarerName">Oberbereich</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtTypen_2000">
+         <description>Mittelzentrum.</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtTypen:2000</identifier>
+         <name>Mittelzentrum</name>
+         <name codeSpace="lesbarerName">Mittelzentrum</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtTypen_2500">
+         <description>Mittelbereich.</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtTypen:2500</identifier>
+         <name>Mittelbereich</name>
+         <name codeSpace="lesbarerName">Mittelbereich</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtTypen_3000">
+         <description>Grundzentrum</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtTypen:3000</identifier>
+         <name>Grundzentrum</name>
+         <name codeSpace="lesbarerName">Grundzentrum</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtTypen_3001">
+         <description>Unterzentrum.</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtTypen:3001</identifier>
+         <name>Unterzentrum</name>
+         <name codeSpace="lesbarerName">Unterzentrum</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtTypen_3500">
+         <description>Nahbereich.</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtTypen:3500</identifier>
+         <name>Nahbereich</name>
+         <name codeSpace="lesbarerName">Nahbereich</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtTypen_4000">
+         <description>Kleinzentrum.</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtTypen:4000</identifier>
+         <name>Kleinzentrum</name>
+         <name codeSpace="lesbarerName">Kleinzentrum</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtTypen_5000">
+         <description>Ländlicher Zentralort.</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtTypen:5000</identifier>
+         <name>LaendlicherZentralort</name>
+         <name codeSpace="lesbarerName">Ländlicher Zentralort</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtTypen_6000">
+         <description>Stadtrandkern 1. Ordnung</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtTypen:6000</identifier>
+         <name>Stadtrandkern1Ordnung</name>
+         <name codeSpace="lesbarerName">Stadtrandkern 1. Ordnung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtTypen_6001">
+         <description>Stadtrandkern 2. Ordnung</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtTypen:6001</identifier>
+         <name>Stadtrandkern2Ordnung</name>
+         <name codeSpace="lesbarerName">Stadtrandkern 2. Ordnung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtTypen_7000">
+         <description>Versorgungskern und/oder Siedlungskern</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtTypen:7000</identifier>
+         <name>VersorgungskernSiedlungskern</name>
+         <name codeSpace="lesbarerName">Versorgungskern, Siedlungskern</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtTypen_8000">
+         <description>Zentrales Siedlungsgebiet.</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtTypen:8000</identifier>
+         <name>ZentralesSiedlungsgebiet</name>
+         <name codeSpace="lesbarerName">Zentrales Siedlungsgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtTypen_9000">
+         <description>Metropole.</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtTypen:9000</identifier>
+         <name>Metropole</name>
+         <name codeSpace="lesbarerName">Metropole</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtTypen_9999">
+         <description>Sonstiger Zentraler Ort.</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtTypen:9999</identifier>
+         <name>SonstigerZentralerOrt</name>
+         <name codeSpace="lesbarerName">Sonstiger Zentraler Ort</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

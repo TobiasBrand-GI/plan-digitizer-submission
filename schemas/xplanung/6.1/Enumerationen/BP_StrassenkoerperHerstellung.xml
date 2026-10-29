@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="BP_StrassenkoerperHerstellung"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung der möglichen Maßnahmen zur Herstellung des Straßenkörpers</description>
+   <identifier codeSpace="urn:xplan">BP_StrassenkoerperHerstellung</identifier>
+   <name>BP_StrassenkoerperHerstellung</name>
+   <dictionaryEntry>
+      <Definition gml:id="BP_StrassenkoerperHerstellung_1000">
+         <description>Aufschüttung</description>
+         <identifier codeSpace="urn:xplan">BP_StrassenkoerperHerstellung:1000</identifier>
+         <name>Aufschuettung</name>
+         <name codeSpace="lesbarerName">Aufschüttung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_StrassenkoerperHerstellung_2000">
+         <description>Abgrabung</description>
+         <identifier codeSpace="urn:xplan">BP_StrassenkoerperHerstellung:2000</identifier>
+         <name>Abgrabung</name>
+         <name codeSpace="lesbarerName">Abgrabung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_StrassenkoerperHerstellung_3000">
+         <description>Stützmauer</description>
+         <identifier codeSpace="urn:xplan">BP_StrassenkoerperHerstellung:3000</identifier>
+         <name>Stuetzmauer</name>
+         <name codeSpace="lesbarerName">Stützmauer</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

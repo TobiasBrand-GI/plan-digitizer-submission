@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="SO_KlassifizNachSchienenverkehrsrecht"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung der besonderen Zweckbestimmungen einer Bahnfläche ,Bahnlinie oder Bahnanlage.</description>
+   <identifier codeSpace="urn:xplan">SO_KlassifizNachSchienenverkehrsrecht</identifier>
+   <name>SO_KlassifizNachSchienenverkehrsrecht</name>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachSchienenverkehrsrecht_1000">
+         <description>Bahnanlagen sind alle Grundstücke, Bauwerke und sonstigen Einrichtungen einer Eisenbahn, die unter Berücksichtigung der örtlichen Verhältnisse zur Abwicklung oder Sicherung des Reise- oder Güterverkehrs auf der Schiene erforderlich sind. Dazu gehören auch Nebenbetriebsanlagen sowie sonstige Anlagen einer Eisenbahn, die das Be- und Entladen sowie den Zu- und Abgang ermöglichen oder fördern. Es gibt Bahnanlagen der Bahnhöfe, der freien Strecke und sonstige Bahnanlagen. Fahrzeuge gehören nicht zu den Bahnanlagen.</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachSchienenverkehrsrecht:1000</identifier>
+         <name>Bahnanlage</name>
+         <name codeSpace="lesbarerName">Bahnanlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachSchienenverkehrsrecht_10000">
+         <description>Bahnanlage der DB</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachSchienenverkehrsrecht:10000</identifier>
+         <name>DB_Bahnanlage</name>
+         <name codeSpace="lesbarerName">DB-Bahnanlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachSchienenverkehrsrecht_10001">
+         <description>Personenbahnhof</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachSchienenverkehrsrecht:10001</identifier>
+         <name>Personenbahnhof</name>
+         <name codeSpace="lesbarerName">Personenbahnhof</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachSchienenverkehrsrecht_10002">
+         <description>Fernbahnhof</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachSchienenverkehrsrecht:10002</identifier>
+         <name>Fernbahnhof</name>
+         <name codeSpace="lesbarerName">Fernbahnhof</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachSchienenverkehrsrecht_10003">
+         <description>Güterbahnhof</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachSchienenverkehrsrecht:10003</identifier>
+         <name>Gueterbahnhof</name>
+         <name codeSpace="lesbarerName">Güterbahnhof</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachSchienenverkehrsrecht_1100">
+         <description>Bahnhöfe sind Bahnanlagen mit mindestens einer Weiche, wo Züge beginnen, enden, ausweichen oder wenden dürfen. Als Grenze zwischen den Bahnhöfen und der freien Strecke gelten im allgemeinen die Einfahrsignale oder Trapeztafeln, sonst die Einfahrweichen.</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachSchienenverkehrsrecht:1100</identifier>
+         <name>Bahnhof</name>
+         <name codeSpace="lesbarerName">Bahnhof</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachSchienenverkehrsrecht_1200">
+         <description>Bahnlinie allgemein</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachSchienenverkehrsrecht:1200</identifier>
+         <name>Bahnlinie</name>
+         <name codeSpace="lesbarerName">Bahnlinie</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachSchienenverkehrsrecht_12000">
+         <description>Personenbahnlinie</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachSchienenverkehrsrecht:12000</identifier>
+         <name>Personenbahnlinie</name>
+         <name codeSpace="lesbarerName">Personenbahnlinie</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachSchienenverkehrsrecht_12001">
+         <description>Regionalbahn</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachSchienenverkehrsrecht:12001</identifier>
+         <name>Regionalbahn</name>
+         <name codeSpace="lesbarerName">Regionalbahn</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachSchienenverkehrsrecht_12002">
+         <description>Kleinbahn</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachSchienenverkehrsrecht:12002</identifier>
+         <name>Kleinbahn</name>
+         <name codeSpace="lesbarerName">Kleinbahn</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachSchienenverkehrsrecht_12003">
+         <description>Güterbahnlinie</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachSchienenverkehrsrecht:12003</identifier>
+         <name>Gueterbahnlinie</name>
+         <name codeSpace="lesbarerName">Güterbahnlinie</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachSchienenverkehrsrecht_12004">
+         <description>Werks- oder Hafenbahnlinie.</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachSchienenverkehrsrecht:12004</identifier>
+         <name>WerksHafenbahn</name>
+         <name codeSpace="lesbarerName">Werks- oder Hafenbahn</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachSchienenverkehrsrecht_12005">
+         <description>Seilbahn</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachSchienenverkehrsrecht:12005</identifier>
+         <name>Seilbahn</name>
+         <name codeSpace="lesbarerName">Seilbahn</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachSchienenverkehrsrecht_1400">
+         <description>Schienengebundener ÖPNV allgemein.</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachSchienenverkehrsrecht:1400</identifier>
+         <name>OEPNV</name>
+         <name codeSpace="lesbarerName">Öffentlicher Personennahverkehr</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachSchienenverkehrsrecht_14000">
+         <description>Straßenbahn</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachSchienenverkehrsrecht:14000</identifier>
+         <name>Strassenbahn</name>
+         <name codeSpace="lesbarerName">Straßenbahn</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachSchienenverkehrsrecht_14001">
+         <description>U-Bahn</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachSchienenverkehrsrecht:14001</identifier>
+         <name>UBahn</name>
+         <name codeSpace="lesbarerName">U-Bahn</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachSchienenverkehrsrecht_14002">
+         <description>S-Bahn</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachSchienenverkehrsrecht:14002</identifier>
+         <name>SBahn</name>
+         <name codeSpace="lesbarerName">S-Bahn</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachSchienenverkehrsrecht_14003">
+         <description>Haltestelle im ÖPNV</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachSchienenverkehrsrecht:14003</identifier>
+         <name>OEPNV_Haltestelle</name>
+         <name codeSpace="lesbarerName">ÖPNV-Haltestelle</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachSchienenverkehrsrecht_9999">
+         <description>Sonstige Klassifizierung nach Schienenverkehrsrecht.</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachSchienenverkehrsrecht:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

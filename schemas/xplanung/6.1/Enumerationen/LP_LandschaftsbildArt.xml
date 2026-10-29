@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_LandschaftsbildArt"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Ausprägungen in Bezug auf Planungsgegenstand Landschaftsbild, an die sich das Ziel, das Erfordernis oder die Maßnahme richtet..</description>
+   <identifier codeSpace="urn:xplan">LP_LandschaftsbildArt</identifier>
+   <name>LP_LandschaftsbildArt</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_LandschaftsbildArt_1100">
+         <description>Kirche/Kloster/Kapelle</description>
+         <identifier codeSpace="urn:xplan">LP_LandschaftsbildArt:1100</identifier>
+         <name>KircheKlosterKapelle</name>
+         <name codeSpace="lesbarerName">Kirche, Kloster, Kapelle</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_LandschaftsbildArt_1200">
+         <description>Burg/Schloss</description>
+         <identifier codeSpace="urn:xplan">LP_LandschaftsbildArt:1200</identifier>
+         <name>BurgSchloss</name>
+         <name codeSpace="lesbarerName">Burg, Schloss</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_LandschaftsbildArt_1300">
+         <description>Turm</description>
+         <identifier codeSpace="urn:xplan">LP_LandschaftsbildArt:1300</identifier>
+         <name>Turm</name>
+         <name codeSpace="lesbarerName">Turm</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_LandschaftsbildArt_1400">
+         <description>Ruine</description>
+         <identifier codeSpace="urn:xplan">LP_LandschaftsbildArt:1400</identifier>
+         <name>Ruine</name>
+         <name codeSpace="lesbarerName">Ruine</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_LandschaftsbildArt_1500">
+         <description>Historisches Ortsbild</description>
+         <identifier codeSpace="urn:xplan">LP_LandschaftsbildArt:1500</identifier>
+         <name>HistorischesOrtsbild</name>
+         <name codeSpace="lesbarerName">Historisches Ortsbild</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_LandschaftsbildArt_1600">
+         <description>kulturgeschichtlich wertvoller Ortsteil</description>
+         <identifier codeSpace="urn:xplan">LP_LandschaftsbildArt:1600</identifier>
+         <name>kulturgeschichtlichWertvollerOrtsteil</name>
+         <name codeSpace="lesbarerName">Kulturgeschichtlich wertvoller Ortsteil</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_LandschaftsbildArt_2100">
+         <description>Aussichtspunkt</description>
+         <identifier codeSpace="urn:xplan">LP_LandschaftsbildArt:2100</identifier>
+         <name>Aussichtspunkt</name>
+         <name codeSpace="lesbarerName">Aussichtspunkt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_LandschaftsbildArt_2200">
+         <description>Aussichtsturm</description>
+         <identifier codeSpace="urn:xplan">LP_LandschaftsbildArt:2200</identifier>
+         <name>Aussichtsturm</name>
+         <name codeSpace="lesbarerName">Aussichtsturm</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_LandschaftsbildArt_3100">
+         <description>landschaftsgerechte Einbindung von Bebauung und Infrastruktur</description>
+         <identifier codeSpace="urn:xplan">LP_LandschaftsbildArt:3100</identifier>
+         <name>landschaftsgerechteEinbindung</name>
+         <name codeSpace="lesbarerName">Landschaftsgerechte Einbindung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_LandschaftsbildArt_3200">
+         <description>Landschaftsgerechter Siedlungsrand</description>
+         <identifier codeSpace="urn:xplan">LP_LandschaftsbildArt:3200</identifier>
+         <name>LandschaftsgerechterSiedlungsrand</name>
+         <name codeSpace="lesbarerName">Landschaftsgerechter Siedlungsrand</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_LandschaftsbildArt_4100">
+         <description>Strukturvielfalt</description>
+         <identifier codeSpace="urn:xplan">LP_LandschaftsbildArt:4100</identifier>
+         <name>Strukturvielfalt</name>
+         <name codeSpace="lesbarerName">Strukturvielfalt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_LandschaftsbildArt_4200">
+         <description>Landschaft mit hoher Eigenart</description>
+         <identifier codeSpace="urn:xplan">LP_LandschaftsbildArt:4200</identifier>
+         <name>LandschaftHoheEigenart</name>
+         <name codeSpace="lesbarerName">Landschaft mit hoher Eigenart</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_LandschaftsbildArt_5100">
+         <description>Landschaftsachsen, Sichtachsen</description>
+         <identifier codeSpace="urn:xplan">LP_LandschaftsbildArt:5100</identifier>
+         <name>Landschaftsachsen</name>
+         <name codeSpace="lesbarerName">Landschaftsachsen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_LandschaftsbildArt_5200">
+         <description>Landschaftsräume</description>
+         <identifier codeSpace="urn:xplan">LP_LandschaftsbildArt:5200</identifier>
+         <name>Landschaftsraeume</name>
+         <name codeSpace="lesbarerName">Landschaftsräume</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_LandschaftsbildArt_6100">
+         <description>Historische Waldinsel</description>
+         <identifier codeSpace="urn:xplan">LP_LandschaftsbildArt:6100</identifier>
+         <name>HistorischeWaldinsel</name>
+         <name codeSpace="lesbarerName">Historische Waldinsel</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_LandschaftsbildArt_6200">
+         <description>Waldränder</description>
+         <identifier codeSpace="urn:xplan">LP_LandschaftsbildArt:6200</identifier>
+         <name>Waldraender</name>
+         <name codeSpace="lesbarerName">Waldränder</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_LandschaftsbildArt_7000">
+         <description>Kulturlandschaft</description>
+         <identifier codeSpace="urn:xplan">LP_LandschaftsbildArt:7000</identifier>
+         <name>Kulturlandschaft</name>
+         <name codeSpace="lesbarerName">Kulturlandschaft</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_LandschaftsbildArt_7100">
+         <description>Historische Kulturlandschaft</description>
+         <identifier codeSpace="urn:xplan">LP_LandschaftsbildArt:7100</identifier>
+         <name>HistorischeKulturlandschaft</name>
+         <name codeSpace="lesbarerName">Historische Kulturlandschaft</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_LandschaftsbildArt_7200">
+         <description>Kulturlandschaftselement</description>
+         <identifier codeSpace="urn:xplan">LP_LandschaftsbildArt:7200</identifier>
+         <name>Kulturlandschaftselement</name>
+         <name codeSpace="lesbarerName">Kulturlandschaftselement</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_LandschaftsbildArt_7300">
+         <description>Hohlweg</description>
+         <identifier codeSpace="urn:xplan">LP_LandschaftsbildArt:7300</identifier>
+         <name>Hohlweg</name>
+         <name codeSpace="lesbarerName">Hohlweg</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_LandschaftsbildArt_8000">
+         <description>Gartendenkmal</description>
+         <identifier codeSpace="urn:xplan">LP_LandschaftsbildArt:8000</identifier>
+         <name>Gartendenkmal</name>
+         <name codeSpace="lesbarerName">Gartendenkmal</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_LandschaftsbildArt_9999">
+         <description>Sonstiger Planungsgegenstand Schutzgut Landschaftsbild</description>
+         <identifier codeSpace="urn:xplan">LP_LandschaftsbildArt:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

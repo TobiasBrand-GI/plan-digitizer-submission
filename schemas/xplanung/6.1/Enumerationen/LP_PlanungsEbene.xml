@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_PlanungsEbene"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Zeigt die Planungsebene des Biotopverbunds nach § 21 BNatSchG an.</description>
+   <identifier codeSpace="urn:xplan">LP_PlanungsEbene</identifier>
+   <name>LP_PlanungsEbene</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_PlanungsEbene_1000">
+         <description>Biotopvernetzung auf Landesebene nach § 21 Abs. 1-5 BNatSchG</description>
+         <identifier codeSpace="urn:xplan">LP_PlanungsEbene:1000</identifier>
+         <name>Biotopverbund</name>
+         <name codeSpace="lesbarerName">Biotopverbund</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_PlanungsEbene_2000">
+         <description>Biotopvernetzung auf regionaler Ebene nach § 21 Abs. 6 BNatschG</description>
+         <identifier codeSpace="urn:xplan">LP_PlanungsEbene:2000</identifier>
+         <name>Biotopvernetzung</name>
+         <name codeSpace="lesbarerName">Biotopvernetzung</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_BesondererSchienenverkehrTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von besonderem Schienenverkehr.</description>
+   <identifier codeSpace="urn:xplan">RP_BesondererSchienenverkehrTypen</identifier>
+   <name>RP_BesondererSchienenverkehrTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BesondererSchienenverkehrTypen_1000">
+         <description>Eingleisig.</description>
+         <identifier codeSpace="urn:xplan">RP_BesondererSchienenverkehrTypen:1000</identifier>
+         <name>Eingleisig</name>
+         <name codeSpace="lesbarerName">Eingleisig</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BesondererSchienenverkehrTypen_1001">
+         <description>Zweigleisig.</description>
+         <identifier codeSpace="urn:xplan">RP_BesondererSchienenverkehrTypen:1001</identifier>
+         <name>Zweigleisig</name>
+         <name codeSpace="lesbarerName">Zweigleisig</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BesondererSchienenverkehrTypen_1002">
+         <description>Mehrgleisig.</description>
+         <identifier codeSpace="urn:xplan">RP_BesondererSchienenverkehrTypen:1002</identifier>
+         <name>Mehrgleisig</name>
+         <name codeSpace="lesbarerName">Mehrgleisig</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BesondererSchienenverkehrTypen_2000">
+         <description>Schienenverkehrsinfrastruktur ohne Betrieb.</description>
+         <identifier codeSpace="urn:xplan">RP_BesondererSchienenverkehrTypen:2000</identifier>
+         <name>OhneBetrieb</name>
+         <name codeSpace="lesbarerName">Ohne Betrieb</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BesondererSchienenverkehrTypen_3000">
+         <description>Schienenverkehrsinfrastruktur mit Fernverkehrsfunktion.</description>
+         <identifier codeSpace="urn:xplan">RP_BesondererSchienenverkehrTypen:3000</identifier>
+         <name>MitFernverkehrsfunktion</name>
+         <name codeSpace="lesbarerName">Mit Fernverkehrsfunktion</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BesondererSchienenverkehrTypen_3001">
+         <description>Schienenverkehrsinfrastruktur mit Verknüpfungsfunktion für den öffentlichen Personennahverkehr.</description>
+         <identifier codeSpace="urn:xplan">RP_BesondererSchienenverkehrTypen:3001</identifier>
+         <name>MitVerknuepfungsfunktionFuerOEPNV</name>
+         <name codeSpace="lesbarerName">Mit Verknüpfungsfunktion für ÖPNV</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BesondererSchienenverkehrTypen_4000">
+         <description>Elektrischer Betrieb.</description>
+         <identifier codeSpace="urn:xplan">RP_BesondererSchienenverkehrTypen:4000</identifier>
+         <name>ElektrischerBetrieb</name>
+         <name codeSpace="lesbarerName">Elektrischer Betrieb</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BesondererSchienenverkehrTypen_4001">
+         <description>Zu Elektrifizieren.</description>
+         <identifier codeSpace="urn:xplan">RP_BesondererSchienenverkehrTypen:4001</identifier>
+         <name>ZuElektrifizieren</name>
+         <name codeSpace="lesbarerName">Zu Elektrifizieren</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BesondererSchienenverkehrTypen_5000">
+         <description>Verbesserung der Leistungsfähigkeit.</description>
+         <identifier codeSpace="urn:xplan">RP_BesondererSchienenverkehrTypen:5000</identifier>
+         <name>VerbesserungLeistungsfaehigkeit</name>
+         <name codeSpace="lesbarerName">Verbesserung Leistungsfähigkeit</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BesondererSchienenverkehrTypen_6000">
+         <description>Räumliche Freihaltung entwidmeter Bahntrassen.</description>
+         <identifier codeSpace="urn:xplan">RP_BesondererSchienenverkehrTypen:6000</identifier>
+         <name>RaeumlicheFreihaltungEntwidmeterBahntrassen</name>
+         <name codeSpace="lesbarerName">Räumliche Freihaltung entwidmeter Bahntrassen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BesondererSchienenverkehrTypen_6001">
+         <description>Nachnutzung stillgelegter Strecken.</description>
+         <identifier codeSpace="urn:xplan">RP_BesondererSchienenverkehrTypen:6001</identifier>
+         <name>NachnutzungStillgelegterStrecken</name>
+         <name codeSpace="lesbarerName">Nachnutzung stillgelegter Strecken</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BesondererSchienenverkehrTypen_7000">
+         <description>Personenverkehr.</description>
+         <identifier codeSpace="urn:xplan">RP_BesondererSchienenverkehrTypen:7000</identifier>
+         <name>Personenverkehr</name>
+         <name codeSpace="lesbarerName">Personenverkehr</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BesondererSchienenverkehrTypen_7001">
+         <description>Güterverkehr.</description>
+         <identifier codeSpace="urn:xplan">RP_BesondererSchienenverkehrTypen:7001</identifier>
+         <name>Gueterverkehr</name>
+         <name codeSpace="lesbarerName">Güterverkehr</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BesondererSchienenverkehrTypen_8000">
+         <description>Nahverkehr.</description>
+         <identifier codeSpace="urn:xplan">RP_BesondererSchienenverkehrTypen:8000</identifier>
+         <name>Nahverkehr</name>
+         <name codeSpace="lesbarerName">Nahverkehr</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BesondererSchienenverkehrTypen_8001">
+         <description>Fernverkehr.</description>
+         <identifier codeSpace="urn:xplan">RP_BesondererSchienenverkehrTypen:8001</identifier>
+         <name>Fernverkehr</name>
+         <name codeSpace="lesbarerName">Fernverkehr</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

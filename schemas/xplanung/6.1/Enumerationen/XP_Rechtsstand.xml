@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_Rechtsstand"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung der Planungszustände eines Planinhalts.</description>
+   <identifier codeSpace="urn:xplan">XP_Rechtsstand</identifier>
+   <name>XP_Rechtsstand</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Rechtsstand_1000">
+         <description>Der Planinhalt bezieht sich auf eine Planung</description>
+         <identifier codeSpace="urn:xplan">XP_Rechtsstand:1000</identifier>
+         <name>Geplant</name>
+         <name codeSpace="lesbarerName">Geplant</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Rechtsstand_2000">
+         <description>Der Planinhalt stellt den aktuellen Zustand dar.</description>
+         <identifier codeSpace="urn:xplan">XP_Rechtsstand:2000</identifier>
+         <name>Bestehend</name>
+         <name codeSpace="lesbarerName">Bestehend</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Rechtsstand_3000">
+         <description>Der Planinhalt beschreibt einen zukünftig fortfallenden Zustand.</description>
+         <identifier codeSpace="urn:xplan">XP_Rechtsstand:3000</identifier>
+         <name>Fortfallend</name>
+         <name codeSpace="lesbarerName">Fortfallend</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Rechtsstand_4000">
+         <description>Der Planinhalt beschreibt einen aufgehobenen bzw. ehemaligen Zustand.</description>
+         <identifier codeSpace="urn:xplan">XP_Rechtsstand:4000</identifier>
+         <name>Aufgehoben</name>
+         <name codeSpace="lesbarerName">Aufgehoben</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

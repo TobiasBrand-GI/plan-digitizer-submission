@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_ErholungTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von Erholung.</description>
+   <identifier codeSpace="urn:xplan">RP_ErholungTypen</identifier>
+   <name>RP_ErholungTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ErholungTypen_1000">
+         <description>Erholung.</description>
+         <identifier codeSpace="urn:xplan">RP_ErholungTypen:1000</identifier>
+         <name>Erholung</name>
+         <name codeSpace="lesbarerName">Erholung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ErholungTypen_2000">
+         <description>Ruhige Erholung in Natur und Landschaft.</description>
+         <identifier codeSpace="urn:xplan">RP_ErholungTypen:2000</identifier>
+         <name>RuhigeErholungInNaturUndLandschaft</name>
+         <name codeSpace="lesbarerName">Ruhige Erholung in Natur und Landschaft</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ErholungTypen_2001">
+         <description>Landschaftsbezogene Erholung</description>
+         <identifier codeSpace="urn:xplan">RP_ErholungTypen:2001</identifier>
+         <name>LandschaftsbezogeneErholung</name>
+         <name codeSpace="lesbarerName">Landschaftsbezogene Erholung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ErholungTypen_3000">
+         <description>Erholung mit starker Inanspruchnahme durch die Bevölkerung.</description>
+         <identifier codeSpace="urn:xplan">RP_ErholungTypen:3000</identifier>
+         <name>ErholungMitStarkerInanspruchnahmeDurchBevoelkerung</name>
+         <name codeSpace="lesbarerName">Erholung mit starker Inanspruchnahme durch Bevölkerung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ErholungTypen_3001">
+         <description>Infrastrukturelle Erholung</description>
+         <identifier codeSpace="urn:xplan">RP_ErholungTypen:3001</identifier>
+         <name>InfrastrukturelleErholung</name>
+         <name codeSpace="lesbarerName">Infrastrukturelle Erholung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ErholungTypen_4000">
+         <description>Erholungswald sind Waldgebiete, oft im Umfeld von Ballungszentren, die hauptsächlich der Erholung der Bevölkerung dienen (gegenüber forstwirtschaftlicher Nutzung oder Naturschutz). Nach § 13 Bundeswaldgesetz (1) kann Wald "zu Erholungswald erklärt werden, wenn es das Wohl der Allgemeinheit erfordert, Waldflächen für Zwecke der Erholung zu schützen, zu pflegen oder zu gestalten".</description>
+         <identifier codeSpace="urn:xplan">RP_ErholungTypen:4000</identifier>
+         <name>Erholungswald</name>
+         <name codeSpace="lesbarerName">Erholungswald</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ErholungTypen_5000">
+         <description>Freizeitanlage.</description>
+         <identifier codeSpace="urn:xplan">RP_ErholungTypen:5000</identifier>
+         <name>Freizeitanlage</name>
+         <name codeSpace="lesbarerName">Freizeitanlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ErholungTypen_5001">
+         <description>Ferieneinrichtung</description>
+         <identifier codeSpace="urn:xplan">RP_ErholungTypen:5001</identifier>
+         <name>Ferieneinrichtung</name>
+         <name codeSpace="lesbarerName">Ferieneinrichtung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ErholungTypen_6000">
+         <description>Erholungslandschaft in den Alpen.</description>
+         <identifier codeSpace="urn:xplan">RP_ErholungTypen:6000</identifier>
+         <name>ErholungslandschaftAlpen</name>
+         <name codeSpace="lesbarerName">Erholungslandschaft Alpen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ErholungTypen_7000">
+         <description>Kureinrichtung.</description>
+         <identifier codeSpace="urn:xplan">RP_ErholungTypen:7000</identifier>
+         <name>Kureinrichtung</name>
+         <name codeSpace="lesbarerName">Kureinrichtung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ErholungTypen_9999">
+         <description>Sonstige Erholung.</description>
+         <identifier codeSpace="urn:xplan">RP_ErholungTypen:9999</identifier>
+         <name>SonstigeErholung</name>
+         <name codeSpace="lesbarerName">Sonstige Erholung</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="1060"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Schutzgebiet nach WasserSchutzGesetz (WSG) bzw. HeilQuellenSchutzGesetz (HQSG).</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:SO_SchutzgebietWasserrecht</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">SO_SchutzgebietWasserrecht</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="1060_2603">
+         <gml:description>Klassifizierung des Schutzgebietes</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_SchutzgebietWasserrecht:artDerFestlegung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">artDerFestlegung</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1060_2603_1058_2591">
+               <gml:description>Wasserschutzgebiet</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_SchutzgebietWasserrecht:artDerFestlegung:1000</gml:identifier>
+               <gml:name>Wasserschutzgebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1060_2603_1058_2592">
+               <gml:description>Ausgewiesenes Schutzgebiet für Quell- und Grundwasser</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_SchutzgebietWasserrecht:artDerFestlegung:10000</gml:identifier>
+               <gml:name>QuellGrundwasserSchutzgebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1060_2603_1058_2593">
+               <gml:description>Ausgewiesenes Schutzgebiet für Oberflächengewässer</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_SchutzgebietWasserrecht:artDerFestlegung:10001</gml:identifier>
+               <gml:name>OberflaechengewaesserSchutzgebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1060_2603_1058_2594">
+               <gml:description>Heilquellen Schutzgebiet</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_SchutzgebietWasserrecht:artDerFestlegung:2000</gml:identifier>
+               <gml:name>Heilquellenschutzgebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1060_2603_1058_2595">
+               <gml:description>Sonstiges Schutzgebiet nach Wasserrecht.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_SchutzgebietWasserrecht:artDerFestlegung:9999</gml:identifier>
+               <gml:name>Sonstiges</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>SO_KlassifizSchutzgebietWasserrecht</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="1060_2604">
+         <gml:description>Über eine Codelieste definierte detailliertere Klassifizierung</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_SchutzgebietWasserrecht:detailArtDerFestlegung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">detailArtDerFestlegung</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>SO_DetailKlassifizSchutzgebietWasserrecht</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="1060_2605">
+         <gml:description>Klassifizierung der Schutzzone</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_SchutzgebietWasserrecht:zone</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">zone</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1060_2605_1053_2572">
+               <gml:description>Zone 1</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_SchutzgebietWasserrecht:zone:1000</gml:identifier>
+               <gml:name>Zone_1</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1060_2605_1053_2573">
+               <gml:description>Zone 2</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_SchutzgebietWasserrecht:zone:1100</gml:identifier>
+               <gml:name>Zone_2</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1060_2605_1053_2574">
+               <gml:description>Zone 3</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_SchutzgebietWasserrecht:zone:1200</gml:identifier>
+               <gml:name>Zone_3</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1060_2605_1053_2575">
+               <gml:description>Zone 3a e(xistiert nur bei Wasserschutzgebieten).</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_SchutzgebietWasserrecht:zone:1300</gml:identifier>
+               <gml:name>Zone_3a</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1060_2605_1053_2576">
+               <gml:description>Zone 3b (existiert nur bei Wasserschutzgebieten).</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_SchutzgebietWasserrecht:zone:1400</gml:identifier>
+               <gml:name>Zone_3b</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="1060_2605_1053_2577">
+               <gml:description>Zone 4 e(xistiert nur bei Heilquellen).</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_SchutzgebietWasserrecht:zone:1500</gml:identifier>
+               <gml:name>Zone_4</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>SO_SchutzzonenWasserrecht</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="1060_2606">
+         <gml:description>Informelle Bezeichnung des Gebiets</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_SchutzgebietWasserrecht:name</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">name</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="1060_2607">
+         <gml:description>Amtliche Bezeichnung / Kennziffer des Gebiets.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:SO_SchutzgebietWasserrecht:nummer</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">nummer</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:SO_Geometrieobjekt"/>
+</def:TypeDefinition>

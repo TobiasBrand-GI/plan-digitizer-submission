@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_HochwasserschutzTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von Hochwasserschutz.</description>
+   <identifier codeSpace="urn:xplan">RP_HochwasserschutzTypen</identifier>
+   <name>RP_HochwasserschutzTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_HochwasserschutzTypen_1000">
+         <description>Hochwasserschutz.</description>
+         <identifier codeSpace="urn:xplan">RP_HochwasserschutzTypen:1000</identifier>
+         <name>Hochwasserschutz</name>
+         <name codeSpace="lesbarerName">Hochwasserschutz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_HochwasserschutzTypen_1001">
+         <description>Technischer Hochwasserschutz.</description>
+         <identifier codeSpace="urn:xplan">RP_HochwasserschutzTypen:1001</identifier>
+         <name>TechnischerHochwasserschutz</name>
+         <name codeSpace="lesbarerName">Technischer Hochwasserschutz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_HochwasserschutzTypen_1100">
+         <description>Hochwasserrückhaltebecken.</description>
+         <identifier codeSpace="urn:xplan">RP_HochwasserschutzTypen:1100</identifier>
+         <name>Hochwasserrueckhaltebecken</name>
+         <name codeSpace="lesbarerName">Hochwasserrückhaltebecken</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_HochwasserschutzTypen_1101">
+         <description>Hochwasserrückhaltebecken: Polder.</description>
+         <identifier codeSpace="urn:xplan">RP_HochwasserschutzTypen:1101</identifier>
+         <name>HochwasserrueckhaltebeckenPolder</name>
+         <name codeSpace="lesbarerName">Hochwasserrückhaltebecken: Polder</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_HochwasserschutzTypen_1102">
+         <description>Hochwasserrückhaltebecken: Bauwerk.</description>
+         <identifier codeSpace="urn:xplan">RP_HochwasserschutzTypen:1102</identifier>
+         <name>HochwasserrueckhaltebeckenBauwerk</name>
+         <name codeSpace="lesbarerName">Hochwasserrückhaltebecken: Bauwerk</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_HochwasserschutzTypen_1200">
+         <description>Risikobereich Hochwasser.</description>
+         <identifier codeSpace="urn:xplan">RP_HochwasserschutzTypen:1200</identifier>
+         <name>RisikobereichHochwasser</name>
+         <name codeSpace="lesbarerName">Risikobereich Hochwasser</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_HochwasserschutzTypen_1300">
+         <description>Küstenhochwasserschutz.</description>
+         <identifier codeSpace="urn:xplan">RP_HochwasserschutzTypen:1300</identifier>
+         <name>Kuestenhochwasserschutz</name>
+         <name codeSpace="lesbarerName">Küstenhochwasserschutz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_HochwasserschutzTypen_1301">
+         <description>Deich.</description>
+         <identifier codeSpace="urn:xplan">RP_HochwasserschutzTypen:1301</identifier>
+         <name>Deich</name>
+         <name codeSpace="lesbarerName">Deich</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_HochwasserschutzTypen_1302">
+         <description>Deichrückverlegung.</description>
+         <identifier codeSpace="urn:xplan">RP_HochwasserschutzTypen:1302</identifier>
+         <name>Deichrueckverlegung</name>
+         <name codeSpace="lesbarerName">Deichrückverlegung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_HochwasserschutzTypen_1303">
+         <description>Deichgeschütztes Gebiet</description>
+         <identifier codeSpace="urn:xplan">RP_HochwasserschutzTypen:1303</identifier>
+         <name>DeichgeschuetztesGebiet</name>
+         <name codeSpace="lesbarerName">Deichgeschütztes Gebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_HochwasserschutzTypen_1400">
+         <description>Sperrwerk.</description>
+         <identifier codeSpace="urn:xplan">RP_HochwasserschutzTypen:1400</identifier>
+         <name>Sperrwerk</name>
+         <name codeSpace="lesbarerName">Sperrwerk</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_HochwasserschutzTypen_1500">
+         <description>Hochwassergefährdete Küstenniederung.</description>
+         <identifier codeSpace="urn:xplan">RP_HochwasserschutzTypen:1500</identifier>
+         <name>HochwGefaehrdeteKuestenniederung</name>
+         <name codeSpace="lesbarerName">Hochwassergefährdete Küstenniederung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_HochwasserschutzTypen_1600">
+         <description>Überschwemmungsgebiet.</description>
+         <identifier codeSpace="urn:xplan">RP_HochwasserschutzTypen:1600</identifier>
+         <name>Ueberschwemmungsgebiet</name>
+         <name codeSpace="lesbarerName">Überschwemmungsgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_HochwasserschutzTypen_1700">
+         <description>Überschwemmungsgefährdeter Bereich.</description>
+         <identifier codeSpace="urn:xplan">RP_HochwasserschutzTypen:1700</identifier>
+         <name>UeberschwemmungsgefaehrdeterBereich</name>
+         <name codeSpace="lesbarerName">Überschwemmungsgefährdeter Bereich</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_HochwasserschutzTypen_1800">
+         <description>Retentionsraum.</description>
+         <identifier codeSpace="urn:xplan">RP_HochwasserschutzTypen:1800</identifier>
+         <name>Retentionsraum</name>
+         <name codeSpace="lesbarerName">Retentionsraum</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_HochwasserschutzTypen_1801">
+         <description>Potenzieller Retentionsraum.</description>
+         <identifier codeSpace="urn:xplan">RP_HochwasserschutzTypen:1801</identifier>
+         <name>PotenziellerRetentionsraum</name>
+         <name codeSpace="lesbarerName">Potenzieller Retentionsraum</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_HochwasserschutzTypen_9999">
+         <description>Sonstiger Hochwasserschutz.</description>
+         <identifier codeSpace="urn:xplan">RP_HochwasserschutzTypen:9999</identifier>
+         <name>SonstigerHochwasserschutz</name>
+         <name codeSpace="lesbarerName">Sonstiger Hochwasserschutz</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

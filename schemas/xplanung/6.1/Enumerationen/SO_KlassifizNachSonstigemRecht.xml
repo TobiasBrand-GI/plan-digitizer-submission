@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="SO_KlassifizNachSonstigemRecht"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Basis Klassifizierung der sonstigen Ausweisungen.</description>
+   <identifier codeSpace="urn:xplan">SO_KlassifizNachSonstigemRecht</identifier>
+   <name>SO_KlassifizNachSonstigemRecht</name>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachSonstigemRecht_1100">
+         <description>Beschränkung nach Berggesetz</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachSonstigemRecht:1100</identifier>
+         <name>Berggesetz</name>
+         <name codeSpace="lesbarerName">Berggesetz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachSonstigemRecht_1300">
+         <description>Truppenübungsplatz</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachSonstigemRecht:1300</identifier>
+         <name>Truppenuebungsplatz</name>
+         <name codeSpace="lesbarerName">Truppenübungsplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachSonstigemRecht_1400">
+         <description>Beschränkungen nach Vermessungs- und Katasterrecht</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachSonstigemRecht:1400</identifier>
+         <name>VermessungsKatasterrecht</name>
+         <name codeSpace="lesbarerName">Vermessungs- und Katasterrecht</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachSonstigemRecht_1500">
+         <description>Zu rekultivierende Fläche</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachSonstigemRecht:1500</identifier>
+         <name>Rekultivierungsflaeche</name>
+         <name codeSpace="lesbarerName">Rekultivierungsfläche</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachSonstigemRecht_1600">
+         <description>Zu renaturierende Fläche</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachSonstigemRecht:1600</identifier>
+         <name>Renaturierungsflaeche</name>
+         <name codeSpace="lesbarerName">Renaturierungsfläche</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachSonstigemRecht_1700">
+         <description>Lärmschutzbereich nach anderen gesetzlichen Regelungen als dem Luftverkehrsrecht.</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachSonstigemRecht:1700</identifier>
+         <name>Laermschutzbereich</name>
+         <name codeSpace="lesbarerName">Lärmschutzbereich</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachSonstigemRecht_1800">
+         <description>Schutzzone um eine Leitungstrasse nach Bundes-Immissionsschutzgesetz.</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachSonstigemRecht:1800</identifier>
+         <name>SchutzzoneLeitungstrasse</name>
+         <name codeSpace="lesbarerName">Schutzzone Leitungstrasse</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachSonstigemRecht_9999">
+         <description>Sonstige Klassifizierung</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachSonstigemRecht:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

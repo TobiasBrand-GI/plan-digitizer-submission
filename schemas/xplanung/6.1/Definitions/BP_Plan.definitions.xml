@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="687"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Die Klasse modelliert einen Bebauungsplan</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:BP_Plan</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">BP_Plan</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="687_1416">
+         <gml:description>Die für den Plan zuständige Gemeinde.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:gemeinde</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">gemeinde</gml:name>
+         <def:cardinality>1..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:XP_Gemeinde"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="687_7859">
+         <gml:description>Die für die ursprüngliche Planaufstellung zuständige Gemeinde, falls diese nicht unter dem Attribut "gemeinde" aufgeführt ist. Dies kann z.B. nach Gemeindefusionen der Fall sein.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:planaufstellendeGemeinde</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">planaufstellendeGemeinde</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:XP_Gemeinde"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="687_1417">
+         <gml:description>Für den Plan verantwortliche Stelle.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:plangeber</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">plangeber</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:XP_Plangeber"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="687_1418">
+         <gml:description>Typ des vorliegenden Bebauungsplans.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:planArt</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">planArt</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1418_689_1446">
+               <gml:description>Planwerk der verbindlichen Bauleitplanung auf kommunaler Ebene</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:planArt:1000</gml:identifier>
+               <gml:name>BPlan</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1418_689_1447">
+               <gml:description>Einfacher BPlan, §30 Abs. 3 BauGB.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:planArt:10000</gml:identifier>
+               <gml:name>EinfacherBPlan</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1418_689_1448">
+               <gml:description>Qualifizierter BPlan nach §30 Abs. 1 BauGB.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:planArt:10001</gml:identifier>
+               <gml:name>QualifizierterBPlan</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1418_689_8152">
+               <gml:description>Bebauungsplan zur Wohnraumversorgung für im Zusammenhang bebaute Ortsteile (§ 34) nach §9 Absatz 2d BauGB</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:planArt:10002</gml:identifier>
+               <gml:name>BebauungsplanZurWohnraumversorgung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1418_689_1449">
+               <gml:description>Vorhabenbezogener Bebauungsplan nach §12 BauGB</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:planArt:3000</gml:identifier>
+               <gml:name>VorhabenbezogenerBPlan</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1418_689_8060">
+               <gml:description>Satzung über Vorhaben- und Erschließungsplan gemäß §7 Maßnahmengesetz (BauGB-MaßnahmenG) von 1993</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:planArt:3100</gml:identifier>
+               <gml:name>VorhabenUndErschliessungsplan</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1418_689_1450">
+               <gml:description>Kommunale Satzung gemäß §34 BauGB</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:planArt:4000</gml:identifier>
+               <gml:name>InnenbereichsSatzung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1418_689_1451">
+               <gml:description>Klarstellungssatzung nach  § 34 Abs.4 Nr.1 BauGB.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:planArt:40000</gml:identifier>
+               <gml:name>KlarstellungsSatzung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1418_689_1452">
+               <gml:description>Entwicklungssatzung nach  § 34 Abs.4 Nr. 2 BauGB.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:planArt:40001</gml:identifier>
+               <gml:name>EntwicklungsSatzung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1418_689_1453">
+               <gml:description>Ergänzungssatzung nach  § 34 Abs.4 Nr. 3 BauGB.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:planArt:40002</gml:identifier>
+               <gml:name>ErgaenzungsSatzung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1418_689_1454">
+               <gml:description>Außenbereichssatzung nach § 35 Abs. 6 BauGB.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:planArt:5000</gml:identifier>
+               <gml:name>AussenbereichsSatzung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1418_689_1455">
+               <gml:description>Örtliche Bauvorschrift.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:planArt:7000</gml:identifier>
+               <gml:name>OertlicheBauvorschrift</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1418_689_1456">
+               <gml:description>Sonstige Planart.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:planArt:9999</gml:identifier>
+               <gml:name>Sonstiges</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>1..*</def:cardinality>
+         <def:valueTypeName>BP_PlanArt</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="687_1419">
+         <gml:description>Über eine Codeliste spezifizierte  "Sonstige Planart", wenn das Attribut "planArt" den Wert 9999 (Sonstiges) hat.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:sonstPlanArt</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">sonstPlanArt</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>BP_SonstPlanArt</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="687_1421">
+         <gml:description>Aktueller Rechtsstand des Plans.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:rechtsstand</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">rechtsstand</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1421_693_1463">
+               <gml:description>Ein Aufstellungsbeschluss der Gemeinde liegt vor.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:rechtsstand:1000</gml:identifier>
+               <gml:name>Aufstellungsbeschluss</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1421_693_8974">
+               <gml:description>Der Aufstellungsbeschluss wurde aufgehoben</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:rechtsstand:1500</gml:identifier>
+               <gml:name>AufstellungsbeschlussAufgehoben</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1421_693_1464">
+               <gml:description>Der Plan ist im Verfahren</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:rechtsstand:2000</gml:identifier>
+               <gml:name>ImVerfahren</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1421_693_9000">
+               <gml:description>Die frühzeitige Beteiligung der Behörden und sonsigen Träge öffentlicher Belange und der Öffentlichkeit wird gleichzeitig durchgeführt.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:rechtsstand:2050</gml:identifier>
+               <gml:name>FruehzeitigeBeteiligung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1421_693_1465">
+               <gml:description>Die frühzeitige Beteiligung der Behörden und sonstiger Träger öffentlicher Belange (§4 Abs. 1 BauGB) wird durchgeführt.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:rechtsstand:2100</gml:identifier>
+               <gml:name>FruehzeitigeTraegerBeteiligung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1421_693_1466">
+               <gml:description>Die frühzeitige Beteiligung der Öffentlichkeit (§3 Abs. 1 BauGB), bzw. bei einem Verfahren nach  §13a BauGB die Unterrichtung der Öffentlichkeit (§13a Abs. 3 BauGB)  wird durchgeführt.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:rechtsstand:2200</gml:identifier>
+               <gml:name>FruehzeitigeOeffentlichkeitsBeteiligung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1421_693_8226">
+               <gml:description>Ein Entwurfsbeschluss liegt vor</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:rechtsstand:2250</gml:identifier>
+               <gml:name>Entwurfsbeschluss</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1421_693_9001">
+               <gml:description>Die Beteiligung der Behörden und sonsigen Träge öffentlicher Belange und der Öffentlichkeit wird gleichzeitig durchgeführt.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:rechtsstand:2260</gml:identifier>
+               <gml:name>Beteiligung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1421_693_1467">
+               <gml:description>Die Beteiligung der Behörden und sonstiger Träger öffentlicher Belange wird durchgeführt  (§4 Abs. 2 BauGB).</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:rechtsstand:2300</gml:identifier>
+               <gml:name>TraegerBeteiligung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1421_693_1468">
+               <gml:description>Die Beteiligung der Öffentlichkeit wird durchgeführt (§3 Abs. 2 BauGB).</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:rechtsstand:2400</gml:identifier>
+               <gml:name>OeffentlichkeitsBeteiligung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1421_693_1469">
+               <gml:description>Die Satzung wurde durch Beschluss der Gemeinde verabschiedet.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:rechtsstand:3000</gml:identifier>
+               <gml:name>Satzung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1421_693_1470">
+               <gml:description>Der Plan ist in Kraft getreten.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:rechtsstand:4000</gml:identifier>
+               <gml:name>InKraftGetreten</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1421_693_1471">
+               <gml:description>Der Plan ist, z. B. durch einen Gerichtsbeschluss oder neuen Plan, teilweise untergegangen.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:rechtsstand:4500</gml:identifier>
+               <gml:name>TeilweiseUntergegangen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1421_693_8262">
+               <gml:description>Der Plan wurde durch ein förmliches Verfahren teilweise aufgehoben</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:rechtsstand:45000</gml:identifier>
+               <gml:name>TeilweiseAufgehoben</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1421_693_8263">
+               <gml:description>Der Plan ist ohne förmliches Verfahren, z.B. durch Überplanung, teilweise außer Kraft getreten</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:rechtsstand:45001</gml:identifier>
+               <gml:name>TeilweiseAusserKraft</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1421_693_1472">
+               <gml:description>Der Plan wurde außer Kraft gesetzt.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:rechtsstand:5000</gml:identifier>
+               <gml:name>Untergegangen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1421_693_8137">
+               <gml:description>Der Plan wurde durch ein förmliches Verfahren aufgehoben.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:rechtsstand:50000</gml:identifier>
+               <gml:name>Aufgehoben</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1421_693_8138">
+               <gml:description>Der Plan ist ohne förmliches Verfahren, z.B. durch Überplanung, außer Kraft getreten</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:rechtsstand:50001</gml:identifier>
+               <gml:name>AusserKraft</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>BP_Rechtsstand</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="687_1422">
+         <gml:description>Über eine Codeliste definierter aktueller Status des Plans.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:status</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">status</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>BP_Status</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="687_1424">
+         <gml:description>Datum der berücksichtigten Plan-Änderungen.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:aenderungenBisDatum</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">aenderungenBisDatum</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Date</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="687_1425">
+         <gml:description>Datum des Aufstellungsbeschlusses.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:aufstellungsbeschlussDatum</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">aufstellungsbeschlussDatum</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Date</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="687_1435">
+         <gml:description>Spezifiziert die Daten einer Veränderungssperre, die für den gesamten Geltungsbereich des Plans gilt.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:veraenderungssperre</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">veraenderungssperre</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:BP_VeraenderungssperreDaten"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="687_8959">
+         <gml:description>Start-Datum des Zeitraums der frühzeitigen Beteiligung der Öffentlichkeit.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:fruehzeitigeOeffentlichkeitsbeteiligungsStartDatum</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">fruehzeitigeOeffentlichkeitsbeteiligungsStartDatum</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Date</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="687_8960">
+         <gml:description>End-Datum des Zeitraums der frühzeitigen Beteiligung der Öffentlichkeit.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:fruehzeitigeOeffentlichkeitsbeteiligungsEndDatum</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">fruehzeitigeOeffentlichkeitsbeteiligungsEndDatum</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Date</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="687_8957">
+         <gml:description>Start-Datum des Zeitraums der frühzeitigen Beteiligung der Behörden und sonstigen Träger öffentlicher Belange.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:fruehzeitigeTraegerbeteiligungsStartDatum</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">fruehzeitigeTraegerbeteiligungsStartDatum</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Date</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="687_8958">
+         <gml:description>End-Datum des Zeitraums der frühzeitigen Beteiligung der Behörden und sonstigen Träger öffentlicher Belange.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:fruehzeitigeTraegerbeteiligungsEndDatum</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">fruehzeitigeTraegerbeteiligungsEndDatum</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Date</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="687_1427">
+         <gml:description>Start-Datum des Zeitraums der Öffentlichkeits-Beteiligung. Bei mehrfacher Beteiligung können mehrere Datumsangaben spezifiziert werden.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:auslegungsStartDatum</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">auslegungsStartDatum</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeName>Date</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="687_1428">
+         <gml:description>End-Datum des Zeitraums der Öffentlichkeits-Beteiligung. Bei mehrfacher Beteiligung  können mehrere Datumsangaben spezifiziert werden.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:auslegungsEndDatum</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">auslegungsEndDatum</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeName>Date</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="687_1429">
+         <gml:description>Start-Datum des Zeitraums zur Beteiligung der Behörden und sonstiger Träger öffentlicher Belange. Bei mehrfacher Beteiligung können mehrere Datumsangaben spezifiziert werden.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:traegerbeteiligungsStartDatum</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">traegerbeteiligungsStartDatum</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeName>Date</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="687_1430">
+         <gml:description>End-Datum des Zeitraums zur Beteiligung der Behörden und sonstiger Träger öffentlicher Belange. Bei mehrfacher Beteiligung können mehrere Datumsangaben spezifiziert werden.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:traegerbeteiligungsEndDatum</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">traegerbeteiligungsEndDatum</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeName>Date</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="687_1431">
+         <gml:description>Datum des Satzungsbeschlusses.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:satzungsbeschlussDatum</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">satzungsbeschlussDatum</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Date</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="687_1432">
+         <gml:description>Datum der Rechtsverordnung.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:rechtsverordnungsDatum</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">rechtsverordnungsDatum</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Date</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="687_1433">
+         <gml:description>Datum des Inkrafttretens.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:inkrafttretensDatum</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">inkrafttretensDatum</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Date</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="687_1434">
+         <gml:description>Datum der Ausfertigung.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:ausfertigungsDatum</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">ausfertigungsDatum</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Date</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="687_1436">
+         <gml:description>Gibt an, ob es zum Plan einen städtebaulichen Vertrag gibt.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:staedtebaulicherVertrag</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">staedtebaulicherVertrag</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1436_106_101">
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:staedtebaulicherVertrag:1</gml:identifier>
+               <gml:name>TRUE</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1436_106_102">
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:staedtebaulicherVertrag:0</gml:identifier>
+               <gml:name>FALSE</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Boolean</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="687_1437">
+         <gml:description>Gibt an, ob es für den Plan einen Erschließungsvertrag gibt.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:erschliessungsVertrag</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">erschliessungsVertrag</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1437_106_101">
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:erschliessungsVertrag:1</gml:identifier>
+               <gml:name>TRUE</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1437_106_102">
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:erschliessungsVertrag:0</gml:identifier>
+               <gml:name>FALSE</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Boolean</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="687_1438">
+         <gml:description>Gibt an, ob für das Planungsgebiet einen Durchführungsvertrag (Kombination aus Städtebaulichen Vertrag und Erschließungsvertrag) gibt.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:durchfuehrungsVertrag</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">durchfuehrungsVertrag</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1438_106_101">
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:durchfuehrungsVertrag:1</gml:identifier>
+               <gml:name>TRUE</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1438_106_102">
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:durchfuehrungsVertrag:0</gml:identifier>
+               <gml:name>FALSE</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Boolean</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="687_1439">
+         <gml:description>Gibt an, ob für den Plan ein zugehöriger Grünordnungsplan existiert.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:gruenordnungsplan</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">gruenordnungsplan</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1439_106_101">
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:gruenordnungsplan:1</gml:identifier>
+               <gml:name>TRUE</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="687_1439_106_102">
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:gruenordnungsplan:0</gml:identifier>
+               <gml:name>FALSE</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Boolean</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="687_8273">
+         <gml:description>Spezifikation der dem Gesamtplan zugrunde liegenden Version der BauNVO</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:versionBauNVO</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">versionBauNVO</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:XP_GesetzlicheGrundlage"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="687_8274">
+         <gml:description>Spezifikation der dem Gesamtplan zugrunde liegenden Version des BauGB</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:versionBauGB</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">versionBauGB</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:XP_GesetzlicheGrundlage"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="687_8275">
+         <gml:description>Spezifikation sonstiger Rechtsgrundlagen des gesamten Plans</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:versionSonstRechtsgrundlage</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">versionSonstRechtsgrundlage</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:XP_GesetzlicheGrundlage"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="Tas1046">
+         <gml:description>Referenz eines Bebauungsplans auf einen Bereich</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Plan:bereich</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">bereich</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:BP_Bereich"/>
+         <def:type>associationRole</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:XP_Plan"/>
+</def:TypeDefinition>

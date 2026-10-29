@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="757"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Festsetzung des Anpflanzens von Bäumen, Sträuchern und sonstigen Bepflanzungen;&#xD;
+Festsetzung von Bindungen für Bepflanzungen und für die Erhaltung von Bäumen, Sträuchern und sonstigen Bepflanzungen sowie von Gewässern;  (§9 Abs. 1 Nr. 25 und Abs. 4 BauGB)</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">BP_AnpflanzungBindungErhaltung</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="757_1737">
+         <gml:description>Art der Maßnahme</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:massnahme</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">massnahme</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="757_1737_642_1242">
+               <gml:description>Bindungen für Bepflanzungen und für die Erhaltung von Bäumen, Sträuchern und sonstigen Bepflanzungen sowie von Gewässern. Dies entspricht dem Planzeichen 13.2.2 der PlanzV 1990.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:massnahme:1000</gml:identifier>
+               <gml:name>BindungErhaltung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="757_1737_642_1243">
+               <gml:description>Anpflanzung von Bäumen, Sträuchern oder sonstigen Bepflanzungen. Dies entspricht dem Planzeichen 13.2.1 der PlanzV 1990.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:massnahme:2000</gml:identifier>
+               <gml:name>Anpflanzung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="757_1737_642_1244">
+               <gml:description>Anpflanzen von Bäumen, Sträuchern und sonstigen Bepflanzungen, sowie Bindungen für Bepflanzungen und für die Erhaltung von Bäumen, Sträuchern und sonstigen Bepflanzungen sowie von Gewässern</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:massnahme:3000</gml:identifier>
+               <gml:name>AnpflanzungBindungErhaltung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>XP_ABEMassnahmenTypen</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="757_1738">
+         <gml:description>Gegenstand der Maßnahme.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:gegenstand</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">gegenstand</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="757_1738_636_1140">
+               <gml:description>Bäume</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:gegenstand:1000</gml:identifier>
+               <gml:name>Baeume</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="757_1738_636_1141">
+               <gml:description>Kopfbäume</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:gegenstand:1100</gml:identifier>
+               <gml:name>Kopfbaeume</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="757_1738_636_3126">
+               <gml:description>Baumreihe</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:gegenstand:1200</gml:identifier>
+               <gml:name>Baumreihe</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="757_1738_636_8945">
+               <gml:description>Obstbäume</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:gegenstand:1300</gml:identifier>
+               <gml:name>Obstbaeume</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="757_1738_636_1142">
+               <gml:description>Sträucher</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:gegenstand:2000</gml:identifier>
+               <gml:name>Straeucher</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="757_1738_636_7800">
+               <gml:description>Bäume und Sträucher</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:gegenstand:2050</gml:identifier>
+               <gml:name>BaeumeUndStraeucher</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="757_1738_636_1143">
+               <gml:description>Hecke</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:gegenstand:2100</gml:identifier>
+               <gml:name>Hecke</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="757_1738_636_1144">
+               <gml:description>Knick</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:gegenstand:2200</gml:identifier>
+               <gml:name>Knick</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="757_1738_636_1145">
+               <gml:description>Sonstige Bepflanzung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:gegenstand:3000</gml:identifier>
+               <gml:name>SonstBepflanzung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="757_1738_636_1146">
+               <gml:description>Gewässer (nur Erhaltung)</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:gegenstand:4000</gml:identifier>
+               <gml:name>Gewaesser</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="757_1738_636_1147">
+               <gml:description>Fassadenbegrünung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:gegenstand:5000</gml:identifier>
+               <gml:name>Fassadenbegruenung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="757_1738_636_1148">
+               <gml:description>Dachbegrünung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:gegenstand:6000</gml:identifier>
+               <gml:name>Dachbegruenung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="757_1738_636_8946">
+               <gml:description>Sonstiger Gegenstand der Erhaltungsmaßnahme</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:gegenstand:9999</gml:identifier>
+               <gml:name>SonstGegenstand</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeName>XP_AnpflanzungBindungErhaltungsGegenstand</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="757_8947">
+         <gml:description>Nähere Erläuterung des Gegenstandes</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:erlaeuterung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">erlaeuterung</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="757_1739">
+         <gml:description>Durchmesser der Baumkrone</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:kronendurchmesser</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">kronendurchmesser</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Length</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="757_8950">
+         <gml:description>Durchmesser des Baumstammes</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:stammdurchmesser</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">stammdurchmesser</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Length</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="757_1740">
+         <gml:description>Pflanztiefe</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:pflanztiefe</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">pflanztiefe</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Length</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="757_1741">
+         <gml:description>Gibt an, ob die Fläche oder Maßnahme zum Ausgleich von Eingriffen genutzt wird.&#xD;
+Es wird empfohlen, dies Attribut grundsätzlich zu belegen. In Version 7 wird es voraussichtlich ein Pflichtattribut werden.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:istAusgleich</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">istAusgleich</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="757_1741_106_101">
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:istAusgleich:1</gml:identifier>
+               <gml:name>TRUE</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="757_1741_106_102">
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:istAusgleich:0</gml:identifier>
+               <gml:name>FALSE</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Boolean</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="757_6975">
+         <gml:description>Textliche Spezifikation einer Pflanzenart.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:pflanzenArt</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">pflanzenArt</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="757_7921">
+         <gml:description>Mindesthöhe des Gegenstands der Festsetzung</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:mindesthoehe</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">mindesthoehe</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Length</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="757_7922">
+         <gml:description>Anzahl der anzupflanzenden Objekte</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:anzahl</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">anzahl</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Integer</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="757_9040">
+         <gml:description>Differenzierung der Planungsaussagen mit Bezug zur Eingriffsregelung und der Bewältigung von Eingriffsfolgen.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:eRFlaechenArt</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">eRFlaechenArt</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="757_9040_2904_9032">
+               <gml:description>Potenzielle Fläche für Kompensation (nach §9 Abs. 3 Ziffer 4 lit. c BNatSchG)</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:eRFlaechenArt:1000</gml:identifier>
+               <gml:name>PotenzielleFlaecheKompensation</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="757_9040_2904_9033">
+               <gml:description>Flächenpool</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:eRFlaechenArt:2000</gml:identifier>
+               <gml:name>Flaechenpool</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="757_9040_2904_9034">
+               <gml:description>Kompensation (Einzelfläche)</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:eRFlaechenArt:3000</gml:identifier>
+               <gml:name>KompensationEinzelflaeche</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="757_9040_2904_9035">
+               <gml:description>Kompensationsverzeichnis</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:eRFlaechenArt:4000</gml:identifier>
+               <gml:name>Kompensationsverzeichnis</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="757_9040_2904_9036">
+               <gml:description>Sonstiger Typ von Kompensationsflächen/-Maßnahmen, siehe ERFlaechenArtText.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AnpflanzungBindungErhaltung:eRFlaechenArt:9999</gml:identifier>
+               <gml:name>Sonstiges</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>XP_ERFlaechenArt</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:BP_Geometrieobjekt"/>
+</def:TypeDefinition>

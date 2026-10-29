@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_SpezifischeGrenzeTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung der verschiedenen spezifischen Typen von Grenzen aus Raumordnungsplänen.</description>
+   <identifier codeSpace="urn:xplan">RP_SpezifischeGrenzeTypen</identifier>
+   <name>RP_SpezifischeGrenzeTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SpezifischeGrenzeTypen_1000">
+         <description>Grenze der Zwölf-Seemeilen-Zone, in der Küstenstaaten das Recht haben, ihre Hoheitsgewässer auf bis zu 12 Seemeilen auszudehnen (nach Seerechtsübereinkommen der UN vom 10. Dezember 1982).</description>
+         <identifier codeSpace="urn:xplan">RP_SpezifischeGrenzeTypen:1000</identifier>
+         <name>Zwoelfmeilenzone</name>
+         <name codeSpace="lesbarerName">Zwölfmeilenzone</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SpezifischeGrenzeTypen_1001">
+         <description>Begrenzung des Küstenmeeres.</description>
+         <identifier codeSpace="urn:xplan">RP_SpezifischeGrenzeTypen:1001</identifier>
+         <name>BegrenzungDesKuestenmeeres</name>
+         <name codeSpace="lesbarerName">Begrenzung des Küstenmeeres</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SpezifischeGrenzeTypen_2000">
+         <description>Grenze mit umstrittenem Verlauf, beispielsweise zwischen Deutschland und den Niederlanden im Ems-Ästuar.</description>
+         <identifier codeSpace="urn:xplan">RP_SpezifischeGrenzeTypen:2000</identifier>
+         <name>VerlaufUmstritten</name>
+         <name codeSpace="lesbarerName">Verlauf umstritten</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SpezifischeGrenzeTypen_3000">
+         <description>Grenze der Deutschen Ausschließlichen Wirtschaftszone (AWZ).</description>
+         <identifier codeSpace="urn:xplan">RP_SpezifischeGrenzeTypen:3000</identifier>
+         <name>GrenzeDtAusschlWirtschaftszone</name>
+         <name codeSpace="lesbarerName">Grenze Deutsche Ausschl. Wirtschaftszone (AWZ)</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SpezifischeGrenzeTypen_4000">
+         <description>Maß von Küstenlinien bei langjährig gemitteltem Küstenhochwasser.</description>
+         <identifier codeSpace="urn:xplan">RP_SpezifischeGrenzeTypen:4000</identifier>
+         <name>MittlereTideHochwasserlinie</name>
+         <name codeSpace="lesbarerName">Mittlere Tide, Hochwasserlinie</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SpezifischeGrenzeTypen_5000">
+         <description>Grenze einer regionalen Planungsregion (z.B. Grenze eines Regionalplans).</description>
+         <identifier codeSpace="urn:xplan">RP_SpezifischeGrenzeTypen:5000</identifier>
+         <name>PlanungsregionsgrenzeRegion</name>
+         <name codeSpace="lesbarerName">Planungsregionsgrenze Region</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SpezifischeGrenzeTypen_6000">
+         <description>Grenze einer landesweiten Planungsregion (z.B. Grenze eines Landesentwicklungsplans).</description>
+         <identifier codeSpace="urn:xplan">RP_SpezifischeGrenzeTypen:6000</identifier>
+         <name>PlanungsregionsgrenzeLand</name>
+         <name codeSpace="lesbarerName">Planungsregionsgrenze Land</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SpezifischeGrenzeTypen_7000">
+         <description>Grenze eines Braunkohlenplans.</description>
+         <identifier codeSpace="urn:xplan">RP_SpezifischeGrenzeTypen:7000</identifier>
+         <name>GrenzeBraunkohlenplan</name>
+         <name codeSpace="lesbarerName">Grenze Braunkohlenplan</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SpezifischeGrenzeTypen_8000">
+         <description>Grenzübergangsstelle</description>
+         <identifier codeSpace="urn:xplan">RP_SpezifischeGrenzeTypen:8000</identifier>
+         <name>Grenzuebergangsstelle</name>
+         <name codeSpace="lesbarerName">Grenzübergangsstelle</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

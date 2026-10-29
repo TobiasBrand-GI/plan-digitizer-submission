@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="622"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Abstrakte Oberklasse für die Modellierung von Bereichen. Ein Bereich fasst die Inhalte eines Plans nach bestimmten Kriterien zusammen.</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:XP_Bereich</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">XP_Bereich</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="622_1004">
+         <gml:description>Nummer des Bereichs. Bereichsnummern beginnen standardmäßig mit 0 und sollten, wenn einem Planobjekt mehrere Bereichsobjekte zugeordnet sind, eindeutig sein.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Bereich:nummer</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">nummer</gml:name>
+         <def:cardinality>1</def:cardinality>
+         <def:valueTypeName>Integer</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="622_1005">
+         <gml:description>Bezeichnung des Bereiches</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Bereich:name</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">name</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="622_1006">
+         <gml:description>Spezifikation der semantischen Bedeutung eines Bereiches.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Bereich:bedeutung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">bedeutung</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="622_1006_628_1058">
+               <gml:description>Räumliche oder sachliche Aufteilung der Planinhalte.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Bereich:bedeutung:1600</gml:identifier>
+               <gml:name>Teilbereich</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="622_1006_628_1061">
+               <gml:description>Aggregation von externen Kompensationsmaßnahmen nach §9 BauGB Absatz 1a.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Bereich:bedeutung:1800</gml:identifier>
+               <gml:name>Kompensationsbereich</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="622_1006_628_8763">
+               <gml:description>Informationen und zeichnerische Darstellungen, die außerhalb des Geltungsbereichs liegen</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Bereich:bedeutung:2000</gml:identifier>
+               <gml:name>InformationenAusserhalbGeltungsbereich</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="622_1006_628_8257">
+               <gml:description>Ein Bereich, in dem der Plan nach einer anderen Verfahrensart als im übrigen Geltungsbereich aufgestellt wurde.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Bereich:bedeutung:3000</gml:identifier>
+               <gml:name>AnderesVerfahren</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="622_1006_628_1067">
+               <gml:description>Bereich, für den keine der aufgeführten Bedeutungen zutreffend ist. In dem Fall kann die Bedeutung über das Textattribut "detaillierteBedeutung" angegeben werden.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Bereich:bedeutung:9999</gml:identifier>
+               <gml:name>Sonstiges</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>XP_BedeutungenBereich</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="622_1007">
+         <gml:description>Detaillierte Erklärung der semantischen Bedeutung eines Bereiches, in Ergänzung des Attributs "bedeutung".</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Bereich:detaillierteBedeutung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">detaillierteBedeutung</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="622_1008">
+         <gml:description>Der bei der Erstellung der Inhalte des Bereichs benutzte Kartenmaßstab. Wenn dieses Attribut nicht spezifiziert ist, gilt für den Bereich der auf Planebene (XP_Plan) spezifizierte Maßstab.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Bereich:erstellungsMassstab</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">erstellungsMassstab</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Integer</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="622_1009">
+         <gml:description>Räumliche Abgrenzung des Bereiches.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Bereich:geltungsbereich</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">geltungsbereich</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:unionType:xplan::xplan:6.1:XP_Flaechengeometrie"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="622_7876">
+         <gml:description>Referenz auf einen georeferenzierte Rasterplan, der die Inhalte des Bereichs wiedergibt. Das über" refScan" referierte Rasterbild zeigt einen Plan, dessen Geltungsbereich durch den Geltungsbereich des Bereiches (Attribut "geltungsbereich" von "XP_Bereich") oder, wenn "geltungsbereich" nicht belegt ist, den Geltungsbereich des Gesamtplans (Attribut "raeumlicherGeltungsbereich" von "XP_Plan") definiert ist. Im Standard sind nur georeferenzierte Rasterpläne zugelassen. Die über "refScan" referierte externe Referenz muss deshalb entweder von der Art "PlanMitGeoreferenz" sein oder die URL eines Geodienstes enthalten.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Bereich:refScan</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">refScan</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:XP_ExterneReferenz"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="622_8942">
+         <gml:description>Elektronische Version der Plangrundlage für den Bereich, z.B. ein Katasterplan. Eine über dies Attribut referierte Plangrundlage hat Priorität gegenüber einer vom Gesamtplan referierten Plangrundlage.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Bereich:refPlangrundlage</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">refPlangrundlage</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:XP_ExterneReferenz"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="Tas1092">
+         <gml:description>Verweis auf einen Planinhalt des Bereichs</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Bereich:planinhalt</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">planinhalt</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:XP_Objekt"/>
+         <def:type>associationRole</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="Tas1365">
+         <gml:description>Referenz auf ein Präsentationsbereich, das zum Bereich gehört.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Bereich:praesentationsobjekt</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">praesentationsobjekt</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:XP_AbstraktesPraesentationsobjekt"/>
+         <def:type>associationRole</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="622_8926">
+         <gml:description>Verweis auf einen anderen Plan, der durch den vorliegenden Planbereich geändert wird.&#xD;
+Dies Konzept befindet sich noch in der Erprobung. Es wird in nachfolgenden Versionen des Standards voraussichtlich geändert oder erweitert.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Bereich:aendertPlan</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">aendertPlan</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:XP_VerbundenerPlan"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="622_8927">
+         <gml:description>Verweis auf einen anderen Plan, durch den der vorliegende Planbereich geändert wurde.&#xD;
+Dies Konzept befindet sich noch in der Erprobung. Es wird in nachfolgenden Versionen des Standards voraussichtlich geändert oder erweitert.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Bereich:wurdeGeaendertVonPlan</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">wurdeGeaendertVonPlan</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:XP_VerbundenerPlan"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="622_8928">
+         <gml:description>Verweis auf einen Planbereich eines anderen Plans, der durch den vorliegenden Planbereich geändert wird.&#xD;
+Dies Konzept befindet sich noch in der Erprobung. Es wird in nachfolgenden Versionen des Standards voraussichtlich geändert oder erweitert.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Bereich:aendertPlanBereich</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">aendertPlanBereich</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:XP_VerbundenerPlanBereich"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="622_8929">
+         <gml:description>Verweis auf einen Planbereich eines anderen Plan, durch den der vorliegende Planbereich geändert wurde.&#xD;
+Dies Konzept befindet sich noch in der Erprobung. Es wird in nachfolgenden Versionen des Standards voraussichtlich geändert oder erweitert.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Bereich:wurdeGeaendertVonPlanBereich</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">wurdeGeaendertVonPlanBereich</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:XP_VerbundenerPlanBereich"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="Tas1381">
+         <gml:description>Referenz auf einen textlich formulierten Planinhalt.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Bereich:texte</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">texte</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:XP_TextAbschnitt"/>
+         <def:type>associationRole</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+</def:TypeDefinition>

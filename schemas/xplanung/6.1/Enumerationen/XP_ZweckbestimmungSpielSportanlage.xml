@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_ZweckbestimmungSpielSportanlage"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">XP_ZweckbestimmungSpielSportanlage</identifier>
+   <name>XP_ZweckbestimmungSpielSportanlage</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungSpielSportanlage_1000">
+         <description>Sportanlage</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungSpielSportanlage:1000</identifier>
+         <name>Sportanlage</name>
+         <name codeSpace="lesbarerName">Sportanlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungSpielSportanlage_2000">
+         <description>Spielanlage</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungSpielSportanlage:2000</identifier>
+         <name>Spielanlage</name>
+         <name codeSpace="lesbarerName">Spielanlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungSpielSportanlage_3000">
+         <description>Spiel- und/oder Sportanlage.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungSpielSportanlage:3000</identifier>
+         <name>SpielSportanlage</name>
+         <name codeSpace="lesbarerName">Spiel- und Sportanlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungSpielSportanlage_9999">
+         <description>Sonstiges</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungSpielSportanlage:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

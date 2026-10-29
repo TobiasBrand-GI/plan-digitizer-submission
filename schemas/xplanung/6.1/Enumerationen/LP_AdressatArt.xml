@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_AdressatArt"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Adressaten, an die sich das Ziel, das Erfordernis oder die Maßnahme richtet.</description>
+   <identifier codeSpace="urn:xplan">LP_AdressatArt</identifier>
+   <name>LP_AdressatArt</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_AdressatArt_1000">
+         <description>Adressat Naturschutzverwaltung</description>
+         <identifier codeSpace="urn:xplan">LP_AdressatArt:1000</identifier>
+         <name>Naturschutz</name>
+         <name codeSpace="lesbarerName">Naturschutz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_AdressatArt_2000">
+         <description>Adressat Träger der Bauleitplanung</description>
+         <identifier codeSpace="urn:xplan">LP_AdressatArt:2000</identifier>
+         <name>Bauleitplanung</name>
+         <name codeSpace="lesbarerName">Bauleitplanung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_AdressatArt_3000">
+         <description>Adressat Landes- und Regionalplanung</description>
+         <identifier codeSpace="urn:xplan">LP_AdressatArt:3000</identifier>
+         <name>Raumordnung</name>
+         <name codeSpace="lesbarerName">Raumordnung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_AdressatArt_4000">
+         <description>Adressat Flurneuordnung</description>
+         <identifier codeSpace="urn:xplan">LP_AdressatArt:4000</identifier>
+         <name>Flurneuordnung</name>
+         <name codeSpace="lesbarerName">Flurneuordnung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_AdressatArt_5100">
+         <description>Adressat Forstwirtschaft.</description>
+         <identifier codeSpace="urn:xplan">LP_AdressatArt:5100</identifier>
+         <name>Forstwirtschaft</name>
+         <name codeSpace="lesbarerName">Forstwirtschaft</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_AdressatArt_5200">
+         <description>Adressat Landwirtschaft. Bezieht sich in der Regel nicht auf einzelne Betriebe, sondern die Landwirtschaft im Allgemeinen.</description>
+         <identifier codeSpace="urn:xplan">LP_AdressatArt:5200</identifier>
+         <name>Landwirtschaft</name>
+         <name codeSpace="lesbarerName">Landwirtschaft</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_AdressatArt_5300">
+         <description>Adressat Wasserwirtschaft.</description>
+         <identifier codeSpace="urn:xplan">LP_AdressatArt:5300</identifier>
+         <name>Wasserwirtschaft</name>
+         <name codeSpace="lesbarerName">Wasserwirtschaft</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_AdressatArt_5400">
+         <description>Adressat Fischereiwirtschaft.</description>
+         <identifier codeSpace="urn:xplan">LP_AdressatArt:5400</identifier>
+         <name>Fischereiwirtschaft</name>
+         <name codeSpace="lesbarerName">Fischereiwirtschaft</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_AdressatArt_5500">
+         <description>Adressat Jagd Ausübende und Jagdverbände.</description>
+         <identifier codeSpace="urn:xplan">LP_AdressatArt:5500</identifier>
+         <name>Jagd</name>
+         <name codeSpace="lesbarerName">Jagd</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_AdressatArt_6100">
+         <description>Adressat Rohstoffgewinnung/ Bergbau</description>
+         <identifier codeSpace="urn:xplan">LP_AdressatArt:6100</identifier>
+         <name>RohstoffgewinnungUndBergbau</name>
+         <name codeSpace="lesbarerName">Rohstoffgewinnung und Bergbau</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_AdressatArt_6200">
+         <description>Adressat Verteidigung/Schutz der Zivilbevölkerung</description>
+         <identifier codeSpace="urn:xplan">LP_AdressatArt:6200</identifier>
+         <name>VerteidigungSicherungZivilbevoelkerung</name>
+         <name codeSpace="lesbarerName">Verteidigung, Sicherung der Zivilbevölkerung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_AdressatArt_6300">
+         <description>Adressat Verkehrsplanung einschließlich Unterhaltung Verkehrswege</description>
+         <identifier codeSpace="urn:xplan">LP_AdressatArt:6300</identifier>
+         <name>Verkehrsplanung</name>
+         <name codeSpace="lesbarerName">Verkehrsplanung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_AdressatArt_6400">
+         <description>Adressat Energiegewinnung</description>
+         <identifier codeSpace="urn:xplan">LP_AdressatArt:6400</identifier>
+         <name>Energiegewinnung</name>
+         <name codeSpace="lesbarerName">Energiegewinnung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_AdressatArt_6500">
+         <description>Adressat Abfallwirtschaft</description>
+         <identifier codeSpace="urn:xplan">LP_AdressatArt:6500</identifier>
+         <name>Abfallwirtschaft</name>
+         <name codeSpace="lesbarerName">Abfallwirtschaft</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_AdressatArt_7000">
+         <description>Adressat Bodenschutz</description>
+         <identifier codeSpace="urn:xplan">LP_AdressatArt:7000</identifier>
+         <name>Bodenschutz</name>
+         <name codeSpace="lesbarerName">Bodenschutz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_AdressatArt_8100">
+         <description>Adressat Kommunale Körperschaften</description>
+         <identifier codeSpace="urn:xplan">LP_AdressatArt:8100</identifier>
+         <name>KommunaleKoerperschaften</name>
+         <name codeSpace="lesbarerName">Kommunale Körperschaften</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_AdressatArt_8200">
+         <description>Adressat (Land-) Kreisverwaltung</description>
+         <identifier codeSpace="urn:xplan">LP_AdressatArt:8200</identifier>
+         <name>LandKreis</name>
+         <name codeSpace="lesbarerName">(Land-) Kreisverwaltung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_AdressatArt_8300">
+         <description>Adressat Bundesland / Stadtstaat</description>
+         <identifier codeSpace="urn:xplan">LP_AdressatArt:8300</identifier>
+         <name>Land</name>
+         <name codeSpace="lesbarerName">Land</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_AdressatArt_9998">
+         <description>Adressat ist unbekannt (nur zur Übernahme von Altplänen)</description>
+         <identifier codeSpace="urn:xplan">LP_AdressatArt:9998</identifier>
+         <name>Unbekannt</name>
+         <name codeSpace="lesbarerName">Unbekannt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_AdressatArt_9999">
+         <description>Sonstiger Adressat gem. textlicher Angabe in AdressatText.</description>
+         <identifier codeSpace="urn:xplan">LP_AdressatArt:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="619"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Abstrakte Oberklasse für alle XPlanung-Fachobjekte. Die Attribute dieser Klasse werden über den Vererbungs-Mechanismus an alle Fachobjekte weitergegeben.</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:XP_Objekt</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">XP_Objekt</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="619_972">
+         <gml:description>Eindeutiger Identifier des Objektes.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:uuid</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">uuid</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="619_973">
+         <gml:description>Beliebiger Text</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:text</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">text</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="619_974">
+         <gml:description>Angabe, ob der Planinhalt bereits besteht, geplant, aufgehoben ist, oder zukünftig wegfallen soll. &#xD;
+Das Attribut sollte nur verwendet werden, wenn es für die planerische Aussage notwendig ist und der Rechtsstand aus dem Plandokument ersichtlich ist. Eine generelle Belegung für jedes Objekt ist nicht hilfreich.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:rechtsstand</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">rechtsstand</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="619_974_613_953">
+               <gml:description>Der Planinhalt bezieht sich auf eine Planung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:rechtsstand:1000</gml:identifier>
+               <gml:name>Geplant</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="619_974_613_954">
+               <gml:description>Der Planinhalt stellt den aktuellen Zustand dar.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:rechtsstand:2000</gml:identifier>
+               <gml:name>Bestehend</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="619_974_613_955">
+               <gml:description>Der Planinhalt beschreibt einen zukünftig fortfallenden Zustand.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:rechtsstand:3000</gml:identifier>
+               <gml:name>Fortfallend</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="619_974_613_9041">
+               <gml:description>Der Planinhalt beschreibt einen aufgehobenen bzw. ehemaligen Zustand.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:rechtsstand:4000</gml:identifier>
+               <gml:name>Aufgehoben</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>XP_Rechtsstand</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="619_975">
+         <gml:description>Angabe der gesetzlichen Grundlage des Planinhalts.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:gesetzlicheGrundlage</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">gesetzlicheGrundlage</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:XP_GesetzlicheGrundlage"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="619_978">
+         <gml:description>Die „gliederung1“ beinhaltet bei einer Nummerierung der Baugebietsteilfläche oder Baufläche die Gliederungszahl, unter Umständen zusätzlich ein Kürzel für eingeschränkte Nutzungen, z.B. gliederung1=2 bei WA 2, gliederung1=-E 3 bei GE-E 3. In diesem Fall sollte die Einschränkung über das Attribut "abweichungBazNVO" näher spezifiziert werden.  Bei einer überlagernde Festlegung beinhaltet „gliederung1“ ein Kürzel und eine Gliederungszahl, z.B. gliederung1 = AP 1 bei AP 1.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:gliederung1</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">gliederung1</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="619_979">
+         <gml:description>Die `gliederung2` kommt bei weitergehenden, besonderen Festsetzungen für Texteinschriebe mit Zahlen-, Buchstabencodes oder Paragrafenbezügen im Plan zum Einsatz. Beispiele: (A), (A, B, G) oder Zone 1.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:gliederung2</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">gliederung2</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="619_980">
+         <gml:description>Zuordnung des Objektes zu einer vertikalen Ebene. Der Standard-Ebene 0 sind Objekte auf der Erdoberfläche zugeordnet. Nur unter diesen Objekten wird der Flächenschluss hergestellt. Bei Plan-Objekten, die im wesentlichen unterhalb der Erdoberfläche liegen  (z.B. Tunnel), ist ebene &lt; 0. Bei  Objekten, die im wesentlichen oberhalb der Erdoberfläche liegen (z.B. Festsetzungen auf Brücken), ist ebene &gt; 0. Zwischen Objekten auf Ebene 0 und einer Ebene !=&gt; 0 muss nicht unbedingt eine (vollständige) physikalische Trennung bestehen.&#xD;
+Das Attribut sollte mit einem Wert belegt werden, sofern die vertikale Lage des Objektes nicht unbekannt oder unbestimmt ist (Attribut "vertikaleLage"). Die in Version 6 noch gültige Interpretation, dass eine Nicht-Belegung des Attributes gleichbedeutend ist mit "ebene == 0", wird ab Version 7 nicht mehr möglich sein.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:ebene</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">ebene</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Integer</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="619_9026">
+         <gml:description>Dies Attribut darf nur belegt werden, wenn das Attribut "ebene" nicht belegt und auch nicht leer ist. In diesem Fall kann über "vertikaleLage" spezifiziert werden,  dass die Lage eines Objektes zur Erdoberfläche unkakannt (1000) oder im Plan nicht festgelegt (2000) ist.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:vertikaleLage</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">vertikaleLage</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="619_9026_2902_9024">
+               <gml:description>Die vertikale Lage des Objektes ist nicht bekannt</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:vertikaleLage:1000</gml:identifier>
+               <gml:name>Unbekannt</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="619_9026_2902_9025">
+               <gml:description>Die vertikale Lage des Objektes ist  nicht festgelegt</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:vertikaleLage:2000</gml:identifier>
+               <gml:name>Unbestimmt</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>XP_VertikaleLage</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="619_983">
+         <gml:description>Erweiterung des definierten Attributsatzes eines Objektes durch generische Attribute.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:hatGenerAttribut</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">hatGenerAttribut</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:XP_GenerAttribut"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="619_984">
+         <gml:description>Angaben zur vertikalen Lage und Höhe eines Planinhalts.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:hoehenangabe</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">hoehenangabe</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:XP_Hoehenangabe"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="619_7792">
+         <gml:description>Referenz auf ein Dokument oder einen georeferenzierten Rasterplan.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:externeReferenz</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">externeReferenz</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:XP_SpezExterneReferenz"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="Sas1092">
+         <gml:description>Verweis auf den Bereich, zu dem der Planinhalt gehört. Diese Relation sollte immer belegt werden. In Version 6.0 wird sie in eine Pflicht-Relation umgewandelt werden.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:gehoertZuBereich</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">gehoertZuBereich</gml:name>
+         <def:cardinality>1</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:XP_Bereich"/>
+         <def:type>associationRole</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="Tas1364">
+         <gml:description>Verweis auf ein Präsentationsobjekt, das die Plandarstellung des Fachobjektes unterstützen soll.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:wirdDargestelltDurch</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">wirdDargestelltDurch</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:XP_AbstraktesPraesentationsobjekt"/>
+         <def:type>associationRole</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="Tas1094">
+         <gml:description>Referenz eines raumbezogenen Fachobjektes auf Teile der Begründung.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:refBegruendungInhalt</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">refBegruendungInhalt</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:XP_BegruendungAbschnitt"/>
+         <def:type>associationRole</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="619_7828">
+         <gml:description>Notwendige Bedingung für die Wirksamkeit eines Planinhalts.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:startBedingung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">startBedingung</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:XP_WirksamkeitBedingung"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="619_7829">
+         <gml:description>Notwendige Bedingung für das Ende der Wirksamkeit eines Planinhalts.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:endeBedingung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">endeBedingung</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:XP_WirksamkeitBedingung"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="619_7943">
+         <gml:description>Spezifischer Text zur Beschriftung von Planinhalten</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:aufschrift</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">aufschrift</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="619_8247">
+         <gml:description>Rechtliche Charakterisierung eines Planinhalts</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:rechtscharakter</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">rechtscharakter</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="619_8247_2730_8227">
+               <gml:description>Festsetzung in einem Bebauungsplan</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:rechtscharakter:1000</gml:identifier>
+               <gml:name>FestsetzungBPlan</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="619_8247_2730_8228">
+               <gml:description>Nachrichtliche Übernahme aus anderen Planwerken.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:rechtscharakter:2000</gml:identifier>
+               <gml:name>NachrichtlicheUebernahme</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="619_8247_2730_8229">
+               <gml:description>Darstellung im Flächennutzungsplan</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:rechtscharakter:3000</gml:identifier>
+               <gml:name>DarstellungFPlan</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="619_8247_2730_8230">
+               <gml:description>Ziel der Raumordnung. Verbindliche räumliche und sachliche Festlegung zur Entwicklung, Ordnung und Sicherung des Raumes.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:rechtscharakter:4000</gml:identifier>
+               <gml:name>ZielDerRaumordnung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="619_8247_2730_8231">
+               <gml:description>Grundsätze der Raumordnung sind nach §3 Abs. Aussagen zur Entwicklung, Ordnung und Sicherung des Raums als Vorgaben für nachfolgende Abwägungs- oder Ermessensentscheidungen. Grundsätze der Raumordnung können durch Gesetz oder Festlegungen in einem Raumordnungsplan (§7 Abs. 1 und 2, ROG) aufgestellt werden.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:rechtscharakter:4100</gml:identifier>
+               <gml:name>GrundsatzDerRaumordnung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="619_8247_2730_8232">
+               <gml:description>Nachrichtliche Übernahme Ziel der Raumordnung.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:rechtscharakter:4200</gml:identifier>
+               <gml:name>NachrichtlicheUebernahmeZiel</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="619_8247_2730_8233">
+               <gml:description>Nachrichtliche Übernahme Grundsatz der Raumordnung.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:rechtscharakter:4300</gml:identifier>
+               <gml:name>NachrichtlicheUebernahmeGrundsatz</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="619_8247_2730_8234">
+               <gml:description>Nur Informationsgehalt im Raumordnungsplan.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:rechtscharakter:4400</gml:identifier>
+               <gml:name>NurInformationsgehaltRPlan</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="619_8247_2730_8235">
+               <gml:description>Textlich formuliertes Ziel der Raumordnung.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:rechtscharakter:4500</gml:identifier>
+               <gml:name>TextlichesZielRaumordnung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="619_8247_2730_8236">
+               <gml:description>Ziel und Grundsatz der Raumordnung.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:rechtscharakter:4600</gml:identifier>
+               <gml:name>ZielUndGrundsatzRaumordnung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="619_8247_2730_8245">
+               <gml:description>Vorschlag für die Raumordnung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:rechtscharakter:4700</gml:identifier>
+               <gml:name>VorschlagRaumordnung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="619_8247_2730_8237">
+               <gml:description>Festsetzung im Landschaftsplan bzw. Grünordnungsplan, der als eigenständige Satzung beschlossen wird (z.B. in NRW und den Stadtstaaten).</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:rechtscharakter:5000</gml:identifier>
+               <gml:name>FestsetzungImLP</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="619_8247_2730_8238">
+               <gml:description>Geplante Festsetzung im Landschaftsplan bzw. Grünordnungsplan, der als eigenständige Satzung beschlossen wird (z.B. in NRW und den Stadtstaaten)</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:rechtscharakter:5100</gml:identifier>
+               <gml:name>GeplanteFestsetzungImLP</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="619_8247_2730_8239">
+               <gml:description>Darstellungen und Kennzeichnungen im Landschaftsplan</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:rechtscharakter:5200</gml:identifier>
+               <gml:name>DarstellungKennzeichnungImLP</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="619_8247_2730_8246">
+               <gml:description>Die Inhalte der Landschaftsplanung sind in allen Planungen und Verwaltungsverfahren zu berücksichtigen, deren Entscheidungen sich auf Natur und Landschaft auswirken können. (§ 9 Abs. 5 i.V. Abs. 1 BNatSchG).</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:rechtscharakter:5300</gml:identifier>
+               <gml:name>LandschaftsplanungsInhaltZurBeruecksichtigung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="619_8247_2730_8240">
+               <gml:description>Hinweis nach BauGB</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:rechtscharakter:6000</gml:identifier>
+               <gml:name>Hinweis</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="619_8247_2730_8241">
+               <gml:description>Kennzeichnung von Fälchen nach §9 Absatz 5 BauGB. Kennzeichnungen sind keine rechtsverbindlichen Festsetzungen, sondern Hinweise auf Besonderheiten (insbesondere der Baugrundverhältnisse), deren Kenntnis für das Verständnis des Bebauungsplans und seiner Festsetzungen, wie auch für die Vorbereitung und Genehmigung von Vorhaben notwendig sind.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:rechtscharakter:7000</gml:identifier>
+               <gml:name>Kennzeichnung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="619_8247_2730_8242">
+               <gml:description>Vermerk nach § 5 BauGB</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:rechtscharakter:8000</gml:identifier>
+               <gml:name>Vermerk</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="619_8247_2730_8243">
+               <gml:description>Unbekannter Rechtscharakter</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:rechtscharakter:9998</gml:identifier>
+               <gml:name>Unbekannt</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="619_8247_2730_8244">
+               <gml:description>Sonstiger Rechtscharakter</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:rechtscharakter:9999</gml:identifier>
+               <gml:name>Sonstiges</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>1</def:cardinality>
+         <def:valueTypeName>XP_Rechtscharakter</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="619_9042">
+         <gml:description>Globaler Skalierungsfaktor für die direkte Visualisierung von Fachobjekten. Dieser Faktor gleicht unterschiedliche Maßstäbe bei der Planerfassung aus und kann aus dem Attribut "erstellungsMassstab" (XP_Bereich oder XP_Plan) abgeleitet werden. massstabFaktor = gehoertZuBereich.XP_Bereich.erstellungsMassstab / 1000 oder gehoertZuBereich.XP_Bereich.gehoertZuPlan.XP_Plan.erstellungsMassstab / 1000</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:massstabFaktor</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">massstabFaktor</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Decimal</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="619_9043">
+         <gml:description>Skalierungsfaktor für die individuelle Visualisierung von Fachobjekten, der auf den globalen Skalierungsfaktor (massstabFaktor) aufmultipliziert wird.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:skalierung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">skalierung</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Decimal</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="Tas1308">
+         <gml:description>Referenz eines raumbezogenen Fachobjektes auf textuell formulierte Planinhalte.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_Objekt:refTextInhalt</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">refTextInhalt</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:XP_TextAbschnitt"/>
+         <def:type>associationRole</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+</def:TypeDefinition>

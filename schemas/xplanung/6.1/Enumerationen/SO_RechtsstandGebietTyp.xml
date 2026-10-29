@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="SO_RechtsstandGebietTyp"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung der möglichen Rechtsstände des Gebiets.</description>
+   <identifier codeSpace="urn:xplan">SO_RechtsstandGebietTyp</identifier>
+   <name>SO_RechtsstandGebietTyp</name>
+   <dictionaryEntry>
+      <Definition gml:id="SO_RechtsstandGebietTyp_1000">
+         <description>Vorbereitende Untersuchung</description>
+         <identifier codeSpace="urn:xplan">SO_RechtsstandGebietTyp:1000</identifier>
+         <name>VorbereitendeUntersuchung</name>
+         <name codeSpace="lesbarerName">Vorbereitende Untersuchung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_RechtsstandGebietTyp_2000">
+         <description>Aufstellung</description>
+         <identifier codeSpace="urn:xplan">SO_RechtsstandGebietTyp:2000</identifier>
+         <name>Aufstellung</name>
+         <name codeSpace="lesbarerName">Aufstellung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_RechtsstandGebietTyp_3000">
+         <description>Festlegung</description>
+         <identifier codeSpace="urn:xplan">SO_RechtsstandGebietTyp:3000</identifier>
+         <name>Festlegung</name>
+         <name codeSpace="lesbarerName">Festlegung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_RechtsstandGebietTyp_4000">
+         <description>Abgeschlossen</description>
+         <identifier codeSpace="urn:xplan">SO_RechtsstandGebietTyp:4000</identifier>
+         <name>Abgeschlossen</name>
+         <name codeSpace="lesbarerName">Abgeschlossen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_RechtsstandGebietTyp_5000">
+         <description>Verstetigung</description>
+         <identifier codeSpace="urn:xplan">SO_RechtsstandGebietTyp:5000</identifier>
+         <name>Verstetigung</name>
+         <name codeSpace="lesbarerName">Verstetigung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_RechtsstandGebietTyp_9999">
+         <description>Sonstiges</description>
+         <identifier codeSpace="urn:xplan">SO_RechtsstandGebietTyp:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

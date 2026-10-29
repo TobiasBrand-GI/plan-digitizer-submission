@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="627"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Verweis auf ein extern gespeichertes Dokument oder einen extern gespeicherten, georeferenzierten Plan.</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:dataType:xplan::xplan:6.1:XP_ExterneReferenz</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">XP_ExterneReferenz</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="627_1047">
+         <gml:description>Referenz auf eine Georeferenzierungs-Datei. Das Attribut ist nur relevant bei Verweisen auf georeferenzierte Rasterbilder. Wenn der XPlanGML Datensatz und das referierte Dokument in einem hierarchischen Ordnersystem gespeichert sind, kann die URI auch einen relativen Pfad vom XPlanGML-Datensatz zum Dokument enthalten.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:georefURL</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">georefURL</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>URI</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="627_1049">
+         <gml:description>Typisierung der referierten Dokumente: Beliebiges Dokument oder georeferenzierter Plan.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:art</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">art</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="627_1049_600_915">
+               <gml:description>Referenz auf ein Dokument.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:art:Dokument</gml:identifier>
+               <gml:name>Dokument</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="627_1049_600_916">
+               <gml:description>Referenz auf einen georeferenzierten Plan.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:art:PlanMitGeoreferenz</gml:identifier>
+               <gml:name>PlanMitGeoreferenz</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>XP_ExterneReferenzArt</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="627_1051">
+         <gml:description>Name bzw. Titel des referierten Dokuments. Der Standardname ist "Unbekannt".</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:referenzName</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">referenzName</gml:name>
+         <def:cardinality>1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="627_8965">
+         <gml:description>Dokumentennummer, z.B. Gesetzes- und Verordnungsblatt-Nummer, Jahrgang</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:nummer</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">nummer</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="627_8966">
+         <gml:description>Seitenangabe, wenn ein Teil eines umfangreiches Dokumentes referenziert wird, z.B. die Gesetz- und Verorderungsblatt-Seite</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:seitenangabe</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">seitenangabe</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Integer</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="627_1052">
+         <gml:description>URI des referierten Dokuments, über den auf das Dokument lesend zugegriffen werden kann. Wenn der XPlanGML Datensatz und das referierte Dokument in einem hierarchischen Ordnersystem gespeichert sind, kann die URI auch einen relativen Pfad vom XPlanGML-Datensatz zum Dokument enthalten. &#xD;
+Standardmäßig wird der Wert des Attributes "referenzName" verwendet.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:referenzURL</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">referenzURL</gml:name>
+         <def:cardinality>1</def:cardinality>
+         <def:valueTypeName>URI</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="627_1053">
+         <gml:description>Mime-Type des referierten Dokuments</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:referenzMimeType</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">referenzMimeType</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="627_1053_620_985">
+               <gml:description>PDF-Dokument</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:referenzMimeType:application/pdf</gml:identifier>
+               <gml:name>application/pdf</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="627_1053_620_986">
+               <gml:description>ZIP-Archiv</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:referenzMimeType:application/zip</gml:identifier>
+               <gml:name>application/zip</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="627_1053_620_987">
+               <gml:description>XML-Dokument</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:referenzMimeType:application/xml</gml:identifier>
+               <gml:name>application/xml</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="627_1053_620_988">
+               <gml:description>Word-Dokument</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:referenzMimeType:application/msword</gml:identifier>
+               <gml:name>application/msword</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="627_1053_620_989">
+               <gml:description>Excel-Tabelle</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:referenzMimeType:application/msexcel</gml:identifier>
+               <gml:name>application/msexcel</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="627_1053_620_990">
+               <gml:description>Styled Layer Descriptor (SLD) Datei</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:referenzMimeType:application/vnd.ogc.sld+xml</gml:identifier>
+               <gml:name>application/vnd.ogc.sld+xml</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="627_1053_620_991">
+               <gml:description>WebMapService (WMS) Request</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:referenzMimeType:application/vnd.ogc.wms_xml</gml:identifier>
+               <gml:name>application/vnd.ogc.wms_xml</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="627_1053_620_992">
+               <gml:description>GML-Datei</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:referenzMimeType:application/vnd.ogc.gml</gml:identifier>
+               <gml:name>application/vnd.ogc.gml</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="627_1053_620_8119">
+               <gml:description>shp-Datei eines ESRI Shapefiles</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:referenzMimeType:application/vnd.shp</gml:identifier>
+               <gml:name>application/vnd.shp</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="627_1053_620_8120">
+               <gml:description>dbf-Datei eines ESRI Shapefiles</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:referenzMimeType:application/vnd.dbf</gml:identifier>
+               <gml:name>application/vnd.dbf</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="627_1053_620_8121">
+               <gml:description>shx-Datei eines ESRI Shapefiles</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:referenzMimeType:application/vnd.shx</gml:identifier>
+               <gml:name>application/vnd.shx</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="627_1053_620_8124">
+               <gml:description>Beliebiger Binärfile</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:referenzMimeType:application/octet-stream</gml:identifier>
+               <gml:name>application/octet-stream</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="627_1053_620_8122">
+               <gml:description>AutoCAD dxf-Datei</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:referenzMimeType:image/vnd.dxf</gml:identifier>
+               <gml:name>image/vnd.dxf</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="627_1053_620_8123">
+               <gml:description>AuroCAD dwg-Datei</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:referenzMimeType:image/vnd.dwg</gml:identifier>
+               <gml:name>image/vnd.dwg</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="627_1053_620_994">
+               <gml:description>JPG rasterdatei</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:referenzMimeType:image/jpg</gml:identifier>
+               <gml:name>image/jpg</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="627_1053_620_995">
+               <gml:description>PNG-Rasterdatei</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:referenzMimeType:image/png</gml:identifier>
+               <gml:name>image/png</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="627_1053_620_996">
+               <gml:description>TIFF-Rasterdatei</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:referenzMimeType:image/tiff</gml:identifier>
+               <gml:name>image/tiff</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="627_1053_620_8118">
+               <gml:description>BMP-Dokument</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:referenzMimeType:image/bmp</gml:identifier>
+               <gml:name>image/bmp</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="627_1053_620_997">
+               <gml:description>Autodesk image (ECW) Datei</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:referenzMimeType:image/ecw</gml:identifier>
+               <gml:name>image/ecw</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="627_1053_620_998">
+               <gml:description>Scalable Vector Graphics (SVG) Datei</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:referenzMimeType:image/svg+xml</gml:identifier>
+               <gml:name>image/svg+xml</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="627_1053_620_999">
+               <gml:description>HTML-Datei</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:referenzMimeType:text/html</gml:identifier>
+               <gml:name>text/html</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="627_1053_620_1000">
+               <gml:description>ASCII Text-Datei</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:referenzMimeType:text/plain</gml:identifier>
+               <gml:name>text/plain</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>XP_MimeTypes</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="627_1054">
+         <gml:description>Beschreibung des referierten Dokuments</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:beschreibung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">beschreibung</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="627_1055">
+         <gml:description>Datum des referierten Dokuments</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_ExterneReferenz:datum</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">datum</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Date</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>dataType</def:classification>
+</def:TypeDefinition>

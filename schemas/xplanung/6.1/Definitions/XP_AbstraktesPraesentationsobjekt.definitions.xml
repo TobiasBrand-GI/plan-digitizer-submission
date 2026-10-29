@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="2873"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Abstrakte Basisklasse für alle Präsentationsobjekte. Die Attribute entsprechen dem ALKIS-Objekt AP_GPO, wobei das Attribut "signaturnummer" in "stylesheetId" umbenannt wurde. Bei freien Präsentationsobjekten ist die Relation "dientZurDarstellungVon" unbelegt, bei gebundenen Präsentationsobjekten zeigt die Relation auf ein von "XP_Objekt" abgeleitetes Fachobjekt.&#xD;
+Freie Präsentationsobjekte dürfen ausschließlich zur graphischen Annotation eines Plans verwendet werden&#xD;
+Gebundene Präsentationsobjekte mit Raumbezug dienen ausschließlich dazu, Attributwerte des verbundenen Fachobjekts im Plan darzustellen. Die Namen der darzustellenden Fachobjekt-Attribute werden über das Attribut "art" unter Verwendung der XPath-Syntax spezifiziert.</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:XP_AbstraktesPraesentationsobjekt</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">XP_AbstraktesPraesentationsobjekt</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2873_8863">
+         <gml:description>Das Attribut "stylesheetId" zeigt auf ein extern definiertes Stylesheet, das Parameter zur Visualisierung von Flächen, Linien, Punkten und Texten enthält. Jedem Stylesheet ist weiterhin eine Darstellungspriorität zugeordnet. Außerdem kann ein Stylesheet logische Elemente enthalten,  die die Visualisierung abhängig machen vom Wert des durch "art" definierten Attributes des Fachobjektes, das durch die Relation "dientZurDarstellungVon" referiert wird.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_AbstraktesPraesentationsobjekt:stylesheetId</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">stylesheetId</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>XP_StylesheetListe</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2873_8864">
+         <gml:description>Enthält die Darstellungspriorität für Elemente der Signatur. Eine vom Standardwert abweichende Priorität wird über dieses Attribut definiert und nicht über eine neue Signatur.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_AbstraktesPraesentationsobjekt:darstellungsprioritaet</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">darstellungsprioritaet</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Integer</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2873_8865">
+         <gml:description>"art" gibt die Namen der Attribute an, die mit dem Präsentationsobjekt dargestellt werden sollen. Dabei ist beim Verweis auf die Attribute des Fachobjekts die XPath-Syntax zu verwenden. Die Pfadangabe ist relativ zu dem Objekt, auf das die Relation "dientZurDarstellungVon" zeigt.Der XPath-Ausdruck muss auswertbar sein, was insbes. die Verwendung qualifizierter Attributnamen (incl. Namespace-Kürzel xplan) erfordert. Wenn das zugehörige Attribut oder Sub-Attribut des Fachobjekts mehrfach belegt ist, muss die []-Syntax zur Spezifikation des zugehörigen Instanz-Attributs benutzt werden.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_AbstraktesPraesentationsobjekt:art</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">art</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2873_9027">
+         <gml:description>Abgeleitetes Attribut, um bei der Darstellung von Texten im Plan einen vom Grundmaßstab 1:1000 abweichenden Erstellungs-Maßstab (Attribut erstellungsMassstab in XP_Plan) berücksichtigen zu können: massstabFaktor = gehoertZuBereich.XP_Bereich.gehoertZuPlan.XP_Plan.erstellungsMassstab / 1000</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_AbstraktesPraesentationsobjekt:massstabFaktor</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">massstabFaktor</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Decimal</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="Sas1365">
+         <gml:description>Referenz auf den Bereich, zu dem das Präsentationsobjekt gehört.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_AbstraktesPraesentationsobjekt:gehoertZuBereich</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">gehoertZuBereich</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:XP_Bereich"/>
+         <def:type>associationRole</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="Sas1364">
+         <gml:description>Verweis auf das Fachobjekt, deren Plandarstellung durch das Präsentationsobjekt unterstützt werden soll.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:XP_AbstraktesPraesentationsobjekt:dientZurDarstellungVon</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">dientZurDarstellungVon</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:XP_Objekt"/>
+         <def:type>associationRole</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+</def:TypeDefinition>

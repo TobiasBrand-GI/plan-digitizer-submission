@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_Bundeslaender"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">XP_Bundeslaender</identifier>
+   <name>XP_Bundeslaender</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Bundeslaender_1000">
+         <description>Brandenburg</description>
+         <identifier codeSpace="urn:xplan">XP_Bundeslaender:1000</identifier>
+         <name>BB</name>
+         <name codeSpace="lesbarerName">Brandenburg</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Bundeslaender_1100">
+         <description>Berlin</description>
+         <identifier codeSpace="urn:xplan">XP_Bundeslaender:1100</identifier>
+         <name>BE</name>
+         <name codeSpace="lesbarerName">Berlin</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Bundeslaender_1200">
+         <description>Baden-Württemberg</description>
+         <identifier codeSpace="urn:xplan">XP_Bundeslaender:1200</identifier>
+         <name>BW</name>
+         <name codeSpace="lesbarerName">Baden-Württemberg</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Bundeslaender_1300">
+         <description>Bayern</description>
+         <identifier codeSpace="urn:xplan">XP_Bundeslaender:1300</identifier>
+         <name>BY</name>
+         <name codeSpace="lesbarerName">Bayern</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Bundeslaender_1400">
+         <description>Bremen</description>
+         <identifier codeSpace="urn:xplan">XP_Bundeslaender:1400</identifier>
+         <name>HB</name>
+         <name codeSpace="lesbarerName">Hansestadt Bremen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Bundeslaender_1500">
+         <description>Hessen</description>
+         <identifier codeSpace="urn:xplan">XP_Bundeslaender:1500</identifier>
+         <name>HE</name>
+         <name codeSpace="lesbarerName">Hessen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Bundeslaender_1600">
+         <description>Hamburg</description>
+         <identifier codeSpace="urn:xplan">XP_Bundeslaender:1600</identifier>
+         <name>HH</name>
+         <name codeSpace="lesbarerName">Hansestadt Hamburg</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Bundeslaender_1700">
+         <description>Mecklenburg-Vorpommern</description>
+         <identifier codeSpace="urn:xplan">XP_Bundeslaender:1700</identifier>
+         <name>MV</name>
+         <name codeSpace="lesbarerName">Mecklenburg-Vorpommern</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Bundeslaender_1800">
+         <description>Niedersachsen</description>
+         <identifier codeSpace="urn:xplan">XP_Bundeslaender:1800</identifier>
+         <name>NI</name>
+         <name codeSpace="lesbarerName">Niedersachsen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Bundeslaender_1900">
+         <description>Nordrhein-Westfalen</description>
+         <identifier codeSpace="urn:xplan">XP_Bundeslaender:1900</identifier>
+         <name>NW</name>
+         <name codeSpace="lesbarerName">Nordrhein-Westfalen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Bundeslaender_2000">
+         <description>Rheinland-Pfalz</description>
+         <identifier codeSpace="urn:xplan">XP_Bundeslaender:2000</identifier>
+         <name>RP</name>
+         <name codeSpace="lesbarerName">Rheinland-Pfalz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Bundeslaender_2100">
+         <description>Schleswig-Holstein</description>
+         <identifier codeSpace="urn:xplan">XP_Bundeslaender:2100</identifier>
+         <name>SH</name>
+         <name codeSpace="lesbarerName">Schleswig-Holstein</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Bundeslaender_2200">
+         <description>Saarland</description>
+         <identifier codeSpace="urn:xplan">XP_Bundeslaender:2200</identifier>
+         <name>SL</name>
+         <name codeSpace="lesbarerName">Saarland</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Bundeslaender_2300">
+         <description>Sachsen</description>
+         <identifier codeSpace="urn:xplan">XP_Bundeslaender:2300</identifier>
+         <name>SN</name>
+         <name codeSpace="lesbarerName">Sachsen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Bundeslaender_2400">
+         <description>Sachsen-Anhalt</description>
+         <identifier codeSpace="urn:xplan">XP_Bundeslaender:2400</identifier>
+         <name>ST</name>
+         <name codeSpace="lesbarerName">Sachsen-Anhalt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Bundeslaender_2500">
+         <description>Thüringen</description>
+         <identifier codeSpace="urn:xplan">XP_Bundeslaender:2500</identifier>
+         <name>TH</name>
+         <name codeSpace="lesbarerName">Thüringen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Bundeslaender_3000">
+         <description>Der Bund.</description>
+         <identifier codeSpace="urn:xplan">XP_Bundeslaender:3000</identifier>
+         <name>Bund</name>
+         <name codeSpace="lesbarerName">Bundesrepublik Deutschland</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

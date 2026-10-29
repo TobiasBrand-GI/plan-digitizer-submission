@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_ForstwirtschaftTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von Forstwirtschaft.</description>
+   <identifier codeSpace="urn:xplan">RP_ForstwirtschaftTypen</identifier>
+   <name>RP_ForstwirtschaftTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ForstwirtschaftTypen_1000">
+         <description>Wald.</description>
+         <identifier codeSpace="urn:xplan">RP_ForstwirtschaftTypen:1000</identifier>
+         <name>Wald</name>
+         <name codeSpace="lesbarerName">Wald</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ForstwirtschaftTypen_1001">
+         <description>Bannwald.&#xD;
+Nach §32 (2) Baden-Württemberg "ein sich selbst überlassenes Waldreservat. Pflegemaßnahmen sind nicht erlaubt; anfallendes Holz darf nicht entnommen werden. [...] Fußwege sind zulässig."&#xD;
+Nach $11 (1) BayWaldG Bayern " Wald, der auf Grund seiner Lage und seiner flächenmäßigen Ausdehnung vor allem in Verdichtungsräumen und waldarmen Bereichen unersetzlich ist, und deshalb in seiner Flächensubstanz erhalten werden muss und welchem eine außergewöhnliche Bedeutung für das Klima, den Wasserhaushalt oder die Luftreinigung zukommt.&#xD;
+Nach §13 (2) ForstG Hessen ein Wald, der "in seiner Flächensubstanz in besonderem Maße schützenswert ist".&#xD;
+In anderen Ländern ist ein Bannwald ggf. abweichend definiert.</description>
+         <identifier codeSpace="urn:xplan">RP_ForstwirtschaftTypen:1001</identifier>
+         <name>Bannwald</name>
+         <name codeSpace="lesbarerName">Bannwald</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ForstwirtschaftTypen_1002">
+         <description>Schonwald.&#xD;
+Nach §32 (3) Baden-Württemberg "ein Waldreservat, in dem eine bestimmte Waldgesellschaft mit ihren Tier- und Pflanzenarten, ein bestimmter Bestandsaufbau oder ein bestimmter Waldbiotop zu erhalten, zu entwickeln oder zu erneuern ist. Die Forstbehörde legt PFlegemaßnahmen mti Zustimmung des Waldbesitzers fest." In anderen Ländern ist ein Schonwald ggf. abweichend definiert.</description>
+         <identifier codeSpace="urn:xplan">RP_ForstwirtschaftTypen:1002</identifier>
+         <name>Schonwald</name>
+         <name codeSpace="lesbarerName">Schonwald</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ForstwirtschaftTypen_1100">
+         <description>Forstwirtschaft</description>
+         <identifier codeSpace="urn:xplan">RP_ForstwirtschaftTypen:1100</identifier>
+         <name>Forstwirtschaft</name>
+         <name codeSpace="lesbarerName">Forstwirtschaft</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ForstwirtschaftTypen_2000">
+         <description>Waldmehrung.</description>
+         <identifier codeSpace="urn:xplan">RP_ForstwirtschaftTypen:2000</identifier>
+         <name>Waldmehrung</name>
+         <name codeSpace="lesbarerName">Waldmehrung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ForstwirtschaftTypen_2001">
+         <description>Waldmehrung für Erholung.</description>
+         <identifier codeSpace="urn:xplan">RP_ForstwirtschaftTypen:2001</identifier>
+         <name>WaldmehrungErholung</name>
+         <name codeSpace="lesbarerName">Waldmehrung Erholung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ForstwirtschaftTypen_2002">
+         <description>Vergrößerung des Waldanteils.</description>
+         <identifier codeSpace="urn:xplan">RP_ForstwirtschaftTypen:2002</identifier>
+         <name>VergroesserungDesWaldanteils</name>
+         <name codeSpace="lesbarerName">Vergrößerung des Waldanteils</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ForstwirtschaftTypen_3000">
+         <description>Waldschutz.</description>
+         <identifier codeSpace="urn:xplan">RP_ForstwirtschaftTypen:3000</identifier>
+         <name>Waldschutz</name>
+         <name codeSpace="lesbarerName">Waldschutz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ForstwirtschaftTypen_3001">
+         <description>Besondere Schutzfunktion des Waldes.</description>
+         <identifier codeSpace="urn:xplan">RP_ForstwirtschaftTypen:3001</identifier>
+         <name>BesondereSchutzfunktionDesWaldes</name>
+         <name codeSpace="lesbarerName">Besondere Schutzfunktion des Waldes</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ForstwirtschaftTypen_4000">
+         <description>Von Aufforstung freizuhaltendes Gebiet.</description>
+         <identifier codeSpace="urn:xplan">RP_ForstwirtschaftTypen:4000</identifier>
+         <name>VonAufforstungFreizuhalten</name>
+         <name codeSpace="lesbarerName">Von Aufforstung freizuhalten</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ForstwirtschaftTypen_9999">
+         <description>Sonstige Forstwirtschaft.</description>
+         <identifier codeSpace="urn:xplan">RP_ForstwirtschaftTypen:9999</identifier>
+         <name>SonstigeForstwirtschaft</name>
+         <name codeSpace="lesbarerName">Sonstige Forstwirtschaft</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

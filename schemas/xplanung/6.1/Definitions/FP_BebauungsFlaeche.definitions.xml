@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="835"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Darstellung einer für die Bebauung vorgesehenen Fläche (§ 5, Abs. 2, Nr. 1 BauGB).</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:FP_BebauungsFlaeche</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">FP_BebauungsFlaeche</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="835_1909">
+         <gml:description>Angabe einer maximalen Geschossflächenzahl als Maß der baulichen Nutzung.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:GFZ</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">GFZ</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Decimal</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="835_1910">
+         <gml:description>Minimale Geschossflächenzahl bei einer Bereichsangabe (GFZmax muss ebenfalls spezifiziert werden).</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:GFZmin</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">GFZmin</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Decimal</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="835_1911">
+         <gml:description>Maximale Geschossflächenzahl bei einer Bereichsangabe (GFZmin muss ebenfalls spezifiziert werden).</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:GFZmax</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">GFZmax</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Decimal</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="835_8900">
+         <gml:description>Durchschnittliche GFZ im Baugebiet</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:GFZdurchschnittlich</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">GFZdurchschnittlich</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Decimal</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="835_1912">
+         <gml:description>Angabe einer maximalen Baumassenzahl als Maß der baulichen Nutzung.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:BMZ</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">BMZ</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Decimal</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="835_1913">
+         <gml:description>Angabe einer maximalen Grundflächenzahl als Maß der baulichen Nutzung.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:GRZ</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">GRZ</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Decimal</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="835_1904">
+         <gml:description>Angabe der allgemeinen Art der baulichen Nutzung.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:allgArtDerBaulNutzung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">allgArtDerBaulNutzung</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="835_1904_649_1305">
+               <gml:description>Wohnbaufläche nach §1 Abs. (1) BauNVO</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:allgArtDerBaulNutzung:1000</gml:identifier>
+               <gml:name>WohnBauflaeche</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="835_1904_649_1306">
+               <gml:description>Gemischte Baufläche nach §1 Abs. (1) BauNVO.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:allgArtDerBaulNutzung:2000</gml:identifier>
+               <gml:name>GemischteBauflaeche</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="835_1904_649_1307">
+               <gml:description>Gewerbliche Baufläche nach §1 Abs. (1) BauNVO.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:allgArtDerBaulNutzung:3000</gml:identifier>
+               <gml:name>GewerblicheBauflaeche</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="835_1904_649_1308">
+               <gml:description>Sonderbaufläche nach §1 Abs. (1) BauNVO.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:allgArtDerBaulNutzung:4000</gml:identifier>
+               <gml:name>SonderBauflaeche</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="835_1904_649_1309">
+               <gml:description>Sonstige Baufläche</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:allgArtDerBaulNutzung:9999</gml:identifier>
+               <gml:name>SonstigeBauflaeche</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>XP_AllgArtDerBaulNutzung</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="835_1905">
+         <gml:description>Angabe der besonderen Art der baulichen Nutzung.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:besondereArtDerBaulNutzung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">besondereArtDerBaulNutzung</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="835_1905_653_1353">
+               <gml:description>Kleinsiedlungsgebiet nach § 2 BauNVO.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:besondereArtDerBaulNutzung:1000</gml:identifier>
+               <gml:name>Kleinsiedlungsgebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="835_1905_653_1354">
+               <gml:description>Reines Wohngebiet nach § 3 BauNVO.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:besondereArtDerBaulNutzung:1100</gml:identifier>
+               <gml:name>ReinesWohngebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="835_1905_653_1355">
+               <gml:description>Allgemeines Wohngebiet nach § 4 BauNVO.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:besondereArtDerBaulNutzung:1200</gml:identifier>
+               <gml:name>AllgWohngebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="835_1905_653_1356">
+               <gml:description>Gebiet zur Erhaltung und Entwicklung der Wohnnutzung (Besonderes Wohngebiet) nach § 4a BauNVO.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:besondereArtDerBaulNutzung:1300</gml:identifier>
+               <gml:name>BesonderesWohngebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="835_1905_653_1357">
+               <gml:description>Dorfgebiet nach §5 BauNVO.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:besondereArtDerBaulNutzung:1400</gml:identifier>
+               <gml:name>Dorfgebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="835_1905_653_8175">
+               <gml:description>Dörfliches Wohngebiet nach §5a BauNVO</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:besondereArtDerBaulNutzung:1450</gml:identifier>
+               <gml:name>DoerflichesWohngebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="835_1905_653_1358">
+               <gml:description>Mischgebiet nach §6 BauNVO.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:besondereArtDerBaulNutzung:1500</gml:identifier>
+               <gml:name>Mischgebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="835_1905_653_7793">
+               <gml:description>Urbanes Gebiet nach § 6a BauNVO</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:besondereArtDerBaulNutzung:1550</gml:identifier>
+               <gml:name>UrbanesGebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="835_1905_653_1359">
+               <gml:description>Kerngebiet nach § 7 BauNVO.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:besondereArtDerBaulNutzung:1600</gml:identifier>
+               <gml:name>Kerngebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="835_1905_653_1360">
+               <gml:description>Gewerbegebiet nach § 8 BauNVO.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:besondereArtDerBaulNutzung:1700</gml:identifier>
+               <gml:name>Gewerbegebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="835_1905_653_1361">
+               <gml:description>Industriegebiet nach § 9 BauNVO.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:besondereArtDerBaulNutzung:1800</gml:identifier>
+               <gml:name>Industriegebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="835_1905_653_1362">
+               <gml:description>Sondergebiet, das der Erholung dient nach § 10 BauNVO von 1977 und 1990.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:besondereArtDerBaulNutzung:2000</gml:identifier>
+               <gml:name>SondergebietErholung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="835_1905_653_1363">
+               <gml:description>Sonstiges Sondergebiet nach§ 11 BauNVO 1977 und 1990; z.B. Klinikgebiet</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:besondereArtDerBaulNutzung:2100</gml:identifier>
+               <gml:name>SondergebietSonst</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="835_1905_653_1364">
+               <gml:description>Wochenendhausgebiet nach §10 der BauNVO von 1962 und 1968</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:besondereArtDerBaulNutzung:3000</gml:identifier>
+               <gml:name>Wochenendhausgebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="835_1905_653_1365">
+               <gml:description>Sondergebiet nach §11der BauNVO von 1962 und 1968</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:besondereArtDerBaulNutzung:4000</gml:identifier>
+               <gml:name>Sondergebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="835_1905_653_1366">
+               <gml:description>Sonstiges Gebiet</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:besondereArtDerBaulNutzung:9999</gml:identifier>
+               <gml:name>SonstigesGebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>XP_BesondereArtDerBaulNutzung</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="835_1906">
+         <gml:description>Differenziert Sondernutzungen nach §10 und §11 der BauNVO von 1977 und 1990. Das Attribut wird nur benutzt, wenn "besondereArtDerBaulNutzung" unbelegt ist oder einen der Werte 2000 bzw. 2100 hat.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:sondernutzung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">sondernutzung</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:FP_KomplexeSondernutzung"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="835_1907">
+         <gml:description>Über eine Codeliste definierte detailliertere Art der baulichen Nutzung, mit der die allgemeine und/oder besondere Art der baulichen Nutzung näher detailliert werden</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:detaillierteArtDerBaulNutzung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">detaillierteArtDerBaulNutzung</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>FP_DetailArtDerBaulNutzung</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="835_8901">
+         <gml:description>Art der zulässigen Abweichung von der BauNVO.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:abweichungBauNVO</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">abweichungBauNVO</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="835_8901_648_1301">
+               <gml:description>Einschränkung einer generell erlaubten Nutzung.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:abweichungBauNVO:1000</gml:identifier>
+               <gml:name>EinschraenkungNutzung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="835_8901_648_1302">
+               <gml:description>Ausschluss einer generell erlaubten Nutzung.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:abweichungBauNVO:2000</gml:identifier>
+               <gml:name>AusschlussNutzung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="835_8901_648_1303">
+               <gml:description>Eine nur ausnahmsweise zulässige Nutzung wird generell zulässig.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:abweichungBauNVO:3000</gml:identifier>
+               <gml:name>AusweitungNutzung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="835_8901_648_1304">
+               <gml:description>Sonstige Abweichung.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_BebauungsFlaeche:abweichungBauNVO:9999</gml:identifier>
+               <gml:name>SonstAbweichung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>XP_AbweichungBauNVOTypen</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:FP_Flaechenschlussobjekt"/>
+</def:TypeDefinition>

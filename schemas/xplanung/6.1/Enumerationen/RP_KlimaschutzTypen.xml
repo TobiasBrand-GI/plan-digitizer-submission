@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_KlimaschutzTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Lufttypen.</description>
+   <identifier codeSpace="urn:xplan">RP_KlimaschutzTypen</identifier>
+   <name>RP_KlimaschutzTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_KlimaschutzTypen_1000">
+         <description>Kaltluft.</description>
+         <identifier codeSpace="urn:xplan">RP_KlimaschutzTypen:1000</identifier>
+         <name>Kaltluft</name>
+         <name codeSpace="lesbarerName">Kaltluft</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_KlimaschutzTypen_2000">
+         <description>Frischluft.</description>
+         <identifier codeSpace="urn:xplan">RP_KlimaschutzTypen:2000</identifier>
+         <name>Frischluft</name>
+         <name codeSpace="lesbarerName">Frischluft</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_KlimaschutzTypen_3000">
+         <description>Besondere Klimaschutzfunktion</description>
+         <identifier codeSpace="urn:xplan">RP_KlimaschutzTypen:3000</identifier>
+         <name>BesondereKlimaschutzfunktion</name>
+         <name codeSpace="lesbarerName">Besondere Klimaschutzfunktion</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_KlimaschutzTypen_9999">
+         <description>Sonstige Lufttypen.</description>
+         <identifier codeSpace="urn:xplan">RP_KlimaschutzTypen:9999</identifier>
+         <name>SonstigeLufttypen</name>
+         <name codeSpace="lesbarerName">Sonstige Lufttypen</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

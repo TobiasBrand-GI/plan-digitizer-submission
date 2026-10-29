@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_BioVerbundsystemArt"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Zeigt die Art des Verbundsystems an.</description>
+   <identifier codeSpace="urn:xplan">LP_BioVerbundsystemArt</identifier>
+   <name>LP_BioVerbundsystemArt</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVerbundsystemArt_1000">
+         <description>Allgemein</description>
+         <identifier codeSpace="urn:xplan">LP_BioVerbundsystemArt:1000</identifier>
+         <name>Allgemein</name>
+         <name codeSpace="lesbarerName">Allgemein</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVerbundsystemArt_2000">
+         <description>Offenland inkl. Halboffenland</description>
+         <identifier codeSpace="urn:xplan">LP_BioVerbundsystemArt:2000</identifier>
+         <name>OffenlandHalboffenland</name>
+         <name codeSpace="lesbarerName">Offenland, Halboffenland</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVerbundsystemArt_3000">
+         <description>Wald</description>
+         <identifier codeSpace="urn:xplan">LP_BioVerbundsystemArt:3000</identifier>
+         <name>Wald</name>
+         <name codeSpace="lesbarerName">Wald</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVerbundsystemArt_4000">
+         <description>Gewässer</description>
+         <identifier codeSpace="urn:xplan">LP_BioVerbundsystemArt:4000</identifier>
+         <name>Gewaesser</name>
+         <name codeSpace="lesbarerName">Gewässer</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

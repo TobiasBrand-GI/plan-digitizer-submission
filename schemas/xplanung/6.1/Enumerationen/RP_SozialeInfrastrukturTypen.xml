@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_SozialeInfrastrukturTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von Sozialer Infrastruktur.</description>
+   <identifier codeSpace="urn:xplan">RP_SozialeInfrastrukturTypen</identifier>
+   <name>RP_SozialeInfrastrukturTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SozialeInfrastrukturTypen_1000">
+         <description>Kulturbezogene Infrastruktur.</description>
+         <identifier codeSpace="urn:xplan">RP_SozialeInfrastrukturTypen:1000</identifier>
+         <name>Kultur</name>
+         <name codeSpace="lesbarerName">Kultur</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SozialeInfrastrukturTypen_2000">
+         <description>Sozialeinrichtung.</description>
+         <identifier codeSpace="urn:xplan">RP_SozialeInfrastrukturTypen:2000</identifier>
+         <name>Sozialeinrichtung</name>
+         <name codeSpace="lesbarerName">Sozialeinrichtung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SozialeInfrastrukturTypen_3000">
+         <description>Gesundheitsinfrastruktur.</description>
+         <identifier codeSpace="urn:xplan">RP_SozialeInfrastrukturTypen:3000</identifier>
+         <name>Gesundheit</name>
+         <name codeSpace="lesbarerName">Gesundheit</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SozialeInfrastrukturTypen_3001">
+         <description>Krankenhaus.</description>
+         <identifier codeSpace="urn:xplan">RP_SozialeInfrastrukturTypen:3001</identifier>
+         <name>Krankenhaus</name>
+         <name codeSpace="lesbarerName">Krankenhaus</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SozialeInfrastrukturTypen_4000">
+         <description>Bildungs- und/oder Forschungsinfrastruktur.</description>
+         <identifier codeSpace="urn:xplan">RP_SozialeInfrastrukturTypen:4000</identifier>
+         <name>BildungForschung</name>
+         <name codeSpace="lesbarerName">Bildung und Forschung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SozialeInfrastrukturTypen_4001">
+         <description>Hochschule.</description>
+         <identifier codeSpace="urn:xplan">RP_SozialeInfrastrukturTypen:4001</identifier>
+         <name>Hochschule</name>
+         <name codeSpace="lesbarerName">Hochschule</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SozialeInfrastrukturTypen_5000">
+         <description>Polizeiliche Infrastruktur</description>
+         <identifier codeSpace="urn:xplan">RP_SozialeInfrastrukturTypen:5000</identifier>
+         <name>Polizei</name>
+         <name codeSpace="lesbarerName">Polizei</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SozialeInfrastrukturTypen_9999">
+         <description>Sonstige Soziale Infrastruktur.</description>
+         <identifier codeSpace="urn:xplan">RP_SozialeInfrastrukturTypen:9999</identifier>
+         <name>SonstigeSozialeInfrastruktur</name>
+         <name codeSpace="lesbarerName">Sonstige soziale Infrastruktur</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

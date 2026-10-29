@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_KulturlandschaftTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von Kulturlandschaften.</description>
+   <identifier codeSpace="urn:xplan">RP_KulturlandschaftTypen</identifier>
+   <name>RP_KulturlandschaftTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_KulturlandschaftTypen_1000">
+         <description>Kulturelles Sachgut.</description>
+         <identifier codeSpace="urn:xplan">RP_KulturlandschaftTypen:1000</identifier>
+         <name>KulturellesSachgut</name>
+         <name codeSpace="lesbarerName">Kulturelles Sachgut</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_KulturlandschaftTypen_2000">
+         <description>Welterbe. Von der UNESCO verliehener Titel an Stätten mit außergewöhnlichem, universellem Wert, die als "Teile des Kultur- und Naturerbes von außergewöhnlicher Bedeutung sind und daher als Bestandteil des Welterbes der ganzen Menschheit erhalten werden müssen" (Präambel der Welterbekonvention von 1972)</description>
+         <identifier codeSpace="urn:xplan">RP_KulturlandschaftTypen:2000</identifier>
+         <name>Welterbe</name>
+         <name codeSpace="lesbarerName">Welterbe</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_KulturlandschaftTypen_3000">
+         <description>Landschaftliches Kulturerbe.</description>
+         <identifier codeSpace="urn:xplan">RP_KulturlandschaftTypen:3000</identifier>
+         <name>KulturerbeLandschaft</name>
+         <name codeSpace="lesbarerName">Kulturerbe Landschaft</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_KulturlandschaftTypen_4000">
+         <description>Pflege von Kulturdenkmälern</description>
+         <identifier codeSpace="urn:xplan">RP_KulturlandschaftTypen:4000</identifier>
+         <name>KulturDenkmalpflege</name>
+         <name codeSpace="lesbarerName">Kulturdenkmalpflege</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_KulturlandschaftTypen_9999">
+         <description>Sonstige Kulturlandschafttypen.</description>
+         <identifier codeSpace="urn:xplan">RP_KulturlandschaftTypen:9999</identifier>
+         <name>SonstigeKulturlandschaftTypen</name>
+         <name codeSpace="lesbarerName">Sonstige Kulturlandschaft Typen</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

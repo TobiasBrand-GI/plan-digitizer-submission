@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_VertikaleAusrichtung"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Enumeration der definierten vertikalen Fontausrichtungen</description>
+   <identifier codeSpace="urn:xplan">XP_VertikaleAusrichtung</identifier>
+   <name>XP_VertikaleAusrichtung</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_VertikaleAusrichtung_Basis">
+         <description>Textgeometrie bezieht sich auf die Basis- bzw. Grundlinie der Buchstaben.</description>
+         <identifier codeSpace="urn:xplan">XP_VertikaleAusrichtung:Basis</identifier>
+         <name>Basis</name>
+         <name codeSpace="lesbarerName">Basis</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_VertikaleAusrichtung_Mitte">
+         <description>Textgeometrie bezieht sich auf die Mittellinie der Buchstaben.</description>
+         <identifier codeSpace="urn:xplan">XP_VertikaleAusrichtung:Mitte</identifier>
+         <name>Mitte</name>
+         <name codeSpace="lesbarerName">Mitte</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_VertikaleAusrichtung_Oben">
+         <description>Textgeometrie bezieht sich auf die Oberlinie der Großbuchstaben.</description>
+         <identifier codeSpace="urn:xplan">XP_VertikaleAusrichtung:Oben</identifier>
+         <name>Oben</name>
+         <name codeSpace="lesbarerName">Oben</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

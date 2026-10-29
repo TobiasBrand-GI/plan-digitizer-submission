@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_BesondereTourismusErholungTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen und Spezifierungen von besonderem Tourismus beziehungsweise besonderer Erholung.</description>
+   <identifier codeSpace="urn:xplan">RP_BesondereTourismusErholungTypen</identifier>
+   <name>RP_BesondereTourismusErholungTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BesondereTourismusErholungTypen_1000">
+         <description>Entwicklungsgebiet.</description>
+         <identifier codeSpace="urn:xplan">RP_BesondereTourismusErholungTypen:1000</identifier>
+         <name>Entwicklungsgebiet</name>
+         <name codeSpace="lesbarerName">Entwicklungsgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BesondereTourismusErholungTypen_2000">
+         <description>Kernbereich.</description>
+         <identifier codeSpace="urn:xplan">RP_BesondereTourismusErholungTypen:2000</identifier>
+         <name>Kernbereich</name>
+         <name codeSpace="lesbarerName">Kernbereich</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BesondereTourismusErholungTypen_3000">
+         <description>Besondere Entwicklungsaufgabe von Tourismus und/oder Erholung.</description>
+         <identifier codeSpace="urn:xplan">RP_BesondereTourismusErholungTypen:3000</identifier>
+         <name>BesondereEntwicklungsaufgabe</name>
+         <name codeSpace="lesbarerName">Besondere Entwicklungsaufgabe</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

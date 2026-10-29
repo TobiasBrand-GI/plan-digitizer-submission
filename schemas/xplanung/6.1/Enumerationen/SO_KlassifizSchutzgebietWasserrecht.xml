@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="SO_KlassifizSchutzgebietWasserrecht"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung wasserrechtlicher Zweckbestimmungen.</description>
+   <identifier codeSpace="urn:xplan">SO_KlassifizSchutzgebietWasserrecht</identifier>
+   <name>SO_KlassifizSchutzgebietWasserrecht</name>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizSchutzgebietWasserrecht_1000">
+         <description>Wasserschutzgebiet</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizSchutzgebietWasserrecht:1000</identifier>
+         <name>Wasserschutzgebiet</name>
+         <name codeSpace="lesbarerName">Wasserschutzgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizSchutzgebietWasserrecht_10000">
+         <description>Ausgewiesenes Schutzgebiet für Quell- und Grundwasser</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizSchutzgebietWasserrecht:10000</identifier>
+         <name>QuellGrundwasserSchutzgebiet</name>
+         <name codeSpace="lesbarerName">Quell- und Grundwasser-Schutzgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizSchutzgebietWasserrecht_10001">
+         <description>Ausgewiesenes Schutzgebiet für Oberflächengewässer</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizSchutzgebietWasserrecht:10001</identifier>
+         <name>OberflaechengewaesserSchutzgebiet</name>
+         <name codeSpace="lesbarerName">Oberflächengewässer-Schutzgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizSchutzgebietWasserrecht_2000">
+         <description>Heilquellen Schutzgebiet</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizSchutzgebietWasserrecht:2000</identifier>
+         <name>Heilquellenschutzgebiet</name>
+         <name codeSpace="lesbarerName">Heilquellen-Schutzgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizSchutzgebietWasserrecht_9999">
+         <description>Sonstiges Schutzgebiet nach Wasserrecht.</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizSchutzgebietWasserrecht:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

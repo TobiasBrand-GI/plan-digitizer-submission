@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="748"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Einrichtungen und Anlagen zur Versorgung mit Gütern und Dienstleistungen des öffentlichen und privaten Bereichs, hier Flächen für den Gemeindebedarf (§9, Abs. 1, Nr.5 und Abs. 6 BauGB). Das gleiche Attribut darf nicht gleichzeitig in "BP_GemeinbedarfsFlaeche" und einem überlagernden Objekt "BP_UeberbaubareGrundstuecksFlaeche" belegt werden.</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:BP_GemeinbedarfsFlaeche</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">BP_GemeinbedarfsFlaeche</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="748_1684">
+         <gml:description>Zweckbestimmung der festgesetzten Fläche</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_GemeinbedarfsFlaeche:zweckbestimmung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">zweckbestimmung</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:BP_KomplexeZweckbestGemeinbedarf"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="748_7992">
+         <gml:description>Festsetzung der Bauweise  (§9, Abs. 1, Nr. 2 BauGB).</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_GemeinbedarfsFlaeche:bauweise</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">bauweise</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="748_7992_730_1623">
+               <gml:description>Offene Bauweise</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_GemeinbedarfsFlaeche:bauweise:1000</gml:identifier>
+               <gml:name>OffeneBauweise</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="748_7992_730_1624">
+               <gml:description>Geschlossene Bauweise</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_GemeinbedarfsFlaeche:bauweise:2000</gml:identifier>
+               <gml:name>GeschlosseneBauweise</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="748_7992_730_1625">
+               <gml:description>Abweichende Bauweise</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_GemeinbedarfsFlaeche:bauweise:3000</gml:identifier>
+               <gml:name>AbweichendeBauweise</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>BP_Bauweise</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="748_8898">
+         <gml:description>Textuelle Präzisierung oder Ergänzung der durch "bauweise" spezifizierten Bauweise.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_GemeinbedarfsFlaeche:bauweiseText</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">bauweiseText</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="748_7993">
+         <gml:description>Nähere Bezeichnung einer "Abweichenden Bauweise" ("bauweise" == 3000).</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_GemeinbedarfsFlaeche:abweichendeBauweise</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">abweichendeBauweise</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>BP_AbweichendeBauweise</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="748_7994">
+         <gml:description>Detaillierte Festsetzung der Bauweise (§9, Abs. 1, Nr. 2 BauGB).</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_GemeinbedarfsFlaeche:bebauungsArt</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">bebauungsArt</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="748_7994_715_1497">
+               <gml:description>Nur Einzelhäuser zulässig.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_GemeinbedarfsFlaeche:bebauungsArt:1000</gml:identifier>
+               <gml:name>Einzelhaeuser</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="748_7994_715_1498">
+               <gml:description>Nur Doppelhäuser zulässig.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_GemeinbedarfsFlaeche:bebauungsArt:2000</gml:identifier>
+               <gml:name>Doppelhaeuser</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="748_7994_715_1499">
+               <gml:description>Nur Hausgruppen zulässig.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_GemeinbedarfsFlaeche:bebauungsArt:3000</gml:identifier>
+               <gml:name>Hausgruppen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="748_7994_715_8891">
+               <gml:description>Nur Einzel- oder Doppelhäuser zulässig.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_GemeinbedarfsFlaeche:bebauungsArt:4000</gml:identifier>
+               <gml:name>EinzelDoppelhaeuser</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="748_7994_715_8892">
+               <gml:description>Nur Einzelhäuser oder Hausgruppen zulässig.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_GemeinbedarfsFlaeche:bebauungsArt:5000</gml:identifier>
+               <gml:name>EinzelhaeuserHausgruppen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="748_7994_715_8893">
+               <gml:description>Nur Doppelhäuser oder Hausgruppen zulässig.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_GemeinbedarfsFlaeche:bebauungsArt:6000</gml:identifier>
+               <gml:name>DoppelhaeuserHausgruppen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="748_7994_715_1503">
+               <gml:description>Nur Reihenhäuser zulässig.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_GemeinbedarfsFlaeche:bebauungsArt:7000</gml:identifier>
+               <gml:name>Reihenhaeuser</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>BP_BebauungsArt</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="748_8212">
+         <gml:description>Trägerschaft einer Gemeinbedarfs-Fläche</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_GemeinbedarfsFlaeche:traeger</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">traeger</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="748_8212_2724_8206">
+               <gml:description>Einrichtung des Bundes</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_GemeinbedarfsFlaeche:traeger:1000</gml:identifier>
+               <gml:name>EinrichtungBund</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="748_8212_2724_8207">
+               <gml:description>Einrichtung eines Bundeslandes</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_GemeinbedarfsFlaeche:traeger:2000</gml:identifier>
+               <gml:name>EinrichtungLand</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="748_8212_2724_8208">
+               <gml:description>Einrichtung eines Landkreises</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_GemeinbedarfsFlaeche:traeger:3000</gml:identifier>
+               <gml:name>EinrichtungKreis</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="748_8212_2724_8209">
+               <gml:description>Kommunaler Träger</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_GemeinbedarfsFlaeche:traeger:4000</gml:identifier>
+               <gml:name>KommunaleEinrichtung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="748_8212_2724_8210">
+               <gml:description>Träger ist eine Religionsgemeinschaft</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_GemeinbedarfsFlaeche:traeger:5000</gml:identifier>
+               <gml:name>ReligioeserTraeger</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="748_8212_2724_8211">
+               <gml:description>Sonstiger, z.B. privater Träger</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_GemeinbedarfsFlaeche:traeger:6000</gml:identifier>
+               <gml:name>SonstTraeger</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>XP_Traegerschaft</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="748_1699">
+         <gml:description>Angabe des Begünstigten der Ausweisung.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_GemeinbedarfsFlaeche:zugunstenVon</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">zugunstenVon</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:BP_Flaechenschlussobjekt"/>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:mixinType:xplan::xplan:6.1:BP_GestaltungBaugebiet"/>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:mixinType:xplan::xplan:6.1:BP_FestsetzungenBaugebiet"/>
+</def:TypeDefinition>

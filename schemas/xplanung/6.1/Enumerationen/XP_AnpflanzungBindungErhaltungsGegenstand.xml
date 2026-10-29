@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_AnpflanzungBindungErhaltungsGegenstand"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Gegenstand der nach §9, Abs. 1, Nr. 25 festgesetzten Maßnahme</description>
+   <identifier codeSpace="urn:xplan">XP_AnpflanzungBindungErhaltungsGegenstand</identifier>
+   <name>XP_AnpflanzungBindungErhaltungsGegenstand</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_AnpflanzungBindungErhaltungsGegenstand_1000">
+         <description>Bäume</description>
+         <identifier codeSpace="urn:xplan">XP_AnpflanzungBindungErhaltungsGegenstand:1000</identifier>
+         <name>Baeume</name>
+         <name codeSpace="lesbarerName">Bäume</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_AnpflanzungBindungErhaltungsGegenstand_1100">
+         <description>Kopfbäume</description>
+         <identifier codeSpace="urn:xplan">XP_AnpflanzungBindungErhaltungsGegenstand:1100</identifier>
+         <name>Kopfbaeume</name>
+         <name codeSpace="lesbarerName">Kopfbäume</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_AnpflanzungBindungErhaltungsGegenstand_1200">
+         <description>Baumreihe</description>
+         <identifier codeSpace="urn:xplan">XP_AnpflanzungBindungErhaltungsGegenstand:1200</identifier>
+         <name>Baumreihe</name>
+         <name codeSpace="lesbarerName">Baumreihe</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_AnpflanzungBindungErhaltungsGegenstand_1300">
+         <description>Obstbäume</description>
+         <identifier codeSpace="urn:xplan">XP_AnpflanzungBindungErhaltungsGegenstand:1300</identifier>
+         <name>Obstbaeume</name>
+         <name codeSpace="lesbarerName">Obstbäume</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_AnpflanzungBindungErhaltungsGegenstand_2000">
+         <description>Sträucher</description>
+         <identifier codeSpace="urn:xplan">XP_AnpflanzungBindungErhaltungsGegenstand:2000</identifier>
+         <name>Straeucher</name>
+         <name codeSpace="lesbarerName">Sträucher</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_AnpflanzungBindungErhaltungsGegenstand_2050">
+         <description>Bäume und Sträucher</description>
+         <identifier codeSpace="urn:xplan">XP_AnpflanzungBindungErhaltungsGegenstand:2050</identifier>
+         <name>BaeumeUndStraeucher</name>
+         <name codeSpace="lesbarerName">Bäume und Sträucher</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_AnpflanzungBindungErhaltungsGegenstand_2100">
+         <description>Hecke</description>
+         <identifier codeSpace="urn:xplan">XP_AnpflanzungBindungErhaltungsGegenstand:2100</identifier>
+         <name>Hecke</name>
+         <name codeSpace="lesbarerName">Hecke</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_AnpflanzungBindungErhaltungsGegenstand_2200">
+         <description>Knick</description>
+         <identifier codeSpace="urn:xplan">XP_AnpflanzungBindungErhaltungsGegenstand:2200</identifier>
+         <name>Knick</name>
+         <name codeSpace="lesbarerName">Knick</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_AnpflanzungBindungErhaltungsGegenstand_3000">
+         <description>Sonstige Bepflanzung</description>
+         <identifier codeSpace="urn:xplan">XP_AnpflanzungBindungErhaltungsGegenstand:3000</identifier>
+         <name>SonstBepflanzung</name>
+         <name codeSpace="lesbarerName">Sonstige Bepflanzung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_AnpflanzungBindungErhaltungsGegenstand_4000">
+         <description>Gewässer (nur Erhaltung)</description>
+         <identifier codeSpace="urn:xplan">XP_AnpflanzungBindungErhaltungsGegenstand:4000</identifier>
+         <name>Gewaesser</name>
+         <name codeSpace="lesbarerName">Gewässer</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_AnpflanzungBindungErhaltungsGegenstand_5000">
+         <description>Fassadenbegrünung</description>
+         <identifier codeSpace="urn:xplan">XP_AnpflanzungBindungErhaltungsGegenstand:5000</identifier>
+         <name>Fassadenbegruenung</name>
+         <name codeSpace="lesbarerName">Fassadenbegrünung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_AnpflanzungBindungErhaltungsGegenstand_6000">
+         <description>Dachbegrünung</description>
+         <identifier codeSpace="urn:xplan">XP_AnpflanzungBindungErhaltungsGegenstand:6000</identifier>
+         <name>Dachbegruenung</name>
+         <name codeSpace="lesbarerName">Dachbegrünung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_AnpflanzungBindungErhaltungsGegenstand_9999">
+         <description>Sonstiger Gegenstand der Erhaltungsmaßnahme</description>
+         <identifier codeSpace="urn:xplan">XP_AnpflanzungBindungErhaltungsGegenstand:9999</identifier>
+         <name>SonstGegenstand</name>
+         <name codeSpace="lesbarerName">Sonstiger Gegenstand</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

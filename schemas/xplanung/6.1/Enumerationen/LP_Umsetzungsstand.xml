@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_Umsetzungsstand"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Zeigt an, ob eine bereit umgesetzte oder angerechnete Kompensationsfläche oder -maßnahme nachrichtlich übernommen wurde oder für neue Vorhaben / Kompensationsmaßenahmen vorgeschlagen wird.</description>
+   <identifier codeSpace="urn:xplan">LP_Umsetzungsstand</identifier>
+   <name>LP_Umsetzungsstand</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_Umsetzungsstand_1000">
+         <description>Nachrichtliche Übernahme von Kompensationsflächen und -maßnahmen aus vorliegenden Planwerken, die bereits umgesetzt oder angerechnet wurden.</description>
+         <identifier codeSpace="urn:xplan">LP_Umsetzungsstand:1000</identifier>
+         <name>NachrichtlichUmgesetztAngerechnet</name>
+         <name codeSpace="lesbarerName">Nachrichtlich umgesetzt oder angerechnet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_Umsetzungsstand_2000">
+         <description>Vorschlag von Kompensationsflächen und -maßnahmen.</description>
+         <identifier codeSpace="urn:xplan">LP_Umsetzungsstand:2000</identifier>
+         <name>Vorschlag</name>
+         <name codeSpace="lesbarerName">Vorschlag</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_Umsetzungsstand_9998">
+         <description>Unbekannter Umsetzungsstand (bei Übernahme von Altdaten).</description>
+         <identifier codeSpace="urn:xplan">LP_Umsetzungsstand:9998</identifier>
+         <name>Unbekannt</name>
+         <name codeSpace="lesbarerName">Unbekannt</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

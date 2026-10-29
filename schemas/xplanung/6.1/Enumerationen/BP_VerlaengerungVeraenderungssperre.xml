@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="BP_VerlaengerungVeraenderungssperre"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">BP_VerlaengerungVeraenderungssperre</identifier>
+   <name>BP_VerlaengerungVeraenderungssperre</name>
+   <dictionaryEntry>
+      <Definition gml:id="BP_VerlaengerungVeraenderungssperre_1000">
+         <description>Veränderungssperre wurde noch nicht verlängert.</description>
+         <identifier codeSpace="urn:xplan">BP_VerlaengerungVeraenderungssperre:1000</identifier>
+         <name>Keine</name>
+         <name codeSpace="lesbarerName">Keine</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_VerlaengerungVeraenderungssperre_2000">
+         <description>Veränderungssperre wurde einmal verlängert.</description>
+         <identifier codeSpace="urn:xplan">BP_VerlaengerungVeraenderungssperre:2000</identifier>
+         <name>ErsteVerlaengerung</name>
+         <name codeSpace="lesbarerName">Erste Verlängerung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_VerlaengerungVeraenderungssperre_3000">
+         <description>Veränderungssperre wurde zweimal verlängert.</description>
+         <identifier codeSpace="urn:xplan">BP_VerlaengerungVeraenderungssperre:3000</identifier>
+         <name>ZweiteVerlaengerung</name>
+         <name codeSpace="lesbarerName">Zweite Verlängerung</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

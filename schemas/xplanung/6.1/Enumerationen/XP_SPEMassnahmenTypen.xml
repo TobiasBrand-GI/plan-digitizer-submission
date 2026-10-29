@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_SPEMassnahmenTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung der Typen von Ausgleichs- und Ersatzmaßnahmen.</description>
+   <identifier codeSpace="urn:xplan">XP_SPEMassnahmenTypen</identifier>
+   <name>XP_SPEMassnahmenTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_SPEMassnahmenTypen_1000">
+         <description>Artenreicher Gehölzbestand ist aus unterschiedlichen, standortgerechten Gehölzarten aufgebaut und weist einen Strauchanteil auf.</description>
+         <identifier codeSpace="urn:xplan">XP_SPEMassnahmenTypen:1000</identifier>
+         <name>ArtenreicherGehoelzbestand</name>
+         <name codeSpace="lesbarerName">Artenreicher Gehölzbestand</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_SPEMassnahmenTypen_1100">
+         <description>Naturnahe Wälder zeichnen sich durch eine standortgemäße Gehölzzusammensetzung unterschiedlicher Altersstufen, durch eine Schichtung der Gehölze (z.B. Strauchschicht, sich überlagernder erster Baumschicht in 10-15 m Höhe und zweiter Baumschicht in 20-25 m Höhe) sowie durch eine in der Regeln artenreiche Krautschicht aus. Kennzeichnend sind zudem das gleichzeitige Nebeneinander von aufwachsenden Gehölzen, Altbäumen und Lichtungen in kleinräumigen Wechsel sowie ein gewisser Totholzanteil.</description>
+         <identifier codeSpace="urn:xplan">XP_SPEMassnahmenTypen:1100</identifier>
+         <name>NaturnaherWald</name>
+         <name codeSpace="lesbarerName">Naturnaher Wald</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_SPEMassnahmenTypen_1200">
+         <description>Gegenüber einer intensiven Nutzung sind bei extensiver Grünlandnutzung sowohl Beweidungsintensitäten als auch der Düngereinsatz deutlich geringer. Als Folge finden eine Reihe von eher konkurrenzschwachen, oft auch trittempflindlichen Pflanzenarten Möglichkeiten, sich neben den in der Regel sehr robusten, wuchskräftigen, jedoch sehr nährstoffbedürftigen Pflanzen intensiver Wirtschaftsflächen zu behaupten.  Dadurch kommt es zur Ausprägung von standortbedingt unterschiedlichen Grünlandgesellschaften mit deutlichen höheren Artenzahlen (größere Vielfalt).</description>
+         <identifier codeSpace="urn:xplan">XP_SPEMassnahmenTypen:1200</identifier>
+         <name>ExtensivesGruenland</name>
+         <name codeSpace="lesbarerName">Extensives Grünland</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_SPEMassnahmenTypen_1300">
+         <description>Artenreiches Feuchtgrünland entwickelt sich bei extensiver Bewirtschaftung auf feuchten bis wechselnassen Standorten. Die geringe Tragfähigkeit des vielfach anstehenden Niedermoorbodens erschwert den Einsatz von Maschinen, so dass die Flächen vorwiegend beweidet bzw. erst spät im Jahr gemäht werden.</description>
+         <identifier codeSpace="urn:xplan">XP_SPEMassnahmenTypen:1300</identifier>
+         <name>Feuchtgruenland</name>
+         <name codeSpace="lesbarerName">Feuchtgrünland</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_SPEMassnahmenTypen_1400">
+         <description>Obstwiesen umfassen mittel- oder hochstämmige, großkronige Obstbäume auf beweidetem (Obstweide) oder gemähtem (Obstwiese) Grünland. Im Optimalfall setzt sich der aufgelockerte Baumbestand aus verschiedenen, möglichst alten, regional-typischen Kultursorten zusammen.</description>
+         <identifier codeSpace="urn:xplan">XP_SPEMassnahmenTypen:1400</identifier>
+         <name>Obstwiese</name>
+         <name codeSpace="lesbarerName">Obstwiese</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_SPEMassnahmenTypen_1500">
+         <description>Naturahne Uferbereiche umfassen unterschiedlich zusammengesetzte Röhrichte und Hochstaudenrieder oder Seggen-Gesellschaften sowie Ufergehölze, die sich vorwiegend aus strauch- oder baumförmigen Weiden, Erlen oder Eschen zusammensetzen.</description>
+         <identifier codeSpace="urn:xplan">XP_SPEMassnahmenTypen:1500</identifier>
+         <name>NaturnaherUferbereich</name>
+         <name codeSpace="lesbarerName">Naturnaher Uferbereich</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_SPEMassnahmenTypen_1600">
+         <description>Im flachen Wasser oder auf nassen Böden bilden sich hochwüchsige, oft artenarme Bestände aus überwiegend windblütigen Röhrichtarten aus. Natürliche Bestände finden sich im Uferbereich von Still- und Fließgewässern.</description>
+         <identifier codeSpace="urn:xplan">XP_SPEMassnahmenTypen:1600</identifier>
+         <name>Roehrichtzone</name>
+         <name codeSpace="lesbarerName">Röhrichtzone</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_SPEMassnahmenTypen_1700">
+         <description>Ackerrandstreifen sind breite Streifen im Randbereich eines konventionell oder ökologisch genutzten Ackerschlages.</description>
+         <identifier codeSpace="urn:xplan">XP_SPEMassnahmenTypen:1700</identifier>
+         <name>Ackerrandstreifen</name>
+         <name codeSpace="lesbarerName">Ackerrandstreifen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_SPEMassnahmenTypen_1800">
+         <description>Als Ackerbrachflächen werden solche Biotope angesprochen, die seit kurzer Zeit aus der Nutzung herausgenommen worden sind. Sie entstehen, indem Ackerflächen mindestens eine Vegetationsperiode nicht mehr bewirtschaftet werden.</description>
+         <identifier codeSpace="urn:xplan">XP_SPEMassnahmenTypen:1800</identifier>
+         <name>Ackerbrache</name>
+         <name codeSpace="lesbarerName">Ackerbrache</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_SPEMassnahmenTypen_1900">
+         <description>Als Grünlandbrachen werden solche Biotope angesprochen, die seit kurzer Zeit aus der Nutzung herausgenommen worden sind. Sie entstehen, indem Grünland mindestens eine Vegetationsperiode nicht mehr bewirtschaftet wird.</description>
+         <identifier codeSpace="urn:xplan">XP_SPEMassnahmenTypen:1900</identifier>
+         <name>Gruenlandbrache</name>
+         <name codeSpace="lesbarerName">Grünlandbrache</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_SPEMassnahmenTypen_2000">
+         <description>Sukzessionsflächen umfassen dauerhaft ungenutzte, der natürlichen Entwicklung überlassene Vegetationsbestände auf trockenen bis feuchten Standorten.</description>
+         <identifier codeSpace="urn:xplan">XP_SPEMassnahmenTypen:2000</identifier>
+         <name>Sukzessionsflaeche</name>
+         <name codeSpace="lesbarerName">Sukzessionsfläche</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_SPEMassnahmenTypen_2100">
+         <description>Hochwüchsige, zumeist artenreiche Staudenfluren feuchter bis nasser Standorte entwickeln sich in der Regel auf Feuchtgrünland-Brachen, an gehölzfreien Uferstreifen oder an anderen zeitweilig gestörten Standorten mit hohen Grundwasserständen.</description>
+         <identifier codeSpace="urn:xplan">XP_SPEMassnahmenTypen:2100</identifier>
+         <name>Hochstaudenflur</name>
+         <name codeSpace="lesbarerName">Hochstaudenflur</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_SPEMassnahmenTypen_2200">
+         <description>Trockenrasen sind durch zumindest zeitweilige extreme Trockenheit (Regelwasser versickert rasch) sowie durch Nährstoffarmut charakterisiert, die nur Arten mit speziell angepassten Lebensstrategien Entwicklungsmöglichkeiten bieten.</description>
+         <identifier codeSpace="urn:xplan">XP_SPEMassnahmenTypen:2200</identifier>
+         <name>Trockenrasen</name>
+         <name codeSpace="lesbarerName">Trockenrasen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_SPEMassnahmenTypen_2300">
+         <description>Heiden sind Zwergstrauchgesellschaften auf nährstoffarmen, sauren, trockenen (Calluna-Heide) oder feuchten (Erica-Heide) Standorten. Im Binnenland haben sie in der Regel nach Entwaldung (Abholzung) und langer Übernutzung (Beweidung) primär nährstoffarmer Standorte entwickelt.</description>
+         <identifier codeSpace="urn:xplan">XP_SPEMassnahmenTypen:2300</identifier>
+         <name>Heide</name>
+         <name codeSpace="lesbarerName">Heide</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_SPEMassnahmenTypen_2400">
+         <description>Moore, Sümpfe, Röhrichte, Großseggenrieder, seggen- und binsenreiche Nasswiesen, Quellbereiche, Binnenlandsalzstellen.“ gem. §30 Abs. 2 Nr. 2 BNatSchG.</description>
+         <identifier codeSpace="urn:xplan">XP_SPEMassnahmenTypen:2400</identifier>
+         <name>Moor</name>
+         <name codeSpace="lesbarerName">Moor</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_SPEMassnahmenTypen_9999">
+         <description>Sonstiges</description>
+         <identifier codeSpace="urn:xplan">XP_SPEMassnahmenTypen:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_ErneuerbareEnergieTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von Erneuerbarer Energie.</description>
+   <identifier codeSpace="urn:xplan">RP_ErneuerbareEnergieTypen</identifier>
+   <name>RP_ErneuerbareEnergieTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ErneuerbareEnergieTypen_1000">
+         <description>Windenergie.</description>
+         <identifier codeSpace="urn:xplan">RP_ErneuerbareEnergieTypen:1000</identifier>
+         <name>Windenergie</name>
+         <name codeSpace="lesbarerName">Windenergie</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ErneuerbareEnergieTypen_2000">
+         <description>Solarenergie.</description>
+         <identifier codeSpace="urn:xplan">RP_ErneuerbareEnergieTypen:2000</identifier>
+         <name>Solarenergie</name>
+         <name codeSpace="lesbarerName">Solarenergie</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ErneuerbareEnergieTypen_3000">
+         <description>Geothermie.</description>
+         <identifier codeSpace="urn:xplan">RP_ErneuerbareEnergieTypen:3000</identifier>
+         <name>Geothermie</name>
+         <name codeSpace="lesbarerName">Geothermie</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ErneuerbareEnergieTypen_4000">
+         <description>Biomasse.</description>
+         <identifier codeSpace="urn:xplan">RP_ErneuerbareEnergieTypen:4000</identifier>
+         <name>Biomasse</name>
+         <name codeSpace="lesbarerName">Biomasse</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ErneuerbareEnergieTypen_5000">
+         <description>Wasserkraft</description>
+         <identifier codeSpace="urn:xplan">RP_ErneuerbareEnergieTypen:5000</identifier>
+         <name>Wasserkraft</name>
+         <name codeSpace="lesbarerName">Wasserkraft</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ErneuerbareEnergieTypen_9999">
+         <description>Sonstige Erneuerbare Energie.</description>
+         <identifier codeSpace="urn:xplan">RP_ErneuerbareEnergieTypen:9999</identifier>
+         <name>SonstigeErneuerbareEnergie</name>
+         <name codeSpace="lesbarerName">Sonstige Erneuerbare Energie</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

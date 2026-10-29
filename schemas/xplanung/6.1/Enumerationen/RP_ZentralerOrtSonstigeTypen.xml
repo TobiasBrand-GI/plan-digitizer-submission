@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_ZentralerOrtSonstigeTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Sonstige Typen von Zentralen Orten.</description>
+   <identifier codeSpace="urn:xplan">RP_ZentralerOrtSonstigeTypen</identifier>
+   <name>RP_ZentralerOrtSonstigeTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtSonstigeTypen_1000">
+         <description>Doppelzentrum.</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtSonstigeTypen:1000</identifier>
+         <name>Doppelzentrum</name>
+         <name codeSpace="lesbarerName">Doppelzentrum</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtSonstigeTypen_1100">
+         <description>Funktionsteiliger Zentraler Ort.</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtSonstigeTypen:1100</identifier>
+         <name>Funktionsteilig</name>
+         <name codeSpace="lesbarerName">Funktionsteilig</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtSonstigeTypen_1101">
+         <description>Zentraler Ort mit oberzentraler Teilfunktion.</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtSonstigeTypen:1101</identifier>
+         <name>MitOberzentralerTeilfunktion</name>
+         <name codeSpace="lesbarerName">Mit oberzentraler Teilfunktion</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtSonstigeTypen_1102">
+         <description>Zentraler Ort mit mittelzentraler Teilfunktion.</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtSonstigeTypen:1102</identifier>
+         <name>MitMittelzentralerTeilfunktion</name>
+         <name codeSpace="lesbarerName">Mit mittelzentraler Teilfunktion</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtSonstigeTypen_1200">
+         <description>Zentraler Ort im Verbund.</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtSonstigeTypen:1200</identifier>
+         <name>ImVerbund</name>
+         <name codeSpace="lesbarerName">Im Verbund</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtSonstigeTypen_1300">
+         <description>Kooperierender Zentraler Ort.</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtSonstigeTypen:1300</identifier>
+         <name>Kooperierend</name>
+         <name codeSpace="lesbarerName">Kooperierend</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtSonstigeTypen_1301">
+         <description>Freiwillig kooperierender Zentraler Ort.</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtSonstigeTypen:1301</identifier>
+         <name>KooperierendFreiwillig</name>
+         <name codeSpace="lesbarerName">Kooperierend Freiwillig</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtSonstigeTypen_1302">
+         <description>Verpflichtend kooperierender Zentraler Ort.</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtSonstigeTypen:1302</identifier>
+         <name>KooperierendVerpflichtend</name>
+         <name codeSpace="lesbarerName">Kooperierend Verpflichtend</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtSonstigeTypen_1400">
+         <description>Zentraler Ort im Verdichtungsraum.</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtSonstigeTypen:1400</identifier>
+         <name>ImVerdichtungsraum</name>
+         <name codeSpace="lesbarerName">Im Verdichtungsraum</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtSonstigeTypen_1500">
+         <description>Siedlungsgrundnetz.</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtSonstigeTypen:1500</identifier>
+         <name>SiedlungsGrundnetz</name>
+         <name codeSpace="lesbarerName">Siedlungsgrundnetz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtSonstigeTypen_1501">
+         <description>Siedlungsergänzungsnetz.</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtSonstigeTypen:1501</identifier>
+         <name>SiedlungsErgaenzungsnetz</name>
+         <name codeSpace="lesbarerName">Siedlungsergänzungsnetz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtSonstigeTypen_1600">
+         <description>Entwicklungsschwerpunkt.</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtSonstigeTypen:1600</identifier>
+         <name>Entwicklungsschwerpunkt</name>
+         <name codeSpace="lesbarerName">Entwicklungsschwerpunkt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtSonstigeTypen_1700">
+         <description>Überschneidungsbereich.</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtSonstigeTypen:1700</identifier>
+         <name>Ueberschneidungsbereich</name>
+         <name codeSpace="lesbarerName">Überschneidungsbereich</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtSonstigeTypen_1800">
+         <description>Zentraler Ort mit Ergänzungsfunktion.</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtSonstigeTypen:1800</identifier>
+         <name>Ergaenzungsfunktion</name>
+         <name codeSpace="lesbarerName">Ergänzungsfunktion</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtSonstigeTypen_1900">
+         <description>Zentraler Ort in Nachbarregionen oder Ländern.</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtSonstigeTypen:1900</identifier>
+         <name>Nachbar</name>
+         <name codeSpace="lesbarerName">Nachbar</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtSonstigeTypen_2000">
+         <description>Mögliches Zentrum, zum Beispiel "mögliches Mittelzentrum".</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtSonstigeTypen:2000</identifier>
+         <name>MoeglichesZentrum</name>
+         <name codeSpace="lesbarerName">Mögliches Zentrum</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtSonstigeTypen_2100">
+         <description>Funktionsraum, eindeutige Ausrichtung.</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtSonstigeTypen:2100</identifier>
+         <name>FunktionsraumEindeutigeAusrichtung</name>
+         <name codeSpace="lesbarerName">Funktionsraum mit eindeutiger Ausrichtung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtSonstigeTypen_2101">
+         <description>Funktionsraum, bilaterale Ausrichtung.</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtSonstigeTypen:2101</identifier>
+         <name>FunktionsraumBilateraleAusrichtung</name>
+         <name codeSpace="lesbarerName">Funktionsraum mit bilateraler Ausrichtung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZentralerOrtSonstigeTypen_2200">
+         <description>Der Kongruenzraum ist ein Bezugsraum zur Anwendung des &#xD;
+Kongruenzgebots. Der Kongruenzraum beschreibt den Raum im Umfeld eines Zentralen Ortes, den Einzelhandelsgroßprojekte, die im Zentralen Ort angesiedelt werden sollen oder bereits bestehen, im Wesentlichen versorgen sollen.</description>
+         <identifier codeSpace="urn:xplan">RP_ZentralerOrtSonstigeTypen:2200</identifier>
+         <name>Kongruenzraum</name>
+         <name codeSpace="lesbarerName">Kongruenzraum</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

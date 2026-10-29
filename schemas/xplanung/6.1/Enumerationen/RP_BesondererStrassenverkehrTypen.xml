@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_BesondererStrassenverkehrTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von besonderem Straßenverkehr.</description>
+   <identifier codeSpace="urn:xplan">RP_BesondererStrassenverkehrTypen</identifier>
+   <name>RP_BesondererStrassenverkehrTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BesondererStrassenverkehrTypen_1000">
+         <description>Zweistreifig.</description>
+         <identifier codeSpace="urn:xplan">RP_BesondererStrassenverkehrTypen:1000</identifier>
+         <name>Zweistreifig</name>
+         <name codeSpace="lesbarerName">Zweistreifig</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BesondererStrassenverkehrTypen_1001">
+         <description>Dreistreifig.</description>
+         <identifier codeSpace="urn:xplan">RP_BesondererStrassenverkehrTypen:1001</identifier>
+         <name>Dreistreifig</name>
+         <name codeSpace="lesbarerName">Dreistreifig</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BesondererStrassenverkehrTypen_1002">
+         <description>Vierstreifig.</description>
+         <identifier codeSpace="urn:xplan">RP_BesondererStrassenverkehrTypen:1002</identifier>
+         <name>Vierstreifig</name>
+         <name codeSpace="lesbarerName">Vierstreifig</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BesondererStrassenverkehrTypen_1003">
+         <description>Sechsstreifig.</description>
+         <identifier codeSpace="urn:xplan">RP_BesondererStrassenverkehrTypen:1003</identifier>
+         <name>Sechsstreifig</name>
+         <name codeSpace="lesbarerName">Sechsstreifig</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BesondererStrassenverkehrTypen_2000">
+         <description>Problembereich.</description>
+         <identifier codeSpace="urn:xplan">RP_BesondererStrassenverkehrTypen:2000</identifier>
+         <name>Problembereich</name>
+         <name codeSpace="lesbarerName">Problembereich</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BesondererStrassenverkehrTypen_3000">
+         <description>Grünbrückenquerungsmöglichkeit.</description>
+         <identifier codeSpace="urn:xplan">RP_BesondererStrassenverkehrTypen:3000</identifier>
+         <name>GruenbrueckeQuerungsmoeglichkeit</name>
+         <name codeSpace="lesbarerName">Grünbrücke Querungsmöglichkeit</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

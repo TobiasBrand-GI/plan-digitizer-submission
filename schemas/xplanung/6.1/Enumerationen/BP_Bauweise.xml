@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="BP_Bauweise"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung verschiedener Bauweisen.</description>
+   <identifier codeSpace="urn:xplan">BP_Bauweise</identifier>
+   <name>BP_Bauweise</name>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Bauweise_1000">
+         <description>Offene Bauweise</description>
+         <identifier codeSpace="urn:xplan">BP_Bauweise:1000</identifier>
+         <name>OffeneBauweise</name>
+         <name codeSpace="lesbarerName">Offene Bauweise</name>
+         <name codeSpace="kuerzel">o</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Bauweise_2000">
+         <description>Geschlossene Bauweise</description>
+         <identifier codeSpace="urn:xplan">BP_Bauweise:2000</identifier>
+         <name>GeschlosseneBauweise</name>
+         <name codeSpace="lesbarerName">Geschlossene Bauweise</name>
+         <name codeSpace="kuerzel">g</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Bauweise_3000">
+         <description>Abweichende Bauweise</description>
+         <identifier codeSpace="urn:xplan">BP_Bauweise:3000</identifier>
+         <name>AbweichendeBauweise</name>
+         <name codeSpace="lesbarerName">Abweichende Bauweise</name>
+         <name codeSpace="kuerzel">a</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

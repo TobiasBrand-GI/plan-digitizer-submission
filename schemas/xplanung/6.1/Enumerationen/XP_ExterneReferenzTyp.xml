@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_ExterneReferenzTyp"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">XP_ExterneReferenzTyp</identifier>
+   <name>XP_ExterneReferenzTyp</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ExterneReferenzTyp_1000">
+         <description>Beschreibung eines Plans</description>
+         <identifier codeSpace="urn:xplan">XP_ExterneReferenzTyp:1000</identifier>
+         <name>Beschreibung</name>
+         <name codeSpace="lesbarerName">Beschreibung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ExterneReferenzTyp_1010">
+         <description>Begründung eines Plans</description>
+         <identifier codeSpace="urn:xplan">XP_ExterneReferenzTyp:1010</identifier>
+         <name>Begruendung</name>
+         <name codeSpace="lesbarerName">Begründung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ExterneReferenzTyp_1020">
+         <description>Plan-Legende</description>
+         <identifier codeSpace="urn:xplan">XP_ExterneReferenzTyp:1020</identifier>
+         <name>Legende</name>
+         <name codeSpace="lesbarerName">Legende</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ExterneReferenzTyp_1030">
+         <description>Elektronische Version des rechtsverbindlichen Plans</description>
+         <identifier codeSpace="urn:xplan">XP_ExterneReferenzTyp:1030</identifier>
+         <name>Rechtsplan</name>
+         <name codeSpace="lesbarerName">Rechtsplan</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ExterneReferenzTyp_1040">
+         <description>Elektronische Version der Plangrundlage, z.B. ein katasterplan</description>
+         <identifier codeSpace="urn:xplan">XP_ExterneReferenzTyp:1040</identifier>
+         <name>Plangrundlage</name>
+         <name codeSpace="lesbarerName">Plangrundlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ExterneReferenzTyp_1050">
+         <description>Umweltbericht - Ergebnis der Umweltprüfung bzgl. der Umweltbelange</description>
+         <identifier codeSpace="urn:xplan">XP_ExterneReferenzTyp:1050</identifier>
+         <name>Umweltbericht</name>
+         <name codeSpace="lesbarerName">Umweltbericht</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ExterneReferenzTyp_1060">
+         <description>Satzung</description>
+         <identifier codeSpace="urn:xplan">XP_ExterneReferenzTyp:1060</identifier>
+         <name>Satzung</name>
+         <name codeSpace="lesbarerName">Satzung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ExterneReferenzTyp_1065">
+         <description>Elektronische Version des Verordnungstextes</description>
+         <identifier codeSpace="urn:xplan">XP_ExterneReferenzTyp:1065</identifier>
+         <name>Verordnung</name>
+         <name codeSpace="lesbarerName">Verordnung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ExterneReferenzTyp_1070">
+         <description>Referenz auf eine Karte, die in Bezug zum Plan steht</description>
+         <identifier codeSpace="urn:xplan">XP_ExterneReferenzTyp:1070</identifier>
+         <name>Karte</name>
+         <name codeSpace="lesbarerName">Karte</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ExterneReferenzTyp_1080">
+         <description>Erläuterungsbericht</description>
+         <identifier codeSpace="urn:xplan">XP_ExterneReferenzTyp:1080</identifier>
+         <name>Erlaeuterung</name>
+         <name codeSpace="lesbarerName">Erläuterung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ExterneReferenzTyp_1090">
+         <description>Zusammenfassende Erklärung zum Bebauungsplan gemäß BauGB</description>
+         <identifier codeSpace="urn:xplan">XP_ExterneReferenzTyp:1090</identifier>
+         <name>ZusammenfassendeErklaerung</name>
+         <name codeSpace="lesbarerName">Zusammenfassende Erklärung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ExterneReferenzTyp_2000">
+         <description>Koordinaten-Liste</description>
+         <identifier codeSpace="urn:xplan">XP_ExterneReferenzTyp:2000</identifier>
+         <name>Koordinatenliste</name>
+         <name codeSpace="lesbarerName">Koordinatenliste</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ExterneReferenzTyp_2100">
+         <description>Grundstücksverzeichnis</description>
+         <identifier codeSpace="urn:xplan">XP_ExterneReferenzTyp:2100</identifier>
+         <name>Grundstuecksverzeichnis</name>
+         <name codeSpace="lesbarerName">Grundstücksverzeichnis</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ExterneReferenzTyp_2200">
+         <description>Pflanzliste</description>
+         <identifier codeSpace="urn:xplan">XP_ExterneReferenzTyp:2200</identifier>
+         <name>Pflanzliste</name>
+         <name codeSpace="lesbarerName">Pflanzliste</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ExterneReferenzTyp_2300">
+         <description>Grünordnungsplan</description>
+         <identifier codeSpace="urn:xplan">XP_ExterneReferenzTyp:2300</identifier>
+         <name>Gruenordnungsplan</name>
+         <name codeSpace="lesbarerName">Grünordnungsplan</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ExterneReferenzTyp_2400">
+         <description>Erschließungsvertrag</description>
+         <identifier codeSpace="urn:xplan">XP_ExterneReferenzTyp:2400</identifier>
+         <name>Erschliessungsvertrag</name>
+         <name codeSpace="lesbarerName">Erschliessungsvertrag</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ExterneReferenzTyp_2500">
+         <description>Durchführungsvertrag</description>
+         <identifier codeSpace="urn:xplan">XP_ExterneReferenzTyp:2500</identifier>
+         <name>Durchfuehrungsvertrag</name>
+         <name codeSpace="lesbarerName">Durchführungsvertrag</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ExterneReferenzTyp_2600">
+         <description>Elektronische Version eines städtebaulichen Vertrages</description>
+         <identifier codeSpace="urn:xplan">XP_ExterneReferenzTyp:2600</identifier>
+         <name>StaedtebaulicherVertrag</name>
+         <name codeSpace="lesbarerName">Städtebaulicher Vertrag</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ExterneReferenzTyp_2700">
+         <description>Elektronisches Dokument mit umweltbezogenen Stellungnahmen.</description>
+         <identifier codeSpace="urn:xplan">XP_ExterneReferenzTyp:2700</identifier>
+         <name>UmweltbezogeneStellungnahmen</name>
+         <name codeSpace="lesbarerName">Umweltbezogene Stellungnahmen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ExterneReferenzTyp_2800">
+         <description>Dokument mit dem Beschluss des Gemeinderats zur Öffentlichkeitsbeteiligung</description>
+         <identifier codeSpace="urn:xplan">XP_ExterneReferenzTyp:2800</identifier>
+         <name>ÖffentlichkeitseteiligungsBeschluss</name>
+         <name codeSpace="lesbarerName">Öffentlichkeitsbeteiligungs-Beschluss</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ExterneReferenzTyp_2850">
+         <description>Dokument mit dem Beschluss des Gemeinderats zur Planaufstellung</description>
+         <identifier codeSpace="urn:xplan">XP_ExterneReferenzTyp:2850</identifier>
+         <name>Aufstellungsbeschluss</name>
+         <name codeSpace="lesbarerName">Aufstellungsbeschluss</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ExterneReferenzTyp_2900">
+         <description>Referenz auf einen Vorhaben- und Erschließungsplan nach §7 BauBG-MaßnahmenG von 1993</description>
+         <identifier codeSpace="urn:xplan">XP_ExterneReferenzTyp:2900</identifier>
+         <name>VorhabenUndErschliessungsplan</name>
+         <name codeSpace="lesbarerName">Vorhaben Und Erschließungsplan</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ExterneReferenzTyp_3000">
+         <description>Referenz auf den Metadatensatz des Plans</description>
+         <identifier codeSpace="urn:xplan">XP_ExterneReferenzTyp:3000</identifier>
+         <name>MetadatenPlan</name>
+         <name codeSpace="lesbarerName">Metadaten des Plans</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ExterneReferenzTyp_3100">
+         <description>Städtebauliches Entwicklungskonzept zur Stärkung der Innenentwicklung</description>
+         <identifier codeSpace="urn:xplan">XP_ExterneReferenzTyp:3100</identifier>
+         <name>StaedtebaulEntwicklungskonzeptInnenentwicklung</name>
+         <name codeSpace="lesbarerName">Städtebauliches Entwicklungskonzept Innenentwicklung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ExterneReferenzTyp_4000">
+         <description>Referenz auf ein Dokument mit dem Text der Genehmigung</description>
+         <identifier codeSpace="urn:xplan">XP_ExterneReferenzTyp:4000</identifier>
+         <name>Genehmigung</name>
+         <name codeSpace="lesbarerName">Genehmigung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ExterneReferenzTyp_5000">
+         <description>Referenz auf den Bekanntmachungs-Text</description>
+         <identifier codeSpace="urn:xplan">XP_ExterneReferenzTyp:5000</identifier>
+         <name>Bekanntmachung</name>
+         <name codeSpace="lesbarerName">Bekanntmachung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ExterneReferenzTyp_6000">
+         <description>Rechtliche Grundlage für die Ausweisung und das Management eines Schutzgebietes.</description>
+         <identifier codeSpace="urn:xplan">XP_ExterneReferenzTyp:6000</identifier>
+         <name>Schutzgebietsverordnung</name>
+         <name codeSpace="lesbarerName">Schutzgebietsverordnung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ExterneReferenzTyp_9998">
+         <description>Sonstiges rechtsverbindliches Dokument</description>
+         <identifier codeSpace="urn:xplan">XP_ExterneReferenzTyp:9998</identifier>
+         <name>Rechtsverbindlich</name>
+         <name codeSpace="lesbarerName">Rechtsverbindlich</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ExterneReferenzTyp_9999">
+         <description>Sonstiges nicht-rechtsverbindliches Dokument</description>
+         <identifier codeSpace="urn:xplan">XP_ExterneReferenzTyp:9999</identifier>
+         <name>Informell</name>
+         <name codeSpace="lesbarerName">Informell</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

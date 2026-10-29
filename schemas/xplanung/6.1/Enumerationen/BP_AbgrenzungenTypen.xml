@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="BP_AbgrenzungenTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">BP_AbgrenzungenTypen</identifier>
+   <name>BP_AbgrenzungenTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="BP_AbgrenzungenTypen_1000">
+         <description>Nutzungsarten-Grenze zur Abgrenzung von Baugebieten mit unterschiedlicher Art oder unterschiedlichem Maß der baulichen Nutzung.</description>
+         <identifier codeSpace="urn:xplan">BP_AbgrenzungenTypen:1000</identifier>
+         <name>Nutzungsartengrenze</name>
+         <name codeSpace="lesbarerName">Nutzungsartengrenze</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_AbgrenzungenTypen_2000">
+         <description>Abgrenzung von Bereichen mit unterschiedlichen Festsetzungen zur Gebäudehöhe und/oder Zahl der Vollgeschosse.</description>
+         <identifier codeSpace="urn:xplan">BP_AbgrenzungenTypen:2000</identifier>
+         <name>UnterschiedlicheHoehen</name>
+         <name codeSpace="lesbarerName">Unterschiedliche Höhen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_AbgrenzungenTypen_9999">
+         <description>Sonstige Abgrenzung</description>
+         <identifier codeSpace="urn:xplan">BP_AbgrenzungenTypen:9999</identifier>
+         <name>SonstigeAbgrenzung</name>
+         <name codeSpace="lesbarerName">Sonstige Abgrenzung</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

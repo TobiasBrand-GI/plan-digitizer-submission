@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_FlaechenTypBVSpeziell"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Differenzierung des Flächentyps des Biotopverbunds.</description>
+   <identifier codeSpace="urn:xplan">LP_FlaechenTypBVSpeziell</identifier>
+   <name>LP_FlaechenTypBVSpeziell</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_FlaechenTypBVSpeziell_1000">
+         <description>Verbindungsräume</description>
+         <identifier codeSpace="urn:xplan">LP_FlaechenTypBVSpeziell:1000</identifier>
+         <name>Verbindungsraeume</name>
+         <name codeSpace="lesbarerName">Verbindungsräume</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_FlaechenTypBVSpeziell_2000">
+         <description>Verbundachse</description>
+         <identifier codeSpace="urn:xplan">LP_FlaechenTypBVSpeziell:2000</identifier>
+         <name>Verbundachse</name>
+         <name codeSpace="lesbarerName">Verbundachse</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_FlaechenTypBVSpeziell_3000">
+         <description>Wildtierkorridor</description>
+         <identifier codeSpace="urn:xplan">LP_FlaechenTypBVSpeziell:3000</identifier>
+         <name>Wildtierkorridor</name>
+         <name codeSpace="lesbarerName">Wildtierkorridor</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_FlaechenTypBVSpeziell_4000">
+         <description>Entwicklungsfläche</description>
+         <identifier codeSpace="urn:xplan">LP_FlaechenTypBVSpeziell:4000</identifier>
+         <name>Entwicklungsflaeche</name>
+         <name codeSpace="lesbarerName">Entwicklungsfläche</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_FlaechenTypBVSpeziell_5000">
+         <description>Entwicklungsmaßnahme</description>
+         <identifier codeSpace="urn:xplan">LP_FlaechenTypBVSpeziell:5000</identifier>
+         <name>Entwicklungsmassnahme</name>
+         <name codeSpace="lesbarerName">Entwicklungsmaßnahme</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_FlaechenTypBVSpeziell_6000">
+         <description>Vernetzungselement</description>
+         <identifier codeSpace="urn:xplan">LP_FlaechenTypBVSpeziell:6000</identifier>
+         <name>Vernetzungselement</name>
+         <name codeSpace="lesbarerName">Vernetzungselement</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_FlaechenTypBVSpeziell_7000">
+         <description>Trittsteinbiotop</description>
+         <identifier codeSpace="urn:xplan">LP_FlaechenTypBVSpeziell:7000</identifier>
+         <name>Trittsteinbiotop</name>
+         <name codeSpace="lesbarerName">Trittsteinbiotop</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_FlaechenTypBVSpeziell_9999">
+         <description>Sonstiges Biotopverbundelement.</description>
+         <identifier codeSpace="urn:xplan">LP_FlaechenTypBVSpeziell:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

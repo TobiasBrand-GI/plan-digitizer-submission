@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_SchutzPflegeEntwicklung"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Auflistung von Zielen und Handlungsarten für Schutz-, Pflege- und Entwicklungsmaßnahmen.</description>
+   <identifier codeSpace="urn:xplan">LP_SchutzPflegeEntwicklung</identifier>
+   <name>LP_SchutzPflegeEntwicklung</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_SchutzPflegeEntwicklung_1100">
+         <description>Schutz bzw. Erhalt von Natur und Landschaft</description>
+         <identifier codeSpace="urn:xplan">LP_SchutzPflegeEntwicklung:1100</identifier>
+         <name>Schutz</name>
+         <name codeSpace="lesbarerName">Schutz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_SchutzPflegeEntwicklung_1200">
+         <description>Pflege von Natur und Landschaft</description>
+         <identifier codeSpace="urn:xplan">LP_SchutzPflegeEntwicklung:1200</identifier>
+         <name>Pflege</name>
+         <name codeSpace="lesbarerName">Pflege</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_SchutzPflegeEntwicklung_2000">
+         <description>Entwicklung von Natur und Landschaft</description>
+         <identifier codeSpace="urn:xplan">LP_SchutzPflegeEntwicklung:2000</identifier>
+         <name>Entwicklung</name>
+         <name codeSpace="lesbarerName">Entwicklung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_SchutzPflegeEntwicklung_3000">
+         <description>Anlage bzw. Schaffung von neuen Strukturen und Funktionen (z.B. Anlage einer Hecke)</description>
+         <identifier codeSpace="urn:xplan">LP_SchutzPflegeEntwicklung:3000</identifier>
+         <name>Anlage</name>
+         <name codeSpace="lesbarerName">Anlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_SchutzPflegeEntwicklung_3500">
+         <description>Wiederherstellung von ehemals vorhandenen Strukturen und Funktionen</description>
+         <identifier codeSpace="urn:xplan">LP_SchutzPflegeEntwicklung:3500</identifier>
+         <name>Wiederherstellung</name>
+         <name codeSpace="lesbarerName">Wiederherstellung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_SchutzPflegeEntwicklung_5100">
+         <description>Vermeidung von Beeinträchtigungen von Natur und Landschaft</description>
+         <identifier codeSpace="urn:xplan">LP_SchutzPflegeEntwicklung:5100</identifier>
+         <name>Vermeidung</name>
+         <name codeSpace="lesbarerName">Vermeidung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_SchutzPflegeEntwicklung_5200">
+         <description>Minderung von Beeinträchtigungen von Natur und Landschaft</description>
+         <identifier codeSpace="urn:xplan">LP_SchutzPflegeEntwicklung:5200</identifier>
+         <name>Minderung</name>
+         <name codeSpace="lesbarerName">Minderung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_SchutzPflegeEntwicklung_5300">
+         <description>Beseitigung von Beeinträchtigungen von Natur und Landschaft</description>
+         <identifier codeSpace="urn:xplan">LP_SchutzPflegeEntwicklung:5300</identifier>
+         <name>Beseitigung</name>
+         <name codeSpace="lesbarerName">Beseitigung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_SchutzPflegeEntwicklung_9999">
+         <description>Sonstiges Ziel (siehe schutzPflegeEntwicklungText)</description>
+         <identifier codeSpace="urn:xplan">LP_SchutzPflegeEntwicklung:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

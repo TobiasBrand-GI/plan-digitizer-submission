@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="838"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Anlagen, Einrichtungen und sonstige Maßnahmen, die der Anpassung an den Klimawandel dienen nach §5 Abs.2 Nr.2c BauGB.</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:FP_AnpassungKlimawandel</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">FP_AnpassungKlimawandel</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="838_8116">
+         <gml:description>Klassifikation der Massnahme</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_AnpassungKlimawandel:massnahme</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">massnahme</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="838_8116_2699_8112">
+               <gml:description>Erhalt vegetationsbestandener Freiflächen</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_AnpassungKlimawandel:massnahme:1000</gml:identifier>
+               <gml:name>ErhaltFreiflaechen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="838_8116_2699_8113">
+               <gml:description>Erhalt privater Grünflächen</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_AnpassungKlimawandel:massnahme:10000</gml:identifier>
+               <gml:name>ErhaltPrivGruen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="838_8116_2699_8114">
+               <gml:description>Erhalt öffentlicher Grünflächen</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_AnpassungKlimawandel:massnahme:10001</gml:identifier>
+               <gml:name>ErhaltOeffentlGruen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="838_8116_2699_8881">
+               <gml:description>Erhalt einer Kaltluftschneise</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_AnpassungKlimawandel:massnahme:10002</gml:identifier>
+               <gml:name>ErhaltKaltluftschneise</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="838_8116_2699_8115">
+               <gml:description>Sonstige Massnahme</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_AnpassungKlimawandel:massnahme:9999</gml:identifier>
+               <gml:name>SonstMassnahme</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>FP_MassnahmeKlimawandelTypen</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="838_8117">
+         <gml:description>Detaillierung der durch das Attribut "massnahme" festgelegten Maßnahme über eine Codeliste.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_AnpassungKlimawandel:detailMassnahme</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">detailMassnahme</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>FP_DetailMassnahmeKlimawandel</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:FP_Geometrieobjekt"/>
+</def:TypeDefinition>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="BP_ZweckbestimmungenTMF"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">BP_ZweckbestimmungenTMF</identifier>
+   <name>BP_ZweckbestimmungenTMF</name>
+   <dictionaryEntry>
+      <Definition gml:id="BP_ZweckbestimmungenTMF_1000">
+         <description>Gebiete, in denen zum Schutz vor schädlichen Umwelteinwirkungen im Sinne des Bundes-Immissionsschutzgesetzes bestimmte Luft-verunreinigende Stoffe nicht oder nur beschränkt verwendet werden dürfen (§9, Abs. 1, Nr. 23a BauGB).</description>
+         <identifier codeSpace="urn:xplan">BP_ZweckbestimmungenTMF:1000</identifier>
+         <name>Luftreinhaltung</name>
+         <name codeSpace="lesbarerName">Luftreinhaltung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_ZweckbestimmungenTMF_2000">
+         <description>Gebiete in denen bei der Errichtung von Gebäuden bestimmte bauliche Maßnahmen für den Einsatz erneuerbarer Energien wie insbesondere Solarenergie getroffen werden müssen (§9, Abs. 1, Nr. 23b BauGB).</description>
+         <identifier codeSpace="urn:xplan">BP_ZweckbestimmungenTMF:2000</identifier>
+         <name>NutzungErneurerbarerEnergien</name>
+         <name codeSpace="lesbarerName">Nutzung Erneuerbarer Energien</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_ZweckbestimmungenTMF_3000">
+         <description>Gebiete, in denen bei der Errichtung von nach Art, Maß oder Nutzungsintensität zu bestimmenden Gebäuden oder sonstigen baulichen Anlagen in der Nachbarschaft von Betriebsbereichen nach § 3 Absatz 5a des Bundes-Immissionsschutzgesetzes bestimmte bauliche und sonstige technische Maßnahmen, die der Vermeidung oder Minderung der Folgen von Störfällen dienen, getroffen werden müssen (§9, Abs. 1, Nr. 23c BauGB).</description>
+         <identifier codeSpace="urn:xplan">BP_ZweckbestimmungenTMF:3000</identifier>
+         <name>MinderungStoerfallfolgen</name>
+         <name codeSpace="lesbarerName">Minderung Störfallfolgen</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

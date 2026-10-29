@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_KlassifizierungNaturschutzrecht"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Kategorien der Schutzgebiete und sonstigen geschützten Bestandteilen von Natur und Landschaft nach Kap. 4 Bundesnaturschutzgesetz (BNatSchG) u. Europäischem Recht.</description>
+   <identifier codeSpace="urn:xplan">LP_KlassifizierungNaturschutzrecht</identifier>
+   <name>LP_KlassifizierungNaturschutzrecht</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_KlassifizierungNaturschutzrecht_1000">
+         <description>Naturschutzgebiet gemäß §23 BNatSchG.</description>
+         <identifier codeSpace="urn:xplan">LP_KlassifizierungNaturschutzrecht:1000</identifier>
+         <name>Naturschutzgebiet</name>
+         <name codeSpace="lesbarerName">Naturschutzgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_KlassifizierungNaturschutzrecht_1100">
+         <description>Nationalpark gemäß §24 BNatSchG</description>
+         <identifier codeSpace="urn:xplan">LP_KlassifizierungNaturschutzrecht:1100</identifier>
+         <name>Nationalpak</name>
+         <name codeSpace="lesbarerName">Nationalpark</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_KlassifizierungNaturschutzrecht_1200">
+         <description>Biosphärenreservat gemäß §25 BNatSchG.</description>
+         <identifier codeSpace="urn:xplan">LP_KlassifizierungNaturschutzrecht:1200</identifier>
+         <name>Biosphaerenreservat</name>
+         <name codeSpace="lesbarerName">Biosphärenreservat</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_KlassifizierungNaturschutzrecht_1300">
+         <description>Landschaftsschutzgebiet gemäß §26 BNatSchG.</description>
+         <identifier codeSpace="urn:xplan">LP_KlassifizierungNaturschutzrecht:1300</identifier>
+         <name>Landschaftsschutzgebiet</name>
+         <name codeSpace="lesbarerName">Landschaftsschutzgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_KlassifizierungNaturschutzrecht_1400">
+         <description>Naturpark gemäß §27 BNatSchG.</description>
+         <identifier codeSpace="urn:xplan">LP_KlassifizierungNaturschutzrecht:1400</identifier>
+         <name>Naturpark</name>
+         <name codeSpace="lesbarerName">Naturpark</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_KlassifizierungNaturschutzrecht_1500">
+         <description>Naturdenkmal gemäß §28 BNatSchG.</description>
+         <identifier codeSpace="urn:xplan">LP_KlassifizierungNaturschutzrecht:1500</identifier>
+         <name>Naturdenkmal</name>
+         <name codeSpace="lesbarerName">Naturdenkmal</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_KlassifizierungNaturschutzrecht_1600">
+         <description>Geschützter Bestandteil der Landschaft gemäß §29 BNatSchG.</description>
+         <identifier codeSpace="urn:xplan">LP_KlassifizierungNaturschutzrecht:1600</identifier>
+         <name>GeschuetzterLandschaftsBestandteil</name>
+         <name codeSpace="lesbarerName">Geschützter Landschaftsbestandteil</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_KlassifizierungNaturschutzrecht_1700">
+         <description>Gesetzlich geschützte Biotope gemäß §30 BNatSchG.</description>
+         <identifier codeSpace="urn:xplan">LP_KlassifizierungNaturschutzrecht:1700</identifier>
+         <name>GesetzlichGeschuetztesBiotop</name>
+         <name codeSpace="lesbarerName">Gesetzlich geschütztes Biotop</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_KlassifizierungNaturschutzrecht_1800">
+         <description>Schutzgebiet nach Europäischem Recht. Dies umfasst das "Gebiet Gemeinschaftlicher Bedeutung" (FFH-Gebiet) und das "Europäische Vogelschutzgebiet"</description>
+         <identifier codeSpace="urn:xplan">LP_KlassifizierungNaturschutzrecht:1800</identifier>
+         <name>Natura2000</name>
+         <name codeSpace="lesbarerName">Natura 2000</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_KlassifizierungNaturschutzrecht_18000">
+         <description>Gebiete von gemeinschaftlicher Bedeutung</description>
+         <identifier codeSpace="urn:xplan">LP_KlassifizierungNaturschutzrecht:18000</identifier>
+         <name>GebietGemeinschaftlicherBedeutung</name>
+         <name codeSpace="lesbarerName">Gebiet gemeinschaftlicher Bedeutung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_KlassifizierungNaturschutzrecht_18001">
+         <description>Europäische Vogelschutzgebiete</description>
+         <identifier codeSpace="urn:xplan">LP_KlassifizierungNaturschutzrecht:18001</identifier>
+         <name>EuropaeischesVogelschutzgebiet</name>
+         <name codeSpace="lesbarerName">Europäisches Vogelschutzgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_KlassifizierungNaturschutzrecht_2000">
+         <description>Nationales Naturmonument gemäß §24 Abs. (4)  BNatSchG.</description>
+         <identifier codeSpace="urn:xplan">LP_KlassifizierungNaturschutzrecht:2000</identifier>
+         <name>NationalesNaturmonument</name>
+         <name codeSpace="lesbarerName">Nationales Naturmonument</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_KlassifizierungNaturschutzrecht_9999">
+         <description>Sonstige Schutzgebietskategorie (z.B. geschützte Parkanlagen), siehe artDerFestlegungText.</description>
+         <identifier codeSpace="urn:xplan">LP_KlassifizierungNaturschutzrecht:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

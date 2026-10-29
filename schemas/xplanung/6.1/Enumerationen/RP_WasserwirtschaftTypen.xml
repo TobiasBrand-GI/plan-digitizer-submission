@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_WasserwirtschaftTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von Wasserwirtschaftsinfrastruktur.</description>
+   <identifier codeSpace="urn:xplan">RP_WasserwirtschaftTypen</identifier>
+   <name>RP_WasserwirtschaftTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserwirtschaftTypen_1000">
+         <description>Wasserleitung.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserwirtschaftTypen:1000</identifier>
+         <name>Wasserleitung</name>
+         <name codeSpace="lesbarerName">Wasserleitung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserwirtschaftTypen_2000">
+         <description>Wasserwerk.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserwirtschaftTypen:2000</identifier>
+         <name>Wasserwerk</name>
+         <name codeSpace="lesbarerName">Wasserwerk</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserwirtschaftTypen_3000">
+         <description>Staudamm und/oder Deich.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserwirtschaftTypen:3000</identifier>
+         <name>StaudammDeich</name>
+         <name codeSpace="lesbarerName">Staudamm, Deich</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserwirtschaftTypen_4000">
+         <description>Speicherbecken.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserwirtschaftTypen:4000</identifier>
+         <name>Speicherbecken</name>
+         <name codeSpace="lesbarerName">Speicherbecken</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserwirtschaftTypen_5000">
+         <description>Rückhaltebecken.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserwirtschaftTypen:5000</identifier>
+         <name>Rueckhaltebecken</name>
+         <name codeSpace="lesbarerName">Rückhaltebecken</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserwirtschaftTypen_6000">
+         <description>Talsperre.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserwirtschaftTypen:6000</identifier>
+         <name>Talsperre</name>
+         <name codeSpace="lesbarerName">Talsperre</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserwirtschaftTypen_7000">
+         <description>Pumpwerk und/oder Schöpfwerk.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserwirtschaftTypen:7000</identifier>
+         <name>PumpwerkSchoepfwerk</name>
+         <name codeSpace="lesbarerName">Pumpwerk, Schöpfwerk</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserwirtschaftTypen_8000">
+         <description>Ein Entwässerungskanal, der gleichzeitig auch der Zuwässerung landwirtschaftlicher Flächen speziell zur Viehkehrung, als Viehtränke und zur Spülung des Systems dient.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserwirtschaftTypen:8000</identifier>
+         <name>Zuwaesserungskanal</name>
+         <name codeSpace="lesbarerName">Zuwässerungskanal</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserwirtschaftTypen_8100">
+         <description>Künstlich angelegtes bzw. ausgebautes Netz von Wasserläufen (Tiefs), welche die Entwässerung des Binnenlandes über Sielbauwerke bzw. Schöpfbauwerke übernehmen, zum Teil auch mit der Funktion der Zwischenspeicherung des Niederschlagswassers.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserwirtschaftTypen:8100</identifier>
+         <name>Entwaesserungskanal</name>
+         <name codeSpace="lesbarerName">Entwässerungskanal</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserwirtschaftTypen_9999">
+         <description>Sonstige Wasserwirtschaft.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserwirtschaftTypen:9999</identifier>
+         <name>SonstigeWasserwirtschaft</name>
+         <name codeSpace="lesbarerName">Sonstige Wasserwirtschaft</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_LaermschutzTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von Lärmschutz.</description>
+   <identifier codeSpace="urn:xplan">RP_LaermschutzTypen</identifier>
+   <name>RP_LaermschutzTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LaermschutzTypen_1000">
+         <description>Lärmbereich.</description>
+         <identifier codeSpace="urn:xplan">RP_LaermschutzTypen:1000</identifier>
+         <name>Laermbereich</name>
+         <name codeSpace="lesbarerName">Lärmbereich</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LaermschutzTypen_1001">
+         <description>Lärmschutzbereich</description>
+         <identifier codeSpace="urn:xplan">RP_LaermschutzTypen:1001</identifier>
+         <name>Laermschutzbereich</name>
+         <name codeSpace="lesbarerName">Lärmschutzbereich</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LaermschutzTypen_2000">
+         <description>Siedlungsbeschränkungsbereich.</description>
+         <identifier codeSpace="urn:xplan">RP_LaermschutzTypen:2000</identifier>
+         <name>Siedlungsbeschraenkungsbereich</name>
+         <name codeSpace="lesbarerName">Siedlungsbeschränkungsbereich</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LaermschutzTypen_3000">
+         <description>Zone A.</description>
+         <identifier codeSpace="urn:xplan">RP_LaermschutzTypen:3000</identifier>
+         <name>ZoneA</name>
+         <name codeSpace="lesbarerName">Zone A</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LaermschutzTypen_4000">
+         <description>Zone B.</description>
+         <identifier codeSpace="urn:xplan">RP_LaermschutzTypen:4000</identifier>
+         <name>ZoneB</name>
+         <name codeSpace="lesbarerName">Zone B</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LaermschutzTypen_5000">
+         <description>Zone C.</description>
+         <identifier codeSpace="urn:xplan">RP_LaermschutzTypen:5000</identifier>
+         <name>ZoneC</name>
+         <name codeSpace="lesbarerName">Zone C</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LaermschutzTypen_9999">
+         <description>Sonstiger Lärmschutz oder Bauschutz.</description>
+         <identifier codeSpace="urn:xplan">RP_LaermschutzTypen:9999</identifier>
+         <name>SonstigerLaermschutzBauschutz</name>
+         <name codeSpace="lesbarerName">Sonstiger Lärmschutz oder Bauschutz</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

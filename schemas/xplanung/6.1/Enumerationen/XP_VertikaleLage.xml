@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_VertikaleLage"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">XP_VertikaleLage</identifier>
+   <name>XP_VertikaleLage</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_VertikaleLage_1000">
+         <description>Die vertikale Lage des Objektes ist nicht bekannt</description>
+         <identifier codeSpace="urn:xplan">XP_VertikaleLage:1000</identifier>
+         <name>Unbekannt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_VertikaleLage_2000">
+         <description>Die vertikale Lage des Objektes ist  nicht festgelegt</description>
+         <identifier codeSpace="urn:xplan">XP_VertikaleLage:2000</identifier>
+         <name>Unbestimmt</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

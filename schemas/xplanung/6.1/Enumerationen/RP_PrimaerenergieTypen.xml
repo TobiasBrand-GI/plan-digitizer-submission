@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_PrimaerenergieTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen der Primärenergie.</description>
+   <identifier codeSpace="urn:xplan">RP_PrimaerenergieTypen</identifier>
+   <name>RP_PrimaerenergieTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_PrimaerenergieTypen_1000">
+         <description>Erdöl.</description>
+         <identifier codeSpace="urn:xplan">RP_PrimaerenergieTypen:1000</identifier>
+         <name>Erdoel</name>
+         <name codeSpace="lesbarerName">Erdöl</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_PrimaerenergieTypen_2000">
+         <description>Gas.</description>
+         <identifier codeSpace="urn:xplan">RP_PrimaerenergieTypen:2000</identifier>
+         <name>Gas</name>
+         <name codeSpace="lesbarerName">Gas</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_PrimaerenergieTypen_2001">
+         <description>Ferngas.</description>
+         <identifier codeSpace="urn:xplan">RP_PrimaerenergieTypen:2001</identifier>
+         <name>Ferngas</name>
+         <name codeSpace="lesbarerName">Ferngas</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_PrimaerenergieTypen_3000">
+         <description>Fernwärme.</description>
+         <identifier codeSpace="urn:xplan">RP_PrimaerenergieTypen:3000</identifier>
+         <name>Fernwaerme</name>
+         <name codeSpace="lesbarerName">Fernwärme</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_PrimaerenergieTypen_4000">
+         <description>Kraftstoff.</description>
+         <identifier codeSpace="urn:xplan">RP_PrimaerenergieTypen:4000</identifier>
+         <name>Kraftstoff</name>
+         <name codeSpace="lesbarerName">Kraftstoff</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_PrimaerenergieTypen_5000">
+         <description>Kohle.</description>
+         <identifier codeSpace="urn:xplan">RP_PrimaerenergieTypen:5000</identifier>
+         <name>Kohle</name>
+         <name codeSpace="lesbarerName">Kohle</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_PrimaerenergieTypen_6000">
+         <description>Wasser.</description>
+         <identifier codeSpace="urn:xplan">RP_PrimaerenergieTypen:6000</identifier>
+         <name>Wasser</name>
+         <name codeSpace="lesbarerName">Wasser</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_PrimaerenergieTypen_7000">
+         <description>Kernenergie.</description>
+         <identifier codeSpace="urn:xplan">RP_PrimaerenergieTypen:7000</identifier>
+         <name>Kernenergie</name>
+         <name codeSpace="lesbarerName">Kernenergie</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_PrimaerenergieTypen_8000">
+         <description>Reststoffverwertung.</description>
+         <identifier codeSpace="urn:xplan">RP_PrimaerenergieTypen:8000</identifier>
+         <name>Reststoffverwertung</name>
+         <name codeSpace="lesbarerName">Reststoffverwertung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_PrimaerenergieTypen_9000">
+         <description>Erneuerbare Energie.</description>
+         <identifier codeSpace="urn:xplan">RP_PrimaerenergieTypen:9000</identifier>
+         <name>ErneuerbareEnergie</name>
+         <name codeSpace="lesbarerName">Erneuerbare Energie</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_PrimaerenergieTypen_9001">
+         <description>Windenergie.</description>
+         <identifier codeSpace="urn:xplan">RP_PrimaerenergieTypen:9001</identifier>
+         <name>Windenergie</name>
+         <name codeSpace="lesbarerName">Windenergie</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_PrimaerenergieTypen_9999">
+         <description>Sonstige Primärenergie.</description>
+         <identifier codeSpace="urn:xplan">RP_PrimaerenergieTypen:9999</identifier>
+         <name>SonstigePrimaerenergie</name>
+         <name codeSpace="lesbarerName">Sonstige Primärenergie</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

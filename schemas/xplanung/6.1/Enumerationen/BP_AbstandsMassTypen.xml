@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="BP_AbstandsMassTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">BP_AbstandsMassTypen</identifier>
+   <name>BP_AbstandsMassTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="BP_AbstandsMassTypen_1000">
+         <description>Das Objekt definiert einen Maßpfeil</description>
+         <identifier codeSpace="urn:xplan">BP_AbstandsMassTypen:1000</identifier>
+         <name>Masspfeil</name>
+         <name codeSpace="lesbarerName">Maßpfeil</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_AbstandsMassTypen_2000">
+         <description>Das Objekt definiert einen Maßkreis</description>
+         <identifier codeSpace="urn:xplan">BP_AbstandsMassTypen:2000</identifier>
+         <name>Masskreis</name>
+         <name codeSpace="lesbarerName">Maßkreis</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

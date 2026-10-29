@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_ZweckbestimmungVerEntsorgung"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung</identifier>
+   <name>XP_ZweckbestimmungVerEntsorgung</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_1000">
+         <description>Elektrizität allgemein</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:1000</identifier>
+         <name>Elektrizitaet</name>
+         <name codeSpace="lesbarerName">Elektrizität</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_10000">
+         <description>Hochspannungsleitung</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:10000</identifier>
+         <name>Hochspannungsleitung</name>
+         <name codeSpace="lesbarerName">Hochspannungsleitung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_10001">
+         <description>Trafostation, auch Umspannwerk</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:10001</identifier>
+         <name>TrafostationUmspannwerk</name>
+         <name codeSpace="lesbarerName">Trafostation, Umspannwerk</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_100010">
+         <description>Leitungsmast</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:100010</identifier>
+         <name>Leitungsmast</name>
+         <name codeSpace="lesbarerName">Leitungsmast</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_100011">
+         <description>Kernkraftwerk</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:100011</identifier>
+         <name>Kernkraftwerk</name>
+         <name codeSpace="lesbarerName">Kernkraftwerk</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_100012">
+         <description>Kohlekraftwerk</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:100012</identifier>
+         <name>Kohlekraftwerk</name>
+         <name codeSpace="lesbarerName">Kohlekraftwerk</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_100013">
+         <description>Gaskraftwerk</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:100013</identifier>
+         <name>Gaskraftwerk</name>
+         <name codeSpace="lesbarerName">Gaskraftwerk</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_10002">
+         <description>Solarkraftwerk</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:10002</identifier>
+         <name>Solarkraftwerk</name>
+         <name codeSpace="lesbarerName">Solarkraftwerk</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_10003">
+         <description>Windkraftwerk, Windenergieanlage, Windrad.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:10003</identifier>
+         <name>Windkraftwerk</name>
+         <name codeSpace="lesbarerName">Windkraftwerk</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_10004">
+         <description>Geothermie Kraftwerk</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:10004</identifier>
+         <name>Geothermiekraftwerk</name>
+         <name codeSpace="lesbarerName">Geothermiekraftwerk</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_10005">
+         <description>Elektrizitätswerk allgemein</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:10005</identifier>
+         <name>Elektrizitaetswerk</name>
+         <name codeSpace="lesbarerName">Elektrizitätswerk</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_10006">
+         <description>Wasserkraftwerk</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:10006</identifier>
+         <name>Wasserkraftwerk</name>
+         <name codeSpace="lesbarerName">Wasserkraftwerk</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_10007">
+         <description>Biomasse-Kraftwerk</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:10007</identifier>
+         <name>BiomasseKraftwerk</name>
+         <name codeSpace="lesbarerName">Biomassekraftwerk</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_10008">
+         <description>Kabelleitung</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:10008</identifier>
+         <name>Kabelleitung</name>
+         <name codeSpace="lesbarerName">Kabelleitung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_10009">
+         <description>Niederspannungsleitung</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:10009</identifier>
+         <name>Niederspannungsleitung</name>
+         <name codeSpace="lesbarerName">Niederspannungsleitung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_1200">
+         <description>Gas allgemein</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:1200</identifier>
+         <name>Gas</name>
+         <name codeSpace="lesbarerName">Gas</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_12000">
+         <description>Ferngasleitung</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:12000</identifier>
+         <name>Ferngasleitung</name>
+         <name codeSpace="lesbarerName">Ferngasleitung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_12001">
+         <description>Gaswerk</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:12001</identifier>
+         <name>Gaswerk</name>
+         <name codeSpace="lesbarerName">Gaswerk</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_12002">
+         <description>Gasbehälter</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:12002</identifier>
+         <name>Gasbehaelter</name>
+         <name codeSpace="lesbarerName">Gasbehälter</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_12003">
+         <description>Gasdruckregler</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:12003</identifier>
+         <name>Gasdruckregler</name>
+         <name codeSpace="lesbarerName">Gasdruckregler</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_12004">
+         <description>Gasstation</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:12004</identifier>
+         <name>Gasstation</name>
+         <name codeSpace="lesbarerName">Gasstation</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_12005">
+         <description>Gasleitung</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:12005</identifier>
+         <name>Gasleitung</name>
+         <name codeSpace="lesbarerName">Gasleitung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_1300">
+         <description>Erdöl allgemein</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:1300</identifier>
+         <name>Erdoel</name>
+         <name codeSpace="lesbarerName">Erdöl</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_13000">
+         <description>Erdölleitung</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:13000</identifier>
+         <name>Erdoelleitung</name>
+         <name codeSpace="lesbarerName">Erdölleitung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_13001">
+         <description>Bohrstelle</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:13001</identifier>
+         <name>Bohrstelle</name>
+         <name codeSpace="lesbarerName">Bohrstelle</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_13002">
+         <description>Erdölpumpstation</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:13002</identifier>
+         <name>Erdoelpumpstation</name>
+         <name codeSpace="lesbarerName">Erdölpumpstation</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_13003">
+         <description>Öltank</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:13003</identifier>
+         <name>Oeltank</name>
+         <name codeSpace="lesbarerName">Öltank</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_1400">
+         <description>Wärmeversorgung allgemein</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:1400</identifier>
+         <name>Waermeversorgung</name>
+         <name codeSpace="lesbarerName">Wärmeversorgung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_14000">
+         <description>Blockheizkraftwerk</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:14000</identifier>
+         <name>Blockheizkraftwerk</name>
+         <name codeSpace="lesbarerName">Blockheizkraftwerk</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_14001">
+         <description>Fernwärmeleitung</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:14001</identifier>
+         <name>Fernwaermeleitung</name>
+         <name codeSpace="lesbarerName">Fernwärmeleitung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_14002">
+         <description>Fernheizwerk</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:14002</identifier>
+         <name>Fernheizwerk</name>
+         <name codeSpace="lesbarerName">Fernheizwerk</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_1600">
+         <description>Trink- und Brauchwasser allgemein</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:1600</identifier>
+         <name>Wasser</name>
+         <name codeSpace="lesbarerName">Wasser</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_16000">
+         <description>Wasserwerk</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:16000</identifier>
+         <name>Wasserwerk</name>
+         <name codeSpace="lesbarerName">Wasserwerk</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_16001">
+         <description>Trinkwasserleitung</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:16001</identifier>
+         <name>Wasserleitung</name>
+         <name codeSpace="lesbarerName">Wasserleitung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_16002">
+         <description>Wasserspeicher</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:16002</identifier>
+         <name>Wasserspeicher</name>
+         <name codeSpace="lesbarerName">Wasserspeicher</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_16003">
+         <description>Brunnen</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:16003</identifier>
+         <name>Brunnen</name>
+         <name codeSpace="lesbarerName">Brunnen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_16004">
+         <description>Pumpwerk</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:16004</identifier>
+         <name>Pumpwerk</name>
+         <name codeSpace="lesbarerName">Pumpwerk</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_16005">
+         <description>Quelle</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:16005</identifier>
+         <name>Quelle</name>
+         <name codeSpace="lesbarerName">Quelle</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_1800">
+         <description>Abwasser allgemein</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:1800</identifier>
+         <name>Abwasser</name>
+         <name codeSpace="lesbarerName">Abwasser</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_18000">
+         <description>Abwasserleitung</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:18000</identifier>
+         <name>Abwasserleitung</name>
+         <name codeSpace="lesbarerName">Abwasserleitung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_18001">
+         <description>Abwasserrückhaltebecken</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:18001</identifier>
+         <name>Abwasserrueckhaltebecken</name>
+         <name codeSpace="lesbarerName">Abwasserrückhaltebecken</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_18002">
+         <description>Abwasserpumpwerk, auch Abwasserhebeanlage</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:18002</identifier>
+         <name>Abwasserpumpwerk</name>
+         <name codeSpace="lesbarerName">Abwasserpumpwerk</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_18003">
+         <description>Kläranlage</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:18003</identifier>
+         <name>Klaeranlage</name>
+         <name codeSpace="lesbarerName">Kläranlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_18004">
+         <description>Anlage zur Speicherung oder Behandlung von Klärschlamm.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:18004</identifier>
+         <name>AnlageKlaerschlamm</name>
+         <name codeSpace="lesbarerName">Anlage Klärschlamm</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_18006">
+         <description>Salz- oder Sole-Leitungen</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:18006</identifier>
+         <name>SalzOderSoleleitungen</name>
+         <name codeSpace="lesbarerName">Salz- oder Soleleitungen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_2000">
+         <description>Regenwasser allgemein</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:2000</identifier>
+         <name>Regenwasser</name>
+         <name codeSpace="lesbarerName">Regenwasser</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_20000">
+         <description>Regenwasser Rückhaltebecken</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:20000</identifier>
+         <name>RegenwasserRueckhaltebecken</name>
+         <name codeSpace="lesbarerName">Regenwasserrückhaltebecken</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_20001">
+         <description>Niederschlagswasser-Leitung</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:20001</identifier>
+         <name>Niederschlagswasserleitung</name>
+         <name codeSpace="lesbarerName">Niederschlagswasserleitung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_2200">
+         <description>Abfallentsorgung allgemein</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:2200</identifier>
+         <name>Abfallentsorgung</name>
+         <name codeSpace="lesbarerName">Abfallentsorgung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_22000">
+         <description>Müll-Umladestation</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:22000</identifier>
+         <name>Muellumladestation</name>
+         <name codeSpace="lesbarerName">Müllumladestation</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_22001">
+         <description>Müllbeseitigungsanlage</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:22001</identifier>
+         <name>Muellbeseitigungsanlage</name>
+         <name codeSpace="lesbarerName">Müllbeseitigungsanlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_22002">
+         <description>Müllsortieranlage</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:22002</identifier>
+         <name>Muellsortieranlage</name>
+         <name codeSpace="lesbarerName">Müllsortieranlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_22003">
+         <description>Recyclinghof</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:22003</identifier>
+         <name>Recyclinghof</name>
+         <name codeSpace="lesbarerName">Recyclinghof</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_2400">
+         <description>Ablagerung allgemein</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:2400</identifier>
+         <name>Ablagerung</name>
+         <name codeSpace="lesbarerName">Ablagerung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_24000">
+         <description>Erdaushub-Deponie</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:24000</identifier>
+         <name>Erdaushubdeponie</name>
+         <name codeSpace="lesbarerName">Erdaushubdeponie</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_24001">
+         <description>Bauschutt-Deponie</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:24001</identifier>
+         <name>Bauschuttdeponie</name>
+         <name codeSpace="lesbarerName">Bauschuttdeponie</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_24002">
+         <description>Hausmüll-Deponie</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:24002</identifier>
+         <name>Hausmuelldeponie</name>
+         <name codeSpace="lesbarerName">Hausmülldeponie</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_24003">
+         <description>Sondermüll-Deponie</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:24003</identifier>
+         <name>Sondermuelldeponie</name>
+         <name codeSpace="lesbarerName">Sondermülldeponie</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_24004">
+         <description>Stillgelegte Deponie</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:24004</identifier>
+         <name>StillgelegteDeponie</name>
+         <name codeSpace="lesbarerName">Stillgelegte Deponie</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_24005">
+         <description>Rekultivierte Deponie</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:24005</identifier>
+         <name>RekultivierteDeponie</name>
+         <name codeSpace="lesbarerName">Rekultivierte Deponie</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_2600">
+         <description>Telekommunikation allgemein</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:2600</identifier>
+         <name>Telekommunikation</name>
+         <name codeSpace="lesbarerName">Telekommunikation</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_26000">
+         <description>Fernmeldeanlage</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:26000</identifier>
+         <name>Fernmeldeanlage</name>
+         <name codeSpace="lesbarerName">Fernmeldeanlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_26001">
+         <description>Mobilfunkanlage</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:26001</identifier>
+         <name>Mobilfunkanlage</name>
+         <name codeSpace="lesbarerName">Mobilfunkanlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_26002">
+         <description>Fernmeldekabel</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:26002</identifier>
+         <name>Fernmeldekabel</name>
+         <name codeSpace="lesbarerName">Fernmeldekabel</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_2800">
+         <description>Erneuerbare Energien allgemein</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:2800</identifier>
+         <name>ErneuerbareEnergien</name>
+         <name codeSpace="lesbarerName">Erneuerbare Energien</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_3000">
+         <description>Fläche oder Anlage für Kraft-Wärme Kopplung</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:3000</identifier>
+         <name>KraftWaermeKopplung</name>
+         <name codeSpace="lesbarerName">Kraft-Wärme-Kopplung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_9999">
+         <description>Sonstige, durch keinen anderen Code abbildbare Ver- oder Entsorgungsfläche bzw. -Anlage.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungVerEntsorgung_99990">
+         <description>Produktenleitung</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungVerEntsorgung:99990</identifier>
+         <name>Produktenleitung</name>
+         <name codeSpace="lesbarerName">Produktenleitung</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

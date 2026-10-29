@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PlanDigitalizer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/vue@3.5.13/dist/vue.global.prod.js"></script>
+</head>
+<body>
+  <div id="app" v-cloak>
+    <header>
+      <h1>PlanDigitalizer</h1>
+      <p>
+        Extracts building-style areas and their attributes (use type, GRZ, GFZ,
+        storeys, roof form, heights) and building windows from scanned German
+        zoning plans (Bebauungspläne), and exports them as XPlanGML 6.1.
+      </p>
+    </header>
+
+    <main>
+      <!-- Form page -->
+      <form v-if="!jobId" @submit.prevent="submit">
+        <div class="drops">
+          <div v-for="slot in slots" :key="slot.key"
+               class="drop" :class="{ over: slot.over, filled: files[slot.key] }"
+               @dragover.prevent="slot.over = true" @dragleave="slot.over = false"
+               @drop.prevent="onDrop(slot, $event)" @click="$refs[slot.key][0].click()">
+            <input type="file" :ref="slot.key" :accept="slot.suffixes.join(',')" hidden
+                   @click.stop @change="setFile(slot, $event.target.files[0])">
+            <strong>{{ slot.label }}</strong>
+            <span v-if="files[slot.key]">{{ files[slot.key].name }} ({{ formatSize(files[slot.key].size) }})</span>
+            <span v-else class="hint">Drop {{ slot.suffixes.join(' / ') }} here or click to select</span>
+          </div>
+        </div>
+
+        <label>
+          AGS (Amtlicher Gemeindeschlüssel / Official Municipality Key)
+          <input v-model.trim="ags" placeholder="e.g. 05711000" required>
+        </label>
+        <label>
+          Municipality name
+          <input v-model.trim="gemeindeName" placeholder="e.g. Bielefeld" required>
+        </label>
+
+        <p v-if="error" class="error">{{ error }}</p>
+        <button type="submit" :disabled="!files.tif || !files.umring || !ags || !gemeindeName || uploading">
+          {{ uploading ? 'Uploading…' : 'Start processing' }}
+        </button>
+      </form>
+
+      <!-- Progress page -->
+      <section v-else class="job">
+        <h2>{{ jobId }}</h2>
+
+        <template v-if="!status || status.state === 'running'">
+          <div class="spinner"></div>
+          <p>{{ currentStepName }}</p>
+        </template>
+
+        <div class="progress" :class="status && { complete: status.state === 'done', failed: status.state === 'failed' }">
+          <div class="bar" :style="{ width: progress + '%' }"></div>
+        </div>
+        <ol class="steps" v-if="status">
+          <li v-for="(name, i) in status.steps" :key="name"
+              :class="{ done: i + 1 < status.step || status.state === 'done', active: i + 1 === status.step && status.state === 'running' }">
+            {{ name }}
+          </li>
+        </ol>
+
+        <template v-if="status && status.state === 'done'">
+          <p class="ok">Processing finished.</p>
+          <a class="button" :href="'/jobs/' + jobId + '/download'">Download results (ZIP)</a>
+        </template>
+        <template v-if="status && status.state === 'failed'">
+          <p class="error">Processing failed: {{ status.error }}</p>
+        </template>
+        <p v-if="error" class="error">{{ error }}</p>
+
+        <a href="#/" class="back" v-if="!status || status.state !== 'running'">Process another plan</a>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

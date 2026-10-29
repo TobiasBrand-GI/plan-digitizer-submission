@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_WasserschutzZonen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Wasserschutzzonen.</description>
+   <identifier codeSpace="urn:xplan">RP_WasserschutzZonen</identifier>
+   <name>RP_WasserschutzZonen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserschutzZonen_1000">
+         <description>Zone 1.&#xD;
+Für Grundwasser beinhaltet die Zone 1 den Fassungsbereich. In diesem Bereich und der unmittelbaren Umgebung um die Wassergewinnungsanlage muss jegliche Verunreinigung unterbleiben. Bei Talsperren  beinhaltet die Zone 1 den Stauraum mit Uferzone. Diese soll den Schutz vor unmittelbaren Verunreinigungen und sonstigen Beeinträchtigungen des Talsperrenwassers gewährleisten.&#xD;
+Die Ausdehnung der Zone I sollte im allgemeinen von Brunnen allseitig 10 m, von Quellen in Richtung des ankommenden Grundwassers mindestens 20 m und von Kaarstgrundwasserleitern mindestens 30 m betragen</description>
+         <identifier codeSpace="urn:xplan">RP_WasserschutzZonen:1000</identifier>
+         <name>Zone1</name>
+         <name codeSpace="lesbarerName">Zone 1</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserschutzZonen_2000">
+         <description>Zone 2.&#xD;
+Die engere Schutzzone.&#xD;
+Die Zone II reicht von der Grenze der Zone I bis zu einer Linie, von der aus das Grundwasser etwa 50 Tage bis zum Eintreffen in die Trinkwassergewinnungsanlage benötigt. Eine Zone II kann entfallen, wenn nur tiefere, abgedichtete Grundwasserstockwerke oder solche genutzt werden, die von der 50 Tage-Linie bis zur Fassung von undurchlässigen Schichten gegenüber der Mächtigkeit abgedeckt sind.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserschutzZonen:2000</identifier>
+         <name>Zone2</name>
+         <name codeSpace="lesbarerName">Zone 2</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserschutzZonen_3000">
+         <description>Zone 3.&#xD;
+Die Weitere Schutzzone.&#xD;
+Die Zone III reicht von der Grenze des Einzugsgebietes bis zur Außengrenze der Zone II. Wenn das Einzugsgebiet weiter als 2 km reicht, so kann eine Aufgliederung in eine Zone III A bis etwa 2 km Entfernung ab Fassung und eine Zone III B etwa 2 km bis zur Grenze des Einzugsgebietes zweckmäßig sein.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserschutzZonen:3000</identifier>
+         <name>Zone3</name>
+         <name codeSpace="lesbarerName">Zone 3</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

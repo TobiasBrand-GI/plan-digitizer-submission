@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_BioVStandortFeuchte"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Zeigt die Ausprägung der Standortverhältnisse des Verbundsystems im Hinblick auf Feuchtigkeit an.</description>
+   <identifier codeSpace="urn:xplan">LP_BioVStandortFeuchte</identifier>
+   <name>LP_BioVStandortFeuchte</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVStandortFeuchte_1000">
+         <description>Feuchte Standortverhältnisse</description>
+         <identifier codeSpace="urn:xplan">LP_BioVStandortFeuchte:1000</identifier>
+         <name>Feucht</name>
+         <name codeSpace="lesbarerName">Feucht</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVStandortFeuchte_2000">
+         <description>Mittelfeuchte Standortverhältnisse</description>
+         <identifier codeSpace="urn:xplan">LP_BioVStandortFeuchte:2000</identifier>
+         <name>Mittel</name>
+         <name codeSpace="lesbarerName">Mittel</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVStandortFeuchte_3000">
+         <description>Trockene Standortverhältnisse</description>
+         <identifier codeSpace="urn:xplan">LP_BioVStandortFeuchte:3000</identifier>
+         <name>Trocken</name>
+         <name codeSpace="lesbarerName">Trocken</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

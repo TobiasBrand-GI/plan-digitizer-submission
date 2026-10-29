@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="2583"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Schienenverkehr-Infrastruktur.</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:RP_Schienenverkehr</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">RP_Schienenverkehr</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2583_7395">
+         <gml:description>Klassifikation von Schienenverkehr-Infrastruktur.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:typ</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">typ</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2583_7395_2605_7531">
+               <gml:description>Schienenverkehr.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:typ:1000</gml:identifier>
+               <gml:name>Schienenverkehr</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2583_7395_2605_7532">
+               <gml:description>Eisenbahnstrecke.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:typ:1001</gml:identifier>
+               <gml:name>Eisenbahnstrecke</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2583_7395_2605_7533">
+               <gml:description>Haupteisenbahnstrecke.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:typ:1002</gml:identifier>
+               <gml:name>Haupteisenbahnstrecke</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2583_7395_2605_7534">
+               <gml:description>Trasse.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:typ:1100</gml:identifier>
+               <gml:name>Trasse</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2583_7395_2605_7535">
+               <gml:description>Schienennetz.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:typ:1200</gml:identifier>
+               <gml:name>Schienennetz</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2583_7395_2605_7536">
+               <gml:description>Stadtbahn.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:typ:1300</gml:identifier>
+               <gml:name>Stadtbahn</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2583_7395_2605_7537">
+               <gml:description>Straßenbahn.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:typ:1301</gml:identifier>
+               <gml:name>Strassenbahn</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2583_7395_2605_7538">
+               <gml:description>S-Bahn.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:typ:1302</gml:identifier>
+               <gml:name>SBahn</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2583_7395_2605_7539">
+               <gml:description>U-Bahn.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:typ:1303</gml:identifier>
+               <gml:name>UBahn</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2583_7395_2605_7540">
+               <gml:description>Anschlussgleis für Industrie und Gewerbe.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:typ:1400</gml:identifier>
+               <gml:name>AnschlussgleisIndustrieGewerbe</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2583_7395_2605_7541">
+               <gml:description>Haltepunkt.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:typ:1500</gml:identifier>
+               <gml:name>Haltepunkt</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2583_7395_2605_7542">
+               <gml:description>Bahnhof.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:typ:1600</gml:identifier>
+               <gml:name>Bahnhof</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2583_7395_2605_7543">
+               <gml:description>Hochgeschwindigkeitsverkehr.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:typ:1700</gml:identifier>
+               <gml:name>Hochgeschwindigkeitsverkehr</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2583_7395_2605_7544">
+               <gml:description>Bahnbetriebsgelände.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:typ:1800</gml:identifier>
+               <gml:name>Bahnbetriebsgelaende</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2583_7395_2605_7545">
+               <gml:description>Anlage mit großem Flächenbedarf.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:typ:1801</gml:identifier>
+               <gml:name>AnlagemitgrossemFlaechenbedarf</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2583_7395_2605_7546">
+               <gml:description>Sonstiger Schienenverkehr.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:typ:9999</gml:identifier>
+               <gml:name>SonstigerSchienenverkehr</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeName>RP_SchienenverkehrTypen</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2583_7396">
+         <gml:description>Klassifikation von besonderer Schienenverkehr-Infrastruktur.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:besondererTyp</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">besondererTyp</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2583_7396_2579_7355">
+               <gml:description>Eingleisig.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:besondererTyp:1000</gml:identifier>
+               <gml:name>Eingleisig</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2583_7396_2579_7356">
+               <gml:description>Zweigleisig.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:besondererTyp:1001</gml:identifier>
+               <gml:name>Zweigleisig</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2583_7396_2579_7357">
+               <gml:description>Mehrgleisig.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:besondererTyp:1002</gml:identifier>
+               <gml:name>Mehrgleisig</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2583_7396_2579_7358">
+               <gml:description>Schienenverkehrsinfrastruktur ohne Betrieb.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:besondererTyp:2000</gml:identifier>
+               <gml:name>OhneBetrieb</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2583_7396_2579_7359">
+               <gml:description>Schienenverkehrsinfrastruktur mit Fernverkehrsfunktion.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:besondererTyp:3000</gml:identifier>
+               <gml:name>MitFernverkehrsfunktion</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2583_7396_2579_7360">
+               <gml:description>Schienenverkehrsinfrastruktur mit Verknüpfungsfunktion für den öffentlichen Personennahverkehr.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:besondererTyp:3001</gml:identifier>
+               <gml:name>MitVerknuepfungsfunktionFuerOEPNV</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2583_7396_2579_7361">
+               <gml:description>Elektrischer Betrieb.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:besondererTyp:4000</gml:identifier>
+               <gml:name>ElektrischerBetrieb</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2583_7396_2579_7362">
+               <gml:description>Zu Elektrifizieren.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:besondererTyp:4001</gml:identifier>
+               <gml:name>ZuElektrifizieren</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2583_7396_2579_7363">
+               <gml:description>Verbesserung der Leistungsfähigkeit.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:besondererTyp:5000</gml:identifier>
+               <gml:name>VerbesserungLeistungsfaehigkeit</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2583_7396_2579_7364">
+               <gml:description>Räumliche Freihaltung entwidmeter Bahntrassen.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:besondererTyp:6000</gml:identifier>
+               <gml:name>RaeumlicheFreihaltungEntwidmeterBahntrassen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2583_7396_2579_7365">
+               <gml:description>Nachnutzung stillgelegter Strecken.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:besondererTyp:6001</gml:identifier>
+               <gml:name>NachnutzungStillgelegterStrecken</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2583_7396_2579_7366">
+               <gml:description>Personenverkehr.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:besondererTyp:7000</gml:identifier>
+               <gml:name>Personenverkehr</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2583_7396_2579_7367">
+               <gml:description>Güterverkehr.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:besondererTyp:7001</gml:identifier>
+               <gml:name>Gueterverkehr</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2583_7396_2579_7368">
+               <gml:description>Nahverkehr.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:besondererTyp:8000</gml:identifier>
+               <gml:name>Nahverkehr</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2583_7396_2579_7369">
+               <gml:description>Fernverkehr.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_Schienenverkehr:besondererTyp:8001</gml:identifier>
+               <gml:name>Fernverkehr</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeName>RP_BesondererSchienenverkehrTypen</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:RP_Verkehr"/>
+</def:TypeDefinition>

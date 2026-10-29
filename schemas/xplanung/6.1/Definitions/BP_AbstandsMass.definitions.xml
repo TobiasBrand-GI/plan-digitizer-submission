@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="769"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Darstellung von Maßpfeilen oder Maßkreisen in BPlänen, um eine eindeutige Vermassung einzelner Festsetzungen zu erreichen.&#xD;
+&#xD;
+Bei Masspfeilen (typ == 1000) darf das Geometrie-Attribut position nur eine einfache Linien (gml:LineString mit 2 Punkten) enthalten.&#xD;
+Bei Maßkreisen (typ == 2000) darf position nur einen einfachen Kreisbogen (gml:Curve mit genau einem gml:Arc enthalten.</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:BP_AbstandsMass</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">BP_AbstandsMass</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="769_8067">
+         <gml:description>Typ der Massangabe (Maßpfeil oder Maßkreis).</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AbstandsMass:typ</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">typ</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="769_8067_2674_8065">
+               <gml:description>Das Objekt definiert einen Maßpfeil</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AbstandsMass:typ:1000</gml:identifier>
+               <gml:name>Masspfeil</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="769_8067_2674_8066">
+               <gml:description>Das Objekt definiert einen Maßkreis</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AbstandsMass:typ:2000</gml:identifier>
+               <gml:name>Masskreis</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>BP_AbstandsMassTypen</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="769_1777">
+         <gml:description>Wertangabe des Abstandsmaßes. Bei Maßpfeilen (typ == 1000) enthält das Attribut die Länge des Maßpfeilen (uom = "m"), bei Maßkreisen den von startWinkel und endWinkel eingeschlossenen Winkel (uom = "grad").</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AbstandsMass:wert</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">wert</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Measure</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="769_1778">
+         <gml:description>Startwinkel für die Plandarstellung des Abstandsmaßes (nur relevant für Maßkreise). Die Winkelwerte beziehen sich auf den Rechtswert (Ost-Richtung)</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AbstandsMass:startWinkel</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">startWinkel</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Angle</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="769_1779">
+         <gml:description>Endwinkel für die Planarstellung des Abstandsmaßes (nur relevant für Maßkreise). Die Winkelwerte beziehen sich auf den Rechtswert (Ost-Richtung)</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_AbstandsMass:endWinkel</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">endWinkel</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Angle</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:BP_Linienobjekt"/>
+</def:TypeDefinition>

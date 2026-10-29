@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_Rechtsstand"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Rechtsstand eines Plans der Landschaftsplanung.</description>
+   <identifier codeSpace="urn:xplan">LP_Rechtsstand</identifier>
+   <name>LP_Rechtsstand</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_Rechtsstand_1000">
+         <description>Der Aufstellungsbeschluss wurde getroffen.</description>
+         <identifier codeSpace="urn:xplan">LP_Rechtsstand:1000</identifier>
+         <name>Aufstellungsbeschluss</name>
+         <name codeSpace="lesbarerName">Aufstellungsbeschluss</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_Rechtsstand_2000">
+         <description>Eine vorläufige Planfassung/Vorentwurf liegt vor.</description>
+         <identifier codeSpace="urn:xplan">LP_Rechtsstand:2000</identifier>
+         <name>Entwurf</name>
+         <name codeSpace="lesbarerName">Entwurf</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_Rechtsstand_3000">
+         <description>Der Plan ist technisch erstellt, aber noch nicht rechtwirksam bzw. noch nicht gutachterlich wirksam.</description>
+         <identifier codeSpace="urn:xplan">LP_Rechtsstand:3000</identifier>
+         <name>Plan</name>
+         <name codeSpace="lesbarerName">Plan</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_Rechtsstand_4000">
+         <description>Der Plan ist wirksam einschließlich einer gutachterlichen Wirksamkeit.</description>
+         <identifier codeSpace="urn:xplan">LP_Rechtsstand:4000</identifier>
+         <name>Wirksamkeit</name>
+         <name codeSpace="lesbarerName">Wirksamkeit</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_Rechtsstand_5000">
+         <description>Der Plan ist nicht mehr rechtswirksam, &#xD;
+wurde aufgehoben oder außerkraftgesetzt.</description>
+         <identifier codeSpace="urn:xplan">LP_Rechtsstand:5000</identifier>
+         <name>Untergegangen</name>
+         <name codeSpace="lesbarerName">Untergegangen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_Rechtsstand_6000">
+         <description>Der Plan befindet sich in Fortschreibung (Landschaftsplanung).</description>
+         <identifier codeSpace="urn:xplan">LP_Rechtsstand:6000</identifier>
+         <name>InFortschreibung</name>
+         <name codeSpace="lesbarerName">In Fortschreibung</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

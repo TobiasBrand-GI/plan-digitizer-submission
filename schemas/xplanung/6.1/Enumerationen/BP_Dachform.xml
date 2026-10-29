@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="BP_Dachform"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung verschiedener Dachformen.</description>
+   <identifier codeSpace="urn:xplan">BP_Dachform</identifier>
+   <name>BP_Dachform</name>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Dachform_1000">
+         <description>Flachdach</description>
+         <identifier codeSpace="urn:xplan">BP_Dachform:1000</identifier>
+         <name>Flachdach</name>
+         <name codeSpace="lesbarerName">Flachdach</name>
+         <name codeSpace="kuerzel">FD</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Dachform_2100">
+         <description>Pultdach</description>
+         <identifier codeSpace="urn:xplan">BP_Dachform:2100</identifier>
+         <name>Pultdach</name>
+         <name codeSpace="lesbarerName">Pultdach</name>
+         <name codeSpace="kuerzel">PD</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Dachform_2200">
+         <description>Versetztes Pultdach</description>
+         <identifier codeSpace="urn:xplan">BP_Dachform:2200</identifier>
+         <name>VersetztesPultdach</name>
+         <name codeSpace="lesbarerName">Versetztes Pultdach</name>
+         <name codeSpace="kuerzel">VPD</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Dachform_3000">
+         <description>Kein Flachdach</description>
+         <identifier codeSpace="urn:xplan">BP_Dachform:3000</identifier>
+         <name>GeneigtesDach</name>
+         <name codeSpace="lesbarerName">Geneigtes Dach</name>
+         <name codeSpace="kuerzel">GD</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Dachform_3100">
+         <description>Satteldach</description>
+         <identifier codeSpace="urn:xplan">BP_Dachform:3100</identifier>
+         <name>Satteldach</name>
+         <name codeSpace="lesbarerName">Satteldach</name>
+         <name codeSpace="kuerzel">SD</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Dachform_3200">
+         <description>Walmdach</description>
+         <identifier codeSpace="urn:xplan">BP_Dachform:3200</identifier>
+         <name>Walmdach</name>
+         <name codeSpace="lesbarerName">Walmdach</name>
+         <name codeSpace="kuerzel">WD</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Dachform_3300">
+         <description>Krüppelwalmdach</description>
+         <identifier codeSpace="urn:xplan">BP_Dachform:3300</identifier>
+         <name>Krueppelwalmdach</name>
+         <name codeSpace="lesbarerName">Krüppelwalmdach</name>
+         <name codeSpace="kuerzel">KWD</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Dachform_3400">
+         <description>Mansardendach</description>
+         <identifier codeSpace="urn:xplan">BP_Dachform:3400</identifier>
+         <name>Mansarddach</name>
+         <name codeSpace="lesbarerName">Mansarddach</name>
+         <name codeSpace="kuerzel">MD</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Dachform_3500">
+         <description>Zeltdach</description>
+         <identifier codeSpace="urn:xplan">BP_Dachform:3500</identifier>
+         <name>Zeltdach</name>
+         <name codeSpace="lesbarerName">Zeltdach</name>
+         <name codeSpace="kuerzel">ZD</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Dachform_3600">
+         <description>Kegeldach</description>
+         <identifier codeSpace="urn:xplan">BP_Dachform:3600</identifier>
+         <name>Kegeldach</name>
+         <name codeSpace="lesbarerName">Kegeldach</name>
+         <name codeSpace="kuerzel">KeD</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Dachform_3700">
+         <description>Kuppeldach</description>
+         <identifier codeSpace="urn:xplan">BP_Dachform:3700</identifier>
+         <name>Kuppeldach</name>
+         <name codeSpace="lesbarerName">Kuppeldach</name>
+         <name codeSpace="kuerzel">KuD</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Dachform_3800">
+         <description>Sheddach</description>
+         <identifier codeSpace="urn:xplan">BP_Dachform:3800</identifier>
+         <name>Sheddach</name>
+         <name codeSpace="lesbarerName">Sheddach</name>
+         <name codeSpace="kuerzel">ShD</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Dachform_3900">
+         <description>Bogendach</description>
+         <identifier codeSpace="urn:xplan">BP_Dachform:3900</identifier>
+         <name>Bogendach</name>
+         <name codeSpace="lesbarerName">Bogendach</name>
+         <name codeSpace="kuerzel">BD</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Dachform_4000">
+         <description>Turmdach</description>
+         <identifier codeSpace="urn:xplan">BP_Dachform:4000</identifier>
+         <name>Turmdach</name>
+         <name codeSpace="lesbarerName">Turmdach</name>
+         <name codeSpace="kuerzel">TuD</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Dachform_4100">
+         <description>Tonnendach</description>
+         <identifier codeSpace="urn:xplan">BP_Dachform:4100</identifier>
+         <name>Tonnendach</name>
+         <name codeSpace="lesbarerName">Tonnendach</name>
+         <name codeSpace="kuerzel">ToD</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Dachform_5000">
+         <description>Gemischte Dachform</description>
+         <identifier codeSpace="urn:xplan">BP_Dachform:5000</identifier>
+         <name>Mischform</name>
+         <name codeSpace="lesbarerName">Gemischte Dachform</name>
+         <name codeSpace="kuerzel">GDF</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Dachform_9999">
+         <description>Sonstige Dachform</description>
+         <identifier codeSpace="urn:xplan">BP_Dachform:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstige Dachform</name>
+         <name codeSpace="kuerzel">SDF</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

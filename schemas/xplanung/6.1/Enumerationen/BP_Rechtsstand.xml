@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="BP_Rechtsstand"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung der möglichen Rechtsstände eines BPlans</description>
+   <identifier codeSpace="urn:xplan">BP_Rechtsstand</identifier>
+   <name>BP_Rechtsstand</name>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Rechtsstand_1000">
+         <description>Ein Aufstellungsbeschluss der Gemeinde liegt vor.</description>
+         <identifier codeSpace="urn:xplan">BP_Rechtsstand:1000</identifier>
+         <name>Aufstellungsbeschluss</name>
+         <name codeSpace="lesbarerName">Aufstellungsbeschluss</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Rechtsstand_1500">
+         <description>Der Aufstellungsbeschluss wurde aufgehoben</description>
+         <identifier codeSpace="urn:xplan">BP_Rechtsstand:1500</identifier>
+         <name>AufstellungsbeschlussAufgehoben</name>
+         <name codeSpace="lesbarerName">Aufstellungsbeschluss aufgehoben</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Rechtsstand_2000">
+         <description>Der Plan ist im Verfahren</description>
+         <identifier codeSpace="urn:xplan">BP_Rechtsstand:2000</identifier>
+         <name>ImVerfahren</name>
+         <name codeSpace="lesbarerName">Im Verfahren</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Rechtsstand_2050">
+         <description>Die frühzeitige Beteiligung der Behörden und sonsigen Träge öffentlicher Belange und der Öffentlichkeit wird gleichzeitig durchgeführt.</description>
+         <identifier codeSpace="urn:xplan">BP_Rechtsstand:2050</identifier>
+         <name>FruehzeitigeBeteiligung</name>
+         <name codeSpace="lesbarerName">Frühzeitige Beteiligung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Rechtsstand_2100">
+         <description>Die frühzeitige Beteiligung der Behörden und sonstiger Träger öffentlicher Belange (§4 Abs. 1 BauGB) wird durchgeführt.</description>
+         <identifier codeSpace="urn:xplan">BP_Rechtsstand:2100</identifier>
+         <name>FruehzeitigeTraegerBeteiligung</name>
+         <name codeSpace="lesbarerName">Frühzeitige Traegerbeteiligung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Rechtsstand_2200">
+         <description>Die frühzeitige Beteiligung der Öffentlichkeit (§3 Abs. 1 BauGB), bzw. bei einem Verfahren nach  §13a BauGB die Unterrichtung der Öffentlichkeit (§13a Abs. 3 BauGB)  wird durchgeführt.</description>
+         <identifier codeSpace="urn:xplan">BP_Rechtsstand:2200</identifier>
+         <name>FruehzeitigeOeffentlichkeitsBeteiligung</name>
+         <name codeSpace="lesbarerName">Frühzeitige Öffentlichkeitsbeteiligung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Rechtsstand_2250">
+         <description>Ein Entwurfsbeschluss liegt vor</description>
+         <identifier codeSpace="urn:xplan">BP_Rechtsstand:2250</identifier>
+         <name>Entwurfsbeschluss</name>
+         <name codeSpace="lesbarerName">Entwurfsbeschluss</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Rechtsstand_2260">
+         <description>Die Beteiligung der Behörden und sonsigen Träge öffentlicher Belange und der Öffentlichkeit wird gleichzeitig durchgeführt.</description>
+         <identifier codeSpace="urn:xplan">BP_Rechtsstand:2260</identifier>
+         <name>Beteiligung</name>
+         <name codeSpace="lesbarerName">Beteiligung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Rechtsstand_2300">
+         <description>Die Beteiligung der Behörden und sonstiger Träger öffentlicher Belange wird durchgeführt  (§4 Abs. 2 BauGB).</description>
+         <identifier codeSpace="urn:xplan">BP_Rechtsstand:2300</identifier>
+         <name>TraegerBeteiligung</name>
+         <name codeSpace="lesbarerName">Trägerbeteiligung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Rechtsstand_2400">
+         <description>Die Beteiligung der Öffentlichkeit wird durchgeführt (§3 Abs. 2 BauGB).</description>
+         <identifier codeSpace="urn:xplan">BP_Rechtsstand:2400</identifier>
+         <name>OeffentlichkeitsBeteiligung</name>
+         <name codeSpace="lesbarerName">Öffentlichkeitsbeteiligung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Rechtsstand_3000">
+         <description>Die Satzung wurde durch Beschluss der Gemeinde verabschiedet.</description>
+         <identifier codeSpace="urn:xplan">BP_Rechtsstand:3000</identifier>
+         <name>Satzung</name>
+         <name codeSpace="lesbarerName">Satzung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Rechtsstand_4000">
+         <description>Der Plan ist in Kraft getreten.</description>
+         <identifier codeSpace="urn:xplan">BP_Rechtsstand:4000</identifier>
+         <name>InKraftGetreten</name>
+         <name codeSpace="lesbarerName">In Kraft getreten</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Rechtsstand_4500">
+         <description>Der Plan ist, z. B. durch einen Gerichtsbeschluss oder neuen Plan, teilweise untergegangen.</description>
+         <identifier codeSpace="urn:xplan">BP_Rechtsstand:4500</identifier>
+         <name>TeilweiseUntergegangen</name>
+         <name codeSpace="lesbarerName">Teilweise untergegangen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Rechtsstand_45000">
+         <description>Der Plan wurde durch ein förmliches Verfahren teilweise aufgehoben</description>
+         <identifier codeSpace="urn:xplan">BP_Rechtsstand:45000</identifier>
+         <name>TeilweiseAufgehoben</name>
+         <name codeSpace="lesbarerName">Teilweise aufgehoben</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Rechtsstand_45001">
+         <description>Der Plan ist ohne förmliches Verfahren, z.B. durch Überplanung, teilweise außer Kraft getreten</description>
+         <identifier codeSpace="urn:xplan">BP_Rechtsstand:45001</identifier>
+         <name>TeilweiseAusserKraft</name>
+         <name codeSpace="lesbarerName">Teilweise außer Kraft</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Rechtsstand_5000">
+         <description>Der Plan wurde außer Kraft gesetzt.</description>
+         <identifier codeSpace="urn:xplan">BP_Rechtsstand:5000</identifier>
+         <name>Untergegangen</name>
+         <name codeSpace="lesbarerName">Untergegangen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Rechtsstand_50000">
+         <description>Der Plan wurde durch ein förmliches Verfahren aufgehoben.</description>
+         <identifier codeSpace="urn:xplan">BP_Rechtsstand:50000</identifier>
+         <name>Aufgehoben</name>
+         <name codeSpace="lesbarerName">Aufgehoben</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Rechtsstand_50001">
+         <description>Der Plan ist ohne förmliches Verfahren, z.B. durch Überplanung, außer Kraft getreten</description>
+         <identifier codeSpace="urn:xplan">BP_Rechtsstand:50001</identifier>
+         <name>AusserKraft</name>
+         <name codeSpace="lesbarerName">Außer Kraft</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

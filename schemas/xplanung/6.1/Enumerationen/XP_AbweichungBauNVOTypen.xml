@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_AbweichungBauNVOTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung verschiedener Möglichkeiten, von den nach BauNVO standardmäßig festgelegten baulichen Nutzungen abzuweichen.</description>
+   <identifier codeSpace="urn:xplan">XP_AbweichungBauNVOTypen</identifier>
+   <name>XP_AbweichungBauNVOTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_AbweichungBauNVOTypen_1000">
+         <description>Einschränkung einer generell erlaubten Nutzung.</description>
+         <identifier codeSpace="urn:xplan">XP_AbweichungBauNVOTypen:1000</identifier>
+         <name>EinschraenkungNutzung</name>
+         <name codeSpace="lesbarerName">Einschränkung Nutzung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_AbweichungBauNVOTypen_2000">
+         <description>Ausschluss einer generell erlaubten Nutzung.</description>
+         <identifier codeSpace="urn:xplan">XP_AbweichungBauNVOTypen:2000</identifier>
+         <name>AusschlussNutzung</name>
+         <name codeSpace="lesbarerName">Ausschluss Nutzung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_AbweichungBauNVOTypen_3000">
+         <description>Eine nur ausnahmsweise zulässige Nutzung wird generell zulässig.</description>
+         <identifier codeSpace="urn:xplan">XP_AbweichungBauNVOTypen:3000</identifier>
+         <name>AusweitungNutzung</name>
+         <name codeSpace="lesbarerName">Ausweitung Nutzung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_AbweichungBauNVOTypen_9999">
+         <description>Sonstige Abweichung.</description>
+         <identifier codeSpace="urn:xplan">XP_AbweichungBauNVOTypen:9999</identifier>
+         <name>SonstAbweichung</name>
+         <name codeSpace="lesbarerName">Sonstige Abweichung</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

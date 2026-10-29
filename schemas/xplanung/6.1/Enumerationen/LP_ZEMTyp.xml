@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_ZEMTyp"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufprägungen gem. Kapitel 2 BNatSchG.</description>
+   <identifier codeSpace="urn:xplan">LP_ZEMTyp</identifier>
+   <name>LP_ZEMTyp</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ZEMTyp_1000">
+         <description>Zeigt an, dasses sich bei dem Objekt um ein für den Planungsraum konkretisiertes Ziel gemäß Kapitel 2 BNatSchG handelt.</description>
+         <identifier codeSpace="urn:xplan">LP_ZEMTyp:1000</identifier>
+         <name>Ziel</name>
+         <name codeSpace="lesbarerName">Ziel</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ZEMTyp_2000">
+         <description>Zeigt an, ob es sich bei dem Objekt um ein Erfordernis zur Verwirklichung der konkretisierten Ziele gemäß Kapitel 2 BNatSchG handelt. Erfordernisse sind Anforderungen an andere Fachplanungen und Landnutzungen (u. a. Wasserwirtschaft, Land- und Forstwirtschaft). Sie beschreiben, „welche planerischen oder praktischen Aktivitäten von anderen Planungsträgern im Rahmen ihres Mitwirkungsauftrages bei der Erfüllung der Ziele des Naturschutzes und der Landschaftspflege erwartet werden“ (§ 9 Abs. 3 und 5 BNatSchG).</description>
+         <identifier codeSpace="urn:xplan">LP_ZEMTyp:2000</identifier>
+         <name>Erfordernis</name>
+         <name codeSpace="lesbarerName">Erfordernis</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ZEMTyp_3000">
+         <description>Zeigt an, ob es sich bei dem Objekt um eine Maßnahme zur Verwirklichung der konkretisierten Ziele gemäß Kapitel 2 BNatSchG handelt.</description>
+         <identifier codeSpace="urn:xplan">LP_ZEMTyp:3000</identifier>
+         <name>Massnahme</name>
+         <name codeSpace="lesbarerName">Maßnahme</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

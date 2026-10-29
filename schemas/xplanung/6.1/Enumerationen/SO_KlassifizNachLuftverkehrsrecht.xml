@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="SO_KlassifizNachLuftverkehrsrecht"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung der möglichen Zweckbestimmungen einer Luftverkehrs-Fläche.</description>
+   <identifier codeSpace="urn:xplan">SO_KlassifizNachLuftverkehrsrecht</identifier>
+   <name>SO_KlassifizNachLuftverkehrsrecht</name>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachLuftverkehrsrecht_1000">
+         <description>Flughafen (§6 LuftVG)</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachLuftverkehrsrecht:1000</identifier>
+         <name>Flughafen</name>
+         <name codeSpace="lesbarerName">Flughafen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachLuftverkehrsrecht_2000">
+         <description>Landeplatz (§6 LuftVG)</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachLuftverkehrsrecht:2000</identifier>
+         <name>Landeplatz</name>
+         <name codeSpace="lesbarerName">Landeplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachLuftverkehrsrecht_3000">
+         <description>Segelfluggelände (§6 LuftVG)</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachLuftverkehrsrecht:3000</identifier>
+         <name>Segelfluggelaende</name>
+         <name codeSpace="lesbarerName">Segelfluggelände</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachLuftverkehrsrecht_4000">
+         <description>Hubschrauber Landeplatz</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachLuftverkehrsrecht:4000</identifier>
+         <name>HubschrauberLandeplatz</name>
+         <name codeSpace="lesbarerName">Hubschrauberlandeplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachLuftverkehrsrecht_4500">
+         <description>Modellflugplatz</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachLuftverkehrsrecht:4500</identifier>
+         <name>Modellflugplatz</name>
+         <name codeSpace="lesbarerName">Modellflugplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachLuftverkehrsrecht_5000">
+         <description>Ballon Startplatz</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachLuftverkehrsrecht:5000</identifier>
+         <name>Ballonstartplatz</name>
+         <name codeSpace="lesbarerName">Ballonstartplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachLuftverkehrsrecht_5200">
+         <description>Startplatz für Hängegleiter</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachLuftverkehrsrecht:5200</identifier>
+         <name>Haengegleiter</name>
+         <name codeSpace="lesbarerName">Hängegleiter</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachLuftverkehrsrecht_5400">
+         <description>Startplatz für Gleitsegler</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachLuftverkehrsrecht:5400</identifier>
+         <name>Gleitsegler</name>
+         <name codeSpace="lesbarerName">Gleitsegler</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachLuftverkehrsrecht_6000">
+         <description>Lärmschutzbereich nach LuftVG</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachLuftverkehrsrecht:6000</identifier>
+         <name>Laermschutzbereich</name>
+         <name codeSpace="lesbarerName">Lärmschutzbereich</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachLuftverkehrsrecht_9999">
+         <description>Sonstige Klassifizierung nach Luftverkehrsrecht.</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachLuftverkehrsrecht:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

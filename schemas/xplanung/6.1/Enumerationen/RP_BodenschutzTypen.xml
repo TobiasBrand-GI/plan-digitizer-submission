@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_BodenschutzTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von Bodenschutz.</description>
+   <identifier codeSpace="urn:xplan">RP_BodenschutzTypen</identifier>
+   <name>RP_BodenschutzTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BodenschutzTypen_1000">
+         <description>Beseitigung von erheblicher Bodenbelastung.</description>
+         <identifier codeSpace="urn:xplan">RP_BodenschutzTypen:1000</identifier>
+         <name>BeseitigungErheblicherBodenbelastung</name>
+         <name codeSpace="lesbarerName">Beseitigung erheblicher Bodenbelastung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BodenschutzTypen_2000">
+         <description>Sicherung und/oder Sanierung von Altlasten.</description>
+         <identifier codeSpace="urn:xplan">RP_BodenschutzTypen:2000</identifier>
+         <name>SicherungSanierungAltlasten</name>
+         <name codeSpace="lesbarerName">Sicherung und Sanierung Altlasten</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BodenschutzTypen_3000">
+         <description>Erosionsschutz.</description>
+         <identifier codeSpace="urn:xplan">RP_BodenschutzTypen:3000</identifier>
+         <name>Erosionsschutz</name>
+         <name codeSpace="lesbarerName">Erosionsschutz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BodenschutzTypen_4000">
+         <description>Bodenschutz zum Torferhalt dient dem Erhalt von vorhandenen Torfkörpern als natürlichen Speicher von Kohlenstoffen, als Beitrag zum Klimaschutz.</description>
+         <identifier codeSpace="urn:xplan">RP_BodenschutzTypen:4000</identifier>
+         <name>Torferhalt</name>
+         <name codeSpace="lesbarerName">Torferhalt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BodenschutzTypen_9999">
+         <description>Sonstiger Bodenschutz.</description>
+         <identifier codeSpace="urn:xplan">RP_BodenschutzTypen:9999</identifier>
+         <name>SonstigerBodenschutz</name>
+         <name codeSpace="lesbarerName">Sonstiger Bodenschutz</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

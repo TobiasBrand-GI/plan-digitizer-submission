@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="SO_GebietsArt"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung von Gebietsausweisungen nach BauGB</description>
+   <identifier codeSpace="urn:xplan">SO_GebietsArt</identifier>
+   <name>SO_GebietsArt</name>
+   <dictionaryEntry>
+      <Definition gml:id="SO_GebietsArt_1000">
+         <description>Umlegungsgebiet (§ 45 ff BauGB).</description>
+         <identifier codeSpace="urn:xplan">SO_GebietsArt:1000</identifier>
+         <name>Umlegungsgebiet</name>
+         <name codeSpace="lesbarerName">Umlegungsgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_GebietsArt_1100">
+         <description>Gebiet nach § 136 ff BauGB</description>
+         <identifier codeSpace="urn:xplan">SO_GebietsArt:1100</identifier>
+         <name>StaedtebaulicheSanierung</name>
+         <name codeSpace="lesbarerName">Städtebauliche Sanierung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_GebietsArt_1200">
+         <description>Gebiet nach § 165 ff BauGB</description>
+         <identifier codeSpace="urn:xplan">SO_GebietsArt:1200</identifier>
+         <name>StaedtebaulicheEntwicklungsmassnahme</name>
+         <name codeSpace="lesbarerName">Städtebauliche Entwicklungsmaßnahme</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_GebietsArt_1300">
+         <description>Gebiet nach § 171 a-d BauGB</description>
+         <identifier codeSpace="urn:xplan">SO_GebietsArt:1300</identifier>
+         <name>Stadtumbaugebiet</name>
+         <name codeSpace="lesbarerName">Stadtumbaugebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_GebietsArt_1400">
+         <description>Gebiet nach § 171 e BauGB</description>
+         <identifier codeSpace="urn:xplan">SO_GebietsArt:1400</identifier>
+         <name>SozialeStadt</name>
+         <name codeSpace="lesbarerName">Soziale Stadt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_GebietsArt_1500">
+         <description>Gebiet nach §171 f BauGB</description>
+         <identifier codeSpace="urn:xplan">SO_GebietsArt:1500</identifier>
+         <name>BusinessImprovementDistrict</name>
+         <name codeSpace="lesbarerName">Business Improvement District</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_GebietsArt_1600">
+         <description>Gebiet nach §171 f BauGB</description>
+         <identifier codeSpace="urn:xplan">SO_GebietsArt:1600</identifier>
+         <name>HousingImprovementDistrict</name>
+         <name codeSpace="lesbarerName">Housing Improvement District</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_GebietsArt_1700">
+         <description>Allgemeines Erhaltungsgebiet nach §172 BauGB</description>
+         <identifier codeSpace="urn:xplan">SO_GebietsArt:1700</identifier>
+         <name>Erhaltungsgebiet</name>
+         <name codeSpace="lesbarerName">Erhaltungsgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_GebietsArt_17000">
+         <description>Gebiet einer Satzung/Verordnung nach § 172 Abs. 1.1 BauGB</description>
+         <identifier codeSpace="urn:xplan">SO_GebietsArt:17000</identifier>
+         <name>ErhaltungsgebietStaedtebaulicheGestalt</name>
+         <name codeSpace="lesbarerName">Erhaltungsgebiet Städtebauliche Gestalt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_GebietsArt_17001">
+         <description>Gebiet einer Satzung/Verordnung nach § 172 Abs. 1.2 BauGB</description>
+         <identifier codeSpace="urn:xplan">SO_GebietsArt:17001</identifier>
+         <name>ErhaltungsgebietWohnbevoelkerung</name>
+         <name codeSpace="lesbarerName">Erhaltungsgebiet Wohnbevölkerung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_GebietsArt_17002">
+         <description>Gebiet einer Satzung/Verordnung nach § 172 Abs. 1.3 BauGB</description>
+         <identifier codeSpace="urn:xplan">SO_GebietsArt:17002</identifier>
+         <name>ErhaltungsgebietUmstrukturierung</name>
+         <name codeSpace="lesbarerName">Erhaltungsgebiet Umstrukturierung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_GebietsArt_2300">
+         <description>Städtebauliches Entwicklungskonzept zur Stärkung der Innenentwicklung</description>
+         <identifier codeSpace="urn:xplan">SO_GebietsArt:2300</identifier>
+         <name>StaedtebaulEntwicklungskonzeptInnenentwicklung</name>
+         <name codeSpace="lesbarerName">Städtebauliches Entwicklungskonzept Innenentwicklung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_GebietsArt_2400">
+         <description>Gebiet mit einem angespannten Wohnungsmarkt</description>
+         <identifier codeSpace="urn:xplan">SO_GebietsArt:2400</identifier>
+         <name>GebietMitAngespanntemWohnungsmarkt</name>
+         <name codeSpace="lesbarerName">Gebiet mit angespanntem Wohnungsmarkt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_GebietsArt_2500">
+         <description>Gebiet mit angespanntem Wohnungsmarkt, in dem die Begründung oder Teilung von Wohnungseigentum oder Teileigentum der Genehmigung bedarf.</description>
+         <identifier codeSpace="urn:xplan">SO_GebietsArt:2500</identifier>
+         <name>GenehmigungWohnungseigentum</name>
+         <name codeSpace="lesbarerName">Genehmigung Wohnungseigentum</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_GebietsArt_9999">
+         <description>Sonstiger Gebietstyp</description>
+         <identifier codeSpace="urn:xplan">SO_GebietsArt:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

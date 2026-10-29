@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_FunktionszuweisungTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von Funktionszuweisungen.</description>
+   <identifier codeSpace="urn:xplan">RP_FunktionszuweisungTypen</identifier>
+   <name>RP_FunktionszuweisungTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_FunktionszuweisungTypen_1000">
+         <description>Wohnfunktion.</description>
+         <identifier codeSpace="urn:xplan">RP_FunktionszuweisungTypen:1000</identifier>
+         <name>Wohnen</name>
+         <name codeSpace="lesbarerName">Wohnen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_FunktionszuweisungTypen_2000">
+         <description>Arbeitsfunktion.</description>
+         <identifier codeSpace="urn:xplan">RP_FunktionszuweisungTypen:2000</identifier>
+         <name>Arbeit</name>
+         <name codeSpace="lesbarerName">Arbeit</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_FunktionszuweisungTypen_3000">
+         <description>Gewerbe- und/oder Dienstleistungsfunktion.</description>
+         <identifier codeSpace="urn:xplan">RP_FunktionszuweisungTypen:3000</identifier>
+         <name>GewerbeDienstleistung</name>
+         <name codeSpace="lesbarerName">Gewerbe und Dienstleistung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_FunktionszuweisungTypen_4000">
+         <description>Einzelhandelsfunktion.</description>
+         <identifier codeSpace="urn:xplan">RP_FunktionszuweisungTypen:4000</identifier>
+         <name>Einzelhandel</name>
+         <name codeSpace="lesbarerName">Einzelhandel</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_FunktionszuweisungTypen_5000">
+         <description>Landwirtschaftliche Funktion.</description>
+         <identifier codeSpace="urn:xplan">RP_FunktionszuweisungTypen:5000</identifier>
+         <name>Landwirtschaft</name>
+         <name codeSpace="lesbarerName">Landwirtschaft</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_FunktionszuweisungTypen_6000">
+         <description>Erholungs-, Fremdenverkehrs- und/oder Tourismusfunktion.</description>
+         <identifier codeSpace="urn:xplan">RP_FunktionszuweisungTypen:6000</identifier>
+         <name>ErholungFremdenverkehr</name>
+         <name codeSpace="lesbarerName">Erholung, Fremdenverkehr</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_FunktionszuweisungTypen_7000">
+         <description>Verteidigungsfunktion.</description>
+         <identifier codeSpace="urn:xplan">RP_FunktionszuweisungTypen:7000</identifier>
+         <name>Verteidigung</name>
+         <name codeSpace="lesbarerName">Verteidigung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_FunktionszuweisungTypen_8000">
+         <description>Überörtliche Versorgungsfunktion.</description>
+         <identifier codeSpace="urn:xplan">RP_FunktionszuweisungTypen:8000</identifier>
+         <name>UeberoertlicheVersorgungsfunktionLaendlicherRaum</name>
+         <name codeSpace="lesbarerName">Überörtliche Versorgungsfunktion ländlicher Raum</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_FunktionszuweisungTypen_9000">
+         <description>Ländliche Siedlung</description>
+         <identifier codeSpace="urn:xplan">RP_FunktionszuweisungTypen:9000</identifier>
+         <name>LaendlicheSiedlung</name>
+         <name codeSpace="lesbarerName">Ländliche Siedlung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_FunktionszuweisungTypen_9999">
+         <description>Sonstige Funktion.</description>
+         <identifier codeSpace="urn:xplan">RP_FunktionszuweisungTypen:9999</identifier>
+         <name>SonstigeFunktion</name>
+         <name codeSpace="lesbarerName">Sonstige Funktion</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

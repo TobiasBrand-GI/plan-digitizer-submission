@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_ZweckbestimmungWald"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">XP_ZweckbestimmungWald</identifier>
+   <name>XP_ZweckbestimmungWald</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungWald_1000">
+         <description>Naturwald</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungWald:1000</identifier>
+         <name>Naturwald</name>
+         <name codeSpace="lesbarerName">Naturwald</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungWald_10000">
+         <description>Waldschutzgebiet</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungWald:10000</identifier>
+         <name>Waldschutzgebiet</name>
+         <name codeSpace="lesbarerName">Waldschutzgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungWald_1200">
+         <description>Nutzwald</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungWald:1200</identifier>
+         <name>Nutzwald</name>
+         <name codeSpace="lesbarerName">Nutzwald</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungWald_1400">
+         <description>Erholungswald</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungWald:1400</identifier>
+         <name>Erholungswald</name>
+         <name codeSpace="lesbarerName">Erholungswald</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungWald_1600">
+         <description>Schutzwald</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungWald:1600</identifier>
+         <name>Schutzwald</name>
+         <name codeSpace="lesbarerName">Schutzwald</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungWald_16000">
+         <description>Bodenschutzwald</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungWald:16000</identifier>
+         <name>Bodenschutzwald</name>
+         <name codeSpace="lesbarerName">Bodenschutzwald</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungWald_16001">
+         <description>Biotopschutzwald</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungWald:16001</identifier>
+         <name>Biotopschutzwald</name>
+         <name codeSpace="lesbarerName">Biotopschutzwald</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungWald_16002">
+         <description>Naturnaher Wald</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungWald:16002</identifier>
+         <name>NaturnaherWald</name>
+         <name codeSpace="lesbarerName">Naturnaher Wald</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungWald_16003">
+         <description>Wald zum Schutz vor schädlichen Umwelteinwirkungen</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungWald:16003</identifier>
+         <name>SchutzwaldSchaedlicheUmwelteinwirkungen</name>
+         <name codeSpace="lesbarerName">Schutzwald schädliche Umwelteinwirkungen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungWald_16004">
+         <description>Schonwald</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungWald:16004</identifier>
+         <name>Schonwald</name>
+         <name codeSpace="lesbarerName">Schonwald</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungWald_1700">
+         <description>Bannwald</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungWald:1700</identifier>
+         <name>Bannwald</name>
+         <name codeSpace="lesbarerName">Bannwald</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungWald_1800">
+         <description>Fläche für die Forstwirtschaft.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungWald:1800</identifier>
+         <name>FlaecheForstwirtschaft</name>
+         <name codeSpace="lesbarerName">Fläche Forstwirtschaft</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungWald_1900">
+         <description>Immissionsgeschädigter Wald</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungWald:1900</identifier>
+         <name>ImmissionsgeschaedigterWald</name>
+         <name codeSpace="lesbarerName">Immissionsgeschädigter Wald</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungWald_9999">
+         <description>Sonstigr Wald</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungWald:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

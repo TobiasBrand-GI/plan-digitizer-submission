@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="2805"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Komplexes Attribut mit Angaben in Bezug auf Planungsgegenstand Landschaftsbild, an die sich das Ziel, das Erfordernis oder die Maßnahme richtet..</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:dataType:xplan::xplan:6.1:LP_LandschaftsbildKomplex</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">LP_LandschaftsbildKomplex</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2805_8648">
+         <gml:description>Art des Planungsgegenstand für das Landschaftsbild, an die sich das Ziel, das Erfordernis oder die Maßnahme richtet.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_LandschaftsbildKomplex:landschaftsbildArt</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">landschaftsbildArt</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2805_8648_2796_8598">
+               <gml:description>Kirche/Kloster/Kapelle</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_LandschaftsbildKomplex:landschaftsbildArt:1100</gml:identifier>
+               <gml:name>KircheKlosterKapelle</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2805_8648_2796_8599">
+               <gml:description>Burg/Schloss</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_LandschaftsbildKomplex:landschaftsbildArt:1200</gml:identifier>
+               <gml:name>BurgSchloss</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2805_8648_2796_8600">
+               <gml:description>Turm</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_LandschaftsbildKomplex:landschaftsbildArt:1300</gml:identifier>
+               <gml:name>Turm</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2805_8648_2796_8601">
+               <gml:description>Historisches Ortsbild</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_LandschaftsbildKomplex:landschaftsbildArt:1500</gml:identifier>
+               <gml:name>HistorischesOrtsbild</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2805_8648_2796_8602">
+               <gml:description>Ruine</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_LandschaftsbildKomplex:landschaftsbildArt:1400</gml:identifier>
+               <gml:name>Ruine</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2805_8648_2796_8603">
+               <gml:description>kulturgeschichtlich wertvoller Ortsteil</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_LandschaftsbildKomplex:landschaftsbildArt:1600</gml:identifier>
+               <gml:name>kulturgeschichtlichWertvollerOrtsteil</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2805_8648_2796_8604">
+               <gml:description>Aussichtspunkt</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_LandschaftsbildKomplex:landschaftsbildArt:2100</gml:identifier>
+               <gml:name>Aussichtspunkt</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2805_8648_2796_8605">
+               <gml:description>Aussichtsturm</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_LandschaftsbildKomplex:landschaftsbildArt:2200</gml:identifier>
+               <gml:name>Aussichtsturm</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2805_8648_2796_8606">
+               <gml:description>landschaftsgerechte Einbindung von Bebauung und Infrastruktur</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_LandschaftsbildKomplex:landschaftsbildArt:3100</gml:identifier>
+               <gml:name>landschaftsgerechteEinbindung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2805_8648_2796_8607">
+               <gml:description>Landschaftsgerechter Siedlungsrand</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_LandschaftsbildKomplex:landschaftsbildArt:3200</gml:identifier>
+               <gml:name>LandschaftsgerechterSiedlungsrand</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2805_8648_2796_8608">
+               <gml:description>Strukturvielfalt</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_LandschaftsbildKomplex:landschaftsbildArt:4100</gml:identifier>
+               <gml:name>Strukturvielfalt</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2805_8648_2796_8609">
+               <gml:description>Landschaft mit hoher Eigenart</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_LandschaftsbildKomplex:landschaftsbildArt:4200</gml:identifier>
+               <gml:name>LandschaftHoheEigenart</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2805_8648_2796_8610">
+               <gml:description>Landschaftsachsen, Sichtachsen</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_LandschaftsbildKomplex:landschaftsbildArt:5100</gml:identifier>
+               <gml:name>Landschaftsachsen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2805_8648_2796_8611">
+               <gml:description>Landschaftsräume</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_LandschaftsbildKomplex:landschaftsbildArt:5200</gml:identifier>
+               <gml:name>Landschaftsraeume</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2805_8648_2796_8612">
+               <gml:description>Historische Waldinsel</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_LandschaftsbildKomplex:landschaftsbildArt:6100</gml:identifier>
+               <gml:name>HistorischeWaldinsel</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2805_8648_2796_8613">
+               <gml:description>Waldränder</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_LandschaftsbildKomplex:landschaftsbildArt:6200</gml:identifier>
+               <gml:name>Waldraender</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2805_8648_2796_8614">
+               <gml:description>Kulturlandschaft</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_LandschaftsbildKomplex:landschaftsbildArt:7000</gml:identifier>
+               <gml:name>Kulturlandschaft</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2805_8648_2796_8615">
+               <gml:description>Historische Kulturlandschaft</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_LandschaftsbildKomplex:landschaftsbildArt:7100</gml:identifier>
+               <gml:name>HistorischeKulturlandschaft</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2805_8648_2796_8616">
+               <gml:description>Kulturlandschaftselement</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_LandschaftsbildKomplex:landschaftsbildArt:7200</gml:identifier>
+               <gml:name>Kulturlandschaftselement</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2805_8648_2796_8617">
+               <gml:description>Hohlweg</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_LandschaftsbildKomplex:landschaftsbildArt:7300</gml:identifier>
+               <gml:name>Hohlweg</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2805_8648_2796_8618">
+               <gml:description>Gartendenkmal</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_LandschaftsbildKomplex:landschaftsbildArt:8000</gml:identifier>
+               <gml:name>Gartendenkmal</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2805_8648_2796_8619">
+               <gml:description>Sonstiger Planungsgegenstand Schutzgut Landschaftsbild</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_LandschaftsbildKomplex:landschaftsbildArt:9999</gml:identifier>
+               <gml:name>Sonstiges</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>1</def:cardinality>
+         <def:valueTypeName>LP_LandschaftsbildArt</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2805_8649">
+         <gml:description>Erläuterung zu Sonstiger Planungsgegenstand Schutzgut Landschaftsbild oder ergänzende Information zu anderem ausgewähltem Planungsgegenstand Landschaftsbild.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_LandschaftsbildKomplex:landschaftsbildText</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">landschaftsbildText</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>dataType</def:classification>
+</def:TypeDefinition>

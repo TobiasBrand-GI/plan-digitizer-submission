@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="BP_TypWohngebaeudeFlaeche"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung verschiedener Typen von Wohngebäude-Flächen gemäß §9 Abs. 2d BauGB.</description>
+   <identifier codeSpace="urn:xplan">BP_TypWohngebaeudeFlaeche</identifier>
+   <name>BP_TypWohngebaeudeFlaeche</name>
+   <dictionaryEntry>
+      <Definition gml:id="BP_TypWohngebaeudeFlaeche_1000">
+         <description>Flächen, auf denen Wohngebäude errichtet werden dürfen</description>
+         <identifier codeSpace="urn:xplan">BP_TypWohngebaeudeFlaeche:1000</identifier>
+         <name>WohnGebaeude</name>
+         <name codeSpace="lesbarerName">Wohngebäude</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_TypWohngebaeudeFlaeche_2000">
+         <description>Flächen, auf denen nur Gebäude errichtet werden dürfen, bei denen einzelne oder alle Wohnungen die baulichen Voraussetzungen für eine Förderung mit Mitteln der sozialen Wohnraumförderung erfüllen</description>
+         <identifier codeSpace="urn:xplan">BP_TypWohngebaeudeFlaeche:2000</identifier>
+         <name>GebaeudeFoerderung</name>
+         <name codeSpace="lesbarerName">Gebäude Förderung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_TypWohngebaeudeFlaeche_3000">
+         <description>Flächen, auf denen nur Gebäude errichtet werden dürfen, bei denen sich ein Vorhabenträger hinsichtlich einzelner oder aller Wohnungen in einem städtebaulichen Vertrag verpflichtet, zum Zeitpunkt des Vertragsschlusses geltende Förderbedingungen der sozialen Wohnraumförderung, insbesondere die Mietpreisbindung, einzuhalten und die Einhaltung dieser Verpflichtung in geeigneter Weise sichergestellt wird</description>
+         <identifier codeSpace="urn:xplan">BP_TypWohngebaeudeFlaeche:3000</identifier>
+         <name>GebaeudeStaedtebaulicherVertrag</name>
+         <name codeSpace="lesbarerName">Gebäude Städtebaulicher Vertrag</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

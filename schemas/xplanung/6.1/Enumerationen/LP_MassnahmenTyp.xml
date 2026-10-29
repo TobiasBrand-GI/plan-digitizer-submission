@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_MassnahmenTyp"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Differenziert in nationalrechtliche und unionsrechtliche Kompensationsmaßnahmen.</description>
+   <identifier codeSpace="urn:xplan">LP_MassnahmenTyp</identifier>
+   <name>LP_MassnahmenTyp</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_MassnahmenTyp_1000">
+         <description>Kompensationsmaßnahme nach nationalem Recht.</description>
+         <identifier codeSpace="urn:xplan">LP_MassnahmenTyp:1000</identifier>
+         <name>Kompensationsmassnahme</name>
+         <name codeSpace="lesbarerName">Kompensationsmaßnahme</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_MassnahmenTyp_2000">
+         <description>Maßnahme des strengen Artenschutzes zur dauerhaften Sicherung der ökologischen Funktion im Rahmen der SAP (engl. Continuous Ecological Functionality-measures).</description>
+         <identifier codeSpace="urn:xplan">LP_MassnahmenTyp:2000</identifier>
+         <name>MassnahmeCEF</name>
+         <name codeSpace="lesbarerName">Massnahme CEF</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_MassnahmenTyp_3000">
+         <description>Maßnahme des strengen Artenschutzes zur Sicherung des Erhaltungszustandes im Rahmen der SAP (engl. Favorable Conservation Status).</description>
+         <identifier codeSpace="urn:xplan">LP_MassnahmenTyp:3000</identifier>
+         <name>MassnahmeFCS</name>
+         <name codeSpace="lesbarerName">Massnahme FCS</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_MassnahmenTyp_4000">
+         <description>Maßnahme zur Kohärenzsicherung im Rahmen der FFH-Verträglichkeitsprüfung.</description>
+         <identifier codeSpace="urn:xplan">LP_MassnahmenTyp:4000</identifier>
+         <name>MassnahmeKohaerenzsicherung</name>
+         <name codeSpace="lesbarerName">Maßnahme Kohärenzsicherung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_MassnahmenTyp_9998">
+         <description>Unbekannter Typ von Kompensationsflächen/-Maßnahmen (zur Übernahme von Altdaten)</description>
+         <identifier codeSpace="urn:xplan">LP_MassnahmenTyp:9998</identifier>
+         <name>Unbekannt</name>
+         <name codeSpace="lesbarerName">Unbekannt</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="BP_HoehenmassQuelle"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">BP_HoehenmassQuelle</identifier>
+   <name>BP_HoehenmassQuelle</name>
+   <dictionaryEntry>
+      <Definition gml:id="BP_HoehenmassQuelle_1000">
+         <description>Höhenmasss aus der Bauleitplanung</description>
+         <identifier codeSpace="urn:xplan">BP_HoehenmassQuelle:1000</identifier>
+         <name>Bauleitplanung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_HoehenmassQuelle_2000">
+         <description>Höhenmass aus der Straßenplanung</description>
+         <identifier codeSpace="urn:xplan">BP_HoehenmassQuelle:2000</identifier>
+         <name>Strassenplanung</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

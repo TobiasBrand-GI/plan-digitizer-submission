@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_EnergieversorgungTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen der Energieversorgung.</description>
+   <identifier codeSpace="urn:xplan">RP_EnergieversorgungTypen</identifier>
+   <name>RP_EnergieversorgungTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_EnergieversorgungTypen_1000">
+         <description>Leitungstrasse.</description>
+         <identifier codeSpace="urn:xplan">RP_EnergieversorgungTypen:1000</identifier>
+         <name>Leitungstrasse</name>
+         <name codeSpace="lesbarerName">Leitungstrasse</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_EnergieversorgungTypen_1001">
+         <description>Hochspannungsleitung.</description>
+         <identifier codeSpace="urn:xplan">RP_EnergieversorgungTypen:1001</identifier>
+         <name>Hochspannungsleitung</name>
+         <name codeSpace="lesbarerName">Hochspannungsleitung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_EnergieversorgungTypen_1002">
+         <description>Kabeltrasse-Netzanbindung.</description>
+         <identifier codeSpace="urn:xplan">RP_EnergieversorgungTypen:1002</identifier>
+         <name>KabeltrasseNetzanbindung</name>
+         <name codeSpace="lesbarerName">Kabeltrasse, Netzanbindung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_EnergieversorgungTypen_2000">
+         <description>Pipeline.</description>
+         <identifier codeSpace="urn:xplan">RP_EnergieversorgungTypen:2000</identifier>
+         <name>Pipeline</name>
+         <name codeSpace="lesbarerName">Pipeline</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_EnergieversorgungTypen_2001">
+         <description>Übergabestation.</description>
+         <identifier codeSpace="urn:xplan">RP_EnergieversorgungTypen:2001</identifier>
+         <name>Uebergabestation</name>
+         <name codeSpace="lesbarerName">Übergabestation</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_EnergieversorgungTypen_3000">
+         <description>Kraftwerk.</description>
+         <identifier codeSpace="urn:xplan">RP_EnergieversorgungTypen:3000</identifier>
+         <name>Kraftwerk</name>
+         <name codeSpace="lesbarerName">Kraftwerk</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_EnergieversorgungTypen_3001">
+         <description>Großkraftwerk.</description>
+         <identifier codeSpace="urn:xplan">RP_EnergieversorgungTypen:3001</identifier>
+         <name>Grosskraftwerk</name>
+         <name codeSpace="lesbarerName">Grosskraftwerk</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_EnergieversorgungTypen_3002">
+         <description>Energiegewinnung.</description>
+         <identifier codeSpace="urn:xplan">RP_EnergieversorgungTypen:3002</identifier>
+         <name>Energiegewinnung</name>
+         <name codeSpace="lesbarerName">Energiegewinnung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_EnergieversorgungTypen_4000">
+         <description>Energiespeicherung.</description>
+         <identifier codeSpace="urn:xplan">RP_EnergieversorgungTypen:4000</identifier>
+         <name>Energiespeicherung</name>
+         <name codeSpace="lesbarerName">Energiespeicherung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_EnergieversorgungTypen_4001">
+         <description>Verstetigung-Speicherung.</description>
+         <identifier codeSpace="urn:xplan">RP_EnergieversorgungTypen:4001</identifier>
+         <name>VerstetigungSpeicherung</name>
+         <name codeSpace="lesbarerName">Verstetigung Speicherung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_EnergieversorgungTypen_4002">
+         <description>Untergrundspeicher.</description>
+         <identifier codeSpace="urn:xplan">RP_EnergieversorgungTypen:4002</identifier>
+         <name>Untergrundspeicher</name>
+         <name codeSpace="lesbarerName">Untergrundspeicher</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_EnergieversorgungTypen_5000">
+         <description>Umspannwerk.</description>
+         <identifier codeSpace="urn:xplan">RP_EnergieversorgungTypen:5000</identifier>
+         <name>Umspannwerk</name>
+         <name codeSpace="lesbarerName">Umspannwerk</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_EnergieversorgungTypen_6000">
+         <description>Raffinerie.</description>
+         <identifier codeSpace="urn:xplan">RP_EnergieversorgungTypen:6000</identifier>
+         <name>Raffinerie</name>
+         <name codeSpace="lesbarerName">Raffinerie</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_EnergieversorgungTypen_7000">
+         <description>Leitungsabbau.</description>
+         <identifier codeSpace="urn:xplan">RP_EnergieversorgungTypen:7000</identifier>
+         <name>Leitungsabbau</name>
+         <name codeSpace="lesbarerName">Leitungsabbau</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_EnergieversorgungTypen_8000">
+         <description>Korridor</description>
+         <identifier codeSpace="urn:xplan">RP_EnergieversorgungTypen:8000</identifier>
+         <name>Korridor</name>
+         <name codeSpace="lesbarerName">Korridor</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_EnergieversorgungTypen_9999">
+         <description>Sonstige Energieversorgung.</description>
+         <identifier codeSpace="urn:xplan">RP_EnergieversorgungTypen:9999</identifier>
+         <name>SonstigeEnergieversorgung</name>
+         <name codeSpace="lesbarerName">Sonstige Energieversorgung</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

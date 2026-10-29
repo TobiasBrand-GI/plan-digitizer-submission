@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_NaturLandschaftTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von Natur und Landschaft.</description>
+   <identifier codeSpace="urn:xplan">RP_NaturLandschaftTypen</identifier>
+   <name>RP_NaturLandschaftTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_NaturLandschaftTypen_1000">
+         <description>NaturLandschaft.</description>
+         <identifier codeSpace="urn:xplan">RP_NaturLandschaftTypen:1000</identifier>
+         <name>NaturLandschaft</name>
+         <name codeSpace="lesbarerName">Naturlandschaft</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_NaturLandschaftTypen_1100">
+         <description>Naturschutz und Landschaftspflege.</description>
+         <identifier codeSpace="urn:xplan">RP_NaturLandschaftTypen:1100</identifier>
+         <name>NaturschutzLandschaftspflege</name>
+         <name codeSpace="lesbarerName">Naturschutz und Landschaftspflege</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_NaturLandschaftTypen_1101">
+         <description>Naturschutz und Landschaftspflege auf Gewässern.</description>
+         <identifier codeSpace="urn:xplan">RP_NaturLandschaftTypen:1101</identifier>
+         <name>NaturschutzLandschaftspflegeAufGewaessern</name>
+         <name codeSpace="lesbarerName">Naturschutz und Landschaftspflege auf Gewässern</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_NaturLandschaftTypen_1200">
+         <description>Flurdurchgrünung.</description>
+         <identifier codeSpace="urn:xplan">RP_NaturLandschaftTypen:1200</identifier>
+         <name>Flurdurchgruenung</name>
+         <name codeSpace="lesbarerName">Flurdurchgrünung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_NaturLandschaftTypen_1300">
+         <description>Unzerschnittene Räume.</description>
+         <identifier codeSpace="urn:xplan">RP_NaturLandschaftTypen:1300</identifier>
+         <name>UnzerschnitteneRaeume</name>
+         <name codeSpace="lesbarerName">Unzerschnittene Räume</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_NaturLandschaftTypen_1301">
+         <description>Unzerschnittene verkehrsarme Räume.</description>
+         <identifier codeSpace="urn:xplan">RP_NaturLandschaftTypen:1301</identifier>
+         <name>UnzerschnitteneVerkehrsarmeRaeume</name>
+         <name codeSpace="lesbarerName">Unzerschnittene verkehrsarme Räume</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_NaturLandschaftTypen_1400">
+         <description>Feuchtgebiet.</description>
+         <identifier codeSpace="urn:xplan">RP_NaturLandschaftTypen:1400</identifier>
+         <name>Feuchtgebiet</name>
+         <name codeSpace="lesbarerName">Feuchtgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_NaturLandschaftTypen_1500">
+         <description>Ökologisches Verbundssystem.</description>
+         <identifier codeSpace="urn:xplan">RP_NaturLandschaftTypen:1500</identifier>
+         <name>OekologischesVerbundssystem</name>
+         <name codeSpace="lesbarerName">Ökologisches Verbundssystem</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_NaturLandschaftTypen_1501">
+         <description>Ökologischer Raum.</description>
+         <identifier codeSpace="urn:xplan">RP_NaturLandschaftTypen:1501</identifier>
+         <name>OekologischerRaum</name>
+         <name codeSpace="lesbarerName">Ökologischer Raum</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_NaturLandschaftTypen_1600">
+         <description>Verbesserung der Landschaftsstruktur und des Naturhaushalts.</description>
+         <identifier codeSpace="urn:xplan">RP_NaturLandschaftTypen:1600</identifier>
+         <name>VerbesserungLandschaftsstrukturNaturhaushalt</name>
+         <name codeSpace="lesbarerName">Verbesserung Landschaftsstruktur und Naturhaushalt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_NaturLandschaftTypen_1700">
+         <description>Biotop.</description>
+         <identifier codeSpace="urn:xplan">RP_NaturLandschaftTypen:1700</identifier>
+         <name>Biotop</name>
+         <name codeSpace="lesbarerName">Biotop</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_NaturLandschaftTypen_1701">
+         <description>Biotopverbund.</description>
+         <identifier codeSpace="urn:xplan">RP_NaturLandschaftTypen:1701</identifier>
+         <name>Biotopverbund</name>
+         <name codeSpace="lesbarerName">Biotopverbund</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_NaturLandschaftTypen_1702">
+         <description>Biotopverbundsachse.</description>
+         <identifier codeSpace="urn:xplan">RP_NaturLandschaftTypen:1702</identifier>
+         <name>Biotopverbundachse</name>
+         <name codeSpace="lesbarerName">Biotopverbundachse</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_NaturLandschaftTypen_1703">
+         <description>Arten- und/oder Biotopschutz.</description>
+         <identifier codeSpace="urn:xplan">RP_NaturLandschaftTypen:1703</identifier>
+         <name>ArtenBiotopschutz</name>
+         <name codeSpace="lesbarerName">Arten-Biotopschutz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_NaturLandschaftTypen_1704">
+         <description>Regionalpark.</description>
+         <identifier codeSpace="urn:xplan">RP_NaturLandschaftTypen:1704</identifier>
+         <name>Regionalpark</name>
+         <name codeSpace="lesbarerName">Regionalpark</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_NaturLandschaftTypen_1705">
+         <description>Teil eines Biotop(verbund)s von Waldlebensräumen</description>
+         <identifier codeSpace="urn:xplan">RP_NaturLandschaftTypen:1705</identifier>
+         <name>Waldlebensraum</name>
+         <name codeSpace="lesbarerName">Waldlebensraum</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_NaturLandschaftTypen_1706">
+         <description>Teil eines Biotop(verbund)s von Feuchtlebensräumen (insbesondere Auen) mit dem angrenzenden Bereich des Grünlandes</description>
+         <identifier codeSpace="urn:xplan">RP_NaturLandschaftTypen:1706</identifier>
+         <name>Feuchtlebensraum</name>
+         <name codeSpace="lesbarerName">Feuchtlebensraum</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_NaturLandschaftTypen_1707">
+         <description>Teil eines Biotop(verbunds) von Trockenlebensräumen</description>
+         <identifier codeSpace="urn:xplan">RP_NaturLandschaftTypen:1707</identifier>
+         <name>Trockenlebensraum</name>
+         <name codeSpace="lesbarerName">Trockenlebensraum</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_NaturLandschaftTypen_1708">
+         <description>Länderübergreifender Teil eines Biotop(verbund)s</description>
+         <identifier codeSpace="urn:xplan">RP_NaturLandschaftTypen:1708</identifier>
+         <name>LebensraumLaenderuebergreifendeVernetzung</name>
+         <name codeSpace="lesbarerName">Lebensraum länderübergreifende Vernetzung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_NaturLandschaftTypen_1800">
+         <description>Kompensation für Entwicklung.</description>
+         <identifier codeSpace="urn:xplan">RP_NaturLandschaftTypen:1800</identifier>
+         <name>KompensationEntwicklung</name>
+         <name codeSpace="lesbarerName">Kompensation Entwicklung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_NaturLandschaftTypen_1900">
+         <description>Grünlandbewirtschaftung, -pflege und -entwicklung.</description>
+         <identifier codeSpace="urn:xplan">RP_NaturLandschaftTypen:1900</identifier>
+         <name>GruenlandBewirtschaftungPflegeEntwicklung</name>
+         <name codeSpace="lesbarerName">Grünland-Bewirtschaftung, -Pflege und -Entwicklung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_NaturLandschaftTypen_2000">
+         <description>Landschaftsstruktur.</description>
+         <identifier codeSpace="urn:xplan">RP_NaturLandschaftTypen:2000</identifier>
+         <name>Landschaftsstruktur</name>
+         <name codeSpace="lesbarerName">Landschaftsstruktur</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_NaturLandschaftTypen_2100">
+         <description>Landschaftsgebiet für Erholung.</description>
+         <identifier codeSpace="urn:xplan">RP_NaturLandschaftTypen:2100</identifier>
+         <name>LandschaftErholung</name>
+         <name codeSpace="lesbarerName">Landschaft für Erholung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_NaturLandschaftTypen_2200">
+         <description>Landschaftsprägend.</description>
+         <identifier codeSpace="urn:xplan">RP_NaturLandschaftTypen:2200</identifier>
+         <name>Landschaftspraegend</name>
+         <name codeSpace="lesbarerName">Landschaftsprägend</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_NaturLandschaftTypen_2300">
+         <description>Schutz der Natur.</description>
+         <identifier codeSpace="urn:xplan">RP_NaturLandschaftTypen:2300</identifier>
+         <name>SchutzDerNatur</name>
+         <name codeSpace="lesbarerName">Schutz der Natur</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_NaturLandschaftTypen_2400">
+         <description>Schutz des Landschaftsbildes.</description>
+         <identifier codeSpace="urn:xplan">RP_NaturLandschaftTypen:2400</identifier>
+         <name>SchutzDesLandschaftsbildes</name>
+         <name codeSpace="lesbarerName">Schutz des Landschaftsbildes</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_NaturLandschaftTypen_2500">
+         <description>Alpenpark.</description>
+         <identifier codeSpace="urn:xplan">RP_NaturLandschaftTypen:2500</identifier>
+         <name>Alpenpark</name>
+         <name codeSpace="lesbarerName">Alpenpark</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_NaturLandschaftTypen_2600">
+         <description>Freiraumfunktionen</description>
+         <identifier codeSpace="urn:xplan">RP_NaturLandschaftTypen:2600</identifier>
+         <name>Freiraumfunktionen</name>
+         <name codeSpace="lesbarerName">Freiraumfunktionen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_NaturLandschaftTypen_9999">
+         <description>Sonstiger NaturLandschaftsschutz.</description>
+         <identifier codeSpace="urn:xplan">RP_NaturLandschaftTypen:9999</identifier>
+         <name>SonstigerNaturLandschaftSchutz</name>
+         <name codeSpace="lesbarerName">Sonstiger Natur- und Landschaftsschutz</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

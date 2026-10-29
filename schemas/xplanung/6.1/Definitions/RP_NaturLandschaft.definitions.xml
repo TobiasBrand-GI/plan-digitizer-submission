@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="2540"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Naturlandschaften sind von umitellbaren menschlichen Aktivitäten weitestgehend unbeeinflusst gebliebene Landschaft.</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:RP_NaturLandschaft</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">RP_NaturLandschaft</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2540_7114">
+         <gml:description>Klassifikation von Naturschutz, Landschaftsschutz und Naturlandschafttypen.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_NaturLandschaft:typ</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">typ</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2540_7114_2566_7291">
+               <gml:description>NaturLandschaft.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_NaturLandschaft:typ:1000</gml:identifier>
+               <gml:name>NaturLandschaft</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2540_7114_2566_7292">
+               <gml:description>Naturschutz und Landschaftspflege.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_NaturLandschaft:typ:1100</gml:identifier>
+               <gml:name>NaturschutzLandschaftspflege</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2540_7114_2566_7293">
+               <gml:description>Naturschutz und Landschaftspflege auf Gewässern.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_NaturLandschaft:typ:1101</gml:identifier>
+               <gml:name>NaturschutzLandschaftspflegeAufGewaessern</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2540_7114_2566_7294">
+               <gml:description>Flurdurchgrünung.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_NaturLandschaft:typ:1200</gml:identifier>
+               <gml:name>Flurdurchgruenung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2540_7114_2566_7295">
+               <gml:description>Unzerschnittene Räume.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_NaturLandschaft:typ:1300</gml:identifier>
+               <gml:name>UnzerschnitteneRaeume</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2540_7114_2566_7296">
+               <gml:description>Unzerschnittene verkehrsarme Räume.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_NaturLandschaft:typ:1301</gml:identifier>
+               <gml:name>UnzerschnitteneVerkehrsarmeRaeume</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2540_7114_2566_7297">
+               <gml:description>Feuchtgebiet.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_NaturLandschaft:typ:1400</gml:identifier>
+               <gml:name>Feuchtgebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2540_7114_2566_7298">
+               <gml:description>Ökologisches Verbundssystem.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_NaturLandschaft:typ:1500</gml:identifier>
+               <gml:name>OekologischesVerbundssystem</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2540_7114_2566_7299">
+               <gml:description>Ökologischer Raum.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_NaturLandschaft:typ:1501</gml:identifier>
+               <gml:name>OekologischerRaum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2540_7114_2566_7300">
+               <gml:description>Verbesserung der Landschaftsstruktur und des Naturhaushalts.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_NaturLandschaft:typ:1600</gml:identifier>
+               <gml:name>VerbesserungLandschaftsstrukturNaturhaushalt</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2540_7114_2566_7301">
+               <gml:description>Biotop.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_NaturLandschaft:typ:1700</gml:identifier>
+               <gml:name>Biotop</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2540_7114_2566_7302">
+               <gml:description>Biotopverbund.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_NaturLandschaft:typ:1701</gml:identifier>
+               <gml:name>Biotopverbund</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2540_7114_2566_7303">
+               <gml:description>Biotopverbundsachse.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_NaturLandschaft:typ:1702</gml:identifier>
+               <gml:name>Biotopverbundachse</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2540_7114_2566_7304">
+               <gml:description>Arten- und/oder Biotopschutz.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_NaturLandschaft:typ:1703</gml:identifier>
+               <gml:name>ArtenBiotopschutz</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2540_7114_2566_7305">
+               <gml:description>Regionalpark.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_NaturLandschaft:typ:1704</gml:identifier>
+               <gml:name>Regionalpark</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2540_7114_2566_7982">
+               <gml:description>Teil eines Biotop(verbund)s von Waldlebensräumen</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_NaturLandschaft:typ:1705</gml:identifier>
+               <gml:name>Waldlebensraum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2540_7114_2566_7983">
+               <gml:description>Teil eines Biotop(verbund)s von Feuchtlebensräumen (insbesondere Auen) mit dem angrenzenden Bereich des Grünlandes</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_NaturLandschaft:typ:1706</gml:identifier>
+               <gml:name>Feuchtlebensraum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2540_7114_2566_7984">
+               <gml:description>Teil eines Biotop(verbunds) von Trockenlebensräumen</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_NaturLandschaft:typ:1707</gml:identifier>
+               <gml:name>Trockenlebensraum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2540_7114_2566_7985">
+               <gml:description>Länderübergreifender Teil eines Biotop(verbund)s</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_NaturLandschaft:typ:1708</gml:identifier>
+               <gml:name>LebensraumLaenderuebergreifendeVernetzung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2540_7114_2566_7306">
+               <gml:description>Kompensation für Entwicklung.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_NaturLandschaft:typ:1800</gml:identifier>
+               <gml:name>KompensationEntwicklung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2540_7114_2566_7307">
+               <gml:description>Grünlandbewirtschaftung, -pflege und -entwicklung.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_NaturLandschaft:typ:1900</gml:identifier>
+               <gml:name>GruenlandBewirtschaftungPflegeEntwicklung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2540_7114_2566_7308">
+               <gml:description>Landschaftsstruktur.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_NaturLandschaft:typ:2000</gml:identifier>
+               <gml:name>Landschaftsstruktur</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2540_7114_2566_7309">
+               <gml:description>Landschaftsgebiet für Erholung.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_NaturLandschaft:typ:2100</gml:identifier>
+               <gml:name>LandschaftErholung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2540_7114_2566_7310">
+               <gml:description>Landschaftsprägend.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_NaturLandschaft:typ:2200</gml:identifier>
+               <gml:name>Landschaftspraegend</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2540_7114_2566_7311">
+               <gml:description>Schutz der Natur.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_NaturLandschaft:typ:2300</gml:identifier>
+               <gml:name>SchutzDerNatur</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2540_7114_2566_7312">
+               <gml:description>Schutz des Landschaftsbildes.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_NaturLandschaft:typ:2400</gml:identifier>
+               <gml:name>SchutzDesLandschaftsbildes</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2540_7114_2566_7313">
+               <gml:description>Alpenpark.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_NaturLandschaft:typ:2500</gml:identifier>
+               <gml:name>Alpenpark</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2540_7114_2566_8083">
+               <gml:description>Freiraumfunktionen</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_NaturLandschaft:typ:2600</gml:identifier>
+               <gml:name>Freiraumfunktionen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2540_7114_2566_7314">
+               <gml:description>Sonstiger NaturLandschaftsschutz.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_NaturLandschaft:typ:9999</gml:identifier>
+               <gml:name>SonstigerNaturLandschaftSchutz</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeName>RP_NaturLandschaftTypen</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:RP_Freiraum"/>
+</def:TypeDefinition>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="BP_Verfahren"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">BP_Verfahren</identifier>
+   <name>BP_Verfahren</name>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Verfahren_1000">
+         <description>Normales BPlan Verfahren.</description>
+         <identifier codeSpace="urn:xplan">BP_Verfahren:1000</identifier>
+         <name>Normal</name>
+         <name codeSpace="lesbarerName">Normal</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Verfahren_2000">
+         <description>BPlan Verfahren nach Paragraph 13 BauGB.</description>
+         <identifier codeSpace="urn:xplan">BP_Verfahren:2000</identifier>
+         <name>Parag13</name>
+         <name codeSpace="lesbarerName">Paragraph 13</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Verfahren_3000">
+         <description>BPlan Verfahren nach Paragraph 13a BauGB.</description>
+         <identifier codeSpace="urn:xplan">BP_Verfahren:3000</identifier>
+         <name>Parag13a</name>
+         <name codeSpace="lesbarerName">Paragraph 13a</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Verfahren_4000">
+         <description>BPlan Verfahren nach Paragraph 13b BauGB.</description>
+         <identifier codeSpace="urn:xplan">BP_Verfahren:4000</identifier>
+         <name>Parag13b</name>
+         <name codeSpace="lesbarerName">Paragraph 13b</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

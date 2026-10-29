@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="SO_RechtlicheGrundlageBaubeschraenkung"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">SO_RechtlicheGrundlageBaubeschraenkung</identifier>
+   <name>SO_RechtlicheGrundlageBaubeschraenkung</name>
+   <dictionaryEntry>
+      <Definition gml:id="SO_RechtlicheGrundlageBaubeschraenkung_1000">
+         <description>Luftverkehrsrecht</description>
+         <identifier codeSpace="urn:xplan">SO_RechtlicheGrundlageBaubeschraenkung:1000</identifier>
+         <name>Luftverkehrsrecht</name>
+         <name codeSpace="lesbarerName">Luftverkehrsrecht</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_RechtlicheGrundlageBaubeschraenkung_2000">
+         <description>Strassenverkehrsrecht</description>
+         <identifier codeSpace="urn:xplan">SO_RechtlicheGrundlageBaubeschraenkung:2000</identifier>
+         <name>Strassenverkehrsrecht</name>
+         <name codeSpace="lesbarerName">Straßenverkehrsrecht</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_RechtlicheGrundlageBaubeschraenkung_9999">
+         <description>Sonstige Rechtsverordnung</description>
+         <identifier codeSpace="urn:xplan">SO_RechtlicheGrundlageBaubeschraenkung:9999</identifier>
+         <name>SonstigesRecht</name>
+         <name codeSpace="lesbarerName">Sonstiges Recht</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

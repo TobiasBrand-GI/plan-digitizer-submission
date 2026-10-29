@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_RechtsstandSchutzGeb"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Rechtsstand eines Schutzgebiets oder geschützter Teile von Natur und Landschaft. Ersetzt in aller Regel das allgemeine Attribut rechtsstand (XP_Rechtsstand), kann jedoch bei Bedarf mit diesem kombiniert werden, um z.B. rechtsstand = geplant mit rechtsstandSchG=Erweiterung zu kombinieren.</description>
+   <identifier codeSpace="urn:xplan">LP_RechtsstandSchutzGeb</identifier>
+   <name>LP_RechtsstandSchutzGeb</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_RechtsstandSchutzGeb_1000">
+         <description>Schutzgebiet geplant.</description>
+         <identifier codeSpace="urn:xplan">LP_RechtsstandSchutzGeb:1000</identifier>
+         <name>Geplant</name>
+         <name codeSpace="lesbarerName">Geplant</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_RechtsstandSchutzGeb_2000">
+         <description>Das Schutzgebiet besteht.</description>
+         <identifier codeSpace="urn:xplan">LP_RechtsstandSchutzGeb:2000</identifier>
+         <name>Bestehend</name>
+         <name codeSpace="lesbarerName">Bestehend</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_RechtsstandSchutzGeb_3000">
+         <description>Schutzgebiet fortfallend, untergegangen oder aufgehoben. Der Code ist veraltert und wird in der nächsten Hauptversion gestrichen.</description>
+         <identifier codeSpace="urn:xplan">LP_RechtsstandSchutzGeb:3000</identifier>
+         <name>FortfallendAufgehoben</name>
+         <name codeSpace="lesbarerName">Fortfallend</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_RechtsstandSchutzGeb_3100">
+         <description>Schutzgebiet künftig fortfallend.</description>
+         <identifier codeSpace="urn:xplan">LP_RechtsstandSchutzGeb:3100</identifier>
+         <name>Fortfallend</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_RechtsstandSchutzGeb_3200">
+         <description>Schutzgebiet aufgehoben.</description>
+         <identifier codeSpace="urn:xplan">LP_RechtsstandSchutzGeb:3200</identifier>
+         <name>Aufgehoben</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_RechtsstandSchutzGeb_4000">
+         <description>Als Schutzgebiet geeignet.</description>
+         <identifier codeSpace="urn:xplan">LP_RechtsstandSchutzGeb:4000</identifier>
+         <name>Eignung</name>
+         <name codeSpace="lesbarerName">Eignung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_RechtsstandSchutzGeb_5000">
+         <description>Erweiterung eines bestehenden Schutzgebiets.</description>
+         <identifier codeSpace="urn:xplan">LP_RechtsstandSchutzGeb:5000</identifier>
+         <name>Erweiterung</name>
+         <name codeSpace="lesbarerName">Erweiterung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_RechtsstandSchutzGeb_6000">
+         <description>Qualifizierung eines Schutzgebietes  (z.B. Änderung der Schutzgebietsverordnung, Änderung der Schutzgebietskategorie usw.)</description>
+         <identifier codeSpace="urn:xplan">LP_RechtsstandSchutzGeb:6000</identifier>
+         <name>Qualifizierung</name>
+         <name codeSpace="lesbarerName">Qualifizierung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_RechtsstandSchutzGeb_9998">
+         <description>Unbekannter Rechtsstand</description>
+         <identifier codeSpace="urn:xplan">LP_RechtsstandSchutzGeb:9998</identifier>
+         <name>Unbekannt</name>
+         <name codeSpace="lesbarerName">Unbekannt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_RechtsstandSchutzGeb_9999">
+         <description>Sonstiger Rechtsstand (siehe rechtsstandSchGText).</description>
+         <identifier codeSpace="urn:xplan">LP_RechtsstandSchutzGeb:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

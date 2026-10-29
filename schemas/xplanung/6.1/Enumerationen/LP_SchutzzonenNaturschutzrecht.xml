@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_SchutzzonenNaturschutzrecht"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Schutzzonen für zonierte Schutzgebiete, insbesondere Biosphärenreservate und Nationalparke.</description>
+   <identifier codeSpace="urn:xplan">LP_SchutzzonenNaturschutzrecht</identifier>
+   <name>LP_SchutzzonenNaturschutzrecht</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_SchutzzonenNaturschutzrecht_1000">
+         <description>Schutzzone 1</description>
+         <identifier codeSpace="urn:xplan">LP_SchutzzonenNaturschutzrecht:1000</identifier>
+         <name>Schutzzone_1</name>
+         <name codeSpace="lesbarerName">Schutzzone 1</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_SchutzzonenNaturschutzrecht_1100">
+         <description>Schutzzone 2</description>
+         <identifier codeSpace="urn:xplan">LP_SchutzzonenNaturschutzrecht:1100</identifier>
+         <name>Schutzzone_2</name>
+         <name codeSpace="lesbarerName">Schutzzone 2</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_SchutzzonenNaturschutzrecht_1200">
+         <description>Schutzzone 3</description>
+         <identifier codeSpace="urn:xplan">LP_SchutzzonenNaturschutzrecht:1200</identifier>
+         <name>Schutzzone_3</name>
+         <name codeSpace="lesbarerName">Schutzzone 3</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_SchutzzonenNaturschutzrecht_2000">
+         <description>Kernzone</description>
+         <identifier codeSpace="urn:xplan">LP_SchutzzonenNaturschutzrecht:2000</identifier>
+         <name>Kernzone</name>
+         <name codeSpace="lesbarerName">Kernzone</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_SchutzzonenNaturschutzrecht_2100">
+         <description>Pflegezone</description>
+         <identifier codeSpace="urn:xplan">LP_SchutzzonenNaturschutzrecht:2100</identifier>
+         <name>Pflegezone</name>
+         <name codeSpace="lesbarerName">Pflegezone</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_SchutzzonenNaturschutzrecht_2200">
+         <description>Entwicklungszone</description>
+         <identifier codeSpace="urn:xplan">LP_SchutzzonenNaturschutzrecht:2200</identifier>
+         <name>Entwicklungszone</name>
+         <name codeSpace="lesbarerName">Entwicklungszone</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_SchutzzonenNaturschutzrecht_2300">
+         <description>Regenerationszone</description>
+         <identifier codeSpace="urn:xplan">LP_SchutzzonenNaturschutzrecht:2300</identifier>
+         <name>Regenerationszone</name>
+         <name codeSpace="lesbarerName">Regenerationszone</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_SchutzzonenNaturschutzrecht_9999">
+         <description>Sonstige Zone, siehe schutzZoneText.</description>
+         <identifier codeSpace="urn:xplan">LP_SchutzzonenNaturschutzrecht:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

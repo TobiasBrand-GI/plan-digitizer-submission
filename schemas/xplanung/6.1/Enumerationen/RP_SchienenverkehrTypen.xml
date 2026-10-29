@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_SchienenverkehrTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von Schienenverkehr.</description>
+   <identifier codeSpace="urn:xplan">RP_SchienenverkehrTypen</identifier>
+   <name>RP_SchienenverkehrTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SchienenverkehrTypen_1000">
+         <description>Schienenverkehr.</description>
+         <identifier codeSpace="urn:xplan">RP_SchienenverkehrTypen:1000</identifier>
+         <name>Schienenverkehr</name>
+         <name codeSpace="lesbarerName">Schienenverkehr</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SchienenverkehrTypen_1001">
+         <description>Eisenbahnstrecke.</description>
+         <identifier codeSpace="urn:xplan">RP_SchienenverkehrTypen:1001</identifier>
+         <name>Eisenbahnstrecke</name>
+         <name codeSpace="lesbarerName">Eisenbahnstrecke</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SchienenverkehrTypen_1002">
+         <description>Haupteisenbahnstrecke.</description>
+         <identifier codeSpace="urn:xplan">RP_SchienenverkehrTypen:1002</identifier>
+         <name>Haupteisenbahnstrecke</name>
+         <name codeSpace="lesbarerName">Haupteisenbahnstrecke</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SchienenverkehrTypen_1100">
+         <description>Trasse.</description>
+         <identifier codeSpace="urn:xplan">RP_SchienenverkehrTypen:1100</identifier>
+         <name>Trasse</name>
+         <name codeSpace="lesbarerName">Trasse</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SchienenverkehrTypen_1200">
+         <description>Schienennetz.</description>
+         <identifier codeSpace="urn:xplan">RP_SchienenverkehrTypen:1200</identifier>
+         <name>Schienennetz</name>
+         <name codeSpace="lesbarerName">Schienennetz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SchienenverkehrTypen_1300">
+         <description>Stadtbahn.</description>
+         <identifier codeSpace="urn:xplan">RP_SchienenverkehrTypen:1300</identifier>
+         <name>Stadtbahn</name>
+         <name codeSpace="lesbarerName">Stadtbahn</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SchienenverkehrTypen_1301">
+         <description>Straßenbahn.</description>
+         <identifier codeSpace="urn:xplan">RP_SchienenverkehrTypen:1301</identifier>
+         <name>Strassenbahn</name>
+         <name codeSpace="lesbarerName">Straßenbahn</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SchienenverkehrTypen_1302">
+         <description>S-Bahn.</description>
+         <identifier codeSpace="urn:xplan">RP_SchienenverkehrTypen:1302</identifier>
+         <name>SBahn</name>
+         <name codeSpace="lesbarerName">S-Bahn</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SchienenverkehrTypen_1303">
+         <description>U-Bahn.</description>
+         <identifier codeSpace="urn:xplan">RP_SchienenverkehrTypen:1303</identifier>
+         <name>UBahn</name>
+         <name codeSpace="lesbarerName">U-Bahn</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SchienenverkehrTypen_1400">
+         <description>Anschlussgleis für Industrie und Gewerbe.</description>
+         <identifier codeSpace="urn:xplan">RP_SchienenverkehrTypen:1400</identifier>
+         <name>AnschlussgleisIndustrieGewerbe</name>
+         <name codeSpace="lesbarerName">Anschlussgleis Industrie Gewerbe</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SchienenverkehrTypen_1500">
+         <description>Haltepunkt.</description>
+         <identifier codeSpace="urn:xplan">RP_SchienenverkehrTypen:1500</identifier>
+         <name>Haltepunkt</name>
+         <name codeSpace="lesbarerName">Haltepunkt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SchienenverkehrTypen_1600">
+         <description>Bahnhof.</description>
+         <identifier codeSpace="urn:xplan">RP_SchienenverkehrTypen:1600</identifier>
+         <name>Bahnhof</name>
+         <name codeSpace="lesbarerName">Bahnhof</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SchienenverkehrTypen_1700">
+         <description>Hochgeschwindigkeitsverkehr.</description>
+         <identifier codeSpace="urn:xplan">RP_SchienenverkehrTypen:1700</identifier>
+         <name>Hochgeschwindigkeitsverkehr</name>
+         <name codeSpace="lesbarerName">Hochgeschwindigkeitsverkehr</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SchienenverkehrTypen_1800">
+         <description>Bahnbetriebsgelände.</description>
+         <identifier codeSpace="urn:xplan">RP_SchienenverkehrTypen:1800</identifier>
+         <name>Bahnbetriebsgelaende</name>
+         <name codeSpace="lesbarerName">Bahnbetriebsgelände</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SchienenverkehrTypen_1801">
+         <description>Anlage mit großem Flächenbedarf.</description>
+         <identifier codeSpace="urn:xplan">RP_SchienenverkehrTypen:1801</identifier>
+         <name>AnlagemitgrossemFlaechenbedarf</name>
+         <name codeSpace="lesbarerName">Anlage mit großem Flächenbedarf</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SchienenverkehrTypen_9999">
+         <description>Sonstiger Schienenverkehr.</description>
+         <identifier codeSpace="urn:xplan">RP_SchienenverkehrTypen:9999</identifier>
+         <name>SonstigerSchienenverkehr</name>
+         <name codeSpace="lesbarerName">Sonstiger Schienenverkehr</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_SportanlageTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von Sportanlagen.</description>
+   <identifier codeSpace="urn:xplan">RP_SportanlageTypen</identifier>
+   <name>RP_SportanlageTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SportanlageTypen_1000">
+         <description>Sportanlage.</description>
+         <identifier codeSpace="urn:xplan">RP_SportanlageTypen:1000</identifier>
+         <name>Sportanlage</name>
+         <name codeSpace="lesbarerName">Sportanlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SportanlageTypen_2000">
+         <description>Wassersport.</description>
+         <identifier codeSpace="urn:xplan">RP_SportanlageTypen:2000</identifier>
+         <name>Wassersport</name>
+         <name codeSpace="lesbarerName">Wassersport</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SportanlageTypen_3000">
+         <description>Motorsport.</description>
+         <identifier codeSpace="urn:xplan">RP_SportanlageTypen:3000</identifier>
+         <name>Motorsport</name>
+         <name codeSpace="lesbarerName">Motorsport</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SportanlageTypen_4000">
+         <description>Flugsport.</description>
+         <identifier codeSpace="urn:xplan">RP_SportanlageTypen:4000</identifier>
+         <name>Flugsport</name>
+         <name codeSpace="lesbarerName">Flugsport</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SportanlageTypen_5000">
+         <description>Reitsport.</description>
+         <identifier codeSpace="urn:xplan">RP_SportanlageTypen:5000</identifier>
+         <name>Reitsport</name>
+         <name codeSpace="lesbarerName">Reitsport</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SportanlageTypen_6000">
+         <description>Golfsport.</description>
+         <identifier codeSpace="urn:xplan">RP_SportanlageTypen:6000</identifier>
+         <name>Golfsport</name>
+         <name codeSpace="lesbarerName">Golfsport</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SportanlageTypen_7000">
+         <description>Sportzentrum.</description>
+         <identifier codeSpace="urn:xplan">RP_SportanlageTypen:7000</identifier>
+         <name>Sportzentrum</name>
+         <name codeSpace="lesbarerName">Sportzentrum</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SportanlageTypen_9999">
+         <description>Sonstige Sportanlage.</description>
+         <identifier codeSpace="urn:xplan">RP_SportanlageTypen:9999</identifier>
+         <name>SonstigeSportanlage</name>
+         <name codeSpace="lesbarerName">Sonstige Sportanlage</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

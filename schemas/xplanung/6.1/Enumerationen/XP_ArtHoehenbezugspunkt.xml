@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_ArtHoehenbezugspunkt"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">XP_ArtHoehenbezugspunkt</identifier>
+   <name>XP_ArtHoehenbezugspunkt</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ArtHoehenbezugspunkt_1000">
+         <description>Traufhöhe als Höhenbezugspunkt</description>
+         <identifier codeSpace="urn:xplan">XP_ArtHoehenbezugspunkt:1000</identifier>
+         <name>TH</name>
+         <name codeSpace="lesbarerName">Traufhöhe</name>
+         <name codeSpace="kuerzel">TH</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ArtHoehenbezugspunkt_2000">
+         <description>Firsthöhe als Höhenbezugspunkt.</description>
+         <identifier codeSpace="urn:xplan">XP_ArtHoehenbezugspunkt:2000</identifier>
+         <name>FH</name>
+         <name codeSpace="lesbarerName">Firsthöhe</name>
+         <name codeSpace="kuerzel">FH</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ArtHoehenbezugspunkt_3000">
+         <description>Oberkante als Höhenbezugspunkt.</description>
+         <identifier codeSpace="urn:xplan">XP_ArtHoehenbezugspunkt:3000</identifier>
+         <name>OK</name>
+         <name codeSpace="lesbarerName">Oberkante</name>
+         <name codeSpace="kuerzel">OK</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ArtHoehenbezugspunkt_3500">
+         <description>Lichte Höhe</description>
+         <identifier codeSpace="urn:xplan">XP_ArtHoehenbezugspunkt:3500</identifier>
+         <name>LH</name>
+         <name codeSpace="lesbarerName">Lichte Höhe</name>
+         <name codeSpace="kuerzel">LH</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ArtHoehenbezugspunkt_4000">
+         <description>Sockelhöhe</description>
+         <identifier codeSpace="urn:xplan">XP_ArtHoehenbezugspunkt:4000</identifier>
+         <name>SH</name>
+         <name codeSpace="lesbarerName">Sockelhöhe</name>
+         <name codeSpace="kuerzel">SH</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ArtHoehenbezugspunkt_4500">
+         <description>Erdgeschoss Fußbodenhöhe</description>
+         <identifier codeSpace="urn:xplan">XP_ArtHoehenbezugspunkt:4500</identifier>
+         <name>EFH</name>
+         <name codeSpace="lesbarerName">Erdgeschoß-Fußbodenhöhe</name>
+         <name codeSpace="kuerzel">EFH</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ArtHoehenbezugspunkt_5000">
+         <description>Höhe Baulicher Anlagen</description>
+         <identifier codeSpace="urn:xplan">XP_ArtHoehenbezugspunkt:5000</identifier>
+         <name>HBA</name>
+         <name codeSpace="lesbarerName">Höhe baulicher Anlagen</name>
+         <name codeSpace="kuerzel">HA</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ArtHoehenbezugspunkt_5500">
+         <description>Unterkante</description>
+         <identifier codeSpace="urn:xplan">XP_ArtHoehenbezugspunkt:5500</identifier>
+         <name>UK</name>
+         <name codeSpace="lesbarerName">Unterkante</name>
+         <name codeSpace="kuerzel">UK</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ArtHoehenbezugspunkt_6000">
+         <description>Gebäudehöhe</description>
+         <identifier codeSpace="urn:xplan">XP_ArtHoehenbezugspunkt:6000</identifier>
+         <name>GBH</name>
+         <name codeSpace="lesbarerName">Gebäudehöhe</name>
+         <name codeSpace="kuerzel">GH</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ArtHoehenbezugspunkt_6500">
+         <description>Wandhöhe</description>
+         <identifier codeSpace="urn:xplan">XP_ArtHoehenbezugspunkt:6500</identifier>
+         <name>WH</name>
+         <name codeSpace="lesbarerName">Wandhöhe</name>
+         <name codeSpace="kuerzel">WH</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ArtHoehenbezugspunkt_6600">
+         <description>Geländeoberkante</description>
+         <identifier codeSpace="urn:xplan">XP_ArtHoehenbezugspunkt:6600</identifier>
+         <name>GOK</name>
+         <name codeSpace="lesbarerName">Geländeoberkante</name>
+         <name codeSpace="kuerzel">GOK</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_BodenAuspraegung"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Ausprägungen in Bezug auf Planungsgegenstand Boden, an die sich das Ziel, das Erfordernis oder die Maßnahme richtet..</description>
+   <identifier codeSpace="urn:xplan">LP_BodenAuspraegung</identifier>
+   <name>LP_BodenAuspraegung</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BodenAuspraegung_1110">
+         <description>Ablagerungen</description>
+         <identifier codeSpace="urn:xplan">LP_BodenAuspraegung:1110</identifier>
+         <name>Ablagerungen</name>
+         <name codeSpace="lesbarerName">Ablagerungen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BodenAuspraegung_1120">
+         <description>Altablagerungsfläche</description>
+         <identifier codeSpace="urn:xplan">LP_BodenAuspraegung:1120</identifier>
+         <name>Altablagerungsflaeche</name>
+         <name codeSpace="lesbarerName">Altablagerungsfläche</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BodenAuspraegung_1130">
+         <description>Altlastenverdachtsfläche</description>
+         <identifier codeSpace="urn:xplan">LP_BodenAuspraegung:1130</identifier>
+         <name>Altlastenverdachtsflaeche</name>
+         <name codeSpace="lesbarerName">Altlastenverdachtsfläche</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BodenAuspraegung_2110">
+         <description>Boden mit Filter- und Pufferfunktion</description>
+         <identifier codeSpace="urn:xplan">LP_BodenAuspraegung:2110</identifier>
+         <name>BodenFilterPufferfunktion</name>
+         <name codeSpace="lesbarerName">Boden Filter- und Pufferfunktion</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BodenAuspraegung_2120">
+         <description>Boden mit hoher Bodenfruchtbarkeit</description>
+         <identifier codeSpace="urn:xplan">LP_BodenAuspraegung:2120</identifier>
+         <name>BodenHoheBodenfruchtbarkeit</name>
+         <name codeSpace="lesbarerName">Boden hohe Bodenfruchtbarkeit</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BodenAuspraegung_2130">
+         <description>Boden mit hoher Funktion für den globalen Klimaschutz</description>
+         <identifier codeSpace="urn:xplan">LP_BodenAuspraegung:2130</identifier>
+         <name>BodenHoherFunktionglobalerKlimaschutz</name>
+         <name codeSpace="lesbarerName">Boden hoher funktionglobaler Klimaschutz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BodenAuspraegung_2210">
+         <description>Boden mit kulturgeschichtlicher Bedeutung</description>
+         <identifier codeSpace="urn:xplan">LP_BodenAuspraegung:2210</identifier>
+         <name>BodenKulturgeschichtlicheBedeutung</name>
+         <name codeSpace="lesbarerName">Boden kulturgeschichtliche Bedeutung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BodenAuspraegung_2220">
+         <description>Boden mit naturgeschichtlicher Bedeutung</description>
+         <identifier codeSpace="urn:xplan">LP_BodenAuspraegung:2220</identifier>
+         <name>BodenNaturgeschichtlicheBedeutung</name>
+         <name codeSpace="lesbarerName">Boden naturgeschichtliche Bedeutung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BodenAuspraegung_2230">
+         <description>Boden mit geowissenschaftlicher Bedeutung</description>
+         <identifier codeSpace="urn:xplan">LP_BodenAuspraegung:2230</identifier>
+         <name>BodenGeowissenschaftlicheBedeutung</name>
+         <name codeSpace="lesbarerName">Boden geowissenschaftliche Bedeutung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BodenAuspraegung_2240">
+         <description>Natürliche Böden mit extremen Standorteigenschaften (nasse und feuchte Böden sowie Böden, die trocken und/oder nährstoffarm sind),</description>
+         <identifier codeSpace="urn:xplan">LP_BodenAuspraegung:2240</identifier>
+         <name>NatuerlicheBoedenExtremStandort</name>
+         <name codeSpace="lesbarerName">Natürliche Böden Extremstandort</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BodenAuspraegung_3100">
+         <description>Ehemals militärisch genutzter Standort</description>
+         <identifier codeSpace="urn:xplan">LP_BodenAuspraegung:3100</identifier>
+         <name>ehemMilitaerischGenutzterStandort</name>
+         <name codeSpace="lesbarerName">Ehemaliger militärisch genutzter Standort</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BodenAuspraegung_4100">
+         <description>Erosionsgefährdete Fläche</description>
+         <identifier codeSpace="urn:xplan">LP_BodenAuspraegung:4100</identifier>
+         <name>Erosionsgefaehrdet</name>
+         <name codeSpace="lesbarerName">Erosionsgefährdet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BodenAuspraegung_4110">
+         <description>Erosionsgefährdete Fläche (Wind)</description>
+         <identifier codeSpace="urn:xplan">LP_BodenAuspraegung:4110</identifier>
+         <name>ErosionsgefaehrdetWind</name>
+         <name codeSpace="lesbarerName">Erosionsgefährdet Wind</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BodenAuspraegung_4120">
+         <description>Erosionsgefährdete Fläche (Wasser)</description>
+         <identifier codeSpace="urn:xplan">LP_BodenAuspraegung:4120</identifier>
+         <name>ErosionsgefaehrdetWasser</name>
+         <name codeSpace="lesbarerName">Erosionsgefährdet Wasser</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BodenAuspraegung_5110">
+         <description>Geotop</description>
+         <identifier codeSpace="urn:xplan">LP_BodenAuspraegung:5110</identifier>
+         <name>Geotop</name>
+         <name codeSpace="lesbarerName">Geotop</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BodenAuspraegung_5120">
+         <description>Seltene Bodenform</description>
+         <identifier codeSpace="urn:xplan">LP_BodenAuspraegung:5120</identifier>
+         <name>SelteneBodenform</name>
+         <name codeSpace="lesbarerName">Seltene Bodenform</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BodenAuspraegung_5210">
+         <description>Naturnaher Boden</description>
+         <identifier codeSpace="urn:xplan">LP_BodenAuspraegung:5210</identifier>
+         <name>NaturnaherBoden</name>
+         <name codeSpace="lesbarerName">Naturnaher Boden</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BodenAuspraegung_6100">
+         <description>Böden mit hohem Retentionspotenzial</description>
+         <identifier codeSpace="urn:xplan">LP_BodenAuspraegung:6100</identifier>
+         <name>BoedenHohesRetentionspotenzial</name>
+         <name codeSpace="lesbarerName">Böden hohes Retentionspotenzial</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BodenAuspraegung_6200">
+         <description>Entsiegelung oder Wiederherstellung der natürlichen Bodenfunktionen</description>
+         <identifier codeSpace="urn:xplan">LP_BodenAuspraegung:6200</identifier>
+         <name>EntsiegelungWiederherstBodenfunktion</name>
+         <name codeSpace="lesbarerName">Entsiegelung oder Wiederherstellung Bodenfunktion</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BodenAuspraegung_9999">
+         <description>Sonstiger Planungsgegenstand Schutzgut Boden (siehe bodenText)</description>
+         <identifier codeSpace="urn:xplan">LP_BodenAuspraegung:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

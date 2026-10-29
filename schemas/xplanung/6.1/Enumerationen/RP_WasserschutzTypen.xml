@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_WasserschutzTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von Wasserschutz.</description>
+   <identifier codeSpace="urn:xplan">RP_WasserschutzTypen</identifier>
+   <name>RP_WasserschutzTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserschutzTypen_1000">
+         <description>Wasserschutzgebiet.&#xD;
+Nach DIN 4046 "Einzugsgebiet oder Teil des Einzugsgebietes einer Wassergewinnungsanlage, das zum Schutz des Wassers Nutzungsbeschränkungen unterliegt."</description>
+         <identifier codeSpace="urn:xplan">RP_WasserschutzTypen:1000</identifier>
+         <name>Wasserschutzgebiet</name>
+         <name codeSpace="lesbarerName">Wasserschutzgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserschutzTypen_2000">
+         <description>Grundwasserschutz.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserschutzTypen:2000</identifier>
+         <name>Grundwasserschutz</name>
+         <name codeSpace="lesbarerName">Grundwasserschutz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserschutzTypen_2001">
+         <description>Grundwasservorkommen.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserschutzTypen:2001</identifier>
+         <name>Grundwasservorkommen</name>
+         <name codeSpace="lesbarerName">Grundwasservorkommen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserschutzTypen_2002">
+         <description>Einzugsgebiet einer Talsperre.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserschutzTypen:2002</identifier>
+         <name>Gewaesserschutz</name>
+         <name codeSpace="lesbarerName">Gewässerschutz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserschutzTypen_3000">
+         <description>Trinkwasserschutz.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserschutzTypen:3000</identifier>
+         <name>Trinkwasserschutz</name>
+         <name codeSpace="lesbarerName">Trinkwasserschutz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserschutzTypen_4000">
+         <description>Trinkwassergewinnung.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserschutzTypen:4000</identifier>
+         <name>Trinkwassergewinnung</name>
+         <name codeSpace="lesbarerName">Trinkwassergewinnung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserschutzTypen_5000">
+         <description>Oberflächenwasserschutz.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserschutzTypen:5000</identifier>
+         <name>Oberflaechenwasserschutz</name>
+         <name codeSpace="lesbarerName">Oberflächenwasserschutz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserschutzTypen_6000">
+         <description>Heilquelle.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserschutzTypen:6000</identifier>
+         <name>Heilquelle</name>
+         <name codeSpace="lesbarerName">Heilquelle</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserschutzTypen_7000">
+         <description>Wasserversorgung.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserschutzTypen:7000</identifier>
+         <name>Wasserversorgung</name>
+         <name codeSpace="lesbarerName">Wasserversorgung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserschutzTypen_9999">
+         <description>Sonstiger Wasserschutz.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserschutzTypen:9999</identifier>
+         <name>SonstigerWasserschutz</name>
+         <name codeSpace="lesbarerName">Sonstiger Wasserschutz</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

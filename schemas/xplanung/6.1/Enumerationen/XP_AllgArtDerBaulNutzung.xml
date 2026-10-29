@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_AllgArtDerBaulNutzung"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung der möglichen" Allgemeinen Arten der baulichen Nutztung".</description>
+   <identifier codeSpace="urn:xplan">XP_AllgArtDerBaulNutzung</identifier>
+   <name>XP_AllgArtDerBaulNutzung</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_AllgArtDerBaulNutzung_1000">
+         <description>Wohnbaufläche nach §1 Abs. (1) BauNVO</description>
+         <identifier codeSpace="urn:xplan">XP_AllgArtDerBaulNutzung:1000</identifier>
+         <name>WohnBauflaeche</name>
+         <name codeSpace="lesbarerName">Wohnbaufläche</name>
+         <name codeSpace="kuerzel">W</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_AllgArtDerBaulNutzung_2000">
+         <description>Gemischte Baufläche nach §1 Abs. (1) BauNVO.</description>
+         <identifier codeSpace="urn:xplan">XP_AllgArtDerBaulNutzung:2000</identifier>
+         <name>GemischteBauflaeche</name>
+         <name codeSpace="lesbarerName">Gemischte Baufläche</name>
+         <name codeSpace="kuerzel">M</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_AllgArtDerBaulNutzung_3000">
+         <description>Gewerbliche Baufläche nach §1 Abs. (1) BauNVO.</description>
+         <identifier codeSpace="urn:xplan">XP_AllgArtDerBaulNutzung:3000</identifier>
+         <name>GewerblicheBauflaeche</name>
+         <name codeSpace="lesbarerName">Gewerbliche Baufläche</name>
+         <name codeSpace="kuerzel">G</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_AllgArtDerBaulNutzung_4000">
+         <description>Sonderbaufläche nach §1 Abs. (1) BauNVO.</description>
+         <identifier codeSpace="urn:xplan">XP_AllgArtDerBaulNutzung:4000</identifier>
+         <name>SonderBauflaeche</name>
+         <name codeSpace="lesbarerName">Sonderbaufläche</name>
+         <name codeSpace="kuerzel">S</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_AllgArtDerBaulNutzung_9999">
+         <description>Sonstige Baufläche</description>
+         <identifier codeSpace="urn:xplan">XP_AllgArtDerBaulNutzung:9999</identifier>
+         <name>SonstigeBauflaeche</name>
+         <name codeSpace="lesbarerName">Sonstige Baufläche</name>
+         <name codeSpace="kuerzel">B</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

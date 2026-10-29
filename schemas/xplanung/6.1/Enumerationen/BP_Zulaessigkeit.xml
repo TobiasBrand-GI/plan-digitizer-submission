@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="BP_Zulaessigkeit"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">BP_Zulaessigkeit</identifier>
+   <name>BP_Zulaessigkeit</name>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Zulaessigkeit_1000">
+         <description>Generelle Zulässigkeit</description>
+         <identifier codeSpace="urn:xplan">BP_Zulaessigkeit:1000</identifier>
+         <name>Zulaessig</name>
+         <name codeSpace="lesbarerName">Zulässig</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Zulaessigkeit_2000">
+         <description>Generelle Nicht-Zulässigkeit.</description>
+         <identifier codeSpace="urn:xplan">BP_Zulaessigkeit:2000</identifier>
+         <name>NichtZulaessig</name>
+         <name codeSpace="lesbarerName">Nicht zulässig</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_Zulaessigkeit_3000">
+         <description>Ausnahmsweise Zulässigkeit</description>
+         <identifier codeSpace="urn:xplan">BP_Zulaessigkeit:3000</identifier>
+         <name>AusnahmsweiseZulaessig</name>
+         <name codeSpace="lesbarerName">Ausnahmsweise zulässig</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

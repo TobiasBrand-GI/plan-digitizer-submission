@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_ZweckbestimmungGemeinbedarf"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf</identifier>
+   <name>XP_ZweckbestimmungGemeinbedarf</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_1000">
+         <description>Einrichtungen und Anlagen für öffentliche Verwaltung</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:1000</identifier>
+         <name>OeffentlicheVerwaltung</name>
+         <name codeSpace="lesbarerName">Öffentliche Verwaltung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_10000">
+         <description>Kommunale Einrichtung wie z. B. Rathaus, Gesundheitsamt, Gesundheitsfürsorgestelle, Gartenbauamt, Gartenarbeitsstützpunkt, Fuhrpark.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:10000</identifier>
+         <name>KommunaleEinrichtung</name>
+         <name codeSpace="lesbarerName">Kommunale Einrichtung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_10001">
+         <description>Betrieb mit öffentlicher Zweckbestimmung wie z.B. ein Stadtreinigungsbetrieb, Autobusbetriebshof, Omnibusbahnhof.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:10001</identifier>
+         <name>BetriebOeffentlZweckbestimmung</name>
+         <name codeSpace="lesbarerName">Betrieb öffentlicher Zweckbestimmung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_10002">
+         <description>Eine Anlage des Bundes oder eines Bundeslandes wie z. B.  Arbeitsamt, Autobahnmeisterei, Brückenmeisterei, Patentamt, Wasserbauhof, Finanzamt.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:10002</identifier>
+         <name>AnlageBundLand</name>
+         <name codeSpace="lesbarerName">Anlage Bund oder Land</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_1200">
+         <description>Einrichtungen und Anlagen für Bildung und Forschung</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:1200</identifier>
+         <name>BildungForschung</name>
+         <name codeSpace="lesbarerName">Bildung und Forschung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_12000">
+         <description>Schulische Einrichtung. Darunter fallen u. a. Allgemeinbildende Schule, Oberstufenzentrum, Sonderschule, Fachschule, Volkshochschule,&#xD;
+Konservatorium.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:12000</identifier>
+         <name>Schule</name>
+         <name codeSpace="lesbarerName">Schule</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_12001">
+         <description>Hochschule, Fachhochschule, Berufsakademie, o. Ä.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:12001</identifier>
+         <name>Hochschule</name>
+         <name codeSpace="lesbarerName">Hochschule</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_12002">
+         <description>Berufsbildende Schule</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:12002</identifier>
+         <name>BerufsbildendeSchule</name>
+         <name codeSpace="lesbarerName">Berufsbildende Schule</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_12003">
+         <description>Forschungseinrichtung, Forschungsinstitut.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:12003</identifier>
+         <name>Forschungseinrichtung</name>
+         <name codeSpace="lesbarerName">Forschungseinrichtung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_1400">
+         <description>Religiöse Einrichtung</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:1400</identifier>
+         <name>Kirche</name>
+         <name codeSpace="lesbarerName">Kirche</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_14000">
+         <description>Religiösen Zwecken dienendes Gebäude wie z. B. Kirche, &#xD;
+Kapelle, Moschee, Synagoge, Gebetssaal.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:14000</identifier>
+         <name>Sakralgebaeude</name>
+         <name codeSpace="lesbarerName">Sakralgebäude</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_14001">
+         <description>Religiöses Verwaltungsgebäude, z. B. Pfarramt, Bischöfliches Ordinariat, Konsistorium.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:14001</identifier>
+         <name>KirchlicheVerwaltung</name>
+         <name codeSpace="lesbarerName">Kirchliche Verwaltung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_14002">
+         <description>Religiöse Gemeinde- oder Versammlungseinrichtung, z. B. Gemeindehaus, Gemeindezentrum.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:14002</identifier>
+         <name>Kirchengemeinde</name>
+         <name codeSpace="lesbarerName">Kirchengemeinde</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_1600">
+         <description>Einrichtungen und Anlagen für soziale Zwecke.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:1600</identifier>
+         <name>Sozial</name>
+         <name codeSpace="lesbarerName">Sozial</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_16000">
+         <description>Soziale Einrichtung für Kinder, wie z. B. Kinderheim, Kindertagesstätte, Kindergarten.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:16000</identifier>
+         <name>EinrichtungKinder</name>
+         <name codeSpace="lesbarerName">Einrichtung Kinder</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_16001">
+         <description>Soziale Einrichtung für Jugendliche, wie z. B. Jugendfreizeitheim/-stätte, Jugendgästehaus, Jugendherberge, Jugendheim.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:16001</identifier>
+         <name>EinrichtungJugendliche</name>
+         <name codeSpace="lesbarerName">Einrichtung Jugendliche</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_16002">
+         <description>Soziale Einrichtung für Familien und Erwachsene, wie z. B. Bildungszentrum, Volkshochschule, Kleinkinderfürsorgestelle, Säuglingsfürsorgestelle, Nachbarschaftsheim.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:16002</identifier>
+         <name>EinrichtungFamilienErwachsene</name>
+         <name codeSpace="lesbarerName">Einrichtung Familien und Erwachsene</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_16003">
+         <description>Soziale Einrichtung für Senioren, wie z. B. Alten-/Seniorentagesstätte, Alten-/Seniorenheim, Alten-/Seniorenwohnheim, Altersheim.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:16003</identifier>
+         <name>EinrichtungSenioren</name>
+         <name codeSpace="lesbarerName">Einrichtung Senioren</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_16005">
+         <description>Soziale Einrichtung für Menschen mit Beeinträchtigung, wie z. B. Behindertentagesstätte, Behindertenwohnheim, Behindertenwerkstatt</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:16005</identifier>
+         <name>EinrichtungBehinderte</name>
+         <name codeSpace="lesbarerName">Einrichtung Behinderte</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_1800">
+         <description>Einrichtungen und Anlagen für gesundheitliche Zwecke.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:1800</identifier>
+         <name>Gesundheit</name>
+         <name codeSpace="lesbarerName">Gesundheit</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_18000">
+         <description>Krankenhaus oder vergleichbare Einrichtung (z. B. Klinik, Hospital, Krankenheim, Heil- und Pflegeanstalt),</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:18000</identifier>
+         <name>Krankenhaus</name>
+         <name codeSpace="lesbarerName">Krankenhaus</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_2000">
+         <description>Einrichtungen und Anlagen für kulturelle Zwecke.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:2000</identifier>
+         <name>Kultur</name>
+         <name codeSpace="lesbarerName">Kultur</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_20000">
+         <description>Kulturelle Einrichtung aus dem Bereich Musik oder Theater (z. B. Theater, Konzerthaus, Musikhalle, Oper).</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:20000</identifier>
+         <name>MusikTheater</name>
+         <name codeSpace="lesbarerName">Musik und Theater</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_20001">
+         <description>Kulturelle Einrichtung mit Bildungsfunktion ( z. B. Museum, Bibliothek, Bücherei, Stadtbücherei, Volksbücherei).</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:20001</identifier>
+         <name>Bildung</name>
+         <name codeSpace="lesbarerName">Bildung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_2200">
+         <description>Einrichtungen und Anlagen für sportliche Zwecke.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:2200</identifier>
+         <name>Sport</name>
+         <name codeSpace="lesbarerName">Sport</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_22000">
+         <description>Schwimmbad, Freibad, Hallenbad, Schwimmhalle o. Ä..</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:22000</identifier>
+         <name>Bad</name>
+         <name codeSpace="lesbarerName">Bad</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_22001">
+         <description>Sportplatz, Sporthalle, Tennishalle o. Ä.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:22001</identifier>
+         <name>SportplatzSporthalle</name>
+         <name codeSpace="lesbarerName">Sportplatz oder Sporthalle</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_2400">
+         <description>Einrichtungen und Anlagen für Sicherheit und Ordnung.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:2400</identifier>
+         <name>SicherheitOrdnung</name>
+         <name codeSpace="lesbarerName">Sicherheit und Ordnung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_24000">
+         <description>Einrichtung oder Anlage der Feuerwehr.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:24000</identifier>
+         <name>Feuerwehr</name>
+         <name codeSpace="lesbarerName">Feuerwehr</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_24001">
+         <description>Schutzbauwerk</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:24001</identifier>
+         <name>Schutzbauwerk</name>
+         <name codeSpace="lesbarerName">Schutzbauwerk</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_24002">
+         <description>Einrichtung der Justiz, wie z. B. Justizvollzug, Gericht, Haftanstalt.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:24002</identifier>
+         <name>Justiz</name>
+         <name codeSpace="lesbarerName">Justiz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_2600">
+         <description>Einrichtungen und Anlagen der Infrastruktur.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:2600</identifier>
+         <name>Infrastruktur</name>
+         <name codeSpace="lesbarerName">Infrastruktur</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_26000">
+         <description>Einrichtung der Post.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:26000</identifier>
+         <name>Post</name>
+         <name codeSpace="lesbarerName">Post</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGemeinbedarf_9999">
+         <description>Sonstige Einrichtungen und Anlagen, die keiner anderen Kategorie zuzuordnen sind.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGemeinbedarf:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

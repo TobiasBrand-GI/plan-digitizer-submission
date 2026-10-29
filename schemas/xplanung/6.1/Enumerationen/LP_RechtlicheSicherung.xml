@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_RechtlicheSicherung"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Rechtliche Sicherung für Flächen des Biotopverbunds und der Biotopvernetzung nach § 21 Abs. 4 BNatSchG.</description>
+   <identifier codeSpace="urn:xplan">LP_RechtlicheSicherung</identifier>
+   <name>LP_RechtlicheSicherung</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_RechtlicheSicherung_1000">
+         <description>Schutzerklärung</description>
+         <identifier codeSpace="urn:xplan">LP_RechtlicheSicherung:1000</identifier>
+         <name>Schutzerklaerung</name>
+         <name codeSpace="lesbarerName">Schutzerklärung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_RechtlicheSicherung_2000">
+         <description>Planungsrechtliche Festlegung</description>
+         <identifier codeSpace="urn:xplan">LP_RechtlicheSicherung:2000</identifier>
+         <name>PlanungsrechtlicheFestlegung</name>
+         <name codeSpace="lesbarerName">Planungsrechtliche Festlegung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_RechtlicheSicherung_3000">
+         <description>Vertragliche Regelung</description>
+         <identifier codeSpace="urn:xplan">LP_RechtlicheSicherung:3000</identifier>
+         <name>VertraglicheRegelung</name>
+         <name codeSpace="lesbarerName">Vertragliche Regelung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_RechtlicheSicherung_9999">
+         <description>Sonstige rechtliche Sicherung (siehe rechtlicheSicherungText)</description>
+         <identifier codeSpace="urn:xplan">LP_RechtlicheSicherung:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

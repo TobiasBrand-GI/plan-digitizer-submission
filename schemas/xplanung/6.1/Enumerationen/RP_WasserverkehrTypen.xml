@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_WasserverkehrTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von Wasserverkehr.</description>
+   <identifier codeSpace="urn:xplan">RP_WasserverkehrTypen</identifier>
+   <name>RP_WasserverkehrTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserverkehrTypen_1000">
+         <description>Hafen.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserverkehrTypen:1000</identifier>
+         <name>Hafen</name>
+         <name codeSpace="lesbarerName">Hafen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserverkehrTypen_1001">
+         <description>Seehafen.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserverkehrTypen:1001</identifier>
+         <name>Seehafen</name>
+         <name codeSpace="lesbarerName">Seehafen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserverkehrTypen_1002">
+         <description>Binnenhafen.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserverkehrTypen:1002</identifier>
+         <name>Binnenhafen</name>
+         <name codeSpace="lesbarerName">Binnenhafen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserverkehrTypen_1003">
+         <description>Sportboothafen.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserverkehrTypen:1003</identifier>
+         <name>Sportboothafen</name>
+         <name codeSpace="lesbarerName">Sportboothafen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserverkehrTypen_1004">
+         <description>Lände.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserverkehrTypen:1004</identifier>
+         <name>Laende</name>
+         <name codeSpace="lesbarerName">Lände</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserverkehrTypen_2000">
+         <description>Umschlagplatz.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserverkehrTypen:2000</identifier>
+         <name>Umschlagplatz</name>
+         <name codeSpace="lesbarerName">Umschlagplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserverkehrTypen_3000">
+         <description>Schleuse und/oder Hebewerk.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserverkehrTypen:3000</identifier>
+         <name>SchleuseHebewerk</name>
+         <name codeSpace="lesbarerName">Schleuse, Hebewerk</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserverkehrTypen_4000">
+         <description>Schifffahrt.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserverkehrTypen:4000</identifier>
+         <name>Schifffahrt</name>
+         <name codeSpace="lesbarerName">Schifffahrt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserverkehrTypen_4001">
+         <description>Wichtiger Schifffahrtsweg.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserverkehrTypen:4001</identifier>
+         <name>WichtigerSchifffahrtsweg</name>
+         <name codeSpace="lesbarerName">Wichtiger Schifffahrtsweg</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserverkehrTypen_4002">
+         <description>Sonstiger Schifffahrtsweg.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserverkehrTypen:4002</identifier>
+         <name>SonstigerSchifffahrtsweg</name>
+         <name codeSpace="lesbarerName">Sonstiger Schifffahrtsweg</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserverkehrTypen_4003">
+         <description>Wasserstraße.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserverkehrTypen:4003</identifier>
+         <name>Wasserstrasse</name>
+         <name codeSpace="lesbarerName">Wasserstraße</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserverkehrTypen_5000">
+         <description>Reede.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserverkehrTypen:5000</identifier>
+         <name>Reede</name>
+         <name codeSpace="lesbarerName">Reede</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WasserverkehrTypen_9999">
+         <description>Sonstiger Wasserverkehr.</description>
+         <identifier codeSpace="urn:xplan">RP_WasserverkehrTypen:9999</identifier>
+         <name>SonstigerWasserverkehr</name>
+         <name codeSpace="lesbarerName">Sonstiger Wasserverkehr</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

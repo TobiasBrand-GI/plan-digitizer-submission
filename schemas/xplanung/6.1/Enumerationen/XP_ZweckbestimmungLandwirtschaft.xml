@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_ZweckbestimmungLandwirtschaft"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">XP_ZweckbestimmungLandwirtschaft</identifier>
+   <name>XP_ZweckbestimmungLandwirtschaft</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungLandwirtschaft_1000">
+         <description>Allgemeine Landwirtschaft</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungLandwirtschaft:1000</identifier>
+         <name>LandwirtschaftAllgemein</name>
+         <name codeSpace="lesbarerName">Landwirtschaft allgemein</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungLandwirtschaft_1100">
+         <description>Ackerbau</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungLandwirtschaft:1100</identifier>
+         <name>Ackerbau</name>
+         <name codeSpace="lesbarerName">Ackerbau</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungLandwirtschaft_1200">
+         <description>Wiesen- und Weidewirtschaft</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungLandwirtschaft:1200</identifier>
+         <name>WiesenWeidewirtschaft</name>
+         <name codeSpace="lesbarerName">Wiesen, Weidewirtschaft</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungLandwirtschaft_1300">
+         <description>Gartenbauliche Erzeugung</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungLandwirtschaft:1300</identifier>
+         <name>GartenbaulicheErzeugung</name>
+         <name codeSpace="lesbarerName">Gartenbauliche Erzeugung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungLandwirtschaft_1400">
+         <description>Obstbau</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungLandwirtschaft:1400</identifier>
+         <name>Obstbau</name>
+         <name codeSpace="lesbarerName">Obstbau</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungLandwirtschaft_1500">
+         <description>Weinbau</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungLandwirtschaft:1500</identifier>
+         <name>Weinbau</name>
+         <name codeSpace="lesbarerName">Weinbau</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungLandwirtschaft_1600">
+         <description>Imkerei</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungLandwirtschaft:1600</identifier>
+         <name>Imkerei</name>
+         <name codeSpace="lesbarerName">Imkerei</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungLandwirtschaft_1700">
+         <description>Binnenfischerei</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungLandwirtschaft:1700</identifier>
+         <name>Binnenfischerei</name>
+         <name codeSpace="lesbarerName">Binnenfischerei</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungLandwirtschaft_9999">
+         <description>Sonstiges</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungLandwirtschaft:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

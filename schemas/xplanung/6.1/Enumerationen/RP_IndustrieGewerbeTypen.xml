@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_IndustrieGewerbeTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von Industrie und Gewerbe.</description>
+   <identifier codeSpace="urn:xplan">RP_IndustrieGewerbeTypen</identifier>
+   <name>RP_IndustrieGewerbeTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_IndustrieGewerbeTypen_1000">
+         <description>Industrie.</description>
+         <identifier codeSpace="urn:xplan">RP_IndustrieGewerbeTypen:1000</identifier>
+         <name>Industrie</name>
+         <name codeSpace="lesbarerName">Industrie</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_IndustrieGewerbeTypen_1001">
+         <description>Industrielle Anlage.</description>
+         <identifier codeSpace="urn:xplan">RP_IndustrieGewerbeTypen:1001</identifier>
+         <name>IndustrielleAnlage</name>
+         <name codeSpace="lesbarerName">Industrielle Anlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_IndustrieGewerbeTypen_2000">
+         <description>Gewerbe</description>
+         <identifier codeSpace="urn:xplan">RP_IndustrieGewerbeTypen:2000</identifier>
+         <name>Gewerbe</name>
+         <name codeSpace="lesbarerName">Gewerbe</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_IndustrieGewerbeTypen_2001">
+         <description>Gewerblicher Bereich.</description>
+         <identifier codeSpace="urn:xplan">RP_IndustrieGewerbeTypen:2001</identifier>
+         <name>GewerblicherBereich</name>
+         <name codeSpace="lesbarerName">Gewerblicher Bereich</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_IndustrieGewerbeTypen_2002">
+         <description>Gewerbepark.</description>
+         <identifier codeSpace="urn:xplan">RP_IndustrieGewerbeTypen:2002</identifier>
+         <name>Gewerbepark</name>
+         <name codeSpace="lesbarerName">Gewerbepark</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_IndustrieGewerbeTypen_2003">
+         <description>Dienstleistungs- oder Gewerbezentrum</description>
+         <identifier codeSpace="urn:xplan">RP_IndustrieGewerbeTypen:2003</identifier>
+         <name>DienstleistungGewerbeZentrum</name>
+         <name codeSpace="lesbarerName">Dienstleistungs- oder Gewerbezentrum</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_IndustrieGewerbeTypen_3000">
+         <description>Gewerbe-Industrie.</description>
+         <identifier codeSpace="urn:xplan">RP_IndustrieGewerbeTypen:3000</identifier>
+         <name>GewerbeIndustrie</name>
+         <name codeSpace="lesbarerName">Gewerbe und Industrie</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_IndustrieGewerbeTypen_3001">
+         <description>Bedeutsamer Entwicklungsstandort von Gewerbe-Industrie.</description>
+         <identifier codeSpace="urn:xplan">RP_IndustrieGewerbeTypen:3001</identifier>
+         <name>BedeutsamerEntwicklungsstandortGewerbeIndustrie</name>
+         <name codeSpace="lesbarerName">Bedeutsamer Entwicklungsstandort Gewerbe und Industrie</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_IndustrieGewerbeTypen_4000">
+         <description>Sicherung und Entwicklung von Arbeitsstätten.</description>
+         <identifier codeSpace="urn:xplan">RP_IndustrieGewerbeTypen:4000</identifier>
+         <name>SicherungEntwicklungArbeitsstaetten</name>
+         <name codeSpace="lesbarerName">Sicherung Entwicklung Arbeitsstätten</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_IndustrieGewerbeTypen_5000">
+         <description>Flächenintensives Großvorhaben.</description>
+         <identifier codeSpace="urn:xplan">RP_IndustrieGewerbeTypen:5000</identifier>
+         <name>FlaechenintensivesGrossvorhaben</name>
+         <name codeSpace="lesbarerName">Flächenintensives Grossvorhaben</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_IndustrieGewerbeTypen_6000">
+         <description>Betriebsanlage des Bergbaus.</description>
+         <identifier codeSpace="urn:xplan">RP_IndustrieGewerbeTypen:6000</identifier>
+         <name>BetriebsanlageBergbau</name>
+         <name codeSpace="lesbarerName">Betriebsanlage Bergbau</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_IndustrieGewerbeTypen_7000">
+         <description>Hafenorientierte wirtschaftliche Anlage.</description>
+         <identifier codeSpace="urn:xplan">RP_IndustrieGewerbeTypen:7000</identifier>
+         <name>HafenorientierteWirtschaftlicheAnlage</name>
+         <name codeSpace="lesbarerName">Hafenorientierte wirtschaftliche Anlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_IndustrieGewerbeTypen_8000">
+         <description>Tankanlagen und Rastanlagen.</description>
+         <identifier codeSpace="urn:xplan">RP_IndustrieGewerbeTypen:8000</identifier>
+         <name>TankRastanlage</name>
+         <name codeSpace="lesbarerName">Tank- und Rastanlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_IndustrieGewerbeTypen_9000">
+         <description>Sonstige Typen von Industrie und Gewerbe.</description>
+         <identifier codeSpace="urn:xplan">RP_IndustrieGewerbeTypen:9000</identifier>
+         <name>BereichFuerGewerblicheUndIndustrielleNutzungGIB</name>
+         <name codeSpace="lesbarerName">Bereich für gewerbliche und industrielle Nutzung (GIB)</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_IndustrieGewerbeTypen_9999">
+         <description>Sonstiges</description>
+         <identifier codeSpace="urn:xplan">RP_IndustrieGewerbeTypen:9999</identifier>
+         <name>SonstigeIndustrieGewerbe</name>
+         <name codeSpace="lesbarerName">Sonstige Industrie und Gewerbe</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

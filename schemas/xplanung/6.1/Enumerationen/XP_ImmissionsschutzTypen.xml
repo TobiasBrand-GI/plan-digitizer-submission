@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_ImmissionsschutzTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">XP_ImmissionsschutzTypen</identifier>
+   <name>XP_ImmissionsschutzTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ImmissionsschutzTypen_1000">
+         <description>BP_ Immissionsschutz mit typ = 1000 entspricht dem Planzeichen 15.8 (Satz 2) „Umgrenzung der von der Bebauung freizuhaltenden Schutzflächen (§ 9 Abs. 1 Nr. 24 und Abs. 6 BauGB)“</description>
+         <identifier codeSpace="urn:xplan">XP_ImmissionsschutzTypen:1000</identifier>
+         <name>Schutzflaeche</name>
+         <name codeSpace="lesbarerName">Schutzfläche</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ImmissionsschutzTypen_2000">
+         <description>BP_Immissionsschutz mit typ = 2000  entspricht dem Planzeichen 15.6 (Satz 2) „Umgrenzung der Flächen für besondere Anlagen und Vorkehrungen zum Schutz vor schädlichen Umwelteinwirkungen im Sinne des Bundes-Immissionsschutzgesetzes (§ 9 Abs. 1 Nr. 24 und Abs. 6 BauGB)</description>
+         <identifier codeSpace="urn:xplan">XP_ImmissionsschutzTypen:2000</identifier>
+         <name>BesondereAnlagenVorkehrungen</name>
+         <name codeSpace="lesbarerName">Besondere Anlagen oder Vorkehrungen</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

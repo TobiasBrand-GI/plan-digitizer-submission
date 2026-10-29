@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_SpannungTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Spannungstypen.</description>
+   <identifier codeSpace="urn:xplan">RP_SpannungTypen</identifier>
+   <name>RP_SpannungTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SpannungTypen_1000">
+         <description>110 Kilovolt.</description>
+         <identifier codeSpace="urn:xplan">RP_SpannungTypen:1000</identifier>
+         <name>110KV</name>
+         <name codeSpace="lesbarerName">110 KV</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SpannungTypen_2000">
+         <description>220 Kilovolt.</description>
+         <identifier codeSpace="urn:xplan">RP_SpannungTypen:2000</identifier>
+         <name>220KV</name>
+         <name codeSpace="lesbarerName">220 KV</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SpannungTypen_3000">
+         <description>330 Kilovolt.</description>
+         <identifier codeSpace="urn:xplan">RP_SpannungTypen:3000</identifier>
+         <name>330KV</name>
+         <name codeSpace="lesbarerName">330 KV</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SpannungTypen_4000">
+         <description>380 Kilovolt.</description>
+         <identifier codeSpace="urn:xplan">RP_SpannungTypen:4000</identifier>
+         <name>380KV</name>
+         <name codeSpace="lesbarerName">380 KV</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

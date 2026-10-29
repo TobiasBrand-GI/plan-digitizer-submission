@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="SO_KlassifizNachBodenschutzrecht"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">SO_KlassifizNachBodenschutzrecht</identifier>
+   <name>SO_KlassifizNachBodenschutzrecht</name>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachBodenschutzrecht_1000">
+         <description>Schädliche Bodenveränderung</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachBodenschutzrecht:1000</identifier>
+         <name>SchaedlicheBodenveraenderung</name>
+         <name codeSpace="lesbarerName">Schädliche Bodenveränderung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachBodenschutzrecht_2000">
+         <description>Altlast</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachBodenschutzrecht:2000</identifier>
+         <name>Altlast</name>
+         <name codeSpace="lesbarerName">Altlast</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachBodenschutzrecht_20000">
+         <description>Altablagerung</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachBodenschutzrecht:20000</identifier>
+         <name>Altablagerung</name>
+         <name codeSpace="lesbarerName">Altablagerung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachBodenschutzrecht_20001">
+         <description>Altstandort</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachBodenschutzrecht:20001</identifier>
+         <name>Altstandort</name>
+         <name codeSpace="lesbarerName">Altstandort</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachBodenschutzrecht_20002">
+         <description>Altstandort einer Altablagerung</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachBodenschutzrecht:20002</identifier>
+         <name>AltstandortAufAltablagerung</name>
+         <name codeSpace="lesbarerName">Altstandort auf Altablagerung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachBodenschutzrecht_3000">
+         <description>Flächen, deren Böden erheblich mit umweltgefährdenden Stoffen belastet sind (§9 Abs. 5 und §5 Abs. 3 BauGB)</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachBodenschutzrecht:3000</identifier>
+         <name>SchadstoffBelaststerBoden</name>
+         <name codeSpace="lesbarerName">schadstoffbelasteter Boden</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="2787"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Ziele, Erfordernisse und Maßnahmen für Naturschutz und Landschaftspflege gem. Kapitel 2 BNatSchG.</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:LP_ZieleErfordernisseMassnahmen</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">LP_ZieleErfordernisseMassnahmen</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2787_8477">
+         <gml:description>Zeigt an, ob es sich bei dem Objekt um ein Ziel, ein Erfordernis und/oder um eine Maßnahme gemäß Kapitel 2 BNatSchG handelt.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_ZieleErfordernisseMassnahmen:zieleErfordernisseMassnahmen</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">zieleErfordernisseMassnahmen</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2787_8477_2789_8496">
+               <gml:description>Zeigt an, dasses sich bei dem Objekt um ein für den Planungsraum konkretisiertes Ziel gemäß Kapitel 2 BNatSchG handelt.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_ZieleErfordernisseMassnahmen:zieleErfordernisseMassnahmen:1000</gml:identifier>
+               <gml:name>Ziel</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2787_8477_2789_8497">
+               <gml:description>Zeigt an, ob es sich bei dem Objekt um ein Erfordernis zur Verwirklichung der konkretisierten Ziele gemäß Kapitel 2 BNatSchG handelt. Erfordernisse sind Anforderungen an andere Fachplanungen und Landnutzungen (u. a. Wasserwirtschaft, Land- und Forstwirtschaft). Sie beschreiben, „welche planerischen oder praktischen Aktivitäten von anderen Planungsträgern im Rahmen ihres Mitwirkungsauftrages bei der Erfüllung der Ziele des Naturschutzes und der Landschaftspflege erwartet werden“ (§ 9 Abs. 3 und 5 BNatSchG).</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_ZieleErfordernisseMassnahmen:zieleErfordernisseMassnahmen:2000</gml:identifier>
+               <gml:name>Erfordernis</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2787_8477_2789_8498">
+               <gml:description>Zeigt an, ob es sich bei dem Objekt um eine Maßnahme zur Verwirklichung der konkretisierten Ziele gemäß Kapitel 2 BNatSchG handelt.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_ZieleErfordernisseMassnahmen:zieleErfordernisseMassnahmen:3000</gml:identifier>
+               <gml:name>Massnahme</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>1..*</def:cardinality>
+         <def:valueTypeName>LP_ZEMTyp</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2787_8478">
+         <gml:description>Angaben zum Schutzgut / zu den Schutzgütern.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_ZieleErfordernisseMassnahmen:schutzgut</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">schutzgut</gml:name>
+         <def:cardinality>1..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:LP_SchutzgutKomplex"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2787_8479">
+         <gml:description>Zieldimension von Naturschutz und Landschaftspflege; Teilziele des Naturschutzes und der Landschaftspflege gemäß § 1 Abs. 1 Ziffern 1. bis 3. BNatSchG</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_ZieleErfordernisseMassnahmen:zielDimNatSchLaPfl</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">zielDimNatSchLaPfl</gml:name>
+         <def:cardinality>1..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:LP_ZielDimNatSchLaPflKomplex"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2787_8480">
+         <gml:description>Adressat(en), an den oder die sich die Aussage der Landschaftsplanung richtet.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_ZieleErfordernisseMassnahmen:adressat</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">adressat</gml:name>
+         <def:cardinality>1..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:LP_AdressatKomplex"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2787_8481">
+         <gml:description>Differenzierung Schutz-, Pflege und Entwicklungsziele von Naturschutz und Landschaftspflege.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_ZieleErfordernisseMassnahmen:schutzPflegeEntwicklung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">schutzPflegeEntwicklung</gml:name>
+         <def:cardinality>1..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:LP_SPEKomplex"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2787_8482">
+         <gml:description>Angaben zum Planungsgegenstand „Biologische Vielfalt“</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_ZieleErfordernisseMassnahmen:biologischeVielfalt</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">biologischeVielfalt</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:LP_BiologischeVielfaltKomplex"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2787_8483">
+         <gml:description>Angaben zum Planungsgegenstand Boden</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_ZieleErfordernisseMassnahmen:boden</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">boden</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:LP_BodenKomplex"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2787_8484">
+         <gml:description>Angaben zum Planungsgegenstand Wasser</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_ZieleErfordernisseMassnahmen:wasser</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">wasser</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:LP_WasserKomplex"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2787_8485">
+         <gml:description>Angaben zum Planungsgegenstand Klima</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_ZieleErfordernisseMassnahmen:klima</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">klima</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:LP_KlimaKomplex"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2787_8486">
+         <gml:description>Angaben zum Planungsgegenstand Luft</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_ZieleErfordernisseMassnahmen:luft</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">luft</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:LP_LuftKomplex"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2787_8487">
+         <gml:description>Angaben zum Planungsgegenstand Landschaftsbild</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_ZieleErfordernisseMassnahmen:landschaftsbild</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">landschaftsbild</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:LP_LandschaftsbildKomplex"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2787_8488">
+         <gml:description>Angaben zum Planungsgegenstand Erholung in Natur und Landschaft.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_ZieleErfordernisseMassnahmen:erholung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">erholung</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:LP_ErholungKomplex"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2787_8489">
+         <gml:description>Textliche Erläuterung zum Planungsgegenstand Freiräume.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_ZieleErfordernisseMassnahmen:freiraeume</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">freiraeume</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2787_8490">
+         <gml:description>Textliche Nennung von Fördermöglichkeiten für Maßnahmen.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_ZieleErfordernisseMassnahmen:foerdermoeglichkeit</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">foerdermoeglichkeit</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2787_8491">
+         <gml:description>Angaben zu Nutzungseinschränkungen.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_ZieleErfordernisseMassnahmen:nutzungseinschraenkung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">nutzungseinschraenkung</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:LP_NutzungseinschraenkungKomplex"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:LP_Geometrieobjekt"/>
+</def:TypeDefinition>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="BP_BereichOhneEinAusfahrtTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung verschiedener Typen von Bereichen ohne Ein- und Ausfahrt.</description>
+   <identifier codeSpace="urn:xplan">BP_BereichOhneEinAusfahrtTypen</identifier>
+   <name>BP_BereichOhneEinAusfahrtTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="BP_BereichOhneEinAusfahrtTypen_1000">
+         <description>Bereich ohne Einfahrt</description>
+         <identifier codeSpace="urn:xplan">BP_BereichOhneEinAusfahrtTypen:1000</identifier>
+         <name>KeineEinfahrt</name>
+         <name codeSpace="lesbarerName">Keine Einfahrt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_BereichOhneEinAusfahrtTypen_2000">
+         <description>Bereich ohne Ausfahrt</description>
+         <identifier codeSpace="urn:xplan">BP_BereichOhneEinAusfahrtTypen:2000</identifier>
+         <name>KeineAusfahrt</name>
+         <name codeSpace="lesbarerName">Keine Ausfahrt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_BereichOhneEinAusfahrtTypen_3000">
+         <description>Bereich ohne Ein- und Ausfahrt.</description>
+         <identifier codeSpace="urn:xplan">BP_BereichOhneEinAusfahrtTypen:3000</identifier>
+         <name>KeineEinAusfahrt</name>
+         <name codeSpace="lesbarerName">Keine Ein- oder Ausfahrt</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

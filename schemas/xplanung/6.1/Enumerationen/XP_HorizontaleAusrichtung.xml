@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_HorizontaleAusrichtung"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Enumeration der definierten horizontalen Fontausrichtungen</description>
+   <identifier codeSpace="urn:xplan">XP_HorizontaleAusrichtung</identifier>
+   <name>XP_HorizontaleAusrichtung</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_HorizontaleAusrichtung_linksbündig">
+         <description>Text linksbündig am Textpunkt bzw. am ersten Punkt der Linie.</description>
+         <identifier codeSpace="urn:xplan">XP_HorizontaleAusrichtung:linksbündig</identifier>
+         <name>linksbündig</name>
+         <name codeSpace="lesbarerName">Linksbündig</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_HorizontaleAusrichtung_rechtsbündig">
+         <description>Text rechtsbündig am Textpunkt bzw. am letzten Punkt der Linie.</description>
+         <identifier codeSpace="urn:xplan">XP_HorizontaleAusrichtung:rechtsbündig</identifier>
+         <name>rechtsbündig</name>
+         <name codeSpace="lesbarerName">Rechtsbündig</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_HorizontaleAusrichtung_zentrisch">
+         <description>Text zentriert am Textpunkt bzw. in der Mitte der Textstandlinie.</description>
+         <identifier codeSpace="urn:xplan">XP_HorizontaleAusrichtung:zentrisch</identifier>
+         <name>zentrisch</name>
+         <name codeSpace="lesbarerName">Zentrisch</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

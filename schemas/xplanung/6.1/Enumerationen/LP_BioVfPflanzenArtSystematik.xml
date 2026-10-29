@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_BioVfPflanzenArtSystematik"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Gibt systematische Einordnung der Pflanzenart an.</description>
+   <identifier codeSpace="urn:xplan">LP_BioVfPflanzenArtSystematik</identifier>
+   <name>LP_BioVfPflanzenArtSystematik</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfPflanzenArtSystematik_1000">
+         <description>Gefäßpflanze</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfPflanzenArtSystematik:1000</identifier>
+         <name>Gefaesspflanze</name>
+         <name codeSpace="lesbarerName">Gefäßpflanze</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfPflanzenArtSystematik_2000">
+         <description>Moose/Flechten</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfPflanzenArtSystematik:2000</identifier>
+         <name>MooseFlechten</name>
+         <name codeSpace="lesbarerName">Moose und Flechten</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfPflanzenArtSystematik_3000">
+         <description>Pilze</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfPflanzenArtSystematik:3000</identifier>
+         <name>Pilze</name>
+         <name codeSpace="lesbarerName">Pilze</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfPflanzenArtSystematik_9999">
+         <description>Sonstige Systematik (siehe bioVfPflanzenSystematikText)</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfPflanzenArtSystematik:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

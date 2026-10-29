@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_ExterneReferenzArt"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typisierung von referierten Dokumenten.</description>
+   <identifier codeSpace="urn:xplan">XP_ExterneReferenzArt</identifier>
+   <name>XP_ExterneReferenzArt</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ExterneReferenzArt_Dokument">
+         <description>Referenz auf ein Dokument.</description>
+         <identifier codeSpace="urn:xplan">XP_ExterneReferenzArt:Dokument</identifier>
+         <name>Dokument</name>
+         <name codeSpace="lesbarerName">Dokument</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ExterneReferenzArt_PlanMitGeoreferenz">
+         <description>Referenz auf einen georeferenzierten Plan.</description>
+         <identifier codeSpace="urn:xplan">XP_ExterneReferenzArt:PlanMitGeoreferenz</identifier>
+         <name>PlanMitGeoreferenz</name>
+         <name codeSpace="lesbarerName">Plan mit Georeferenz</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

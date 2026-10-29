@@ -1,0 +1,13 @@
+numpy~=2.4.6
+opencv-python~=4.13.0.92
+rasterio~=1.5.0
+fastapi[standard]~=0.136.1
+pydantic~=2.13.3
+#GDAL~=3.13.1
+networkx~=3.6.1
+scipy~=1.18.0
+lxml
+mistralai
+python-dotenv
+python-multipart
+pytesseract  # also requires the tesseract-ocr system package (e.g. apt-get install tesseract-ocr)

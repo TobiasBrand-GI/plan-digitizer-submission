@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="BP_GebaeudeStellungTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung verschiedener Möglichkeiten, die Stellung von Gebäuden und baulichen Anlagen zu spezifizieren.</description>
+   <identifier codeSpace="urn:xplan">BP_GebaeudeStellungTypen</identifier>
+   <name>BP_GebaeudeStellungTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="BP_GebaeudeStellungTypen_1000">
+         <description>Spezifikation der Firstlinie</description>
+         <identifier codeSpace="urn:xplan">BP_GebaeudeStellungTypen:1000</identifier>
+         <name>Firstrichtung</name>
+         <name codeSpace="lesbarerName">Firstrichtung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_GebaeudeStellungTypen_2000">
+         <description>Spezifikation einer gerichteten Linie von der Dachtraufe zum Dachfirst.</description>
+         <identifier codeSpace="urn:xplan">BP_GebaeudeStellungTypen:2000</identifier>
+         <name>Dachneigungsrichtung</name>
+         <name codeSpace="lesbarerName">Dachneigungsrichtung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_GebaeudeStellungTypen_3000">
+         <description>Der Code wird nur verwendet, wenn bei den geplanten Gebäuden keine eindeutige Firstrichtung identifizierbar ist. Die spezifizierte Linie gibt in diesem Fall die räumliche Ausrichtung des Haupt-Baukörpers an.</description>
+         <identifier codeSpace="urn:xplan">BP_GebaeudeStellungTypen:3000</identifier>
+         <name>StellungBaulAnlagen</name>
+         <name codeSpace="lesbarerName">Stellung baulicher Anlagen</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

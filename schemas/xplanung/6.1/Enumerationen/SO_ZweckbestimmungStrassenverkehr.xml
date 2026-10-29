@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="SO_ZweckbestimmungStrassenverkehr"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">SO_ZweckbestimmungStrassenverkehr</identifier>
+   <name>SO_ZweckbestimmungStrassenverkehr</name>
+   <dictionaryEntry>
+      <Definition gml:id="SO_ZweckbestimmungStrassenverkehr_1000">
+         <description>Autobahn oder autobahnähnliche Straße.</description>
+         <identifier codeSpace="urn:xplan">SO_ZweckbestimmungStrassenverkehr:1000</identifier>
+         <name>AutobahnUndAehnlich</name>
+         <name codeSpace="lesbarerName">Autobahn oder ähnlich</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_ZweckbestimmungStrassenverkehr_1200">
+         <description>Sonstige örtliche oder überörtliche Hauptverkehrsstraße bzw. Weg.</description>
+         <identifier codeSpace="urn:xplan">SO_ZweckbestimmungStrassenverkehr:1200</identifier>
+         <name>Hauptverkehrsstrasse</name>
+         <name codeSpace="lesbarerName">Hauptverkehrsstraße</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_ZweckbestimmungStrassenverkehr_1400">
+         <description>Sonstiger Verkehrsweg oder Anlage. Planinhalte nach § 5.3 PlanZV ("Überörtliche Wege und örtliche Hauptwege") werden ebenfalls auf diesen Enumerationswert abgebildet.</description>
+         <identifier codeSpace="urn:xplan">SO_ZweckbestimmungStrassenverkehr:1400</identifier>
+         <name>SonstigerVerkehrswegAnlage</name>
+         <name codeSpace="lesbarerName">Sonstiger Verkehrsweg oder Anlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_ZweckbestimmungStrassenverkehr_14000">
+         <description>Bereich einer Verkehrsfläche, der der Verkehrsberuhigung in geschlossenen Ortschaften dient.</description>
+         <identifier codeSpace="urn:xplan">SO_ZweckbestimmungStrassenverkehr:14000</identifier>
+         <name>VerkehrsberuhigterBereich</name>
+         <name codeSpace="lesbarerName">Verkehrsberuhigter Bereich</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_ZweckbestimmungStrassenverkehr_14001">
+         <description>Platz</description>
+         <identifier codeSpace="urn:xplan">SO_ZweckbestimmungStrassenverkehr:14001</identifier>
+         <name>Platz</name>
+         <name codeSpace="lesbarerName">Platz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_ZweckbestimmungStrassenverkehr_140010">
+         <description>Brückenbereich, hier: Überführender Verkehrsweg.</description>
+         <identifier codeSpace="urn:xplan">SO_ZweckbestimmungStrassenverkehr:140010</identifier>
+         <name>UeberfuehrenderVerkehrsweg</name>
+         <name codeSpace="lesbarerName">Überführender Verkehrsweg</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_ZweckbestimmungStrassenverkehr_140011">
+         <description>Brückenbereich, hier: Unterführender Verkehrsweg.</description>
+         <identifier codeSpace="urn:xplan">SO_ZweckbestimmungStrassenverkehr:140011</identifier>
+         <name>UnterfuehrenderVerkehrsweg</name>
+         <name codeSpace="lesbarerName">Unterführender Verkehrsweg</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_ZweckbestimmungStrassenverkehr_140012">
+         <description>Wege, die überwiegend land- und forstwirtschaftlichen Zwecken dienen und keine überörtliche Bedeutung haben</description>
+         <identifier codeSpace="urn:xplan">SO_ZweckbestimmungStrassenverkehr:140012</identifier>
+         <name>Wirtschaftsweg</name>
+         <name codeSpace="lesbarerName">Wirtschaftsweg</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_ZweckbestimmungStrassenverkehr_140013">
+         <description>Landwirtschaftlicher Verkehr</description>
+         <identifier codeSpace="urn:xplan">SO_ZweckbestimmungStrassenverkehr:140013</identifier>
+         <name>LandwirtschaftlicherVerkehr</name>
+         <name codeSpace="lesbarerName">Landwirtschaftlicher Verkehr</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_ZweckbestimmungStrassenverkehr_14002">
+         <description>Fußgängerbereich</description>
+         <identifier codeSpace="urn:xplan">SO_ZweckbestimmungStrassenverkehr:14002</identifier>
+         <name>Fussgaengerbereich</name>
+         <name codeSpace="lesbarerName">Fußgängerbereich</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_ZweckbestimmungStrassenverkehr_14003">
+         <description>Rad- und Fußweg</description>
+         <identifier codeSpace="urn:xplan">SO_ZweckbestimmungStrassenverkehr:14003</identifier>
+         <name>RadGehweg</name>
+         <name codeSpace="lesbarerName">Rad- und Gehweg</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_ZweckbestimmungStrassenverkehr_14004">
+         <description>Radweg</description>
+         <identifier codeSpace="urn:xplan">SO_ZweckbestimmungStrassenverkehr:14004</identifier>
+         <name>Radweg</name>
+         <name codeSpace="lesbarerName">Radweg</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_ZweckbestimmungStrassenverkehr_14005">
+         <description>Fußweg</description>
+         <identifier codeSpace="urn:xplan">SO_ZweckbestimmungStrassenverkehr:14005</identifier>
+         <name>Gehweg</name>
+         <name codeSpace="lesbarerName">Gehweg</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_ZweckbestimmungStrassenverkehr_14006">
+         <description>Wanderweg</description>
+         <identifier codeSpace="urn:xplan">SO_ZweckbestimmungStrassenverkehr:14006</identifier>
+         <name>Wanderweg</name>
+         <name codeSpace="lesbarerName">Wanderweg</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_ZweckbestimmungStrassenverkehr_14007">
+         <description>Reit- und Kutschweg</description>
+         <identifier codeSpace="urn:xplan">SO_ZweckbestimmungStrassenverkehr:14007</identifier>
+         <name>ReitKutschweg</name>
+         <name codeSpace="lesbarerName">Reit- und Kutschweg</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_ZweckbestimmungStrassenverkehr_14008">
+         <description>Rastanlage</description>
+         <identifier codeSpace="urn:xplan">SO_ZweckbestimmungStrassenverkehr:14008</identifier>
+         <name>Rastanlage</name>
+         <name codeSpace="lesbarerName">Rastanlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_ZweckbestimmungStrassenverkehr_14009">
+         <description>Busbahnhof, auch zentraler Omnibusbahnhof (ZOB)</description>
+         <identifier codeSpace="urn:xplan">SO_ZweckbestimmungStrassenverkehr:14009</identifier>
+         <name>Busbahnhof</name>
+         <name codeSpace="lesbarerName">Busbahnhof</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_ZweckbestimmungStrassenverkehr_14014">
+         <description>Anschlussfläche</description>
+         <identifier codeSpace="urn:xplan">SO_ZweckbestimmungStrassenverkehr:14014</identifier>
+         <name>Anschlussflaeche</name>
+         <name codeSpace="lesbarerName">Anschlussfläche</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_ZweckbestimmungStrassenverkehr_14015">
+         <description>Verkehrsgrün</description>
+         <identifier codeSpace="urn:xplan">SO_ZweckbestimmungStrassenverkehr:14015</identifier>
+         <name>Verkehrsgruen</name>
+         <name codeSpace="lesbarerName">Verkehrsgrün</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_ZweckbestimmungStrassenverkehr_1600">
+         <description>Fläche oder Anlage für den ruhenden Verkehr</description>
+         <identifier codeSpace="urn:xplan">SO_ZweckbestimmungStrassenverkehr:1600</identifier>
+         <name>RuhenderVerkehr</name>
+         <name codeSpace="lesbarerName">Ruhender Verkehr</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_ZweckbestimmungStrassenverkehr_16000">
+         <description>Parkplatz, Parkfläche</description>
+         <identifier codeSpace="urn:xplan">SO_ZweckbestimmungStrassenverkehr:16000</identifier>
+         <name>Parkplatz</name>
+         <name codeSpace="lesbarerName">Parkplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_ZweckbestimmungStrassenverkehr_16001">
+         <description>Abstellplatz für Fahräder</description>
+         <identifier codeSpace="urn:xplan">SO_ZweckbestimmungStrassenverkehr:16001</identifier>
+         <name>FahrradAbstellplatz</name>
+         <name codeSpace="lesbarerName">Fahrrad-Abstellplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_ZweckbestimmungStrassenverkehr_16002">
+         <description>Park-and-Ride Anlagen sind Parkanlagen, die in der Nähe von Haltestellen des öffentlichen Nahverkehrs (ÖPNV) für Pkw, teilweise auch Motorräder und Busse, zur Verfügung gestellt werden.</description>
+         <identifier codeSpace="urn:xplan">SO_ZweckbestimmungStrassenverkehr:16002</identifier>
+         <name>P_RAnlage</name>
+         <name codeSpace="lesbarerName">P+R Anlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_ZweckbestimmungStrassenverkehr_16003">
+         <description>Bike-and-Ride Anlagen sind Radabstellanlagen, die in der Nähe von Haltestellen des öffentlichen Nahverkehrs (ÖPNV) zur Verfügung gestellt werden.</description>
+         <identifier codeSpace="urn:xplan">SO_ZweckbestimmungStrassenverkehr:16003</identifier>
+         <name>B_RAnlage</name>
+         <name codeSpace="lesbarerName">B+R Anlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_ZweckbestimmungStrassenverkehr_16004">
+         <description>Parkhaus</description>
+         <identifier codeSpace="urn:xplan">SO_ZweckbestimmungStrassenverkehr:16004</identifier>
+         <name>Parkhaus</name>
+         <name codeSpace="lesbarerName">Parkhaus</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_ZweckbestimmungStrassenverkehr_16005">
+         <description>Anlage für die organisierte gemeinschaftliche Nutzung von Automobilen.</description>
+         <identifier codeSpace="urn:xplan">SO_ZweckbestimmungStrassenverkehr:16005</identifier>
+         <name>CarSharing</name>
+         <name codeSpace="lesbarerName">Car Sharing</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_ZweckbestimmungStrassenverkehr_16006">
+         <description>Anlage für die organisierte gemeinschaftliche Nutzung von Fahrrädern.</description>
+         <identifier codeSpace="urn:xplan">SO_ZweckbestimmungStrassenverkehr:16006</identifier>
+         <name>BikeSharing</name>
+         <name codeSpace="lesbarerName">Bike Sharing</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_ZweckbestimmungStrassenverkehr_3400">
+         <description>Mischverkehrsfläche, oder „Shared Space“, „Begegnungszone“, ist eine Verkehrsfläche, auf der eine möglichst gemeinsame Nutzung des Straßenraumes und eine Gleichberechtigung aller Verkehrsteilnehmerinnen und Verkehrsteilnehmer angestrebt wird.</description>
+         <identifier codeSpace="urn:xplan">SO_ZweckbestimmungStrassenverkehr:3400</identifier>
+         <name>Mischverkehrsflaeche</name>
+         <name codeSpace="lesbarerName">Mischverkehrsfläche</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_ZweckbestimmungStrassenverkehr_3500">
+         <description>Flächen für Ladeinfrastruktur elektrisch betriebener Fahrzeuge .</description>
+         <identifier codeSpace="urn:xplan">SO_ZweckbestimmungStrassenverkehr:3500</identifier>
+         <name>Ladestation</name>
+         <name codeSpace="lesbarerName">Ladestation</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_ZweckbestimmungStrassenverkehr_9999">
+         <description>Sonstige Zweckbestimmung</description>
+         <identifier codeSpace="urn:xplan">SO_ZweckbestimmungStrassenverkehr:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

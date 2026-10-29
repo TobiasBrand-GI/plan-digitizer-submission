@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_ZweckbestimmungKennzeichnung"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung der Kennzeichnungen nach §5, Abs. 3 BauGB</description>
+   <identifier codeSpace="urn:xplan">XP_ZweckbestimmungKennzeichnung</identifier>
+   <name>XP_ZweckbestimmungKennzeichnung</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungKennzeichnung_1000">
+         <description>Flächen, bei deren Bebauung besondere bauliche Sicherungsmanahmen gegen Naturgewalten erforderlich sind (§5 Abs. 3 Nr. 1 und §9 Abs.5 Nr.1 BauGB ).</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungKennzeichnung:1000</identifier>
+         <name>Naturgewalten</name>
+         <name codeSpace="lesbarerName">Naturgewalten</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungKennzeichnung_2000">
+         <description>Flächen, die für den Abbau von Mineralien bestimmt sind (§5 Abs. 3 Nr. 2 und §9 Abs. 5 Nr. 2 BauGB).</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungKennzeichnung:2000</identifier>
+         <name>Abbauflaeche</name>
+         <name codeSpace="lesbarerName">Abbaufläche</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungKennzeichnung_3000">
+         <description>Flächen, bei deren Bebauung besondere bauliche Sicherungsmanahmen gegen äußere Einwirkungen erforderlich sind (§5 Abs. 3 Nr. 1 und §9 Abs. 5 Nr. 1  BauGB ).</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungKennzeichnung:3000</identifier>
+         <name>AeussereEinwirkungen</name>
+         <name codeSpace="lesbarerName">Äußere Einwirkungen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungKennzeichnung_4000">
+         <description>Für bauliche Nutzung vorgesehene Flächen, deren Böden erheblich mit umweltgefährdenden Stoffen belastet sind (§5 Abs. 3 Nr. 3 und §9 Abs. 5 Nr. 3 BauGB).&#xD;
+Dieser Code ist ab Version 6.1 veraltet und wir in Version 7 wegfallen. Es wird empfohlen, Kennzeichnungen schadstoffbelasteter Böden im BPlan und FPlan über "SO_Bodenschutzrecht" abzubilden.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungKennzeichnung:4000</identifier>
+         <name>SchadstoffBelastBoden</name>
+         <name codeSpace="lesbarerName">Schadstoffbelasteter Boden</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungKennzeichnung_5000">
+         <description>Für bauliche Nutzung vorgesehene Flächen, die erheblicher Lärmbelastung ausgesetzt sind.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungKennzeichnung:5000</identifier>
+         <name>LaermBelastung</name>
+         <name codeSpace="lesbarerName">Lärmbelastung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungKennzeichnung_6000">
+         <description>Flächen, unter denen der Bergbau umgeht  (§5, Abs. 3, Nr. 2 und §9, Abs. 5, Nr. 2. BauGB).</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungKennzeichnung:6000</identifier>
+         <name>Bergbau</name>
+         <name codeSpace="lesbarerName">Bergbau</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungKennzeichnung_7000">
+         <description>Für Bodenordnungsmanahmen vorgesehene Gebiete, z.B. Gebiete für Umlegungen oder Flurbereinigung</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungKennzeichnung:7000</identifier>
+         <name>Bodenordnung</name>
+         <name codeSpace="lesbarerName">Bodenordnung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungKennzeichnung_8000">
+         <description>Räumlich besonders gekennzeichnetes Vorhabengebiets, das kleiner als der Geltungsbereich ist, innerhalb eines vorhabenbezogenen BPlans.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungKennzeichnung:8000</identifier>
+         <name>Vorhabensgebiet</name>
+         <name codeSpace="lesbarerName">Vorhabensgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungKennzeichnung_9999">
+         <description>Kennzeichnung nach anderen gesetzlichen Vorschriften.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungKennzeichnung:9999</identifier>
+         <name>AndereGesetzlVorschriften</name>
+         <name codeSpace="lesbarerName">Andere gesetzliche Vorschriften</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

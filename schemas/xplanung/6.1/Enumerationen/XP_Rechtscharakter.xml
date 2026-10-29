@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_Rechtscharakter"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Festsetzung in Bebauungsplan.</description>
+   <identifier codeSpace="urn:xplan">XP_Rechtscharakter</identifier>
+   <name>XP_Rechtscharakter</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Rechtscharakter_1000">
+         <description>Festsetzung in einem Bebauungsplan</description>
+         <identifier codeSpace="urn:xplan">XP_Rechtscharakter:1000</identifier>
+         <name>FestsetzungBPlan</name>
+         <name codeSpace="lesbarerName">Festsetzung BPlan</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Rechtscharakter_2000">
+         <description>Nachrichtliche Übernahme aus anderen Planwerken.</description>
+         <identifier codeSpace="urn:xplan">XP_Rechtscharakter:2000</identifier>
+         <name>NachrichtlicheUebernahme</name>
+         <name codeSpace="lesbarerName">Nachrichtliche Übernahme</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Rechtscharakter_3000">
+         <description>Darstellung im Flächennutzungsplan</description>
+         <identifier codeSpace="urn:xplan">XP_Rechtscharakter:3000</identifier>
+         <name>DarstellungFPlan</name>
+         <name codeSpace="lesbarerName">Darstellung FPlan</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Rechtscharakter_4000">
+         <description>Ziel der Raumordnung. Verbindliche räumliche und sachliche Festlegung zur Entwicklung, Ordnung und Sicherung des Raumes.</description>
+         <identifier codeSpace="urn:xplan">XP_Rechtscharakter:4000</identifier>
+         <name>ZielDerRaumordnung</name>
+         <name codeSpace="lesbarerName">Ziel der Raumordnung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Rechtscharakter_4100">
+         <description>Grundsätze der Raumordnung sind nach §3 Abs. Aussagen zur Entwicklung, Ordnung und Sicherung des Raums als Vorgaben für nachfolgende Abwägungs- oder Ermessensentscheidungen. Grundsätze der Raumordnung können durch Gesetz oder Festlegungen in einem Raumordnungsplan (§7 Abs. 1 und 2, ROG) aufgestellt werden.</description>
+         <identifier codeSpace="urn:xplan">XP_Rechtscharakter:4100</identifier>
+         <name>GrundsatzDerRaumordnung</name>
+         <name codeSpace="lesbarerName">Grundsatz der Raumordnung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Rechtscharakter_4200">
+         <description>Nachrichtliche Übernahme Ziel der Raumordnung.</description>
+         <identifier codeSpace="urn:xplan">XP_Rechtscharakter:4200</identifier>
+         <name>NachrichtlicheUebernahmeZiel</name>
+         <name codeSpace="lesbarerName">Nachrichtliche Übernahme Ziel</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Rechtscharakter_4300">
+         <description>Nachrichtliche Übernahme Grundsatz der Raumordnung.</description>
+         <identifier codeSpace="urn:xplan">XP_Rechtscharakter:4300</identifier>
+         <name>NachrichtlicheUebernahmeGrundsatz</name>
+         <name codeSpace="lesbarerName">Nachrichtliche Übernahme Grundsatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Rechtscharakter_4400">
+         <description>Nur Informationsgehalt im Raumordnungsplan.</description>
+         <identifier codeSpace="urn:xplan">XP_Rechtscharakter:4400</identifier>
+         <name>NurInformationsgehaltRPlan</name>
+         <name codeSpace="lesbarerName">Nur Informationsgehalt RPlan</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Rechtscharakter_4500">
+         <description>Textlich formuliertes Ziel der Raumordnung.</description>
+         <identifier codeSpace="urn:xplan">XP_Rechtscharakter:4500</identifier>
+         <name>TextlichesZielRaumordnung</name>
+         <name codeSpace="lesbarerName">Textliches Ziel Raumordnung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Rechtscharakter_4600">
+         <description>Ziel und Grundsatz der Raumordnung.</description>
+         <identifier codeSpace="urn:xplan">XP_Rechtscharakter:4600</identifier>
+         <name>ZielUndGrundsatzRaumordnung</name>
+         <name codeSpace="lesbarerName">Ziel und Grundsatz Raumordnung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Rechtscharakter_4700">
+         <description>Vorschlag für die Raumordnung</description>
+         <identifier codeSpace="urn:xplan">XP_Rechtscharakter:4700</identifier>
+         <name>VorschlagRaumordnung</name>
+         <name codeSpace="lesbarerName">Vorschlag Raumordnung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Rechtscharakter_5000">
+         <description>Festsetzung im Landschaftsplan bzw. Grünordnungsplan, der als eigenständige Satzung beschlossen wird (z.B. in NRW und den Stadtstaaten).</description>
+         <identifier codeSpace="urn:xplan">XP_Rechtscharakter:5000</identifier>
+         <name>FestsetzungImLP</name>
+         <name codeSpace="lesbarerName">Festsetzung im LP</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Rechtscharakter_5100">
+         <description>Geplante Festsetzung im Landschaftsplan bzw. Grünordnungsplan, der als eigenständige Satzung beschlossen wird (z.B. in NRW und den Stadtstaaten)</description>
+         <identifier codeSpace="urn:xplan">XP_Rechtscharakter:5100</identifier>
+         <name>GeplanteFestsetzungImLP</name>
+         <name codeSpace="lesbarerName">Geplante Festsetzung im LP</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Rechtscharakter_5200">
+         <description>Darstellungen und Kennzeichnungen im Landschaftsplan</description>
+         <identifier codeSpace="urn:xplan">XP_Rechtscharakter:5200</identifier>
+         <name>DarstellungKennzeichnungImLP</name>
+         <name codeSpace="lesbarerName">Darstellung oder Kennzeichnung im LP</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Rechtscharakter_5300">
+         <description>Die Inhalte der Landschaftsplanung sind in allen Planungen und Verwaltungsverfahren zu berücksichtigen, deren Entscheidungen sich auf Natur und Landschaft auswirken können. (§ 9 Abs. 5 i.V. Abs. 1 BNatSchG).</description>
+         <identifier codeSpace="urn:xplan">XP_Rechtscharakter:5300</identifier>
+         <name>LandschaftsplanungsInhaltZurBeruecksichtigung</name>
+         <name codeSpace="lesbarerName">Landschaftsplanungs-Inhalt zur Berücksichtigung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Rechtscharakter_6000">
+         <description>Hinweis nach BauGB</description>
+         <identifier codeSpace="urn:xplan">XP_Rechtscharakter:6000</identifier>
+         <name>Hinweis</name>
+         <name codeSpace="lesbarerName">Hinweis</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Rechtscharakter_7000">
+         <description>Kennzeichnung von Fälchen nach §9 Absatz 5 BauGB. Kennzeichnungen sind keine rechtsverbindlichen Festsetzungen, sondern Hinweise auf Besonderheiten (insbesondere der Baugrundverhältnisse), deren Kenntnis für das Verständnis des Bebauungsplans und seiner Festsetzungen, wie auch für die Vorbereitung und Genehmigung von Vorhaben notwendig sind.</description>
+         <identifier codeSpace="urn:xplan">XP_Rechtscharakter:7000</identifier>
+         <name>Kennzeichnung</name>
+         <name codeSpace="lesbarerName">Kennzeichnung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Rechtscharakter_8000">
+         <description>Vermerk nach § 5 BauGB</description>
+         <identifier codeSpace="urn:xplan">XP_Rechtscharakter:8000</identifier>
+         <name>Vermerk</name>
+         <name codeSpace="lesbarerName">Vermerk</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Rechtscharakter_9998">
+         <description>Unbekannter Rechtscharakter</description>
+         <identifier codeSpace="urn:xplan">XP_Rechtscharakter:9998</identifier>
+         <name>Unbekannt</name>
+         <name codeSpace="lesbarerName">Unbekannt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Rechtscharakter_9999">
+         <description>Sonstiger Rechtscharakter</description>
+         <identifier codeSpace="urn:xplan">XP_Rechtscharakter:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

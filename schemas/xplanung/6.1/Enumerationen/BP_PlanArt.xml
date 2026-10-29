@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="BP_PlanArt"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">BP_PlanArt</identifier>
+   <name>BP_PlanArt</name>
+   <dictionaryEntry>
+      <Definition gml:id="BP_PlanArt_1000">
+         <description>Planwerk der verbindlichen Bauleitplanung auf kommunaler Ebene</description>
+         <identifier codeSpace="urn:xplan">BP_PlanArt:1000</identifier>
+         <name>BPlan</name>
+         <name codeSpace="lesbarerName">BPlan</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_PlanArt_10000">
+         <description>Einfacher BPlan, §30 Abs. 3 BauGB.</description>
+         <identifier codeSpace="urn:xplan">BP_PlanArt:10000</identifier>
+         <name>EinfacherBPlan</name>
+         <name codeSpace="lesbarerName">Einfacher BPlan</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_PlanArt_10001">
+         <description>Qualifizierter BPlan nach §30 Abs. 1 BauGB.</description>
+         <identifier codeSpace="urn:xplan">BP_PlanArt:10001</identifier>
+         <name>QualifizierterBPlan</name>
+         <name codeSpace="lesbarerName">Qualifizierter BPlan</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_PlanArt_10002">
+         <description>Bebauungsplan zur Wohnraumversorgung für im Zusammenhang bebaute Ortsteile (§ 34) nach §9 Absatz 2d BauGB</description>
+         <identifier codeSpace="urn:xplan">BP_PlanArt:10002</identifier>
+         <name>BebauungsplanZurWohnraumversorgung</name>
+         <name codeSpace="lesbarerName">Bebauungsplan zur Wohnraumversorgung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_PlanArt_3000">
+         <description>Vorhabenbezogener Bebauungsplan nach §12 BauGB</description>
+         <identifier codeSpace="urn:xplan">BP_PlanArt:3000</identifier>
+         <name>VorhabenbezogenerBPlan</name>
+         <name codeSpace="lesbarerName">Vorhabenbezogener BPlan</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_PlanArt_3100">
+         <description>Satzung über Vorhaben- und Erschließungsplan gemäß §7 Maßnahmengesetz (BauGB-MaßnahmenG) von 1993</description>
+         <identifier codeSpace="urn:xplan">BP_PlanArt:3100</identifier>
+         <name>VorhabenUndErschliessungsplan</name>
+         <name codeSpace="lesbarerName">Vorhaben- und Erschließungsplan</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_PlanArt_4000">
+         <description>Kommunale Satzung gemäß §34 BauGB</description>
+         <identifier codeSpace="urn:xplan">BP_PlanArt:4000</identifier>
+         <name>InnenbereichsSatzung</name>
+         <name codeSpace="lesbarerName">Innenbereichs-Satzung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_PlanArt_40000">
+         <description>Klarstellungssatzung nach  § 34 Abs.4 Nr.1 BauGB.</description>
+         <identifier codeSpace="urn:xplan">BP_PlanArt:40000</identifier>
+         <name>KlarstellungsSatzung</name>
+         <name codeSpace="lesbarerName">Klarstellungs-Satzung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_PlanArt_40001">
+         <description>Entwicklungssatzung nach  § 34 Abs.4 Nr. 2 BauGB.</description>
+         <identifier codeSpace="urn:xplan">BP_PlanArt:40001</identifier>
+         <name>EntwicklungsSatzung</name>
+         <name codeSpace="lesbarerName">Entwicklungs-Satzung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_PlanArt_40002">
+         <description>Ergänzungssatzung nach  § 34 Abs.4 Nr. 3 BauGB.</description>
+         <identifier codeSpace="urn:xplan">BP_PlanArt:40002</identifier>
+         <name>ErgaenzungsSatzung</name>
+         <name codeSpace="lesbarerName">Ergänzungs-Satzung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_PlanArt_5000">
+         <description>Außenbereichssatzung nach § 35 Abs. 6 BauGB.</description>
+         <identifier codeSpace="urn:xplan">BP_PlanArt:5000</identifier>
+         <name>AussenbereichsSatzung</name>
+         <name codeSpace="lesbarerName">Außenbereichs-Satzung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_PlanArt_7000">
+         <description>Örtliche Bauvorschrift.</description>
+         <identifier codeSpace="urn:xplan">BP_PlanArt:7000</identifier>
+         <name>OertlicheBauvorschrift</name>
+         <name codeSpace="lesbarerName">Örtliche Bauvorschrift</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_PlanArt_9999">
+         <description>Sonstige Planart.</description>
+         <identifier codeSpace="urn:xplan">BP_PlanArt:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

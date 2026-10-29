@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_ERFlaechenArt"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Differenzierung der Planungsaussagen mit Bezug zur Eingriffsregelung und der Bewältigung von Eingriffsfolgen.</description>
+   <identifier codeSpace="urn:xplan">XP_ERFlaechenArt</identifier>
+   <name>XP_ERFlaechenArt</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ERFlaechenArt_1000">
+         <description>Potenzielle Fläche für Kompensation (nach §9 Abs. 3 Ziffer 4 lit. c BNatSchG)</description>
+         <identifier codeSpace="urn:xplan">XP_ERFlaechenArt:1000</identifier>
+         <name>PotenzielleFlaecheKompensation</name>
+         <name codeSpace="lesbarerName">Potenzielle Fläche Kompensation</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ERFlaechenArt_2000">
+         <description>Flächenpool</description>
+         <identifier codeSpace="urn:xplan">XP_ERFlaechenArt:2000</identifier>
+         <name>Flaechenpool</name>
+         <name codeSpace="lesbarerName">Flächenpool</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ERFlaechenArt_3000">
+         <description>Kompensation (Einzelfläche)</description>
+         <identifier codeSpace="urn:xplan">XP_ERFlaechenArt:3000</identifier>
+         <name>KompensationEinzelflaeche</name>
+         <name codeSpace="lesbarerName">Kompensation Einzelfläche</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ERFlaechenArt_4000">
+         <description>Kompensationsverzeichnis</description>
+         <identifier codeSpace="urn:xplan">XP_ERFlaechenArt:4000</identifier>
+         <name>Kompensationsverzeichnis</name>
+         <name codeSpace="lesbarerName">Kompensationsverzeichnis</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ERFlaechenArt_9999">
+         <description>Sonstiger Typ von Kompensationsflächen/-Maßnahmen, siehe ERFlaechenArtText.</description>
+         <identifier codeSpace="urn:xplan">XP_ERFlaechenArt:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="SO_KlassifizWasserwirtschaft"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung wasserwirtschaftlicher Zweckbestimmungen.</description>
+   <identifier codeSpace="urn:xplan">SO_KlassifizWasserwirtschaft</identifier>
+   <name>SO_KlassifizWasserwirtschaft</name>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizWasserwirtschaft_1000">
+         <description>Hochwasser-Rückhaltebecken</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizWasserwirtschaft:1000</identifier>
+         <name>HochwasserRueckhaltebecken</name>
+         <name codeSpace="lesbarerName">Hochwasser-Rückhaltebecken</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizWasserwirtschaft_1100">
+         <description>Überschwemmungsgefährdetes Gebiet nach §31c des vor dem 1.10.2010 gültigen WHG</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizWasserwirtschaft:1100</identifier>
+         <name>Ueberschwemmgebiet</name>
+         <name codeSpace="lesbarerName">Überschwemmungsgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizWasserwirtschaft_1200">
+         <description>Versickerungsfläche</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizWasserwirtschaft:1200</identifier>
+         <name>Versickerungsflaeche</name>
+         <name codeSpace="lesbarerName">Versickerungsfläche</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizWasserwirtschaft_1300">
+         <description>Entwässerungsgraben</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizWasserwirtschaft:1300</identifier>
+         <name>Entwaesserungsgraben</name>
+         <name codeSpace="lesbarerName">Entwässerungsgraben</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizWasserwirtschaft_1400">
+         <description>Deich</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizWasserwirtschaft:1400</identifier>
+         <name>Deich</name>
+         <name codeSpace="lesbarerName">Deich</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizWasserwirtschaft_1450">
+         <description>Hochwasserschutzeinrichtung, z.B. Fluttor, Flutmauer</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizWasserwirtschaft:1450</identifier>
+         <name>Hochwasserschutzanlage</name>
+         <name codeSpace="lesbarerName">Hochwasserschutzanlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizWasserwirtschaft_1500">
+         <description>Regen-Rückhaltebecken</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizWasserwirtschaft:1500</identifier>
+         <name>RegenRueckhaltebecken</name>
+         <name codeSpace="lesbarerName">Regen-Rückhaltebecken</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizWasserwirtschaft_9999">
+         <description>Sonstige Wasserwirtschaftsfläche, sofern keiner der anderen Codes zutreffend ist.</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizWasserwirtschaft:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

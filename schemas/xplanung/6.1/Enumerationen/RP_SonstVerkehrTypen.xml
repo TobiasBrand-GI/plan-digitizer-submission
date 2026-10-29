@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_SonstVerkehrTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von sonstigem Verkehr.</description>
+   <identifier codeSpace="urn:xplan">RP_SonstVerkehrTypen</identifier>
+   <name>RP_SonstVerkehrTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SonstVerkehrTypen_1000">
+         <description>Verkehrsanlage.</description>
+         <identifier codeSpace="urn:xplan">RP_SonstVerkehrTypen:1000</identifier>
+         <name>Verkehrsanlage</name>
+         <name codeSpace="lesbarerName">Verkehrsanlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SonstVerkehrTypen_1100">
+         <description>Güterverkehrszentrum.</description>
+         <identifier codeSpace="urn:xplan">RP_SonstVerkehrTypen:1100</identifier>
+         <name>Gueterverkehrszentrum</name>
+         <name codeSpace="lesbarerName">Güterverkehrszentrum</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SonstVerkehrTypen_1200">
+         <description>Logistikzentrum.</description>
+         <identifier codeSpace="urn:xplan">RP_SonstVerkehrTypen:1200</identifier>
+         <name>Logistikzentrum</name>
+         <name codeSpace="lesbarerName">Logistikzentrum</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SonstVerkehrTypen_1300">
+         <description>Terminal des kombinierten Verkehrs.</description>
+         <identifier codeSpace="urn:xplan">RP_SonstVerkehrTypen:1300</identifier>
+         <name>TerminalKombinierterVerkehr</name>
+         <name codeSpace="lesbarerName">Terminal Kombinierter Verkehr</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SonstVerkehrTypen_1400">
+         <description>ÖPNV.</description>
+         <identifier codeSpace="urn:xplan">RP_SonstVerkehrTypen:1400</identifier>
+         <name>OEPNV</name>
+         <name codeSpace="lesbarerName">ÖPNV</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SonstVerkehrTypen_1500">
+         <description>Verknüpfungspunkt Bahn-Bus.</description>
+         <identifier codeSpace="urn:xplan">RP_SonstVerkehrTypen:1500</identifier>
+         <name>VerknuepfungspunktBahnBus</name>
+         <name codeSpace="lesbarerName">Verknüpfungspunkt Bahn-Bus</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SonstVerkehrTypen_1600">
+         <description>Park-and-Ride und/oder Bike-and-Ride.</description>
+         <identifier codeSpace="urn:xplan">RP_SonstVerkehrTypen:1600</identifier>
+         <name>ParkAndRideBikeAndRide</name>
+         <name codeSpace="lesbarerName">Park and Ride / Bike and Ride</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SonstVerkehrTypen_1700">
+         <description>Fährverkehr.</description>
+         <identifier codeSpace="urn:xplan">RP_SonstVerkehrTypen:1700</identifier>
+         <name>Faehrverkehr</name>
+         <name codeSpace="lesbarerName">Fährverkehr</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SonstVerkehrTypen_1800">
+         <description>Infrastrukturkorridor.</description>
+         <identifier codeSpace="urn:xplan">RP_SonstVerkehrTypen:1800</identifier>
+         <name>Infrastrukturkorridor</name>
+         <name codeSpace="lesbarerName">Infrastrukturkorridor</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SonstVerkehrTypen_1900">
+         <description>Tunnel.</description>
+         <identifier codeSpace="urn:xplan">RP_SonstVerkehrTypen:1900</identifier>
+         <name>Tunnel</name>
+         <name codeSpace="lesbarerName">Tunnel</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SonstVerkehrTypen_2000">
+         <description>Neue Verkehrstechniken.</description>
+         <identifier codeSpace="urn:xplan">RP_SonstVerkehrTypen:2000</identifier>
+         <name>NeueVerkehrstechniken</name>
+         <name codeSpace="lesbarerName">Neue Verkehrstechniken</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SonstVerkehrTypen_2001">
+         <description>Sicherung von Teststrecken für die Fahrzeugindustrie und Sicherung von Gebieten zur Entwicklung damit verbundener neuer Verkehrssysteme und -techniken.</description>
+         <identifier codeSpace="urn:xplan">RP_SonstVerkehrTypen:2001</identifier>
+         <name>Teststrecke</name>
+         <name codeSpace="lesbarerName">Teststrecke</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SonstVerkehrTypen_9999">
+         <description>Sonstiger Verkehr.</description>
+         <identifier codeSpace="urn:xplan">RP_SonstVerkehrTypen:9999</identifier>
+         <name>SonstigerVerkehr</name>
+         <name codeSpace="lesbarerName">Sonstiger Verkehr</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

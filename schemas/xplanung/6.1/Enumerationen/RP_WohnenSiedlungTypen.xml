@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_WohnenSiedlungTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von Wohnen und Siedlungen.</description>
+   <identifier codeSpace="urn:xplan">RP_WohnenSiedlungTypen</identifier>
+   <name>RP_WohnenSiedlungTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WohnenSiedlungTypen_1000">
+         <description>Wohnen</description>
+         <identifier codeSpace="urn:xplan">RP_WohnenSiedlungTypen:1000</identifier>
+         <name>Wohnen</name>
+         <name codeSpace="lesbarerName">Wohnen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WohnenSiedlungTypen_2000">
+         <description>Baugebietsgrenze.</description>
+         <identifier codeSpace="urn:xplan">RP_WohnenSiedlungTypen:2000</identifier>
+         <name>Baugebietsgrenze</name>
+         <name codeSpace="lesbarerName">Baugebietsgrenze</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WohnenSiedlungTypen_3000">
+         <description>Siedlungsgebiet.</description>
+         <identifier codeSpace="urn:xplan">RP_WohnenSiedlungTypen:3000</identifier>
+         <name>Siedlungsgebiet</name>
+         <name codeSpace="lesbarerName">Siedlungsgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WohnenSiedlungTypen_3001">
+         <description>Siedlungsschwerpunkt.</description>
+         <identifier codeSpace="urn:xplan">RP_WohnenSiedlungTypen:3001</identifier>
+         <name>Siedlungsschwerpunkt</name>
+         <name codeSpace="lesbarerName">Siedlungsschwerpunkt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WohnenSiedlungTypen_3002">
+         <description>Siedlungsentwicklung.</description>
+         <identifier codeSpace="urn:xplan">RP_WohnenSiedlungTypen:3002</identifier>
+         <name>Siedlungsentwicklung</name>
+         <name codeSpace="lesbarerName">Siedlungsentwicklung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WohnenSiedlungTypen_3003">
+         <description>Siedlungsbeschränkung.</description>
+         <identifier codeSpace="urn:xplan">RP_WohnenSiedlungTypen:3003</identifier>
+         <name>Siedlungsbeschraenkung</name>
+         <name codeSpace="lesbarerName">Siedlungsbeschränkung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WohnenSiedlungTypen_3004">
+         <description>Sonstige WohnenSiedlungstypen.</description>
+         <identifier codeSpace="urn:xplan">RP_WohnenSiedlungTypen:3004</identifier>
+         <name>Siedlungsnutzung</name>
+         <name codeSpace="lesbarerName">Siedlungsnutzung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WohnenSiedlungTypen_4000">
+         <description>Sicherung der Entwicklung von Wohnstätten</description>
+         <identifier codeSpace="urn:xplan">RP_WohnenSiedlungTypen:4000</identifier>
+         <name>SicherungEntwicklungWohnstaetten</name>
+         <name codeSpace="lesbarerName">Sicherung Entwicklung Wohnstätten</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WohnenSiedlungTypen_5000">
+         <description>Allgemeiner Siedlungsbereich</description>
+         <identifier codeSpace="urn:xplan">RP_WohnenSiedlungTypen:5000</identifier>
+         <name>AllgemeinerSiedlungsbereichASB</name>
+         <name codeSpace="lesbarerName">Allgemeiner Siedlungsbereich ASB</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_WohnenSiedlungTypen_9999">
+         <description>Sonstiges</description>
+         <identifier codeSpace="urn:xplan">RP_WohnenSiedlungTypen:9999</identifier>
+         <name>SonstigeWohnenSiedlung</name>
+         <name codeSpace="lesbarerName">Sonstige Wohnen Siedlung</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

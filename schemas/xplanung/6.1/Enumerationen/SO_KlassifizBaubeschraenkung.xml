@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="SO_KlassifizBaubeschraenkung"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">SO_KlassifizBaubeschraenkung</identifier>
+   <name>SO_KlassifizBaubeschraenkung</name>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizBaubeschraenkung_1000">
+         <description>Bereich, in denen keine baulichen Anlagen errichtet werden dürfen</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizBaubeschraenkung:1000</identifier>
+         <name>Bauverbotszone</name>
+         <name codeSpace="lesbarerName">Bauverbotszone</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizBaubeschraenkung_2000">
+         <description>Bereich, in denen Bau-Beschränkungen bestehen.</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizBaubeschraenkung:2000</identifier>
+         <name>Baubeschraenkungszone</name>
+         <name codeSpace="lesbarerName">Baubeschränkungszone</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizBaubeschraenkung_3000">
+         <description>Bereich um Wälder, Moore und Heiden, in dem aus Brandschutzgründen keinen baulichen Anlagen errichtet werden dürfen.</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizBaubeschraenkung:3000</identifier>
+         <name>Waldabstand</name>
+         <name codeSpace="lesbarerName">Waldabstand</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizBaubeschraenkung_9999">
+         <description>Bereich mit sonstigen Baubeschränkungen.</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizBaubeschraenkung:9999</identifier>
+         <name>SonstigeBeschraenkung</name>
+         <name codeSpace="lesbarerName">Sonstige Beschränkung</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

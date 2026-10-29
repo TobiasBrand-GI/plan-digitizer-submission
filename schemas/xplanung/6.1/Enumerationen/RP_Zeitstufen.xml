@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_Zeitstufen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Zeitstufen von Rohstoffen.</description>
+   <identifier codeSpace="urn:xplan">RP_Zeitstufen</identifier>
+   <name>RP_Zeitstufen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Zeitstufen_1000">
+         <description>Zeitstufe 1.</description>
+         <identifier codeSpace="urn:xplan">RP_Zeitstufen:1000</identifier>
+         <name>Zeitstufe1</name>
+         <name codeSpace="lesbarerName">Zeitstufe 1</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Zeitstufen_2000">
+         <description>Zeitstufe 2.</description>
+         <identifier codeSpace="urn:xplan">RP_Zeitstufen:2000</identifier>
+         <name>Zeitstufe2</name>
+         <name codeSpace="lesbarerName">Zeitstufe 2</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

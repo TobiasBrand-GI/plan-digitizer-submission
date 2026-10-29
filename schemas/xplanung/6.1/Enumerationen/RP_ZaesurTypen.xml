@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_ZaesurTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von Zäsuren.</description>
+   <identifier codeSpace="urn:xplan">RP_ZaesurTypen</identifier>
+   <name>RP_ZaesurTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZaesurTypen_1000">
+         <description>Grünzug.</description>
+         <identifier codeSpace="urn:xplan">RP_ZaesurTypen:1000</identifier>
+         <name>Gruenzug</name>
+         <name codeSpace="lesbarerName">Grünzug</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZaesurTypen_2000">
+         <description>Grünzäsur.</description>
+         <identifier codeSpace="urn:xplan">RP_ZaesurTypen:2000</identifier>
+         <name>Gruenzaesur</name>
+         <name codeSpace="lesbarerName">Grünzäsur</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_ZaesurTypen_3000">
+         <description>Siedlungszäsur.</description>
+         <identifier codeSpace="urn:xplan">RP_ZaesurTypen:3000</identifier>
+         <name>Siedlungszaesur</name>
+         <name codeSpace="lesbarerName">Siedlungszäsur</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

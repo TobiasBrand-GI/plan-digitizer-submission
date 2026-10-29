@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_AbfallTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Abfalltypen.</description>
+   <identifier codeSpace="urn:xplan">RP_AbfallTypen</identifier>
+   <name>RP_AbfallTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AbfallTypen_1000">
+         <description>Siedlungsabfall.</description>
+         <identifier codeSpace="urn:xplan">RP_AbfallTypen:1000</identifier>
+         <name>Siedlungsabfall</name>
+         <name codeSpace="lesbarerName">Siedlungsabfall</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AbfallTypen_2000">
+         <description>Mineralstoffabfall.</description>
+         <identifier codeSpace="urn:xplan">RP_AbfallTypen:2000</identifier>
+         <name>Mineralstoffabfall</name>
+         <name codeSpace="lesbarerName">Mineralstoffabfall</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AbfallTypen_3000">
+         <description>Industrieabfall.</description>
+         <identifier codeSpace="urn:xplan">RP_AbfallTypen:3000</identifier>
+         <name>Industrieabfall</name>
+         <name codeSpace="lesbarerName">Industrieabfall</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AbfallTypen_4000">
+         <description>Sonderabfall.</description>
+         <identifier codeSpace="urn:xplan">RP_AbfallTypen:4000</identifier>
+         <name>Sonderabfall</name>
+         <name codeSpace="lesbarerName">Sonderabfall</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AbfallTypen_5000">
+         <description>Radioaktiver Abfall.</description>
+         <identifier codeSpace="urn:xplan">RP_AbfallTypen:5000</identifier>
+         <name>RadioaktiverAbfall</name>
+         <name codeSpace="lesbarerName">Radioaktiver Abfall</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AbfallTypen_9999">
+         <description>Sonstiger Abfall.</description>
+         <identifier codeSpace="urn:xplan">RP_AbfallTypen:9999</identifier>
+         <name>SonstigerAbfall</name>
+         <name codeSpace="lesbarerName">Sonstiger Abfall</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

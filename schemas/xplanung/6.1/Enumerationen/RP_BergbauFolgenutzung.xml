@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_BergbauFolgenutzung"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Bergbaufolgenutzung.</description>
+   <identifier codeSpace="urn:xplan">RP_BergbauFolgenutzung</identifier>
+   <name>RP_BergbauFolgenutzung</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BergbauFolgenutzung_1000">
+         <description>Folgenutzung Landwirtschaft.</description>
+         <identifier codeSpace="urn:xplan">RP_BergbauFolgenutzung:1000</identifier>
+         <name>Landwirtschaft</name>
+         <name codeSpace="lesbarerName">Landwirtschaft</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BergbauFolgenutzung_2000">
+         <description>Folgenutzung Forstwirtschaft.</description>
+         <identifier codeSpace="urn:xplan">RP_BergbauFolgenutzung:2000</identifier>
+         <name>Forstwirtschaft</name>
+         <name codeSpace="lesbarerName">Forstwirtschaft</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BergbauFolgenutzung_3000">
+         <description>Folgenutzung Grünlandbewirtschaftung.</description>
+         <identifier codeSpace="urn:xplan">RP_BergbauFolgenutzung:3000</identifier>
+         <name>Gruenlandbewirtschaftung</name>
+         <name codeSpace="lesbarerName">Grünlandbewirtschaftung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BergbauFolgenutzung_4000">
+         <description>Folgenutzung NaturLandschaft.</description>
+         <identifier codeSpace="urn:xplan">RP_BergbauFolgenutzung:4000</identifier>
+         <name>NaturLandschaft</name>
+         <name codeSpace="lesbarerName">Natur und Landschaft</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BergbauFolgenutzung_5000">
+         <description>Folgenutzung Naturschutz.</description>
+         <identifier codeSpace="urn:xplan">RP_BergbauFolgenutzung:5000</identifier>
+         <name>Naturschutz</name>
+         <name codeSpace="lesbarerName">Naturschutz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BergbauFolgenutzung_6000">
+         <description>Folgenutzung Erholung.</description>
+         <identifier codeSpace="urn:xplan">RP_BergbauFolgenutzung:6000</identifier>
+         <name>Erholung</name>
+         <name codeSpace="lesbarerName">Erholung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BergbauFolgenutzung_7000">
+         <description>Folgenutzung Gewässer.</description>
+         <identifier codeSpace="urn:xplan">RP_BergbauFolgenutzung:7000</identifier>
+         <name>Gewaesser</name>
+         <name codeSpace="lesbarerName">Gewässer</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BergbauFolgenutzung_8000">
+         <description>Folgenutzung Verkehr.</description>
+         <identifier codeSpace="urn:xplan">RP_BergbauFolgenutzung:8000</identifier>
+         <name>Verkehr</name>
+         <name codeSpace="lesbarerName">Verkehr</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BergbauFolgenutzung_9000">
+         <description>Folgenutzung Altbergbau.</description>
+         <identifier codeSpace="urn:xplan">RP_BergbauFolgenutzung:9000</identifier>
+         <name>Altbergbau</name>
+         <name codeSpace="lesbarerName">Altbergbau</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BergbauFolgenutzung_9999">
+         <description>Sonstige Folgenutzung.</description>
+         <identifier codeSpace="urn:xplan">RP_BergbauFolgenutzung:9999</identifier>
+         <name>SonstigeNutzung</name>
+         <name codeSpace="lesbarerName">Sonstige Nutzung</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

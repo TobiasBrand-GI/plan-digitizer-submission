@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="BP_GrenzBebauung"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung verschiedener Möglichkeiten, die Bebauung der vorderen, hinteren oder seitlichen Grundstücksgrenzen zu regeln.</description>
+   <identifier codeSpace="urn:xplan">BP_GrenzBebauung</identifier>
+   <name>BP_GrenzBebauung</name>
+   <dictionaryEntry>
+      <Definition gml:id="BP_GrenzBebauung_1000">
+         <description>Eine Bebauung der Grenze ist verboten.</description>
+         <identifier codeSpace="urn:xplan">BP_GrenzBebauung:1000</identifier>
+         <name>Verboten</name>
+         <name codeSpace="lesbarerName">Verboten</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_GrenzBebauung_2000">
+         <description>Eine Bebauung der Grenze ist erlaubt.</description>
+         <identifier codeSpace="urn:xplan">BP_GrenzBebauung:2000</identifier>
+         <name>Erlaubt</name>
+         <name codeSpace="lesbarerName">Erlaubt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_GrenzBebauung_3000">
+         <description>Eine Bebauung der Grenze ist vorgeschrieben.</description>
+         <identifier codeSpace="urn:xplan">BP_GrenzBebauung:3000</identifier>
+         <name>Erzwungen</name>
+         <name codeSpace="lesbarerName">Erzwungen</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

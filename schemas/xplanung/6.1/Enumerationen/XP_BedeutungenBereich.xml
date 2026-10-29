@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_BedeutungenBereich"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung möglicher Bedeutungen eines Planbereichs.</description>
+   <identifier codeSpace="urn:xplan">XP_BedeutungenBereich</identifier>
+   <name>XP_BedeutungenBereich</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_BedeutungenBereich_1600">
+         <description>Räumliche oder sachliche Aufteilung der Planinhalte.</description>
+         <identifier codeSpace="urn:xplan">XP_BedeutungenBereich:1600</identifier>
+         <name>Teilbereich</name>
+         <name codeSpace="lesbarerName">Teilbereich</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_BedeutungenBereich_1800">
+         <description>Aggregation von externen Kompensationsmaßnahmen nach §9 BauGB Absatz 1a.</description>
+         <identifier codeSpace="urn:xplan">XP_BedeutungenBereich:1800</identifier>
+         <name>Kompensationsbereich</name>
+         <name codeSpace="lesbarerName">Kompensationsbereich</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_BedeutungenBereich_2000">
+         <description>Informationen und zeichnerische Darstellungen, die außerhalb des Geltungsbereichs liegen</description>
+         <identifier codeSpace="urn:xplan">XP_BedeutungenBereich:2000</identifier>
+         <name>InformationenAusserhalbGeltungsbereich</name>
+         <name codeSpace="lesbarerName">Informationen außerhalb des Geltungsbereichs</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_BedeutungenBereich_3000">
+         <description>Ein Bereich, in dem der Plan nach einer anderen Verfahrensart als im übrigen Geltungsbereich aufgestellt wurde.</description>
+         <identifier codeSpace="urn:xplan">XP_BedeutungenBereich:3000</identifier>
+         <name>AnderesVerfahren</name>
+         <name codeSpace="lesbarerName">Anderes Verfahren</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_BedeutungenBereich_9999">
+         <description>Bereich, für den keine der aufgeführten Bedeutungen zutreffend ist. In dem Fall kann die Bedeutung über das Textattribut "detaillierteBedeutung" angegeben werden.</description>
+         <identifier codeSpace="urn:xplan">XP_BedeutungenBereich:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

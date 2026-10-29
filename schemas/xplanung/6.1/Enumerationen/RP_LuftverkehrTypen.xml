@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_LuftverkehrTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von Luftverkehr.</description>
+   <identifier codeSpace="urn:xplan">RP_LuftverkehrTypen</identifier>
+   <name>RP_LuftverkehrTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LuftverkehrTypen_1000">
+         <description>Flughafen.</description>
+         <identifier codeSpace="urn:xplan">RP_LuftverkehrTypen:1000</identifier>
+         <name>Flughafen</name>
+         <name codeSpace="lesbarerName">Flughafen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LuftverkehrTypen_1001">
+         <description>Verkehrsflughafen.</description>
+         <identifier codeSpace="urn:xplan">RP_LuftverkehrTypen:1001</identifier>
+         <name>Verkehrsflughafen</name>
+         <name codeSpace="lesbarerName">Verkehrsflughafen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LuftverkehrTypen_1002">
+         <description>Regionalflughafen.</description>
+         <identifier codeSpace="urn:xplan">RP_LuftverkehrTypen:1002</identifier>
+         <name>Regionalflughafen</name>
+         <name codeSpace="lesbarerName">Regionalflughafen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LuftverkehrTypen_1003">
+         <description>Internationaler Flughafen.</description>
+         <identifier codeSpace="urn:xplan">RP_LuftverkehrTypen:1003</identifier>
+         <name>InternationalerFlughafen</name>
+         <name codeSpace="lesbarerName">Internationaler Flughafen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LuftverkehrTypen_1004">
+         <description>Internationaler Verkehrsflughafen.</description>
+         <identifier codeSpace="urn:xplan">RP_LuftverkehrTypen:1004</identifier>
+         <name>InternationalerVerkehrsflughafen</name>
+         <name codeSpace="lesbarerName">Internationaler Verkehrsflughafen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LuftverkehrTypen_1005">
+         <description>Flughafenentwicklung.</description>
+         <identifier codeSpace="urn:xplan">RP_LuftverkehrTypen:1005</identifier>
+         <name>Flughafenentwicklung</name>
+         <name codeSpace="lesbarerName">Flughafenentwicklung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LuftverkehrTypen_2000">
+         <description>Flugplatz.</description>
+         <identifier codeSpace="urn:xplan">RP_LuftverkehrTypen:2000</identifier>
+         <name>Flugplatz</name>
+         <name codeSpace="lesbarerName">Flugplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LuftverkehrTypen_2001">
+         <description>Regionalflugplatz.</description>
+         <identifier codeSpace="urn:xplan">RP_LuftverkehrTypen:2001</identifier>
+         <name>Regionalflugplatz</name>
+         <name codeSpace="lesbarerName">Regionalflugplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LuftverkehrTypen_2002">
+         <description>Segelflugplatz.</description>
+         <identifier codeSpace="urn:xplan">RP_LuftverkehrTypen:2002</identifier>
+         <name>Segelflugplatz</name>
+         <name codeSpace="lesbarerName">Segelflugplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LuftverkehrTypen_2003">
+         <description>Sonstiger Flugplatz.</description>
+         <identifier codeSpace="urn:xplan">RP_LuftverkehrTypen:2003</identifier>
+         <name>SonstigerFlugplatz</name>
+         <name codeSpace="lesbarerName">Sonstiger Flugplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LuftverkehrTypen_3000">
+         <description>Bauschutzbereich.</description>
+         <identifier codeSpace="urn:xplan">RP_LuftverkehrTypen:3000</identifier>
+         <name>Bauschutzbereich</name>
+         <name codeSpace="lesbarerName">Bauschutzbereich</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LuftverkehrTypen_4000">
+         <description>Militärflughafen.</description>
+         <identifier codeSpace="urn:xplan">RP_LuftverkehrTypen:4000</identifier>
+         <name>Militaerflughafen</name>
+         <name codeSpace="lesbarerName">Militärflughafen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LuftverkehrTypen_5000">
+         <description>Landeplatz.</description>
+         <identifier codeSpace="urn:xplan">RP_LuftverkehrTypen:5000</identifier>
+         <name>Landeplatz</name>
+         <name codeSpace="lesbarerName">Landeplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LuftverkehrTypen_5001">
+         <description>Verkehrslandeplatz.</description>
+         <identifier codeSpace="urn:xplan">RP_LuftverkehrTypen:5001</identifier>
+         <name>Verkehrslandeplatz</name>
+         <name codeSpace="lesbarerName">Verkehrslandeplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LuftverkehrTypen_5002">
+         <description>Hubschrauberlandeplatz.</description>
+         <identifier codeSpace="urn:xplan">RP_LuftverkehrTypen:5002</identifier>
+         <name>Hubschrauberlandeplatz</name>
+         <name codeSpace="lesbarerName">Hubschrauberlandeplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LuftverkehrTypen_5003">
+         <description>Landebahn.</description>
+         <identifier codeSpace="urn:xplan">RP_LuftverkehrTypen:5003</identifier>
+         <name>Landebahn</name>
+         <name codeSpace="lesbarerName">Landebahn</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LuftverkehrTypen_9999">
+         <description>Sonstiger Luftverkehr.</description>
+         <identifier codeSpace="urn:xplan">RP_LuftverkehrTypen:9999</identifier>
+         <name>SonstigerLuftverkehr</name>
+         <name codeSpace="lesbarerName">Sonstiger Luftverkehr</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

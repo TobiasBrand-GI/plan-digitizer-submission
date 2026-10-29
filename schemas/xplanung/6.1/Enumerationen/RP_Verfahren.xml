@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_Verfahren"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">RP_Verfahren</identifier>
+   <name>RP_Verfahren</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Verfahren_1000">
+         <description>Änderung.</description>
+         <identifier codeSpace="urn:xplan">RP_Verfahren:1000</identifier>
+         <name>Aenderung</name>
+         <name codeSpace="lesbarerName">Änderung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Verfahren_2000">
+         <description>Teilfortschreibung.</description>
+         <identifier codeSpace="urn:xplan">RP_Verfahren:2000</identifier>
+         <name>Teilfortschreibung</name>
+         <name codeSpace="lesbarerName">Teilfortschreibung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Verfahren_3000">
+         <description>Neuaufstellung.</description>
+         <identifier codeSpace="urn:xplan">RP_Verfahren:3000</identifier>
+         <name>Neuaufstellung</name>
+         <name codeSpace="lesbarerName">Neuaufstellung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Verfahren_4000">
+         <description>Gesamtfortschreibung.</description>
+         <identifier codeSpace="urn:xplan">RP_Verfahren:4000</identifier>
+         <name>Gesamtfortschreibung</name>
+         <name codeSpace="lesbarerName">Gesamtfortschreibung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Verfahren_5000">
+         <description>Aktualisierung.</description>
+         <identifier codeSpace="urn:xplan">RP_Verfahren:5000</identifier>
+         <name>Aktualisierung</name>
+         <name codeSpace="lesbarerName">Aktualisierung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Verfahren_6000">
+         <description>Mit der Neubekanntmachung wird eine authentische amtliche Gesamtfassung des geltenden Plans veröffentlicht, in der alle vorherigen, förmlich beschlossenen und verkündeten Änderungen inhaltlich unverändert einbezogen sind. Nur offensichtliche Unrichtigkeiten wie Schreibfehler dürfen berichtigt werden. Es handelt sich nicht um eine neue Planung oder neue Normsetzung.</description>
+         <identifier codeSpace="urn:xplan">RP_Verfahren:6000</identifier>
+         <name>Neubekanntmachung</name>
+         <name codeSpace="lesbarerName">Neubekanntmachung</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

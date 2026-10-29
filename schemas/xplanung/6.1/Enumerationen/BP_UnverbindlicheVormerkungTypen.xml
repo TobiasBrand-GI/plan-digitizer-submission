@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="BP_UnverbindlicheVormerkungTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">BP_UnverbindlicheVormerkungTypen</identifier>
+   <name>BP_UnverbindlicheVormerkungTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="BP_UnverbindlicheVormerkungTypen_1000">
+         <description>Kronentraufbereich</description>
+         <identifier codeSpace="urn:xplan">BP_UnverbindlicheVormerkungTypen:1000</identifier>
+         <name>Kronentraufbereich</name>
+         <name codeSpace="lesbarerName">Traufkronenbereich</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_UnverbindlicheVormerkungTypen_9999">
+         <description>Sonstige unverbindliche Vormerkung</description>
+         <identifier codeSpace="urn:xplan">BP_UnverbindlicheVormerkungTypen:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

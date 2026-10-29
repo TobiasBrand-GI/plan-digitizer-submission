@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="BP_SpezielleBauweiseTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung verschiedener Typen spezieller Bauweisen.</description>
+   <identifier codeSpace="urn:xplan">BP_SpezielleBauweiseTypen</identifier>
+   <name>BP_SpezielleBauweiseTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="BP_SpezielleBauweiseTypen_1000">
+         <description>Durchfahrt</description>
+         <identifier codeSpace="urn:xplan">BP_SpezielleBauweiseTypen:1000</identifier>
+         <name>Durchfahrt</name>
+         <name codeSpace="lesbarerName">Durchfahrt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_SpezielleBauweiseTypen_1100">
+         <description>Durchgang</description>
+         <identifier codeSpace="urn:xplan">BP_SpezielleBauweiseTypen:1100</identifier>
+         <name>Durchgang</name>
+         <name codeSpace="lesbarerName">Durchgang</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_SpezielleBauweiseTypen_1200">
+         <description>Durchfahrt oder Durchgang</description>
+         <identifier codeSpace="urn:xplan">BP_SpezielleBauweiseTypen:1200</identifier>
+         <name>DurchfahrtDurchgang</name>
+         <name codeSpace="lesbarerName">Durchfahrt oder Durchgang</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_SpezielleBauweiseTypen_1300">
+         <description>Auskragung</description>
+         <identifier codeSpace="urn:xplan">BP_SpezielleBauweiseTypen:1300</identifier>
+         <name>Auskragung</name>
+         <name codeSpace="lesbarerName">Auskragung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_SpezielleBauweiseTypen_1400">
+         <description>Arkade</description>
+         <identifier codeSpace="urn:xplan">BP_SpezielleBauweiseTypen:1400</identifier>
+         <name>Arkade</name>
+         <name codeSpace="lesbarerName">Arkade</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_SpezielleBauweiseTypen_1500">
+         <description>Luftgeschoss</description>
+         <identifier codeSpace="urn:xplan">BP_SpezielleBauweiseTypen:1500</identifier>
+         <name>Luftgeschoss</name>
+         <name codeSpace="lesbarerName">Luftgeschoss</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_SpezielleBauweiseTypen_1600">
+         <description>Brücke</description>
+         <identifier codeSpace="urn:xplan">BP_SpezielleBauweiseTypen:1600</identifier>
+         <name>Bruecke</name>
+         <name codeSpace="lesbarerName">Brücke</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_SpezielleBauweiseTypen_1700">
+         <description>Tunnel</description>
+         <identifier codeSpace="urn:xplan">BP_SpezielleBauweiseTypen:1700</identifier>
+         <name>Tunnel</name>
+         <name codeSpace="lesbarerName">Tunnel</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_SpezielleBauweiseTypen_1800">
+         <description>Rampe</description>
+         <identifier codeSpace="urn:xplan">BP_SpezielleBauweiseTypen:1800</identifier>
+         <name>Rampe</name>
+         <name codeSpace="lesbarerName">Rampe</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_SpezielleBauweiseTypen_9999">
+         <description>Sonstige spezielle Bauweise.</description>
+         <identifier codeSpace="urn:xplan">BP_SpezielleBauweiseTypen:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

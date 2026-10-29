@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_SchutzgutArt"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Klassifikation von Schutzgütern nach Naturschutzrecht.</description>
+   <identifier codeSpace="urn:xplan">LP_SchutzgutArt</identifier>
+   <name>LP_SchutzgutArt</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_SchutzgutArt_1000">
+         <description>Alle Schutzgüter betreffend.</description>
+         <identifier codeSpace="urn:xplan">LP_SchutzgutArt:1000</identifier>
+         <name>AlleSchutzgueter</name>
+         <name codeSpace="lesbarerName">Alle Schutzgüter</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_SchutzgutArt_2000">
+         <description>Arten und Lebensgemeinschaften</description>
+         <identifier codeSpace="urn:xplan">LP_SchutzgutArt:2000</identifier>
+         <name>ArtenLebensgemeinschaften</name>
+         <name codeSpace="lesbarerName">Arten und Lebensgemeinschaften</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_SchutzgutArt_3000">
+         <description>Biotope</description>
+         <identifier codeSpace="urn:xplan">LP_SchutzgutArt:3000</identifier>
+         <name>Biotope</name>
+         <name codeSpace="lesbarerName">Biotope</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_SchutzgutArt_4000">
+         <description>Boden</description>
+         <identifier codeSpace="urn:xplan">LP_SchutzgutArt:4000</identifier>
+         <name>Boden</name>
+         <name codeSpace="lesbarerName">Boden</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_SchutzgutArt_5000">
+         <description>Wasser.</description>
+         <identifier codeSpace="urn:xplan">LP_SchutzgutArt:5000</identifier>
+         <name>Wasser</name>
+         <name codeSpace="lesbarerName">Wasser</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_SchutzgutArt_6000">
+         <description>Klima.</description>
+         <identifier codeSpace="urn:xplan">LP_SchutzgutArt:6000</identifier>
+         <name>Klima</name>
+         <name codeSpace="lesbarerName">Klima</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_SchutzgutArt_7000">
+         <description>Luft.</description>
+         <identifier codeSpace="urn:xplan">LP_SchutzgutArt:7000</identifier>
+         <name>Luft</name>
+         <name codeSpace="lesbarerName">Luft</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_SchutzgutArt_8000">
+         <description>Landschaftsbild.</description>
+         <identifier codeSpace="urn:xplan">LP_SchutzgutArt:8000</identifier>
+         <name>Landschaftsbild</name>
+         <name codeSpace="lesbarerName">Landschaftsbild</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_SchutzgutArt_9000">
+         <description>Erholung In Natur und Landschaft</description>
+         <identifier codeSpace="urn:xplan">LP_SchutzgutArt:9000</identifier>
+         <name>ErholungInNaturUndLandschaft</name>
+         <name codeSpace="lesbarerName">Erholung in Natur und Landschaft</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_SchutzgutArt_9998">
+         <description>Schutzgut ist unbekannt (nur zur Übernahme von Altplänen)</description>
+         <identifier codeSpace="urn:xplan">LP_SchutzgutArt:9998</identifier>
+         <name>Unbekannt</name>
+         <name codeSpace="lesbarerName">Unbekannt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_SchutzgutArt_9999">
+         <description>Sonstiges Schutzgut gem. textlicher Angabe in schutzgutText</description>
+         <identifier codeSpace="urn:xplan">LP_SchutzgutArt:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

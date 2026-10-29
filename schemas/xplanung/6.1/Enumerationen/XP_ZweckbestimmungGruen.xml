@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_ZweckbestimmungGruen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen</identifier>
+   <name>XP_ZweckbestimmungGruen</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_1000">
+         <description>Parkanlage; auch: Erholungsgrün, Grünanlage, Naherholung.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:1000</identifier>
+         <name>Parkanlage</name>
+         <name codeSpace="lesbarerName">Parkanlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_10000">
+         <description>Historische Parkanlage</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:10000</identifier>
+         <name>ParkanlageHistorisch</name>
+         <name codeSpace="lesbarerName">Historische Parkanlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_10001">
+         <description>Naturnahe Parkanlage</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:10001</identifier>
+         <name>ParkanlageNaturnah</name>
+         <name codeSpace="lesbarerName">Naturnahe Parkanlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_10002">
+         <description>Parkanlage mit Waldcharakter</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:10002</identifier>
+         <name>ParkanlageWaldcharakter</name>
+         <name codeSpace="lesbarerName">Parkanlage mit Waldcharakter</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_10003">
+         <description>Ufernahe Parkanlage</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:10003</identifier>
+         <name>NaturnaheUferParkanlage</name>
+         <name codeSpace="lesbarerName">Naturnahe Ufer-Parkanlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_1200">
+         <description>Dauerkleingarten; auch: Gartenfläche, Hofgärten, Gartenland.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:1200</identifier>
+         <name>Dauerkleingarten</name>
+         <name codeSpace="lesbarerName">Dauerkleingarten</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_12000">
+         <description>Erholungsgarten</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:12000</identifier>
+         <name>ErholungsGaerten</name>
+         <name codeSpace="lesbarerName">Erholungsgärten</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_1400">
+         <description>Sportplatz</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:1400</identifier>
+         <name>Sportplatz</name>
+         <name codeSpace="lesbarerName">Sportplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_14000">
+         <description>Reitsportanlage</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:14000</identifier>
+         <name>Reitsportanlage</name>
+         <name codeSpace="lesbarerName">Reitsportanlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_14001">
+         <description>Hundesportanlage</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:14001</identifier>
+         <name>Hundesportanlage</name>
+         <name codeSpace="lesbarerName">Hundesportanlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_14002">
+         <description>Wassersportanlage</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:14002</identifier>
+         <name>Wassersportanlage</name>
+         <name codeSpace="lesbarerName">Wassersportanlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_14003">
+         <description>Schießstand</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:14003</identifier>
+         <name>Schiessstand</name>
+         <name codeSpace="lesbarerName">Schießstand</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_14004">
+         <description>Golfplatz</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:14004</identifier>
+         <name>Golfplatz</name>
+         <name codeSpace="lesbarerName">Golfplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_14005">
+         <description>Anlage für Skisport</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:14005</identifier>
+         <name>Skisport</name>
+         <name codeSpace="lesbarerName">Skisport</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_14006">
+         <description>Tennisanlage</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:14006</identifier>
+         <name>Tennisanlage</name>
+         <name codeSpace="lesbarerName">Tennisanlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_1600">
+         <description>Spielplatz</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:1600</identifier>
+         <name>Spielplatz</name>
+         <name codeSpace="lesbarerName">Spielplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_16000">
+         <description>Bolzplatz</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:16000</identifier>
+         <name>Bolzplatz</name>
+         <name codeSpace="lesbarerName">Bolzplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_16001">
+         <description>Abenteuerspielplatz</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:16001</identifier>
+         <name>Abenteuerspielplatz</name>
+         <name codeSpace="lesbarerName">Abenteuerspielplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_1800">
+         <description>Zeltplatz</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:1800</identifier>
+         <name>Zeltplatz</name>
+         <name codeSpace="lesbarerName">Zeltplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_18000">
+         <description>Campingplatz</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:18000</identifier>
+         <name>Campingplatz</name>
+         <name codeSpace="lesbarerName">Campingplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_2000">
+         <description>Badeplatz, auch Schwimmbad, Liegewiese.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:2000</identifier>
+         <name>Badeplatz</name>
+         <name codeSpace="lesbarerName">Badeplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_2200">
+         <description>Anlage für Freizeit und Erholung.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:2200</identifier>
+         <name>FreizeitErholung</name>
+         <name codeSpace="lesbarerName">Freizeit und Erholung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_22000">
+         <description>Anlage für Kleintierhaltung</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:22000</identifier>
+         <name>Kleintierhaltung</name>
+         <name codeSpace="lesbarerName">Kleintierhaltung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_22001">
+         <description>Festplatz</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:22001</identifier>
+         <name>Festplatz</name>
+         <name codeSpace="lesbarerName">Festplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_2400">
+         <description>Spezielle Grünfläche</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:2400</identifier>
+         <name>SpezGruenflaeche</name>
+         <name codeSpace="lesbarerName">Spezielle Grünfläche</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_24000">
+         <description>Straßenbegleitgrün</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:24000</identifier>
+         <name>StrassenbegleitGruen</name>
+         <name codeSpace="lesbarerName">Straßenbegleitgrün</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_24001">
+         <description>Böschungsfläche</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:24001</identifier>
+         <name>BoeschungsFlaeche</name>
+         <name codeSpace="lesbarerName">Böschungsfläche</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_24003">
+         <description>Uferstreifen</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:24003</identifier>
+         <name>Uferschutzstreifen</name>
+         <name codeSpace="lesbarerName">Uferschutzstreifen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_24004">
+         <description>Abschirmgrün</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:24004</identifier>
+         <name>Abschirmgruen</name>
+         <name codeSpace="lesbarerName">Abschirmgrün</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_24005">
+         <description>Umweltbildungspark, Schaugatter</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:24005</identifier>
+         <name>UmweltbildungsparkSchaugatter</name>
+         <name codeSpace="lesbarerName">Umweltbildungspark, Schaugatter</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_24006">
+         <description>Fläche für den ruhenden Verkehr.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:24006</identifier>
+         <name>RuhenderVerkehr</name>
+         <name codeSpace="lesbarerName">Ruhender Verkehr</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_2600">
+         <description>Friedhof</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:2600</identifier>
+         <name>Friedhof</name>
+         <name codeSpace="lesbarerName">Friedhof</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_2700">
+         <description>Naturerfahrungsräume sollen insbesondere Kindern und Jugendlichen die Möglichkeit geben, in ihrem direkten Umfeld Natur vorzufinden, um eigenständäg Erfahrung mit Pflanzen und Tieren sammeln zu können.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:2700</identifier>
+         <name>Naturerfahrungsraum</name>
+         <name codeSpace="lesbarerName">Naturerfahrungsraum</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_9999">
+         <description>Sonstige Zweckbestimmung, falls keine der aufgeführten Klassifikationen anwendbar ist.</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ZweckbestimmungGruen_99990">
+         <description>Gärtnerei</description>
+         <identifier codeSpace="urn:xplan">XP_ZweckbestimmungGruen:99990</identifier>
+         <name>Gaertnerei</name>
+         <name codeSpace="lesbarerName">Gärtnerei</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

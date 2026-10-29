@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="2712"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Spezifikation einer Sondernutzung</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:dataType:xplan::xplan:6.1:BP_KomplexeSondernutzung</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">BP_KomplexeSondernutzung</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2712_8182">
+         <gml:description>Allgemeine Festlegung der Sondernutzung</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:allgemein</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">allgemein</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2712_8182_643_1245">
+               <gml:description>Wochenendhausgebiet nach § 10 BauNVO von 1977 und 1990</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:allgemein:1000</gml:identifier>
+               <gml:name>Wochenendhausgebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2712_8182_643_1246">
+               <gml:description>Ferienhausgebiet nach § 10 BauNVO von 1977 und 1990</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:allgemein:1100</gml:identifier>
+               <gml:name>Ferienhausgebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2712_8182_643_1247">
+               <gml:description>Campingplatzgebiet nach § 10 BauNVO von 1977 und 1990</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:allgemein:1200</gml:identifier>
+               <gml:name>Campingplatzgebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2712_8182_643_1248">
+               <gml:description>Kurgebiet nach § 11 BauNVO von 1977 und 1990</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:allgemein:1300</gml:identifier>
+               <gml:name>Kurgebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2712_8182_643_1249">
+               <gml:description>Sonstiges Sondergebiet für Erholung nach § 10 BauNVO von 1977 und 1990</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:allgemein:1400</gml:identifier>
+               <gml:name>SonstSondergebietErholung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2712_8182_643_1250">
+               <gml:description>Einzelhandelsgebiet nach § 11 BauNVO von 1977 und 1990</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:allgemein:1500</gml:identifier>
+               <gml:name>Einzelhandelsgebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2712_8182_643_1251">
+               <gml:description>Gebiet für großflächigen Einzelhandel nach § 11 BauNVO von 1977 und 1990</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:allgemein:1600</gml:identifier>
+               <gml:name>GrossflaechigerEinzelhandel</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2712_8182_643_1252">
+               <gml:description>Ladengebiet nach § 11 BauNVO von 1977 und 1990</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:allgemein:16000</gml:identifier>
+               <gml:name>Ladengebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2712_8182_643_1253">
+               <gml:description>Einkaufszentrum nach § 11 BauNVO von 1977 und 1990</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:allgemein:16001</gml:identifier>
+               <gml:name>Einkaufszentrum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2712_8182_643_1254">
+               <gml:description>Sonstiges Gebiet für großflächigen Einzelhandel nach § 11 BauNVO von 1977 und 1990</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:allgemein:16002</gml:identifier>
+               <gml:name>SonstGrossflEinzelhandel</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2712_8182_643_8788">
+               <gml:description>Großhandelsgebiet nach § 11 BauNVO von 1977 und 1990</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:allgemein:1650</gml:identifier>
+               <gml:name>SondergebietGrosshandel</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2712_8182_643_1255">
+               <gml:description>Verkehrsübungsplatz nach § 11 BauNVO von 1977 und 1990</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:allgemein:1700</gml:identifier>
+               <gml:name>Verkehrsuebungsplatz</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2712_8182_643_1256">
+               <gml:description>Hafengebiet nach § 11 BauNVO von 1977 und 1990</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:allgemein:1800</gml:identifier>
+               <gml:name>Hafengebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2712_8182_643_1257">
+               <gml:description>Sondergebiet für Erneuerbare Energien nach § 11 BauNVO von 1977 und 1990</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:allgemein:1900</gml:identifier>
+               <gml:name>SondergebietErneuerbareEnergie</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2712_8182_643_1258">
+               <gml:description>Militärisches Sondergebiet nach § 11 BauNVO von 1977 und 1990</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:allgemein:2000</gml:identifier>
+               <gml:name>SondergebietMilitaer</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2712_8182_643_1259">
+               <gml:description>Sondergebiet Landwirtschaft nach § 11 BauNVO von 1977 und 1990</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:allgemein:2100</gml:identifier>
+               <gml:name>SondergebietLandwirtschaft</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2712_8182_643_1260">
+               <gml:description>Sondergebiet Sport nach § 11 BauNVO von 1977 und 1990</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:allgemein:2200</gml:identifier>
+               <gml:name>SondergebietSport</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2712_8182_643_1261">
+               <gml:description>Sondergebiet für Gesundheit und Soziales nach § 11 BauNVO von 1977 und 1990</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:allgemein:2300</gml:identifier>
+               <gml:name>SondergebietGesundheitSoziales</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2712_8182_643_8064">
+               <gml:description>Klinikgebiet nach § 11 BauNVO von 1977 und 1990</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:allgemein:23000</gml:identifier>
+               <gml:name>Klinikgebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2712_8182_643_1262">
+               <gml:description>Golfplatz nach § 11 BauNVO von 1977 und 1990</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:allgemein:2400</gml:identifier>
+               <gml:name>Golfplatz</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2712_8182_643_1263">
+               <gml:description>Sondergebiet für Kultur nach § 11 BauNVO von 1977 und 1990</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:allgemein:2500</gml:identifier>
+               <gml:name>SondergebietKultur</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2712_8182_643_1264">
+               <gml:description>Sondergebiet Tourismus nach § 11 BauNVO von 1977 und 1990</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:allgemein:2600</gml:identifier>
+               <gml:name>SondergebietTourismus</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2712_8182_643_1265">
+               <gml:description>Sondergebiet für Büros und Verwaltung nach § 11 BauNVO von 1977 und 1990</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:allgemein:2700</gml:identifier>
+               <gml:name>SondergebietBueroUndVerwaltung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2712_8182_643_8063">
+               <gml:description>Sondergebiet für Einrichtungen der Justiz nach § 11 BauNVO von 1977 und 1990</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:allgemein:2720</gml:identifier>
+               <gml:name>SondergebietJustiz</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2712_8182_643_1266">
+               <gml:description>Sondergebiet Hochschule nach § 11 BauNVO von 1977 und 1990</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:allgemein:2800</gml:identifier>
+               <gml:name>SondergebietHochschuleForschung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2712_8182_643_1267">
+               <gml:description>Sondergebiet für Messe nach § 11 BauNVO von 1977 und 1990</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:allgemein:2900</gml:identifier>
+               <gml:name>SondergebietMesse</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2712_8182_643_8973">
+               <gml:description>Sondergebiet Verkehr nach § 11 BauNVO von 1977 und 1990</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:allgemein:3000</gml:identifier>
+               <gml:name>SondergebietVerkehr</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2712_8182_643_1268">
+               <gml:description>Sonstiges Sondergebiet nach § 11 BauNVO von 1977 und 1990</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:allgemein:9999</gml:identifier>
+               <gml:name>SondergebietAndereNutzungen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>1</def:cardinality>
+         <def:valueTypeName>XP_Sondernutzungen</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2712_8183">
+         <gml:description>Über eine Codeliste definierte Sondernutzung, die die allgemeine Sondernutzung näher detailliert.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:detail</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">detail</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeName>BP_DetailSondernutzung</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2712_8184">
+         <gml:description>Textliche Spezifikation der Sondernutzung.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:nutzungText</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">nutzungText</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2712_8185">
+         <gml:description>Aufschrift</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeSondernutzung:aufschrift</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">aufschrift</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>dataType</def:classification>
+</def:TypeDefinition>

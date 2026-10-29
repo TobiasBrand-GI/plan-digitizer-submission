@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="BP_WegerechtTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">BP_WegerechtTypen</identifier>
+   <name>BP_WegerechtTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="BP_WegerechtTypen_1000">
+         <description>Gehrecht</description>
+         <identifier codeSpace="urn:xplan">BP_WegerechtTypen:1000</identifier>
+         <name>Gehrecht</name>
+         <name codeSpace="lesbarerName">Gehrecht</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_WegerechtTypen_2000">
+         <description>Fahrrecht</description>
+         <identifier codeSpace="urn:xplan">BP_WegerechtTypen:2000</identifier>
+         <name>Fahrrecht</name>
+         <name codeSpace="lesbarerName">Fahrrecht</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_WegerechtTypen_2500">
+         <description>Radfahrrecht</description>
+         <identifier codeSpace="urn:xplan">BP_WegerechtTypen:2500</identifier>
+         <name>Radfahrrecht</name>
+         <name codeSpace="lesbarerName">Radfahrrecht</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_WegerechtTypen_4000">
+         <description>Leitungsrecht</description>
+         <identifier codeSpace="urn:xplan">BP_WegerechtTypen:4000</identifier>
+         <name>Leitungsrecht</name>
+         <name codeSpace="lesbarerName">Leitungsrecht</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_WegerechtTypen_9999">
+         <description>Sonstiges Nutzungsrecht</description>
+         <identifier codeSpace="urn:xplan">BP_WegerechtTypen:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

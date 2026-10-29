@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_RohstoffTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von Rohstoffen.</description>
+   <identifier codeSpace="urn:xplan">RP_RohstoffTypen</identifier>
+   <name>RP_RohstoffTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_1000">
+         <description>Anhydritstein.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:1000</identifier>
+         <name>Anhydritstein</name>
+         <name codeSpace="lesbarerName">Anhydritstein</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_1100">
+         <description>Baryt.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:1100</identifier>
+         <name>Baryt</name>
+         <name codeSpace="lesbarerName">Baryt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_1200">
+         <description>BasaltDiabas.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:1200</identifier>
+         <name>BasaltDiabas</name>
+         <name codeSpace="lesbarerName">Basalt, Diabas</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_1300">
+         <description>Bentonit.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:1300</identifier>
+         <name>Bentonit</name>
+         <name codeSpace="lesbarerName">Bentonit</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_1400">
+         <description>Blaehton.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:1400</identifier>
+         <name>Blaehton</name>
+         <name codeSpace="lesbarerName">Blähton</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_1500">
+         <description>Braunkohle.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:1500</identifier>
+         <name>Braunkohle</name>
+         <name codeSpace="lesbarerName">Braunkohle</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_1600">
+         <description>Buntsandstein.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:1600</identifier>
+         <name>Buntsandstein</name>
+         <name codeSpace="lesbarerName">Buntsandstein</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_1700">
+         <description>Dekostein</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:1700</identifier>
+         <name>Dekostein</name>
+         <name codeSpace="lesbarerName">Dekostein</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_1800">
+         <description>Diorit.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:1800</identifier>
+         <name>Diorit</name>
+         <name codeSpace="lesbarerName">Diorit</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_1900">
+         <description>Dolomitstein.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:1900</identifier>
+         <name>Dolomitstein</name>
+         <name codeSpace="lesbarerName">Dolomitstein</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_2000">
+         <description>Erdgas.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:2000</identifier>
+         <name>Erdgas</name>
+         <name codeSpace="lesbarerName">Erdgas</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_2100">
+         <description>Erdöl.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:2100</identifier>
+         <name>Erdoel</name>
+         <name codeSpace="lesbarerName">Erdöl</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_2200">
+         <description>Erz.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:2200</identifier>
+         <name>Erz</name>
+         <name codeSpace="lesbarerName">Erz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_2300">
+         <description>Feldspat.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:2300</identifier>
+         <name>Feldspat</name>
+         <name codeSpace="lesbarerName">Feldspat</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_2400">
+         <description>Festgestein.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:2400</identifier>
+         <name>Festgestein</name>
+         <name codeSpace="lesbarerName">Festgestein</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_2500">
+         <description>Flussspat.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:2500</identifier>
+         <name>Flussspat</name>
+         <name codeSpace="lesbarerName">Flussspat</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_2600">
+         <description>Gangquarz.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:2600</identifier>
+         <name>Gangquarz</name>
+         <name codeSpace="lesbarerName">Gangquarz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_2700">
+         <description>Gipsstein.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:2700</identifier>
+         <name>Gipsstein</name>
+         <name codeSpace="lesbarerName">Gipsstein</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_2800">
+         <description>Gneis.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:2800</identifier>
+         <name>Gneis</name>
+         <name codeSpace="lesbarerName">Gneis</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_2900">
+         <description>Granit.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:2900</identifier>
+         <name>Granit</name>
+         <name codeSpace="lesbarerName">Granit</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_3000">
+         <description>Grauwacke.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:3000</identifier>
+         <name>Grauwacke</name>
+         <name codeSpace="lesbarerName">Grauwacke</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_3100">
+         <description>Hartgestein</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:3100</identifier>
+         <name>Hartgestein</name>
+         <name codeSpace="lesbarerName">Hartgestein</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_3200">
+         <description>KalkKalktuffKreide.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:3200</identifier>
+         <name>KalkKalktuffKreide</name>
+         <name codeSpace="lesbarerName">Kalk, Kalktuff, Kreide</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_3300">
+         <description>Kalkmergelstein.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:3300</identifier>
+         <name>Kalkmergelstein</name>
+         <name codeSpace="lesbarerName">Kalkmergelstein</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_3400">
+         <description>Kalkstein.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:3400</identifier>
+         <name>Kalkstein</name>
+         <name codeSpace="lesbarerName">Kalkstein</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_3500">
+         <description>Kaolin.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:3500</identifier>
+         <name>Kaolin</name>
+         <name codeSpace="lesbarerName">Kaolin</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_3600">
+         <description>Karbonatgestein.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:3600</identifier>
+         <name>Karbonatgestein</name>
+         <name codeSpace="lesbarerName">Karbonatgestein</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_3700">
+         <description>Kies.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:3700</identifier>
+         <name>Kies</name>
+         <name codeSpace="lesbarerName">Kies</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_3800">
+         <description>Kieselgur.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:3800</identifier>
+         <name>Kieselgur</name>
+         <name codeSpace="lesbarerName">Kieselgur</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_3900">
+         <description>KieshaltigerSand.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:3900</identifier>
+         <name>KieshaltigerSand</name>
+         <name codeSpace="lesbarerName">Kieshaltiger Sand</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_4000">
+         <description>KiesSand.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:4000</identifier>
+         <name>KiesSand</name>
+         <name codeSpace="lesbarerName">Kies, Sand</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_4100">
+         <description>Klei.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:4100</identifier>
+         <name>Klei</name>
+         <name codeSpace="lesbarerName">Klei</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_4200">
+         <description>Kristallin.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:4200</identifier>
+         <name>Kristallin</name>
+         <name codeSpace="lesbarerName">Kristallin</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_4300">
+         <description>Kupfer.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:4300</identifier>
+         <name>Kupfer</name>
+         <name codeSpace="lesbarerName">Kupfer</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_4400">
+         <description>Lehm.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:4400</identifier>
+         <name>Lehm</name>
+         <name codeSpace="lesbarerName">Lehm</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_4500">
+         <description>Marmor.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:4500</identifier>
+         <name>Marmor</name>
+         <name codeSpace="lesbarerName">Marmor</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_4600">
+         <description>Mergel.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:4600</identifier>
+         <name>Mergel</name>
+         <name codeSpace="lesbarerName">Mergel</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_4700">
+         <description>Mergelstein.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:4700</identifier>
+         <name>Mergelstein</name>
+         <name codeSpace="lesbarerName">Mergelstein</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_4800">
+         <description>MikrogranitGranitporphyr.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:4800</identifier>
+         <name>MikrogranitGranitporphyr</name>
+         <name codeSpace="lesbarerName">Mikrogranit, Granitporphyr</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_4900">
+         <description>Monzonit.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:4900</identifier>
+         <name>Monzonit</name>
+         <name codeSpace="lesbarerName">Monzonit</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_5000">
+         <description>Muschelkalk.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:5000</identifier>
+         <name>Muschelkalk</name>
+         <name codeSpace="lesbarerName">Muschelkalk</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_5100">
+         <description>Naturstein.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:5100</identifier>
+         <name>Naturstein</name>
+         <name codeSpace="lesbarerName">Naturstein</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_5200">
+         <description>Naturwerkstein.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:5200</identifier>
+         <name>Naturwerkstein</name>
+         <name codeSpace="lesbarerName">Naturwerkstein</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_5300">
+         <description>Ölschiefer.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:5300</identifier>
+         <name>Oelschiefer</name>
+         <name codeSpace="lesbarerName">Ölschiefer</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_5400">
+         <description>Pegmatitsand.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:5400</identifier>
+         <name>Pegmatitsand</name>
+         <name codeSpace="lesbarerName">Pegmatitsand</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_5500">
+         <description>Quarzit.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:5500</identifier>
+         <name>Quarzit</name>
+         <name codeSpace="lesbarerName">Quarzit</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_5600">
+         <description>Quarzsand.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:5600</identifier>
+         <name>Quarzsand</name>
+         <name codeSpace="lesbarerName">Quarzsand</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_5700">
+         <description>Rhyolith.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:5700</identifier>
+         <name>Rhyolith</name>
+         <name codeSpace="lesbarerName">Rhyolith</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_5800">
+         <description>RhyolithQuarzporphyr.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:5800</identifier>
+         <name>RhyolithQuarzporphyr</name>
+         <name codeSpace="lesbarerName">Rhyolith, Quarzporphyr</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_5900">
+         <description>Salz.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:5900</identifier>
+         <name>Salz</name>
+         <name codeSpace="lesbarerName">Salz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_6000">
+         <description>Sand.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:6000</identifier>
+         <name>Sand</name>
+         <name codeSpace="lesbarerName">Sand</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_6100">
+         <description>Sandstein.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:6100</identifier>
+         <name>Sandstein</name>
+         <name codeSpace="lesbarerName">Sandstein</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_6200">
+         <description>Spezialton.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:6200</identifier>
+         <name>Spezialton</name>
+         <name codeSpace="lesbarerName">Spezialton</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_6300">
+         <description>Steine und Erden.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:6300</identifier>
+         <name>SteineundErden</name>
+         <name codeSpace="lesbarerName">Steine und Erden</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_6400">
+         <description>Steinkohle.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:6400</identifier>
+         <name>Steinkohle</name>
+         <name codeSpace="lesbarerName">Steinkohle</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_6500">
+         <description>Ton.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:6500</identifier>
+         <name>Ton</name>
+         <name codeSpace="lesbarerName">Ton</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_6600">
+         <description>Tonstein.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:6600</identifier>
+         <name>Tonstein</name>
+         <name codeSpace="lesbarerName">Tonstein</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_6700">
+         <description>Torf.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:6700</identifier>
+         <name>Torf</name>
+         <name codeSpace="lesbarerName">Torf</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_6800">
+         <description>TuffBimsstein.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:6800</identifier>
+         <name>TuffBimsstein</name>
+         <name codeSpace="lesbarerName">Tuff, Bimsstein</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_6900">
+         <description>Uran.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:6900</identifier>
+         <name>Uran</name>
+         <name codeSpace="lesbarerName">Uran</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_7000">
+         <description>Vulkanit.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:7000</identifier>
+         <name>Vulkanit</name>
+         <name codeSpace="lesbarerName">Vulkanit</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_7100">
+         <description>Werkstein</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:7100</identifier>
+         <name>Werkstein</name>
+         <name codeSpace="lesbarerName">Werkstein</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_7200">
+         <description>Andesit</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:7200</identifier>
+         <name>Andesit</name>
+         <name codeSpace="lesbarerName">Andesit</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_7300">
+         <description>Formsand</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:7300</identifier>
+         <name>Formsand</name>
+         <name codeSpace="lesbarerName">Formsand</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_7400">
+         <description>Gabbro</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:7400</identifier>
+         <name>Gabbro</name>
+         <name codeSpace="lesbarerName">Gabbro</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_7500">
+         <description>Mikrodiorit Kuselit</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:7500</identifier>
+         <name>MikrodioritKuselit</name>
+         <name codeSpace="lesbarerName">Mikrodiorit, Kuselit</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_RohstoffTypen_9999">
+         <description>Sonstiges.</description>
+         <identifier codeSpace="urn:xplan">RP_RohstoffTypen:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

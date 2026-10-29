@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_Sondernutzungen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung möglicher Sondernutzungen einer Sonderbaufläche nach §§ 10 und 11 BauNVO.</description>
+   <identifier codeSpace="urn:xplan">XP_Sondernutzungen</identifier>
+   <name>XP_Sondernutzungen</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Sondernutzungen_1000">
+         <description>Wochenendhausgebiet nach § 10 BauNVO von 1977 und 1990</description>
+         <identifier codeSpace="urn:xplan">XP_Sondernutzungen:1000</identifier>
+         <name>Wochenendhausgebiet</name>
+         <name codeSpace="lesbarerName">Wochenendhausgebiet</name>
+         <name codeSpace="kuerzel">Woch</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Sondernutzungen_1100">
+         <description>Ferienhausgebiet nach § 10 BauNVO von 1977 und 1990</description>
+         <identifier codeSpace="urn:xplan">XP_Sondernutzungen:1100</identifier>
+         <name>Ferienhausgebiet</name>
+         <name codeSpace="lesbarerName">Ferienhausgebiet</name>
+         <name codeSpace="kuerzel">FHG</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Sondernutzungen_1200">
+         <description>Campingplatzgebiet nach § 10 BauNVO von 1977 und 1990</description>
+         <identifier codeSpace="urn:xplan">XP_Sondernutzungen:1200</identifier>
+         <name>Campingplatzgebiet</name>
+         <name codeSpace="lesbarerName">Campingplatzgebiet</name>
+         <name codeSpace="kuerzel">CPG</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Sondernutzungen_1300">
+         <description>Kurgebiet nach § 11 BauNVO von 1977 und 1990</description>
+         <identifier codeSpace="urn:xplan">XP_Sondernutzungen:1300</identifier>
+         <name>Kurgebiet</name>
+         <name codeSpace="lesbarerName">Kurgebiet</name>
+         <name codeSpace="kuerzel">Kur</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Sondernutzungen_1400">
+         <description>Sonstiges Sondergebiet für Erholung nach § 10 BauNVO von 1977 und 1990</description>
+         <identifier codeSpace="urn:xplan">XP_Sondernutzungen:1400</identifier>
+         <name>SonstSondergebietErholung</name>
+         <name codeSpace="lesbarerName">Sonstiges Sondergebiet Erholung</name>
+         <name codeSpace="kuerzel">SSE</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Sondernutzungen_1500">
+         <description>Einzelhandelsgebiet nach § 11 BauNVO von 1977 und 1990</description>
+         <identifier codeSpace="urn:xplan">XP_Sondernutzungen:1500</identifier>
+         <name>Einzelhandelsgebiet</name>
+         <name codeSpace="lesbarerName">Einzelhandelsgebiet</name>
+         <name codeSpace="kuerzel">EHG</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Sondernutzungen_1600">
+         <description>Gebiet für großflächigen Einzelhandel nach § 11 BauNVO von 1977 und 1990</description>
+         <identifier codeSpace="urn:xplan">XP_Sondernutzungen:1600</identifier>
+         <name>GrossflaechigerEinzelhandel</name>
+         <name codeSpace="lesbarerName">Großflächiger Einzelhandel</name>
+         <name codeSpace="kuerzel">GEH</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Sondernutzungen_16000">
+         <description>Ladengebiet nach § 11 BauNVO von 1977 und 1990</description>
+         <identifier codeSpace="urn:xplan">XP_Sondernutzungen:16000</identifier>
+         <name>Ladengebiet</name>
+         <name codeSpace="lesbarerName">Ladengebiet</name>
+         <name codeSpace="kuerzel">LG</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Sondernutzungen_16001">
+         <description>Einkaufszentrum nach § 11 BauNVO von 1977 und 1990</description>
+         <identifier codeSpace="urn:xplan">XP_Sondernutzungen:16001</identifier>
+         <name>Einkaufszentrum</name>
+         <name codeSpace="lesbarerName">Einkaufszentrum</name>
+         <name codeSpace="kuerzel">EKZ</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Sondernutzungen_16002">
+         <description>Sonstiges Gebiet für großflächigen Einzelhandel nach § 11 BauNVO von 1977 und 1990</description>
+         <identifier codeSpace="urn:xplan">XP_Sondernutzungen:16002</identifier>
+         <name>SonstGrossflEinzelhandel</name>
+         <name codeSpace="lesbarerName">Sonstiger großflächiger Einzelhandel</name>
+         <name codeSpace="kuerzel">SGEH</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Sondernutzungen_1650">
+         <description>Großhandelsgebiet nach § 11 BauNVO von 1977 und 1990</description>
+         <identifier codeSpace="urn:xplan">XP_Sondernutzungen:1650</identifier>
+         <name>SondergebietGrosshandel</name>
+         <name codeSpace="lesbarerName">Sondergebiet Großhandel</name>
+         <name codeSpace="kuerzel">SGH</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Sondernutzungen_1700">
+         <description>Verkehrsübungsplatz nach § 11 BauNVO von 1977 und 1990</description>
+         <identifier codeSpace="urn:xplan">XP_Sondernutzungen:1700</identifier>
+         <name>Verkehrsuebungsplatz</name>
+         <name codeSpace="lesbarerName">Verkehrsübungsplatz</name>
+         <name codeSpace="kuerzel">VÜP</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Sondernutzungen_1800">
+         <description>Hafengebiet nach § 11 BauNVO von 1977 und 1990</description>
+         <identifier codeSpace="urn:xplan">XP_Sondernutzungen:1800</identifier>
+         <name>Hafengebiet</name>
+         <name codeSpace="lesbarerName">Hafengebiet</name>
+         <name codeSpace="kuerzel">Hafen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Sondernutzungen_1900">
+         <description>Sondergebiet für Erneuerbare Energien nach § 11 BauNVO von 1977 und 1990</description>
+         <identifier codeSpace="urn:xplan">XP_Sondernutzungen:1900</identifier>
+         <name>SondergebietErneuerbareEnergie</name>
+         <name codeSpace="lesbarerName">Sondergebiet Erneuerbare Energie</name>
+         <name codeSpace="kuerzel">EE</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Sondernutzungen_2000">
+         <description>Militärisches Sondergebiet nach § 11 BauNVO von 1977 und 1990</description>
+         <identifier codeSpace="urn:xplan">XP_Sondernutzungen:2000</identifier>
+         <name>SondergebietMilitaer</name>
+         <name codeSpace="lesbarerName">Sondergebiet Militär</name>
+         <name codeSpace="kuerzel">Militär</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Sondernutzungen_2100">
+         <description>Sondergebiet Landwirtschaft nach § 11 BauNVO von 1977 und 1990</description>
+         <identifier codeSpace="urn:xplan">XP_Sondernutzungen:2100</identifier>
+         <name>SondergebietLandwirtschaft</name>
+         <name codeSpace="lesbarerName">Sondergebiet Landwirtschaft</name>
+         <name codeSpace="kuerzel">LW</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Sondernutzungen_2200">
+         <description>Sondergebiet Sport nach § 11 BauNVO von 1977 und 1990</description>
+         <identifier codeSpace="urn:xplan">XP_Sondernutzungen:2200</identifier>
+         <name>SondergebietSport</name>
+         <name codeSpace="lesbarerName">Sondergebiet Sport</name>
+         <name codeSpace="kuerzel">Sport</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Sondernutzungen_2300">
+         <description>Sondergebiet für Gesundheit und Soziales nach § 11 BauNVO von 1977 und 1990</description>
+         <identifier codeSpace="urn:xplan">XP_Sondernutzungen:2300</identifier>
+         <name>SondergebietGesundheitSoziales</name>
+         <name codeSpace="lesbarerName">Sondergebiet Gesundheit und Soziales</name>
+         <name codeSpace="kuerzel">GS</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Sondernutzungen_23000">
+         <description>Klinikgebiet nach § 11 BauNVO von 1977 und 1990</description>
+         <identifier codeSpace="urn:xplan">XP_Sondernutzungen:23000</identifier>
+         <name>Klinikgebiet</name>
+         <name codeSpace="lesbarerName">Klinikgebiet</name>
+         <name codeSpace="kuerzel">Klinik</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Sondernutzungen_2400">
+         <description>Golfplatz nach § 11 BauNVO von 1977 und 1990</description>
+         <identifier codeSpace="urn:xplan">XP_Sondernutzungen:2400</identifier>
+         <name>Golfplatz</name>
+         <name codeSpace="lesbarerName">Golfplatz</name>
+         <name codeSpace="kuerzel">Golf</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Sondernutzungen_2500">
+         <description>Sondergebiet für Kultur nach § 11 BauNVO von 1977 und 1990</description>
+         <identifier codeSpace="urn:xplan">XP_Sondernutzungen:2500</identifier>
+         <name>SondergebietKultur</name>
+         <name codeSpace="lesbarerName">Sondergebiet Kultur</name>
+         <name codeSpace="kuerzel">Kultur</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Sondernutzungen_2600">
+         <description>Sondergebiet Tourismus nach § 11 BauNVO von 1977 und 1990</description>
+         <identifier codeSpace="urn:xplan">XP_Sondernutzungen:2600</identifier>
+         <name>SondergebietTourismus</name>
+         <name codeSpace="lesbarerName">Sondergebiet Tourismus</name>
+         <name codeSpace="kuerzel">Tour</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Sondernutzungen_2700">
+         <description>Sondergebiet für Büros und Verwaltung nach § 11 BauNVO von 1977 und 1990</description>
+         <identifier codeSpace="urn:xplan">XP_Sondernutzungen:2700</identifier>
+         <name>SondergebietBueroUndVerwaltung</name>
+         <name codeSpace="lesbarerName">Sondergebiet Büro und Verwaltung</name>
+         <name codeSpace="kuerzel">BV</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Sondernutzungen_2720">
+         <description>Sondergebiet für Einrichtungen der Justiz nach § 11 BauNVO von 1977 und 1990</description>
+         <identifier codeSpace="urn:xplan">XP_Sondernutzungen:2720</identifier>
+         <name>SondergebietJustiz</name>
+         <name codeSpace="lesbarerName">Sondergebiet Justiz</name>
+         <name codeSpace="kuerzel">Justiz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Sondernutzungen_2800">
+         <description>Sondergebiet Hochschule nach § 11 BauNVO von 1977 und 1990</description>
+         <identifier codeSpace="urn:xplan">XP_Sondernutzungen:2800</identifier>
+         <name>SondergebietHochschuleForschung</name>
+         <name codeSpace="lesbarerName">Sondergebiet Hochschule und Forschung</name>
+         <name codeSpace="kuerzel">HSF</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Sondernutzungen_2900">
+         <description>Sondergebiet für Messe nach § 11 BauNVO von 1977 und 1990</description>
+         <identifier codeSpace="urn:xplan">XP_Sondernutzungen:2900</identifier>
+         <name>SondergebietMesse</name>
+         <name codeSpace="lesbarerName">Sondergebiet Messe</name>
+         <name codeSpace="kuerzel">Messe</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Sondernutzungen_3000">
+         <description>Sondergebiet Verkehr nach § 11 BauNVO von 1977 und 1990</description>
+         <identifier codeSpace="urn:xplan">XP_Sondernutzungen:3000</identifier>
+         <name>SondergebietVerkehr</name>
+         <name codeSpace="lesbarerName">Sondergebiet Verkehr</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_Sondernutzungen_9999">
+         <description>Sonstiges Sondergebiet nach § 11 BauNVO von 1977 und 1990</description>
+         <identifier codeSpace="urn:xplan">XP_Sondernutzungen:9999</identifier>
+         <name>SondergebietAndereNutzungen</name>
+         <name codeSpace="lesbarerName">Sondergebiet andere Nutzungen</name>
+         <name codeSpace="kuerzel">AN</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_BergbauplanungTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen der Bergbauplanung.</description>
+   <identifier codeSpace="urn:xplan">RP_BergbauplanungTypen</identifier>
+   <name>RP_BergbauplanungTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BergbauplanungTypen_1000">
+         <description>Lagerstätte.</description>
+         <identifier codeSpace="urn:xplan">RP_BergbauplanungTypen:1000</identifier>
+         <name>Lagerstaette</name>
+         <name codeSpace="lesbarerName">Lagerstätte</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BergbauplanungTypen_1100">
+         <description>Sicherung.</description>
+         <identifier codeSpace="urn:xplan">RP_BergbauplanungTypen:1100</identifier>
+         <name>Sicherung</name>
+         <name codeSpace="lesbarerName">Sicherung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BergbauplanungTypen_1200">
+         <description>Gewinnung.</description>
+         <identifier codeSpace="urn:xplan">RP_BergbauplanungTypen:1200</identifier>
+         <name>Gewinnung</name>
+         <name codeSpace="lesbarerName">Gewinnung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BergbauplanungTypen_1300">
+         <description>Abbaubereich.</description>
+         <identifier codeSpace="urn:xplan">RP_BergbauplanungTypen:1300</identifier>
+         <name>Abbau</name>
+         <name codeSpace="lesbarerName">Abbau</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BergbauplanungTypen_1400">
+         <description>Sicherheitszone.</description>
+         <identifier codeSpace="urn:xplan">RP_BergbauplanungTypen:1400</identifier>
+         <name>Sicherheitszone</name>
+         <name codeSpace="lesbarerName">Sicherheitszone</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BergbauplanungTypen_1500">
+         <description>Anlage und/oder Einrichtung des Bergbaus.</description>
+         <identifier codeSpace="urn:xplan">RP_BergbauplanungTypen:1500</identifier>
+         <name>AnlageEinrichtungBergbau</name>
+         <name codeSpace="lesbarerName">Anlage Einrichtung Bergbau</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BergbauplanungTypen_1600">
+         <description>Halde, Aufschüttung und/oder Ablagerung.</description>
+         <identifier codeSpace="urn:xplan">RP_BergbauplanungTypen:1600</identifier>
+         <name>Halde</name>
+         <name codeSpace="lesbarerName">Halde</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BergbauplanungTypen_1700">
+         <description>Sanierungsfläche.</description>
+         <identifier codeSpace="urn:xplan">RP_BergbauplanungTypen:1700</identifier>
+         <name>Sanierungsflaeche</name>
+         <name codeSpace="lesbarerName">Sanierungsfläche</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BergbauplanungTypen_1800">
+         <description>Ansiedlung und/oder Umsiedlung.</description>
+         <identifier codeSpace="urn:xplan">RP_BergbauplanungTypen:1800</identifier>
+         <name>AnsiedlungUmsiedlung</name>
+         <name codeSpace="lesbarerName">Ansiedlung, Umsiedlung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BergbauplanungTypen_1900">
+         <description>Bergbaufolgelandschaft.</description>
+         <identifier codeSpace="urn:xplan">RP_BergbauplanungTypen:1900</identifier>
+         <name>Bergbaufolgelandschaft</name>
+         <name codeSpace="lesbarerName">Bergbaufolgelandschaft</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BergbauplanungTypen_9999">
+         <description>Sonstige Bergbauplanung.</description>
+         <identifier codeSpace="urn:xplan">RP_BergbauplanungTypen:9999</identifier>
+         <name>SonstigeBergbauplanung</name>
+         <name codeSpace="lesbarerName">Sonstige Bergbauplanung</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

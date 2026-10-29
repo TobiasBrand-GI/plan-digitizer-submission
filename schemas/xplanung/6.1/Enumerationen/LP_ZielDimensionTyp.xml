@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_ZielDimensionTyp"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Auflistung unterschiedlicher Zieldimensionen von Naturschutz und Landschaftspflege. Teilziele des Naturschutzes und der Landschaftspflege gemäß § 1 Abs. 1 Ziffern 1. bis 3. BNatSchG</description>
+   <identifier codeSpace="urn:xplan">LP_ZielDimensionTyp</identifier>
+   <name>LP_ZielDimensionTyp</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ZielDimensionTyp_1000">
+         <description>Schutz der biologischen Vielfalt gemäß § 1 Abs. 1 Ziffer 1 BNatSchG.</description>
+         <identifier codeSpace="urn:xplan">LP_ZielDimensionTyp:1000</identifier>
+         <name>SchutzBiologischeVielfalt</name>
+         <name codeSpace="lesbarerName">Schutz biologische Vielfalt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ZielDimensionTyp_2000">
+         <description>Schutz des Naturhaushaltes gemäß § 1 Abs. 1 Ziffer 2 BNatSchG.</description>
+         <identifier codeSpace="urn:xplan">LP_ZielDimensionTyp:2000</identifier>
+         <name>SchutzNaturhaushalt</name>
+         <name codeSpace="lesbarerName">Schutz Naturhaushalt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ZielDimensionTyp_3000">
+         <description>Schutz des Landschaftsbildes sowie Erholungsvorsorge gemäß § 1 Abs. 1 Ziffer 3 BNatSchG.</description>
+         <identifier codeSpace="urn:xplan">LP_ZielDimensionTyp:3000</identifier>
+         <name>SchutzLandschaftsbildErholungsvorsorge</name>
+         <name codeSpace="lesbarerName">Schutz Landschaftsbild, Erholungsvorsorge</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ZielDimensionTyp_9998">
+         <description>Unbekannte Zieldimension / Teilziel von Naturschutz und Landschaftspflege (zur Übernahme von Altplänen)</description>
+         <identifier codeSpace="urn:xplan">LP_ZielDimensionTyp:9998</identifier>
+         <name>Unbekannt</name>
+         <name codeSpace="lesbarerName">Unbekannt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_ZielDimensionTyp_9999">
+         <description>Sonstiges Teilziel  gem. textlicher Angabe in teilZielText.</description>
+         <identifier codeSpace="urn:xplan">LP_ZielDimensionTyp:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

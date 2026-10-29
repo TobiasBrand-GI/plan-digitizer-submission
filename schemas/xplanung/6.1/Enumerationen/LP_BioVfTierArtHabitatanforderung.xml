@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_BioVfTierArtHabitatanforderung"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Auflistung besonderer Habitatanforderungen von Tierarten.</description>
+   <identifier codeSpace="urn:xplan">LP_BioVfTierArtHabitatanforderung</identifier>
+   <name>LP_BioVfTierArtHabitatanforderung</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTierArtHabitatanforderung_1000">
+         <description>Art mit (sehr) großem Habitatsanforderungen</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTierArtHabitatanforderung:1000</identifier>
+         <name>GrosserHabitatsAnspruch</name>
+         <name codeSpace="lesbarerName">Großer Habitats-Anspruch</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTierArtHabitatanforderung_2000">
+         <description>Gebäudebewohnende Art</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTierArtHabitatanforderung:2000</identifier>
+         <name>Gebaeudebewohnend</name>
+         <name codeSpace="lesbarerName">Gebäudebewohnend</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_BioVfTierArtHabitatanforderung_9999">
+         <description>Sonstige Habitatanforderungen (siehe bioBioVfTierArtHabitatanforderungText)</description>
+         <identifier codeSpace="urn:xplan">LP_BioVfTierArtHabitatanforderung:9999</identifier>
+         <name>Sonstige</name>
+         <name codeSpace="lesbarerName">Sonstige</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

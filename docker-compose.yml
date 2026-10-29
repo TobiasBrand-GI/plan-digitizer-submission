@@ -1,0 +1,24 @@
+services:
+  plandigitalizer:
+    build: .
+    image: plandigitalizer:latest
+    ports:
+      - "8000:8000"
+    # MISTRAL_API_KEY (required), optionally MISTRAL_REQUEST_DELAY_MS / MISTRAL_MAX_RETRIES
+    env_file: .env
+    volumes:
+      # results of every run -- a named volume, so the container user can
+      # write to it regardless of host file ownership
+      - runs:/app/runs
+      # ALKIS land-use data (nutzungFlurstueck_kgt.shp), not part of the image
+      - ./vectors:/app/vectors:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/openapi.json')"]
+      interval: 30s
+      timeout: 5s
+      start_period: 30s
+      retries: 3
+
+volumes:
+  runs:

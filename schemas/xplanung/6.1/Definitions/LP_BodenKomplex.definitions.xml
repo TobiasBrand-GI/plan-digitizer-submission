@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="2786"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Komplexes Attribut mit Angaben in Bezug auf Planungsgegenstand Boden, an die sich das Ziel, das Erfordernis oder die Maßnahme richtet..</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:dataType:xplan::xplan:6.1:LP_BodenKomplex</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">LP_BodenKomplex</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2786_8475">
+         <gml:description>Ausprägungen in Bezug auf Boden, an die sich das Ziel, das Erfordernis oder die Maßnahme richtet.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BodenKomplex:bodenAuspraegung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">bodenAuspraegung</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2786_8475_2790_8499">
+               <gml:description>Ablagerungen</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BodenKomplex:bodenAuspraegung:1110</gml:identifier>
+               <gml:name>Ablagerungen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2786_8475_2790_8500">
+               <gml:description>Altablagerungsfläche</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BodenKomplex:bodenAuspraegung:1120</gml:identifier>
+               <gml:name>Altablagerungsflaeche</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2786_8475_2790_8501">
+               <gml:description>Altlastenverdachtsfläche</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BodenKomplex:bodenAuspraegung:1130</gml:identifier>
+               <gml:name>Altlastenverdachtsflaeche</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2786_8475_2790_8502">
+               <gml:description>Boden mit Filter- und Pufferfunktion</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BodenKomplex:bodenAuspraegung:2110</gml:identifier>
+               <gml:name>BodenFilterPufferfunktion</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2786_8475_2790_8503">
+               <gml:description>Boden mit hoher Bodenfruchtbarkeit</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BodenKomplex:bodenAuspraegung:2120</gml:identifier>
+               <gml:name>BodenHoheBodenfruchtbarkeit</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2786_8475_2790_8504">
+               <gml:description>Boden mit hoher Funktion für den globalen Klimaschutz</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BodenKomplex:bodenAuspraegung:2130</gml:identifier>
+               <gml:name>BodenHoherFunktionglobalerKlimaschutz</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2786_8475_2790_8505">
+               <gml:description>Boden mit kulturgeschichtlicher Bedeutung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BodenKomplex:bodenAuspraegung:2210</gml:identifier>
+               <gml:name>BodenKulturgeschichtlicheBedeutung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2786_8475_2790_8506">
+               <gml:description>Boden mit naturgeschichtlicher Bedeutung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BodenKomplex:bodenAuspraegung:2220</gml:identifier>
+               <gml:name>BodenNaturgeschichtlicheBedeutung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2786_8475_2790_8507">
+               <gml:description>Boden mit geowissenschaftlicher Bedeutung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BodenKomplex:bodenAuspraegung:2230</gml:identifier>
+               <gml:name>BodenGeowissenschaftlicheBedeutung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2786_8475_2790_8508">
+               <gml:description>Natürliche Böden mit extremen Standorteigenschaften (nasse und feuchte Böden sowie Böden, die trocken und/oder nährstoffarm sind),</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BodenKomplex:bodenAuspraegung:2240</gml:identifier>
+               <gml:name>NatuerlicheBoedenExtremStandort</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2786_8475_2790_8509">
+               <gml:description>Ehemals militärisch genutzter Standort</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BodenKomplex:bodenAuspraegung:3100</gml:identifier>
+               <gml:name>ehemMilitaerischGenutzterStandort</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2786_8475_2790_8510">
+               <gml:description>Erosionsgefährdete Fläche</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BodenKomplex:bodenAuspraegung:4100</gml:identifier>
+               <gml:name>Erosionsgefaehrdet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2786_8475_2790_8511">
+               <gml:description>Erosionsgefährdete Fläche (Wind)</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BodenKomplex:bodenAuspraegung:4110</gml:identifier>
+               <gml:name>ErosionsgefaehrdetWind</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2786_8475_2790_8512">
+               <gml:description>Erosionsgefährdete Fläche (Wasser)</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BodenKomplex:bodenAuspraegung:4120</gml:identifier>
+               <gml:name>ErosionsgefaehrdetWasser</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2786_8475_2790_8513">
+               <gml:description>Geotop</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BodenKomplex:bodenAuspraegung:5110</gml:identifier>
+               <gml:name>Geotop</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2786_8475_2790_8514">
+               <gml:description>Seltene Bodenform</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BodenKomplex:bodenAuspraegung:5120</gml:identifier>
+               <gml:name>SelteneBodenform</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2786_8475_2790_8515">
+               <gml:description>Naturnaher Boden</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BodenKomplex:bodenAuspraegung:5210</gml:identifier>
+               <gml:name>NaturnaherBoden</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2786_8475_2790_8516">
+               <gml:description>Böden mit hohem Retentionspotenzial</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BodenKomplex:bodenAuspraegung:6100</gml:identifier>
+               <gml:name>BoedenHohesRetentionspotenzial</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2786_8475_2790_8517">
+               <gml:description>Entsiegelung oder Wiederherstellung der natürlichen Bodenfunktionen</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BodenKomplex:bodenAuspraegung:6200</gml:identifier>
+               <gml:name>EntsiegelungWiederherstBodenfunktion</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2786_8475_2790_8518">
+               <gml:description>Sonstiger Planungsgegenstand Schutzgut Boden (siehe bodenText)</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BodenKomplex:bodenAuspraegung:9999</gml:identifier>
+               <gml:name>Sonstiges</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>1</def:cardinality>
+         <def:valueTypeName>LP_BodenAuspraegung</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2786_8476">
+         <gml:description>Erläuterung zu Sonstiger Boden (bodenAuspraegung = 9999) oder ergänzende Information zu anderer ausgewählter Ausprägung des Planungsgegenstandes Boden.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:LP_BodenKomplex:bodenText</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">bodenText</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>dataType</def:classification>
+</def:TypeDefinition>

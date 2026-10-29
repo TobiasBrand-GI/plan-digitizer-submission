@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_VerkehrTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Allgemeine Verkehrstypen.</description>
+   <identifier codeSpace="urn:xplan">RP_VerkehrTypen</identifier>
+   <name>RP_VerkehrTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_VerkehrTypen_1000">
+         <description>Schienenverkehr.</description>
+         <identifier codeSpace="urn:xplan">RP_VerkehrTypen:1000</identifier>
+         <name>Schienenverkehr</name>
+         <name codeSpace="lesbarerName">Schienenverkehr</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_VerkehrTypen_2000">
+         <description>Straßenverkehr.</description>
+         <identifier codeSpace="urn:xplan">RP_VerkehrTypen:2000</identifier>
+         <name>Strassenverkehr</name>
+         <name codeSpace="lesbarerName">Straßenverkehr</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_VerkehrTypen_3000">
+         <description>Luftverkehr.</description>
+         <identifier codeSpace="urn:xplan">RP_VerkehrTypen:3000</identifier>
+         <name>Luftverkehr</name>
+         <name codeSpace="lesbarerName">Luftverkehr</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_VerkehrTypen_4000">
+         <description>Wasserverkehr.</description>
+         <identifier codeSpace="urn:xplan">RP_VerkehrTypen:4000</identifier>
+         <name>Wasserverkehr</name>
+         <name codeSpace="lesbarerName">Wasserverkehr</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_VerkehrTypen_9999">
+         <description>Sonstiger Verkehr.</description>
+         <identifier codeSpace="urn:xplan">RP_VerkehrTypen:9999</identifier>
+         <name>SonstigerVerkehr</name>
+         <name codeSpace="lesbarerName">Sonstiger Verkehr</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

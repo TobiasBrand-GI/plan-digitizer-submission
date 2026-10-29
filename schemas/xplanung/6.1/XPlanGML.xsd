@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:xplan="http://www.xplanung.de/xplangml/6/1"
+        elementFormDefault="qualified"
+        targetNamespace="http://www.xplanung.de/xplangml/6/1"
+        version="6.1">
+   <annotation>
+      <documentation>GML Anwendungsschema XPlanGML 6.1</documentation>
+   </annotation>
+   <include schemaLocation="XPlanGML_BPlan.xsd"/>
+   <include schemaLocation="XPlanGML_Basisschema.xsd"/>
+   <include schemaLocation="XPlanGML_FPlan.xsd"/>
+   <include schemaLocation="XPlanGML_LPlan_Kernmodell.xsd"/>
+   <include schemaLocation="XPlanGML_Raumordnungsplan.xsd"/>
+   <include schemaLocation="XPlanGML_SonstigePlanwerke.xsd"/>
+</schema>

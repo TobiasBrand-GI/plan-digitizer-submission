@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="2721"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Spezifikation der Zweckbestimmung einer Fläche für Ver- oder Entsorgung</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:dataType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">BP_KomplexeZweckbestVerEntsorgung</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2721_8202">
+         <gml:description>Allgemeine Zweckbestimmung der Fläche</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">allgemein</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_7745">
+               <gml:description>Elektrizität allgemein</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:1000</gml:identifier>
+               <gml:name>Elektrizitaet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1159">
+               <gml:description>Hochspannungsleitung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:10000</gml:identifier>
+               <gml:name>Hochspannungsleitung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1160">
+               <gml:description>Trafostation, auch Umspannwerk</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:10001</gml:identifier>
+               <gml:name>TrafostationUmspannwerk</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1161">
+               <gml:description>Solarkraftwerk</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:10002</gml:identifier>
+               <gml:name>Solarkraftwerk</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1162">
+               <gml:description>Windkraftwerk, Windenergieanlage, Windrad.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:10003</gml:identifier>
+               <gml:name>Windkraftwerk</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1163">
+               <gml:description>Geothermie Kraftwerk</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:10004</gml:identifier>
+               <gml:name>Geothermiekraftwerk</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1164">
+               <gml:description>Elektrizitätswerk allgemein</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:10005</gml:identifier>
+               <gml:name>Elektrizitaetswerk</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1165">
+               <gml:description>Wasserkraftwerk</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:10006</gml:identifier>
+               <gml:name>Wasserkraftwerk</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1166">
+               <gml:description>Biomasse-Kraftwerk</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:10007</gml:identifier>
+               <gml:name>BiomasseKraftwerk</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1167">
+               <gml:description>Kabelleitung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:10008</gml:identifier>
+               <gml:name>Kabelleitung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1168">
+               <gml:description>Niederspannungsleitung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:10009</gml:identifier>
+               <gml:name>Niederspannungsleitung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1169">
+               <gml:description>Leitungsmast</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:100010</gml:identifier>
+               <gml:name>Leitungsmast</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_8127">
+               <gml:description>Kernkraftwerk</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:100011</gml:identifier>
+               <gml:name>Kernkraftwerk</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_8128">
+               <gml:description>Kohlekraftwerk</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:100012</gml:identifier>
+               <gml:name>Kohlekraftwerk</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_8129">
+               <gml:description>Gaskraftwerk</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:100013</gml:identifier>
+               <gml:name>Gaskraftwerk</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_7746">
+               <gml:description>Gas allgemein</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:1200</gml:identifier>
+               <gml:name>Gas</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1170">
+               <gml:description>Ferngasleitung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:12000</gml:identifier>
+               <gml:name>Ferngasleitung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1171">
+               <gml:description>Gaswerk</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:12001</gml:identifier>
+               <gml:name>Gaswerk</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1172">
+               <gml:description>Gasbehälter</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:12002</gml:identifier>
+               <gml:name>Gasbehaelter</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1173">
+               <gml:description>Gasdruckregler</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:12003</gml:identifier>
+               <gml:name>Gasdruckregler</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1174">
+               <gml:description>Gasstation</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:12004</gml:identifier>
+               <gml:name>Gasstation</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1175">
+               <gml:description>Gasleitung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:12005</gml:identifier>
+               <gml:name>Gasleitung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_7747">
+               <gml:description>Erdöl allgemein</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:1300</gml:identifier>
+               <gml:name>Erdoel</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1176">
+               <gml:description>Erdölleitung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:13000</gml:identifier>
+               <gml:name>Erdoelleitung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1177">
+               <gml:description>Bohrstelle</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:13001</gml:identifier>
+               <gml:name>Bohrstelle</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1178">
+               <gml:description>Erdölpumpstation</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:13002</gml:identifier>
+               <gml:name>Erdoelpumpstation</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1179">
+               <gml:description>Öltank</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:13003</gml:identifier>
+               <gml:name>Oeltank</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_7748">
+               <gml:description>Wärmeversorgung allgemein</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:1400</gml:identifier>
+               <gml:name>Waermeversorgung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1180">
+               <gml:description>Blockheizkraftwerk</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:14000</gml:identifier>
+               <gml:name>Blockheizkraftwerk</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1181">
+               <gml:description>Fernwärmeleitung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:14001</gml:identifier>
+               <gml:name>Fernwaermeleitung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1182">
+               <gml:description>Fernheizwerk</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:14002</gml:identifier>
+               <gml:name>Fernheizwerk</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_7749">
+               <gml:description>Trink- und Brauchwasser allgemein</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:1600</gml:identifier>
+               <gml:name>Wasser</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1183">
+               <gml:description>Wasserwerk</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:16000</gml:identifier>
+               <gml:name>Wasserwerk</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1184">
+               <gml:description>Trinkwasserleitung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:16001</gml:identifier>
+               <gml:name>Wasserleitung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1185">
+               <gml:description>Wasserspeicher</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:16002</gml:identifier>
+               <gml:name>Wasserspeicher</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1186">
+               <gml:description>Brunnen</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:16003</gml:identifier>
+               <gml:name>Brunnen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1187">
+               <gml:description>Pumpwerk</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:16004</gml:identifier>
+               <gml:name>Pumpwerk</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1188">
+               <gml:description>Quelle</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:16005</gml:identifier>
+               <gml:name>Quelle</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_7750">
+               <gml:description>Abwasser allgemein</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:1800</gml:identifier>
+               <gml:name>Abwasser</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1189">
+               <gml:description>Abwasserleitung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:18000</gml:identifier>
+               <gml:name>Abwasserleitung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1190">
+               <gml:description>Abwasserrückhaltebecken</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:18001</gml:identifier>
+               <gml:name>Abwasserrueckhaltebecken</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1191">
+               <gml:description>Abwasserpumpwerk, auch Abwasserhebeanlage</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:18002</gml:identifier>
+               <gml:name>Abwasserpumpwerk</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1192">
+               <gml:description>Kläranlage</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:18003</gml:identifier>
+               <gml:name>Klaeranlage</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1193">
+               <gml:description>Anlage zur Speicherung oder Behandlung von Klärschlamm.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:18004</gml:identifier>
+               <gml:name>AnlageKlaerschlamm</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_6974">
+               <gml:description>Salz- oder Sole-Leitungen</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:18006</gml:identifier>
+               <gml:name>SalzOderSoleleitungen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_7751">
+               <gml:description>Regenwasser allgemein</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:2000</gml:identifier>
+               <gml:name>Regenwasser</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1195">
+               <gml:description>Regenwasser Rückhaltebecken</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:20000</gml:identifier>
+               <gml:name>RegenwasserRueckhaltebecken</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1196">
+               <gml:description>Niederschlagswasser-Leitung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:20001</gml:identifier>
+               <gml:name>Niederschlagswasserleitung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_7752">
+               <gml:description>Abfallentsorgung allgemein</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:2200</gml:identifier>
+               <gml:name>Abfallentsorgung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1197">
+               <gml:description>Müll-Umladestation</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:22000</gml:identifier>
+               <gml:name>Muellumladestation</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1198">
+               <gml:description>Müllbeseitigungsanlage</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:22001</gml:identifier>
+               <gml:name>Muellbeseitigungsanlage</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1199">
+               <gml:description>Müllsortieranlage</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:22002</gml:identifier>
+               <gml:name>Muellsortieranlage</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1200">
+               <gml:description>Recyclinghof</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:22003</gml:identifier>
+               <gml:name>Recyclinghof</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_7753">
+               <gml:description>Ablagerung allgemein</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:2400</gml:identifier>
+               <gml:name>Ablagerung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1201">
+               <gml:description>Erdaushub-Deponie</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:24000</gml:identifier>
+               <gml:name>Erdaushubdeponie</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1202">
+               <gml:description>Bauschutt-Deponie</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:24001</gml:identifier>
+               <gml:name>Bauschuttdeponie</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1203">
+               <gml:description>Hausmüll-Deponie</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:24002</gml:identifier>
+               <gml:name>Hausmuelldeponie</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1204">
+               <gml:description>Sondermüll-Deponie</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:24003</gml:identifier>
+               <gml:name>Sondermuelldeponie</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1205">
+               <gml:description>Stillgelegte Deponie</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:24004</gml:identifier>
+               <gml:name>StillgelegteDeponie</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1206">
+               <gml:description>Rekultivierte Deponie</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:24005</gml:identifier>
+               <gml:name>RekultivierteDeponie</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_7754">
+               <gml:description>Telekommunikation allgemein</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:2600</gml:identifier>
+               <gml:name>Telekommunikation</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1207">
+               <gml:description>Fernmeldeanlage</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:26000</gml:identifier>
+               <gml:name>Fernmeldeanlage</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1208">
+               <gml:description>Mobilfunkanlage</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:26001</gml:identifier>
+               <gml:name>Mobilfunkanlage</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1209">
+               <gml:description>Fernmeldekabel</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:26002</gml:identifier>
+               <gml:name>Fernmeldekabel</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_7755">
+               <gml:description>Erneuerbare Energien allgemein</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:2800</gml:identifier>
+               <gml:name>ErneuerbareEnergien</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_7756">
+               <gml:description>Fläche oder Anlage für Kraft-Wärme Kopplung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:3000</gml:identifier>
+               <gml:name>KraftWaermeKopplung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_7757">
+               <gml:description>Sonstige, durch keinen anderen Code abbildbare Ver- oder Entsorgungsfläche bzw. -Anlage.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:9999</gml:identifier>
+               <gml:name>Sonstiges</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2721_8202_638_1215">
+               <gml:description>Produktenleitung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:allgemein:99990</gml:identifier>
+               <gml:name>Produktenleitung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>1</def:cardinality>
+         <def:valueTypeName>XP_ZweckbestimmungVerEntsorgung</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2721_8203">
+         <gml:description>Über eine Codeliste definierte Zweckbestimmungen, die die allgemeine Zweckbestimmung näher detaillieren.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:detail</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">detail</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeName>BP_DetailZweckbestVerEntsorgung</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2721_8204">
+         <gml:description>Textliche Ergänzung der spezifizierten Zweckbestimmung(en).</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:textlicheErgaenzung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">textlicheErgaenzung</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2721_8205">
+         <gml:description>Aufschrift</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_KomplexeZweckbestVerEntsorgung:aufschrift</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">aufschrift</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>dataType</def:classification>
+</def:TypeDefinition>

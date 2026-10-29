@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_FlaechenTypBV"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Flächentyp des Biotopverbunds nach § 21 Abs. 3 BNatSchG.</description>
+   <identifier codeSpace="urn:xplan">LP_FlaechenTypBV</identifier>
+   <name>LP_FlaechenTypBV</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_FlaechenTypBV_1000">
+         <description>Kernfläche</description>
+         <identifier codeSpace="urn:xplan">LP_FlaechenTypBV:1000</identifier>
+         <name>Kernflaeche</name>
+         <name codeSpace="lesbarerName">Kernfläche</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_FlaechenTypBV_2000">
+         <description>Verbindungsfläche</description>
+         <identifier codeSpace="urn:xplan">LP_FlaechenTypBV:2000</identifier>
+         <name>Verbindungsfläche</name>
+         <name codeSpace="lesbarerName">Verbindungsfläche</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_FlaechenTypBV_3000">
+         <description>Verbindungselement</description>
+         <identifier codeSpace="urn:xplan">LP_FlaechenTypBV:3000</identifier>
+         <name>Verbindungselement</name>
+         <name codeSpace="lesbarerName">Verbindungselement</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

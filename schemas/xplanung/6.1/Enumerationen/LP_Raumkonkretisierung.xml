@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_Raumkonkretisierung"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Verschiedene Ausprägungen der räumlichen Schärfe von Planinhalten.</description>
+   <identifier codeSpace="urn:xplan">LP_Raumkonkretisierung</identifier>
+   <name>LP_Raumkonkretisierung</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_Raumkonkretisierung_1000">
+         <description>Scharf abgegrenzte Fläche bzw. eine im Erfassungsmaßstab des Plans sinnvollerweise als Linien- oder Punktobjekt erfassbare scharfe Geometrie.</description>
+         <identifier codeSpace="urn:xplan">LP_Raumkonkretisierung:1000</identifier>
+         <name>Scharf</name>
+         <name codeSpace="lesbarerName">Scharf</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_Raumkonkretisierung_2000">
+         <description>Suchraum (die Maßnahme/Planung bzw. bezieht sich auf Teilbereiche innerhalb der Gesamtfläche)</description>
+         <identifier codeSpace="urn:xplan">LP_Raumkonkretisierung:2000</identifier>
+         <name>Suchraum</name>
+         <name codeSpace="lesbarerName">Suchraum</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_Raumkonkretisierung_3000">
+         <description>Fließende Grenzen, mit Übergangsbereichen.</description>
+         <identifier codeSpace="urn:xplan">LP_Raumkonkretisierung:3000</identifier>
+         <name>Unscharf</name>
+         <name codeSpace="lesbarerName">Unscharf</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_Raumkonkretisierung_4000">
+         <description>Markierung durch eine vereinfachte Geometrie ohne konkrete Festlegung der tatsächlichen räumlichen Ausdehnung; meist als Geometrietyp Punkt oder Linie); für diese Stelle liegt eine Information vor, die genaue räumliche Ausdehnung über diese Geometrie hinaus ist unklar.</description>
+         <identifier codeSpace="urn:xplan">LP_Raumkonkretisierung:4000</identifier>
+         <name>Position</name>
+         <name codeSpace="lesbarerName">Position</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_Raumkonkretisierung_5000">
+         <description>Raumunkonkret (keine räumlich belastbaren oder nur textliche Informationen zum gemeinten Raum, z.B. „naturfern verbaute Teilabschnitte der Bäche und Fließgewässer im Plangebiet“); möglicherweise  ganz ohne Darstellung in der Planzeichnung.</description>
+         <identifier codeSpace="urn:xplan">LP_Raumkonkretisierung:5000</identifier>
+         <name>Raumunkonkret</name>
+         <name codeSpace="lesbarerName">Raumunkonkret</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_Raumkonkretisierung_9998">
+         <description>Unbekannt (keine Einordnung möglich, z.B. zur Übernahme von Alt-Plänen, in denen der Grad der Raumkonkretisierung erkennbar / nicht mehr recherchierbar ist.)</description>
+         <identifier codeSpace="urn:xplan">LP_Raumkonkretisierung:9998</identifier>
+         <name>Unbekannt</name>
+         <name codeSpace="lesbarerName">Unbekannt</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_LandwirtschaftTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von Landwirtschaft.</description>
+   <identifier codeSpace="urn:xplan">RP_LandwirtschaftTypen</identifier>
+   <name>RP_LandwirtschaftTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LandwirtschaftTypen_1000">
+         <description>Allgemeine Landwirtschaftliche Nutzung.</description>
+         <identifier codeSpace="urn:xplan">RP_LandwirtschaftTypen:1000</identifier>
+         <name>LandwirtschaftlicheNutzung</name>
+         <name codeSpace="lesbarerName">Landwirtschaftliche Nutzung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LandwirtschaftTypen_1001">
+         <description>Kernzone Landwirtschaft.</description>
+         <identifier codeSpace="urn:xplan">RP_LandwirtschaftTypen:1001</identifier>
+         <name>KernzoneLandwirtschaft</name>
+         <name codeSpace="lesbarerName">Kernzone Landwirtschaft</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LandwirtschaftTypen_2000">
+         <description>Intensive Landwirtschaft.</description>
+         <identifier codeSpace="urn:xplan">RP_LandwirtschaftTypen:2000</identifier>
+         <name>IntensivLandwirtschaft</name>
+         <name codeSpace="lesbarerName">Intensive Landwirtschaft</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LandwirtschaftTypen_3000">
+         <description>Fischerei.</description>
+         <identifier codeSpace="urn:xplan">RP_LandwirtschaftTypen:3000</identifier>
+         <name>Fischerei</name>
+         <name codeSpace="lesbarerName">Fischerei</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LandwirtschaftTypen_4000">
+         <description>Weinbau.</description>
+         <identifier codeSpace="urn:xplan">RP_LandwirtschaftTypen:4000</identifier>
+         <name>Weinbau</name>
+         <name codeSpace="lesbarerName">Weinbau</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LandwirtschaftTypen_5000">
+         <description>Landwirtschaft auf Grund hohen Ertragspotenzials.</description>
+         <identifier codeSpace="urn:xplan">RP_LandwirtschaftTypen:5000</identifier>
+         <name>AufGrundHohenErtragspotenzials</name>
+         <name codeSpace="lesbarerName">Auf Grund hohen Ertragspotenzials</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LandwirtschaftTypen_6000">
+         <description>Landwirtschaft auf Grund besonderer Funktionen.</description>
+         <identifier codeSpace="urn:xplan">RP_LandwirtschaftTypen:6000</identifier>
+         <name>AufGrundBesondererFunktionen</name>
+         <name codeSpace="lesbarerName">Auf Grund besonderer Funktionen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LandwirtschaftTypen_7000">
+         <description>Grünlandbewirtschaftung.</description>
+         <identifier codeSpace="urn:xplan">RP_LandwirtschaftTypen:7000</identifier>
+         <name>Gruenlandbewirtschaftung</name>
+         <name codeSpace="lesbarerName">Grünlandbewirtschaftung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LandwirtschaftTypen_8000">
+         <description>Sonderkuluren</description>
+         <identifier codeSpace="urn:xplan">RP_LandwirtschaftTypen:8000</identifier>
+         <name>Sonderkultur</name>
+         <name codeSpace="lesbarerName">Sonderkultur</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_LandwirtschaftTypen_9999">
+         <description>Sonstige Landwirtschaft</description>
+         <identifier codeSpace="urn:xplan">RP_LandwirtschaftTypen:9999</identifier>
+         <name>SonstigeLandwirtschaft</name>
+         <name codeSpace="lesbarerName">Sonstige Landwirtschaft</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

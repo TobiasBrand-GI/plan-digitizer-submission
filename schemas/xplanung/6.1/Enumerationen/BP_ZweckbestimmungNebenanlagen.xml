@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="BP_ZweckbestimmungNebenanlagen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">BP_ZweckbestimmungNebenanlagen</identifier>
+   <name>BP_ZweckbestimmungNebenanlagen</name>
+   <dictionaryEntry>
+      <Definition gml:id="BP_ZweckbestimmungNebenanlagen_1000">
+         <description>Stellplätze</description>
+         <identifier codeSpace="urn:xplan">BP_ZweckbestimmungNebenanlagen:1000</identifier>
+         <name>Stellplaetze</name>
+         <name codeSpace="lesbarerName">Stellplätze</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_ZweckbestimmungNebenanlagen_2000">
+         <description>Garagen</description>
+         <identifier codeSpace="urn:xplan">BP_ZweckbestimmungNebenanlagen:2000</identifier>
+         <name>Garagen</name>
+         <name codeSpace="lesbarerName">Garagen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_ZweckbestimmungNebenanlagen_3000">
+         <description>Spielplatz</description>
+         <identifier codeSpace="urn:xplan">BP_ZweckbestimmungNebenanlagen:3000</identifier>
+         <name>Spielplatz</name>
+         <name codeSpace="lesbarerName">Spielplatz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_ZweckbestimmungNebenanlagen_3100">
+         <description>Carport</description>
+         <identifier codeSpace="urn:xplan">BP_ZweckbestimmungNebenanlagen:3100</identifier>
+         <name>Carport</name>
+         <name codeSpace="lesbarerName">Carport</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_ZweckbestimmungNebenanlagen_3200">
+         <description>Tiefgarage</description>
+         <identifier codeSpace="urn:xplan">BP_ZweckbestimmungNebenanlagen:3200</identifier>
+         <name>Tiefgarage</name>
+         <name codeSpace="lesbarerName">Tiefgarage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_ZweckbestimmungNebenanlagen_3300">
+         <description>Nebengebäude</description>
+         <identifier codeSpace="urn:xplan">BP_ZweckbestimmungNebenanlagen:3300</identifier>
+         <name>Nebengebaeude</name>
+         <name codeSpace="lesbarerName">Nebengebäude</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_ZweckbestimmungNebenanlagen_3400">
+         <description>Sammelanlagen für Abfall.</description>
+         <identifier codeSpace="urn:xplan">BP_ZweckbestimmungNebenanlagen:3400</identifier>
+         <name>AbfallSammelanlagen</name>
+         <name codeSpace="lesbarerName">Abfallsammelanlagen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_ZweckbestimmungNebenanlagen_3500">
+         <description>Energie-Verteilungsanlagen</description>
+         <identifier codeSpace="urn:xplan">BP_ZweckbestimmungNebenanlagen:3500</identifier>
+         <name>EnergieVerteilungsanlagen</name>
+         <name codeSpace="lesbarerName">Energieverteilungsanlagen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_ZweckbestimmungNebenanlagen_3600">
+         <description>Abfall-Wertstoffbehälter</description>
+         <identifier codeSpace="urn:xplan">BP_ZweckbestimmungNebenanlagen:3600</identifier>
+         <name>AbfallWertstoffbehaelter</name>
+         <name codeSpace="lesbarerName">Abfallwertstoffbehälter</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_ZweckbestimmungNebenanlagen_3700">
+         <description>Fahrrad Stellplätze</description>
+         <identifier codeSpace="urn:xplan">BP_ZweckbestimmungNebenanlagen:3700</identifier>
+         <name>Fahrradstellplaetze</name>
+         <name codeSpace="lesbarerName">Fahrradstellplätze</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_ZweckbestimmungNebenanlagen_9999">
+         <description>Sonstige Zweckbestimmung</description>
+         <identifier codeSpace="urn:xplan">BP_ZweckbestimmungNebenanlagen:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_AchsenTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von Achsen.</description>
+   <identifier codeSpace="urn:xplan">RP_AchsenTypen</identifier>
+   <name>RP_AchsenTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AchsenTypen_1000">
+         <description>Achsen.</description>
+         <identifier codeSpace="urn:xplan">RP_AchsenTypen:1000</identifier>
+         <name>Achse</name>
+         <name codeSpace="lesbarerName">Achse</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AchsenTypen_2000">
+         <description>Siedlungsachsen sind Achsen in Verdichtungsräumen, oft entlang von Strecken des öffentlichen Nahverkehrs.</description>
+         <identifier codeSpace="urn:xplan">RP_AchsenTypen:2000</identifier>
+         <name>Siedlungsachse</name>
+         <name codeSpace="lesbarerName">Siedlungsachse</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AchsenTypen_3000">
+         <description>Entwicklungsachse.</description>
+         <identifier codeSpace="urn:xplan">RP_AchsenTypen:3000</identifier>
+         <name>Entwicklungsachse</name>
+         <name codeSpace="lesbarerName">Entwicklungsachse</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AchsenTypen_3001">
+         <description>Landesentwicklungsachse.</description>
+         <identifier codeSpace="urn:xplan">RP_AchsenTypen:3001</identifier>
+         <name>Landesentwicklungsachse</name>
+         <name codeSpace="lesbarerName">Landesentwicklungsachse</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AchsenTypen_3002">
+         <description>Verbindungsachsen sind durch Verkehrsbeziehungen zwischen zentralen Orten verschiedener Stufen gekennzeichnet.</description>
+         <identifier codeSpace="urn:xplan">RP_AchsenTypen:3002</identifier>
+         <name>Verbindungsachse</name>
+         <name codeSpace="lesbarerName">Verbindungsachse</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AchsenTypen_3003">
+         <description>Entwicklungskorridor.</description>
+         <identifier codeSpace="urn:xplan">RP_AchsenTypen:3003</identifier>
+         <name>Entwicklungskorridor</name>
+         <name codeSpace="lesbarerName">Entwicklungskorridor</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AchsenTypen_4000">
+         <description>Abgrenzung von Entwicklungs- und Entlastungsorten.</description>
+         <identifier codeSpace="urn:xplan">RP_AchsenTypen:4000</identifier>
+         <name>AbgrenzungEntwicklungsEntlastungsorte</name>
+         <name codeSpace="lesbarerName">Abgrenzung Entwicklungs- und Entlastungsorte</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AchsenTypen_5000">
+         <description>Achsengrundrichtung.</description>
+         <identifier codeSpace="urn:xplan">RP_AchsenTypen:5000</identifier>
+         <name>Achsengrundrichtung</name>
+         <name codeSpace="lesbarerName">Achsengrundrichtung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AchsenTypen_6000">
+         <description>Äußerer Achsenschwerpunkt.</description>
+         <identifier codeSpace="urn:xplan">RP_AchsenTypen:6000</identifier>
+         <name>AuessererAchsenSchwerpunkt</name>
+         <name codeSpace="lesbarerName">Äußerer Achsenschwerpunkt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_AchsenTypen_9999">
+         <description>Sonstige Achse.</description>
+         <identifier codeSpace="urn:xplan">RP_AchsenTypen:9999</identifier>
+         <name>SonstigeAchse</name>
+         <name codeSpace="lesbarerName">Sonstige Achse</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

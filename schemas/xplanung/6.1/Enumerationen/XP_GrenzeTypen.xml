@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_GrenzeTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung der verschiedenen Typen von Grenzen.</description>
+   <identifier codeSpace="urn:xplan">XP_GrenzeTypen</identifier>
+   <name>XP_GrenzeTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_GrenzeTypen_1000">
+         <description>Bundesgrenze</description>
+         <identifier codeSpace="urn:xplan">XP_GrenzeTypen:1000</identifier>
+         <name>Bundesgrenze</name>
+         <name codeSpace="lesbarerName">Bundesgrenze</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_GrenzeTypen_1100">
+         <description>Grenze eines Bundeslandes</description>
+         <identifier codeSpace="urn:xplan">XP_GrenzeTypen:1100</identifier>
+         <name>Landesgrenze</name>
+         <name codeSpace="lesbarerName">Landesgrenze</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_GrenzeTypen_1200">
+         <description>Grenze eines Regierungsbezirks</description>
+         <identifier codeSpace="urn:xplan">XP_GrenzeTypen:1200</identifier>
+         <name>Regierungsbezirksgrenze</name>
+         <name codeSpace="lesbarerName">Regierungsbezirksgrenze</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_GrenzeTypen_1250">
+         <description>Grenze eines Bezirks.</description>
+         <identifier codeSpace="urn:xplan">XP_GrenzeTypen:1250</identifier>
+         <name>Bezirksgrenze</name>
+         <name codeSpace="lesbarerName">Bezirksgrenze</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_GrenzeTypen_1300">
+         <description>Grenze eines Kreises.</description>
+         <identifier codeSpace="urn:xplan">XP_GrenzeTypen:1300</identifier>
+         <name>Kreisgrenze</name>
+         <name codeSpace="lesbarerName">Kreisgrenze</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_GrenzeTypen_1400">
+         <description>Grenze einer Gemeinde.</description>
+         <identifier codeSpace="urn:xplan">XP_GrenzeTypen:1400</identifier>
+         <name>Gemeindegrenze</name>
+         <name codeSpace="lesbarerName">Gemeindegrenze</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_GrenzeTypen_1450">
+         <description>Grenze einer Verbandsgemeinde</description>
+         <identifier codeSpace="urn:xplan">XP_GrenzeTypen:1450</identifier>
+         <name>Verbandsgemeindegrenze</name>
+         <name codeSpace="lesbarerName">Verbandsgemeindegrenze</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_GrenzeTypen_1500">
+         <description>Grenze einer Samtgemeinde</description>
+         <identifier codeSpace="urn:xplan">XP_GrenzeTypen:1500</identifier>
+         <name>Samtgemeindegrenze</name>
+         <name codeSpace="lesbarerName">Samtgemeindegrenze</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_GrenzeTypen_1510">
+         <description>Mitgliedsgemeindegrenze</description>
+         <identifier codeSpace="urn:xplan">XP_GrenzeTypen:1510</identifier>
+         <name>Mitgliedsgemeindegrenze</name>
+         <name codeSpace="lesbarerName">Mitgliedsgemeindegrenze</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_GrenzeTypen_1550">
+         <description>Amtsgrenze</description>
+         <identifier codeSpace="urn:xplan">XP_GrenzeTypen:1550</identifier>
+         <name>Amtsgrenze</name>
+         <name codeSpace="lesbarerName">Amtsgrenze</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_GrenzeTypen_1600">
+         <description>Stadtteilgrenze</description>
+         <identifier codeSpace="urn:xplan">XP_GrenzeTypen:1600</identifier>
+         <name>Stadtteilgrenze</name>
+         <name codeSpace="lesbarerName">Stadtteilgrenze</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_GrenzeTypen_2000">
+         <description>Hinweis auf eine vorgeschlagene Grundstücksgrenze im BPlan.</description>
+         <identifier codeSpace="urn:xplan">XP_GrenzeTypen:2000</identifier>
+         <name>VorgeschlageneGrundstuecksgrenze</name>
+         <name codeSpace="lesbarerName">Vorgeschlagene Grundstücksgrenze</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_GrenzeTypen_2100">
+         <description>Hinweis auf den Geltungsbereich eines bestehenden BPlan.</description>
+         <identifier codeSpace="urn:xplan">XP_GrenzeTypen:2100</identifier>
+         <name>GrenzeBestehenderBebauungsplan</name>
+         <name codeSpace="lesbarerName">Grenze bestehender Bebauungsplan</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_GrenzeTypen_9999">
+         <description>Sonstige Grenze</description>
+         <identifier codeSpace="urn:xplan">XP_GrenzeTypen:9999</identifier>
+         <name>SonstGrenze</name>
+         <name codeSpace="lesbarerName">Sonstige Grenze</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

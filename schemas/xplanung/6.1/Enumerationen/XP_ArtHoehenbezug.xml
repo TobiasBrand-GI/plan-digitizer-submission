@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_ArtHoehenbezug"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">XP_ArtHoehenbezug</identifier>
+   <name>XP_ArtHoehenbezug</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ArtHoehenbezug_1000">
+         <description>Absolute Höhenangabe im Bezugssystem DHHN92 (HST 160)</description>
+         <identifier codeSpace="urn:xplan">XP_ArtHoehenbezug:1000</identifier>
+         <name>absolutNHN92</name>
+         <name codeSpace="lesbarerName">Absolut NHN (HST 160)</name>
+         <name codeSpace="kuerzel">NHN92</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ArtHoehenbezug_1100">
+         <description>Absolute Höhenangabe im Bezugssystem DHHN12 (HST 100)</description>
+         <identifier codeSpace="urn:xplan">XP_ArtHoehenbezug:1100</identifier>
+         <name>absolutNN</name>
+         <name codeSpace="lesbarerName">Absolut NN (HST 100)</name>
+         <name codeSpace="kuerzel">NN</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ArtHoehenbezug_1200">
+         <description>Absolute Höhenangabe im Bezugssystem DHHN2016 (HST 170)</description>
+         <identifier codeSpace="urn:xplan">XP_ArtHoehenbezug:1200</identifier>
+         <name>absolutNHN2016</name>
+         <name codeSpace="lesbarerName">Absolut NHN (HST 170)</name>
+         <name codeSpace="kuerzel">NHN2016</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ArtHoehenbezug_2000">
+         <description>Höhenangabe relativ zur Geländeoberkante an der Position des Planinhalts.</description>
+         <identifier codeSpace="urn:xplan">XP_ArtHoehenbezug:2000</identifier>
+         <name>relativGelaendeoberkante</name>
+         <name codeSpace="lesbarerName">Relativ Gelände-Oberkante</name>
+         <name codeSpace="kuerzel">GelOK</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ArtHoehenbezug_2500">
+         <description>Höhenangabe relativ zur Gehweg-Oberkante an der Position des Planinhalts.</description>
+         <identifier codeSpace="urn:xplan">XP_ArtHoehenbezug:2500</identifier>
+         <name>relativGehwegOberkante</name>
+         <name codeSpace="lesbarerName">Relativ Gehweg-Oberkante</name>
+         <name codeSpace="kuerzel">GehOK</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ArtHoehenbezug_3000">
+         <description>Höhenangabe relativ zu der auf Planebene festgelegten absoluten Bezugshöhe (Attribut bezugshoehe von XP_Plan).</description>
+         <identifier codeSpace="urn:xplan">XP_ArtHoehenbezug:3000</identifier>
+         <name>relativBezugshoehe</name>
+         <name codeSpace="lesbarerName">Relativ Bezugshöhe</name>
+         <name codeSpace="kuerzel">Relativ</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ArtHoehenbezug_3500">
+         <description>Höhenangabe relativ zur Strassenmitte an der Position des Planinhalts</description>
+         <identifier codeSpace="urn:xplan">XP_ArtHoehenbezug:3500</identifier>
+         <name>relativStrasse</name>
+         <name codeSpace="lesbarerName">Relativ Straße</name>
+         <name codeSpace="kuerzel">Str</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_ArtHoehenbezug_4000">
+         <description>Höhenangabe relativ zur Erdgeschoss-Fußbodenhöhe an Position des Planinhalts.</description>
+         <identifier codeSpace="urn:xplan">XP_ArtHoehenbezug:4000</identifier>
+         <name>relativEFH</name>
+         <name codeSpace="lesbarerName">Relativ Erdgeschoß-Fußbodenhöhe</name>
+         <name codeSpace="kuerzel">EFH</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

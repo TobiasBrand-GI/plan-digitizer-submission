@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="859"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Kennzeichnung gemäß §5 Abs. 3 BauGB. Kennzeichnungen schadstoffbelasteter Böden sollten über "SO_Bodenschutzrecht" abgebildet werden.</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:FP_Kennzeichnung</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">FP_Kennzeichnung</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="859_2027">
+         <gml:description>Zweckbestimmung der Kennzeichnung.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_Kennzeichnung:zweckbestimmung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">zweckbestimmung</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="859_2027_633_1091">
+               <gml:description>Flächen, bei deren Bebauung besondere bauliche Sicherungsmanahmen gegen Naturgewalten erforderlich sind (§5 Abs. 3 Nr. 1 und §9 Abs.5 Nr.1 BauGB ).</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_Kennzeichnung:zweckbestimmung:1000</gml:identifier>
+               <gml:name>Naturgewalten</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="859_2027_633_1092">
+               <gml:description>Flächen, die für den Abbau von Mineralien bestimmt sind (§5 Abs. 3 Nr. 2 und §9 Abs. 5 Nr. 2 BauGB).</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_Kennzeichnung:zweckbestimmung:2000</gml:identifier>
+               <gml:name>Abbauflaeche</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="859_2027_633_1093">
+               <gml:description>Flächen, bei deren Bebauung besondere bauliche Sicherungsmanahmen gegen äußere Einwirkungen erforderlich sind (§5 Abs. 3 Nr. 1 und §9 Abs. 5 Nr. 1  BauGB ).</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_Kennzeichnung:zweckbestimmung:3000</gml:identifier>
+               <gml:name>AeussereEinwirkungen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="859_2027_633_1094">
+               <gml:description>Für bauliche Nutzung vorgesehene Flächen, deren Böden erheblich mit umweltgefährdenden Stoffen belastet sind (§5 Abs. 3 Nr. 3 und §9 Abs. 5 Nr. 3 BauGB).&#xD;
+Dieser Code ist ab Version 6.1 veraltet und wir in Version 7 wegfallen. Es wird empfohlen, Kennzeichnungen schadstoffbelasteter Böden im BPlan und FPlan über "SO_Bodenschutzrecht" abzubilden.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_Kennzeichnung:zweckbestimmung:4000</gml:identifier>
+               <gml:name>SchadstoffBelastBoden</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="859_2027_633_1095">
+               <gml:description>Für bauliche Nutzung vorgesehene Flächen, die erheblicher Lärmbelastung ausgesetzt sind.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_Kennzeichnung:zweckbestimmung:5000</gml:identifier>
+               <gml:name>LaermBelastung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="859_2027_633_1096">
+               <gml:description>Flächen, unter denen der Bergbau umgeht  (§5, Abs. 3, Nr. 2 und §9, Abs. 5, Nr. 2. BauGB).</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_Kennzeichnung:zweckbestimmung:6000</gml:identifier>
+               <gml:name>Bergbau</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="859_2027_633_1097">
+               <gml:description>Für Bodenordnungsmanahmen vorgesehene Gebiete, z.B. Gebiete für Umlegungen oder Flurbereinigung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_Kennzeichnung:zweckbestimmung:7000</gml:identifier>
+               <gml:name>Bodenordnung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="859_2027_633_7801">
+               <gml:description>Räumlich besonders gekennzeichnetes Vorhabengebiets, das kleiner als der Geltungsbereich ist, innerhalb eines vorhabenbezogenen BPlans.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_Kennzeichnung:zweckbestimmung:8000</gml:identifier>
+               <gml:name>Vorhabensgebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="859_2027_633_1098">
+               <gml:description>Kennzeichnung nach anderen gesetzlichen Vorschriften.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_Kennzeichnung:zweckbestimmung:9999</gml:identifier>
+               <gml:name>AndereGesetzlVorschriften</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeName>XP_ZweckbestimmungKennzeichnung</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="859_8010">
+         <gml:description>Legt fest, ob eine Altlast-Verdachtsfläche vorliegt</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_Kennzeichnung:istVerdachtsflaeche</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">istVerdachtsflaeche</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="859_8010_106_101">
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_Kennzeichnung:istVerdachtsflaeche:1</gml:identifier>
+               <gml:name>TRUE</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="859_8010_106_102">
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_Kennzeichnung:istVerdachtsflaeche:0</gml:identifier>
+               <gml:name>FALSE</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Boolean</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="859_8011">
+         <gml:description>Nummer in einem Altlastkataster</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:FP_Kennzeichnung:nummer</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">nummer</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:FP_Geometrieobjekt"/>
+</def:TypeDefinition>

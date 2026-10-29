@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="723"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Festsetzung der überbaubaren Grundstücksfläche (§9, Abs. 1, Nr. 2 BauGB). Über die Attribute "geschossMin" und "geschossMax" kann die Festsetzung auf einen Bereich von Geschossen beschränkt werden. Wenn eine Einschränkung der Festsetzung durch expliziter Höhenangaben erfolgen soll, ist dazu die Oberklassen-Relation "hoehenangabe" auf den komplexen Datentyp "XP_Hoehenangabe" zu verwenden. Das gleiche Attribut darf nicht gleichzeitig in einem Flächenschlussobjekt und einem überlagernden Objekt "BP_UeberbaubareGrundstuecksFlaeche" belegt werden.</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">BP_UeberbaubareGrundstuecksFlaeche</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="723_7717">
+         <gml:description>Festsetzung der Bauweise  (§9, Abs. 1, Nr. 2 BauGB).,</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:bauweise</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">bauweise</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="723_7717_730_1623">
+               <gml:description>Offene Bauweise</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:bauweise:1000</gml:identifier>
+               <gml:name>OffeneBauweise</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="723_7717_730_1624">
+               <gml:description>Geschlossene Bauweise</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:bauweise:2000</gml:identifier>
+               <gml:name>GeschlosseneBauweise</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="723_7717_730_1625">
+               <gml:description>Abweichende Bauweise</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:bauweise:3000</gml:identifier>
+               <gml:name>AbweichendeBauweise</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>BP_Bauweise</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="723_8896">
+         <gml:description>Textuelle Präzisierung oder Ergänzung der durch "bauweise" spezifizierten Bauweise.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:bauweiseText</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">bauweiseText</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="723_7718">
+         <gml:description>Nähere Bezeichnung einer "Abweichenden Bauweise" ("bauweise == 3000").&#xD;
+,</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:abweichendeBauweise</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">abweichendeBauweise</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>BP_AbweichendeBauweise</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="723_7719">
+         <gml:description>Gibt an, ob eine vertikale Differenzierung der Gebäude vorgeschrieben ist.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:vertikaleDifferenzierung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">vertikaleDifferenzierung</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="723_7719_106_101">
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:vertikaleDifferenzierung:1</gml:identifier>
+               <gml:name>TRUE</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="723_7719_106_102">
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:vertikaleDifferenzierung:0</gml:identifier>
+               <gml:name>FALSE</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Boolean</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="723_7720">
+         <gml:description>Detaillierte Festsetzung der Bauweise (§9, Abs. 1, Nr. 2 BauGB).</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:bebauungsArt</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">bebauungsArt</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="723_7720_715_1497">
+               <gml:description>Nur Einzelhäuser zulässig.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:bebauungsArt:1000</gml:identifier>
+               <gml:name>Einzelhaeuser</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="723_7720_715_1498">
+               <gml:description>Nur Doppelhäuser zulässig.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:bebauungsArt:2000</gml:identifier>
+               <gml:name>Doppelhaeuser</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="723_7720_715_1499">
+               <gml:description>Nur Hausgruppen zulässig.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:bebauungsArt:3000</gml:identifier>
+               <gml:name>Hausgruppen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="723_7720_715_8891">
+               <gml:description>Nur Einzel- oder Doppelhäuser zulässig.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:bebauungsArt:4000</gml:identifier>
+               <gml:name>EinzelDoppelhaeuser</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="723_7720_715_8892">
+               <gml:description>Nur Einzelhäuser oder Hausgruppen zulässig.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:bebauungsArt:5000</gml:identifier>
+               <gml:name>EinzelhaeuserHausgruppen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="723_7720_715_8893">
+               <gml:description>Nur Doppelhäuser oder Hausgruppen zulässig.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:bebauungsArt:6000</gml:identifier>
+               <gml:name>DoppelhaeuserHausgruppen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="723_7720_715_1503">
+               <gml:description>Nur Reihenhäuser zulässig.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:bebauungsArt:7000</gml:identifier>
+               <gml:name>Reihenhaeuser</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>BP_BebauungsArt</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="723_7721">
+         <gml:description>Festsetzung der Bebauung der vorderen Grundstücksgrenze (§9, Abs. 1, Nr. 2 BauGB).</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:bebauungVordereGrenze</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">bebauungVordereGrenze</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="723_7721_710_1488">
+               <gml:description>Eine Bebauung der Grenze ist verboten.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:bebauungVordereGrenze:1000</gml:identifier>
+               <gml:name>Verboten</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="723_7721_710_1489">
+               <gml:description>Eine Bebauung der Grenze ist erlaubt.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:bebauungVordereGrenze:2000</gml:identifier>
+               <gml:name>Erlaubt</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="723_7721_710_1490">
+               <gml:description>Eine Bebauung der Grenze ist vorgeschrieben.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:bebauungVordereGrenze:3000</gml:identifier>
+               <gml:name>Erzwungen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>BP_GrenzBebauung</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="723_7722">
+         <gml:description>Festsetzung der Bebauung der rückwärtigen Grundstücksgrenze (§9, Abs. 1, Nr. 2 BauGB).</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:bebauungRueckwaertigeGrenze</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">bebauungRueckwaertigeGrenze</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="723_7722_710_1488">
+               <gml:description>Eine Bebauung der Grenze ist verboten.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:bebauungRueckwaertigeGrenze:1000</gml:identifier>
+               <gml:name>Verboten</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="723_7722_710_1489">
+               <gml:description>Eine Bebauung der Grenze ist erlaubt.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:bebauungRueckwaertigeGrenze:2000</gml:identifier>
+               <gml:name>Erlaubt</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="723_7722_710_1490">
+               <gml:description>Eine Bebauung der Grenze ist vorgeschrieben.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:bebauungRueckwaertigeGrenze:3000</gml:identifier>
+               <gml:name>Erzwungen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>BP_GrenzBebauung</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="723_7723">
+         <gml:description>Festsetzung der Bebauung der seitlichen Grundstücksgrenze (§9, Abs. 1, Nr. 2 BauGB).</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:bebauungSeitlicheGrenze</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">bebauungSeitlicheGrenze</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="723_7723_710_1488">
+               <gml:description>Eine Bebauung der Grenze ist verboten.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:bebauungSeitlicheGrenze:1000</gml:identifier>
+               <gml:name>Verboten</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="723_7723_710_1489">
+               <gml:description>Eine Bebauung der Grenze ist erlaubt.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:bebauungSeitlicheGrenze:2000</gml:identifier>
+               <gml:name>Erlaubt</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="723_7723_710_1490">
+               <gml:description>Eine Bebauung der Grenze ist vorgeschrieben.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:bebauungSeitlicheGrenze:3000</gml:identifier>
+               <gml:name>Erzwungen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>BP_GrenzBebauung</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="723_7724">
+         <gml:description>Referenz auf ein Dokument mit vorgeschriebenen Gebäudequerschnitten.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:refGebaeudequerschnitt</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">refGebaeudequerschnitt</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:dataType:xplan::xplan:6.1:XP_ExterneReferenz"/>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="Tas977">
+         <gml:description>Referenz auf eine Baugrenze, die auf der Randkurve der Fläche verläuft.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:baugrenze</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">baugrenze</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:BP_BauGrenze"/>
+         <def:type>associationRole</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="Tas978">
+         <gml:description>Referenz auf eine Baulinie, die auf der Randkurve der Fläche verläuft.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:baulinie</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">baulinie</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:BP_BauLinie"/>
+         <def:type>associationRole</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="723_1563">
+         <gml:description>Gibt bei geschossweiser Festsetzung die Nummer des Geschosses an, ab dem die Festsetzung gilt. Dabei hat das Erdgeschoss (unterstes Geschoss, das ebenerdig betreten werden kann) den Index 0. Wenn das Attribut nicht belegt ist, gilt die Festsetzung für alle Geschosse bis einschl. "geschossMax".</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:geschossMin</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">geschossMin</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Integer</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="723_1564">
+         <gml:description>Gibt bei geschossweiser Festsetzung die Nummer des Geschosses an, bis zu der die Festsetzung gilt.  Dabei hat das Erdgeschoss (unterstes Geschoss, das ebenerdig betreten werden kann) den Index 0.  Wenn das Attribut nicht belegt ist, gilt die Festsetzung für alle Geschosse ab einschl. "geschossMin".</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:geschossMax</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">geschossMax</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Integer</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="Tas1402">
+         <gml:description>Relation auf zugehörige Gebäudetypen</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_UeberbaubareGrundstuecksFlaeche:gebaeudeTyp</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">gebaeudeTyp</gml:name>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:BP_GebaeudeTyp"/>
+         <def:type>associationRole</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:mixinType:xplan::xplan:6.1:BP_ZusaetzlicheFestsetzungen"/>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:BP_Ueberlagerungsobjekt"/>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:mixinType:xplan::xplan:6.1:BP_GestaltungBaugebiet"/>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:mixinType:xplan::xplan:6.1:BP_FestsetzungenBaugebiet"/>
+</def:TypeDefinition>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="BP_SchallleistungspegelTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">BP_SchallleistungspegelTypen</identifier>
+   <name>BP_SchallleistungspegelTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="BP_SchallleistungspegelTypen_1000">
+         <description>Emissionskontingent</description>
+         <identifier codeSpace="urn:xplan">BP_SchallleistungspegelTypen:1000</identifier>
+         <name>LEK</name>
+         <name codeSpace="lesbarerName">Emissionskontingent Lärm</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_SchallleistungspegelTypen_2000">
+         <description>Immissionswirksamer, flächenbezogener Schallleistungspegel</description>
+         <identifier codeSpace="urn:xplan">BP_SchallleistungspegelTypen:2000</identifier>
+         <name>IFSP</name>
+         <name codeSpace="lesbarerName">Immissionswirksamer, flächenbezogener Schallleistungspegel</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_SchallleistungspegelTypen_3000">
+         <description>Flächenbezogener Schallleistungspegel</description>
+         <identifier codeSpace="urn:xplan">BP_SchallleistungspegelTypen:3000</identifier>
+         <name>FSP</name>
+         <name codeSpace="lesbarerName">Flächenbezogener Schallleistungspegel</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

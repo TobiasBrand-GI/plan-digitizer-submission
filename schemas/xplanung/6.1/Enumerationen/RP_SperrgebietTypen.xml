@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_SperrgebietTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von Sperrgebieten.</description>
+   <identifier codeSpace="urn:xplan">RP_SperrgebietTypen</identifier>
+   <name>RP_SperrgebietTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SperrgebietTypen_1000">
+         <description>Verteidigung.</description>
+         <identifier codeSpace="urn:xplan">RP_SperrgebietTypen:1000</identifier>
+         <name>Verteidigung</name>
+         <name codeSpace="lesbarerName">Verteidigung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SperrgebietTypen_2000">
+         <description>Sondergebiet Bund.</description>
+         <identifier codeSpace="urn:xplan">RP_SperrgebietTypen:2000</identifier>
+         <name>SondergebietBund</name>
+         <name codeSpace="lesbarerName">Sondergebiet Bund</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SperrgebietTypen_3000">
+         <description>Warngebiet.</description>
+         <identifier codeSpace="urn:xplan">RP_SperrgebietTypen:3000</identifier>
+         <name>Warngebiet</name>
+         <name codeSpace="lesbarerName">Warngebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SperrgebietTypen_4000">
+         <description>Militärische Einrichtung.</description>
+         <identifier codeSpace="urn:xplan">RP_SperrgebietTypen:4000</identifier>
+         <name>MilitaerischeEinrichtung</name>
+         <name codeSpace="lesbarerName">Militärische Einrichtung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SperrgebietTypen_4001">
+         <description>Große militärische Anlage.</description>
+         <identifier codeSpace="urn:xplan">RP_SperrgebietTypen:4001</identifier>
+         <name>GrosseMilitaerischeAnlage</name>
+         <name codeSpace="lesbarerName">Große militärische Anlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SperrgebietTypen_5000">
+         <description>Militärische Liegenschaft.</description>
+         <identifier codeSpace="urn:xplan">RP_SperrgebietTypen:5000</identifier>
+         <name>MilitaerischeLiegenschaft</name>
+         <name codeSpace="lesbarerName">Militärische Liegenschaft</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SperrgebietTypen_6000">
+         <description>Konversionsfläche.</description>
+         <identifier codeSpace="urn:xplan">RP_SperrgebietTypen:6000</identifier>
+         <name>Konversionsflaeche</name>
+         <name codeSpace="lesbarerName">Konversionsfläche</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_SperrgebietTypen_9999">
+         <description>Sonstige Sperrgebiete.</description>
+         <identifier codeSpace="urn:xplan">RP_SperrgebietTypen:9999</identifier>
+         <name>SonstigesSperrgebiet</name>
+         <name codeSpace="lesbarerName">Sonstiges Sperrgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

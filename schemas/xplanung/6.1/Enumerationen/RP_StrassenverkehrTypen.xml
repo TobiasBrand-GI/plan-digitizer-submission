@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_StrassenverkehrTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von Straßenverkehr.</description>
+   <identifier codeSpace="urn:xplan">RP_StrassenverkehrTypen</identifier>
+   <name>RP_StrassenverkehrTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_StrassenverkehrTypen_1000">
+         <description>Straßenverkehr.</description>
+         <identifier codeSpace="urn:xplan">RP_StrassenverkehrTypen:1000</identifier>
+         <name>Strassenverkehr</name>
+         <name codeSpace="lesbarerName">Straßenverkehr</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_StrassenverkehrTypen_1001">
+         <description>Hauptverkehrsstraße.</description>
+         <identifier codeSpace="urn:xplan">RP_StrassenverkehrTypen:1001</identifier>
+         <name>Hauptverkehrsstrasse</name>
+         <name codeSpace="lesbarerName">Hauptverkehrsstraße</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_StrassenverkehrTypen_1002">
+         <description>Autobahn.</description>
+         <identifier codeSpace="urn:xplan">RP_StrassenverkehrTypen:1002</identifier>
+         <name>Autobahn</name>
+         <name codeSpace="lesbarerName">Autobahn</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_StrassenverkehrTypen_1003">
+         <description>Bundesstraße.</description>
+         <identifier codeSpace="urn:xplan">RP_StrassenverkehrTypen:1003</identifier>
+         <name>Bundesstrasse</name>
+         <name codeSpace="lesbarerName">Bundesstraße</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_StrassenverkehrTypen_1004">
+         <description>Staatsstraße.</description>
+         <identifier codeSpace="urn:xplan">RP_StrassenverkehrTypen:1004</identifier>
+         <name>Staatsstrasse</name>
+         <name codeSpace="lesbarerName">Staatsstraße</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_StrassenverkehrTypen_1005">
+         <description>Landesstraße.</description>
+         <identifier codeSpace="urn:xplan">RP_StrassenverkehrTypen:1005</identifier>
+         <name>Landesstrasse</name>
+         <name codeSpace="lesbarerName">Landesstraße</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_StrassenverkehrTypen_1006">
+         <description>Kreisstraße.</description>
+         <identifier codeSpace="urn:xplan">RP_StrassenverkehrTypen:1006</identifier>
+         <name>Kreisstrasse</name>
+         <name codeSpace="lesbarerName">Kreisstraße</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_StrassenverkehrTypen_1007">
+         <description>Fernstraße.</description>
+         <identifier codeSpace="urn:xplan">RP_StrassenverkehrTypen:1007</identifier>
+         <name>Fernstrasse</name>
+         <name codeSpace="lesbarerName">Fernstraße</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_StrassenverkehrTypen_2000">
+         <description>Trasse.</description>
+         <identifier codeSpace="urn:xplan">RP_StrassenverkehrTypen:2000</identifier>
+         <name>Trasse</name>
+         <name codeSpace="lesbarerName">Trasse</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_StrassenverkehrTypen_3000">
+         <description>Straßennetz.</description>
+         <identifier codeSpace="urn:xplan">RP_StrassenverkehrTypen:3000</identifier>
+         <name>Strassennetz</name>
+         <name codeSpace="lesbarerName">Straßennetz</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_StrassenverkehrTypen_4000">
+         <description>Busverkehr.</description>
+         <identifier codeSpace="urn:xplan">RP_StrassenverkehrTypen:4000</identifier>
+         <name>Busverkehr</name>
+         <name codeSpace="lesbarerName">Busverkehr</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_StrassenverkehrTypen_5000">
+         <description>Anschlussstelle.</description>
+         <identifier codeSpace="urn:xplan">RP_StrassenverkehrTypen:5000</identifier>
+         <name>Anschlussstelle</name>
+         <name codeSpace="lesbarerName">Anschlussstelle</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_StrassenverkehrTypen_6000">
+         <description>Straßentunnel.</description>
+         <identifier codeSpace="urn:xplan">RP_StrassenverkehrTypen:6000</identifier>
+         <name>Strassentunnel</name>
+         <name codeSpace="lesbarerName">Straßentunnel</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_StrassenverkehrTypen_9999">
+         <description>Sonstiger Straßenverkehr.</description>
+         <identifier codeSpace="urn:xplan">RP_StrassenverkehrTypen:9999</identifier>
+         <name>SonstigerStrassenverkehr</name>
+         <name codeSpace="lesbarerName">Sonstiger Straßenverkehr</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

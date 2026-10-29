@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_GesGeschBiotopTyp"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Liste der gesetzlich geschützten Biotoptypen-Arten gemäß §30 Abs. 2 Ziffern 1-6 BNatSchG.</description>
+   <identifier codeSpace="urn:xplan">LP_GesGeschBiotopTyp</identifier>
+   <name>LP_GesGeschBiotopTyp</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_GesGeschBiotopTyp_1000">
+         <description>Natürliche oder naturnahe Bereiche fließender und stehender Binnengewässer einschließlich ihrer Ufer und der dazugehörigen uferbegleitenden natürlichen oder naturnahen Vegetation sowie ihrer natürlichen oder naturnahen Verlandungsbereiche, Altarme und regelmäßig überschwemmten Bereiche (gemäß §30 Abs. 2 Ziffern 1 BNatSchG).</description>
+         <identifier codeSpace="urn:xplan">LP_GesGeschBiotopTyp:1000</identifier>
+         <name>GewaesserBiotope</name>
+         <name codeSpace="lesbarerName">Gewässerbiotope</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_GesGeschBiotopTyp_2000">
+         <description>Moore, Sümpfe, Röhrichte, Großseggenrieder, seggen- und binsenreiche Nasswiesen, Quellbereiche, Binnenlandsalzstellen (gemäß §30 Abs. 2 Ziffern 2 BNatSchG).</description>
+         <identifier codeSpace="urn:xplan">LP_GesGeschBiotopTyp:2000</identifier>
+         <name>FeuchtNassBiotope</name>
+         <name codeSpace="lesbarerName">Feucht- und Nassbiotope</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_GesGeschBiotopTyp_3000">
+         <description>Offene Binnendünen, offene natürliche Block-, Schutt- und Geröllhalden, Lehm- und Lösswände, Zwergstrauch-, Ginster- und Wacholderheiden, Borstgrasrasen, Trockenrasen, Schwermetallrasen, Wälder und Gebüsche trockenwarmer Standorte (gemäß §30 Abs. 2 Ziffern 3 BNatSchG).</description>
+         <identifier codeSpace="urn:xplan">LP_GesGeschBiotopTyp:3000</identifier>
+         <name>TrockenBiotope</name>
+         <name codeSpace="lesbarerName">Trockenbiotope</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_GesGeschBiotopTyp_4000">
+         <description>Bruch-, Sumpf- und Auenwälder, Schlucht-, Blockhalden- und Hangschuttwälder, subalpine Lärchen- und Lärchen-Arvenwälder (gemäß §30 Abs. 2 Ziffern 4 BNatSchG).</description>
+         <identifier codeSpace="urn:xplan">LP_GesGeschBiotopTyp:4000</identifier>
+         <name>WaldBiotope</name>
+         <name codeSpace="lesbarerName">Waldbiotope</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_GesGeschBiotopTyp_5000">
+         <description>Offene Felsbildungen, Höhlen sowie naturnahe Stollen, alpine Rasen sowie Schneetälchen und Krummholzgebüsche (gemäß §30 Abs. 2 Ziffern 5 BNatSchG).</description>
+         <identifier codeSpace="urn:xplan">LP_GesGeschBiotopTyp:5000</identifier>
+         <name>FelsenAlpinBiotope</name>
+         <name codeSpace="lesbarerName">Felsen, alpine Biotope</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_GesGeschBiotopTyp_6000">
+         <description>Fels- und Steilküsten, Küstendünen und Strandwälle, Strandseen, Boddengewässer mit Verlandungsbereichen, Salzwiesen und Wattflächen im Küstenbereich, Seegraswiesen und sonstige marine Makrophytenbestände, Riffe, sublitorale Sandbänke, Schlickgründe mit bohrender Bodenmegafauna sowie artenreiche Kies-, Grobsand- und Schilfgründe im Meeres- und Küstenbereich (gemäß §30 Abs. 2 Ziffern 6 BNatSchG).</description>
+         <identifier codeSpace="urn:xplan">LP_GesGeschBiotopTyp:6000</identifier>
+         <name>KuestenBiotope</name>
+         <name codeSpace="lesbarerName">Küstenbiotope</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_GesGeschBiotopTyp_9998">
+         <description>Unbekannter Typ</description>
+         <identifier codeSpace="urn:xplan">LP_GesGeschBiotopTyp:9998</identifier>
+         <name>Unbekannt</name>
+         <name codeSpace="lesbarerName">Unbekannt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_GesGeschBiotopTyp_9999">
+         <description>Sonstige gesetzlich geschützte Biotope, siehe gesetzlGeschBiotopText und / oder detailGesetzlGeschBiotopLR.</description>
+         <identifier codeSpace="urn:xplan">LP_GesGeschBiotopTyp:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

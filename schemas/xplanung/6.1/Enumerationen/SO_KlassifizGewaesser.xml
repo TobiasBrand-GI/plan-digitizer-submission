@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="SO_KlassifizGewaesser"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">SO_KlassifizGewaesser</identifier>
+   <name>SO_KlassifizGewaesser</name>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizGewaesser_1000">
+         <description>Allgemeines, bestehendes Gewässer</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizGewaesser:1000</identifier>
+         <name>Gewaesser</name>
+         <name codeSpace="lesbarerName">Gewässer</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizGewaesser_2000">
+         <description>Allgemeines Fließgewässer</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizGewaesser:2000</identifier>
+         <name>FliessGewaesser</name>
+         <name codeSpace="lesbarerName">Fließgewässer</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizGewaesser_20000">
+         <description>Bestehendes Gewässer 1. Ordnung</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizGewaesser:20000</identifier>
+         <name>Gewaesser1Ordnung</name>
+         <name codeSpace="lesbarerName">Gewässer 1. Ordnung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizGewaesser_20001">
+         <description>Bestehendes Gewässer 2. Ordnung</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizGewaesser:20001</identifier>
+         <name>Gewaesser2Ordnung</name>
+         <name codeSpace="lesbarerName">Gewässer 2. Ordnung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizGewaesser_20002">
+         <description>Bestehendes Gewässer 3. Ordnung</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizGewaesser:20002</identifier>
+         <name>Gewaesser3Ordnung</name>
+         <name codeSpace="lesbarerName">Gewässer 3. Ordnung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizGewaesser_3000">
+         <description>Stehendes Gewässer</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizGewaesser:3000</identifier>
+         <name>StehendesGewaesser</name>
+         <name codeSpace="lesbarerName">Stehendes Gewässer</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizGewaesser_4000">
+         <description>Hafen</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizGewaesser:4000</identifier>
+         <name>Hafen</name>
+         <name codeSpace="lesbarerName">Hafen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizGewaesser_40000">
+         <description>Sportboothafen</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizGewaesser:40000</identifier>
+         <name>Sportboothafen</name>
+         <name codeSpace="lesbarerName">Sportboothafen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizGewaesser_5000">
+         <description>Wasserstraße</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizGewaesser:5000</identifier>
+         <name>Wasserstrasse</name>
+         <name codeSpace="lesbarerName">Wasserstraße</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizGewaesser_6000">
+         <description>Kanal</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizGewaesser:6000</identifier>
+         <name>Kanal</name>
+         <name codeSpace="lesbarerName">Kanal</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizGewaesser_9999">
+         <description>Sonstiges bestehendes Gewässer</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizGewaesser:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

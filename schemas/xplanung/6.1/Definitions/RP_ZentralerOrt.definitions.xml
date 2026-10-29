@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="2628"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Zentrale Orte übernehmen die Versorgung ihrer Einwohner sowie Versorgungs- und Entwicklungsfunktionen für den Einzugsbereich des Zentralen Ortes. Das zentralörtliche System ist hierarchisch gegliedert.</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:RP_ZentralerOrt</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">RP_ZentralerOrt</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2628_7695">
+         <gml:description>Klassifikation von Zentralen Orten.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:typ</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">typ</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7695_2627_7679">
+               <gml:description>Oberzentrum.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:typ:1000</gml:identifier>
+               <gml:name>Oberzentrum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7695_2627_7680">
+               <gml:description>Gemeinsames Oberzentrum.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:typ:1001</gml:identifier>
+               <gml:name>GemeinsamesOberzentrum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7695_2627_7681">
+               <gml:description>Oberbereich.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:typ:1500</gml:identifier>
+               <gml:name>Oberbereich</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7695_2627_7682">
+               <gml:description>Mittelzentrum.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:typ:2000</gml:identifier>
+               <gml:name>Mittelzentrum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7695_2627_7683">
+               <gml:description>Mittelbereich.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:typ:2500</gml:identifier>
+               <gml:name>Mittelbereich</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7695_2627_7684">
+               <gml:description>Grundzentrum</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:typ:3000</gml:identifier>
+               <gml:name>Grundzentrum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7695_2627_7685">
+               <gml:description>Unterzentrum.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:typ:3001</gml:identifier>
+               <gml:name>Unterzentrum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7695_2627_7686">
+               <gml:description>Nahbereich.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:typ:3500</gml:identifier>
+               <gml:name>Nahbereich</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7695_2627_7687">
+               <gml:description>Kleinzentrum.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:typ:4000</gml:identifier>
+               <gml:name>Kleinzentrum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7695_2627_7688">
+               <gml:description>Ländlicher Zentralort.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:typ:5000</gml:identifier>
+               <gml:name>LaendlicherZentralort</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7695_2627_7689">
+               <gml:description>Stadtrandkern 1. Ordnung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:typ:6000</gml:identifier>
+               <gml:name>Stadtrandkern1Ordnung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7695_2627_7690">
+               <gml:description>Stadtrandkern 2. Ordnung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:typ:6001</gml:identifier>
+               <gml:name>Stadtrandkern2Ordnung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7695_2627_7691">
+               <gml:description>Versorgungskern und/oder Siedlungskern</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:typ:7000</gml:identifier>
+               <gml:name>VersorgungskernSiedlungskern</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7695_2627_7692">
+               <gml:description>Zentrales Siedlungsgebiet.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:typ:8000</gml:identifier>
+               <gml:name>ZentralesSiedlungsgebiet</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7695_2627_7693">
+               <gml:description>Metropole.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:typ:9000</gml:identifier>
+               <gml:name>Metropole</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7695_2627_8930">
+               <gml:description>Sonstiger Zentraler Ort.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:typ:9999</gml:identifier>
+               <gml:name>SonstigerZentralerOrt</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>1..*</def:cardinality>
+         <def:valueTypeName>RP_ZentralerOrtTypen</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="2628_7696">
+         <gml:description>Sonstige Klassifikation von Zentralen Orten.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:sonstigerTyp</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">sonstigerTyp</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7696_2614_7571">
+               <gml:description>Doppelzentrum.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:sonstigerTyp:1000</gml:identifier>
+               <gml:name>Doppelzentrum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7696_2614_7572">
+               <gml:description>Funktionsteiliger Zentraler Ort.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:sonstigerTyp:1100</gml:identifier>
+               <gml:name>Funktionsteilig</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7696_2614_7573">
+               <gml:description>Zentraler Ort mit oberzentraler Teilfunktion.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:sonstigerTyp:1101</gml:identifier>
+               <gml:name>MitOberzentralerTeilfunktion</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7696_2614_7574">
+               <gml:description>Zentraler Ort mit mittelzentraler Teilfunktion.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:sonstigerTyp:1102</gml:identifier>
+               <gml:name>MitMittelzentralerTeilfunktion</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7696_2614_7575">
+               <gml:description>Zentraler Ort im Verbund.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:sonstigerTyp:1200</gml:identifier>
+               <gml:name>ImVerbund</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7696_2614_7576">
+               <gml:description>Kooperierender Zentraler Ort.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:sonstigerTyp:1300</gml:identifier>
+               <gml:name>Kooperierend</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7696_2614_7577">
+               <gml:description>Freiwillig kooperierender Zentraler Ort.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:sonstigerTyp:1301</gml:identifier>
+               <gml:name>KooperierendFreiwillig</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7696_2614_7578">
+               <gml:description>Verpflichtend kooperierender Zentraler Ort.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:sonstigerTyp:1302</gml:identifier>
+               <gml:name>KooperierendVerpflichtend</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7696_2614_7579">
+               <gml:description>Zentraler Ort im Verdichtungsraum.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:sonstigerTyp:1400</gml:identifier>
+               <gml:name>ImVerdichtungsraum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7696_2614_7580">
+               <gml:description>Siedlungsgrundnetz.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:sonstigerTyp:1500</gml:identifier>
+               <gml:name>SiedlungsGrundnetz</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7696_2614_7581">
+               <gml:description>Siedlungsergänzungsnetz.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:sonstigerTyp:1501</gml:identifier>
+               <gml:name>SiedlungsErgaenzungsnetz</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7696_2614_7582">
+               <gml:description>Entwicklungsschwerpunkt.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:sonstigerTyp:1600</gml:identifier>
+               <gml:name>Entwicklungsschwerpunkt</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7696_2614_7583">
+               <gml:description>Überschneidungsbereich.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:sonstigerTyp:1700</gml:identifier>
+               <gml:name>Ueberschneidungsbereich</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7696_2614_7584">
+               <gml:description>Zentraler Ort mit Ergänzungsfunktion.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:sonstigerTyp:1800</gml:identifier>
+               <gml:name>Ergaenzungsfunktion</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7696_2614_7585">
+               <gml:description>Zentraler Ort in Nachbarregionen oder Ländern.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:sonstigerTyp:1900</gml:identifier>
+               <gml:name>Nachbar</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7696_2614_7586">
+               <gml:description>Mögliches Zentrum, zum Beispiel "mögliches Mittelzentrum".</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:sonstigerTyp:2000</gml:identifier>
+               <gml:name>MoeglichesZentrum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7696_2614_7587">
+               <gml:description>Funktionsraum, eindeutige Ausrichtung.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:sonstigerTyp:2100</gml:identifier>
+               <gml:name>FunktionsraumEindeutigeAusrichtung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7696_2614_7588">
+               <gml:description>Funktionsraum, bilaterale Ausrichtung.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:sonstigerTyp:2101</gml:identifier>
+               <gml:name>FunktionsraumBilateraleAusrichtung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="2628_7696_2614_7926">
+               <gml:description>Der Kongruenzraum ist ein Bezugsraum zur Anwendung des &#xD;
+Kongruenzgebots. Der Kongruenzraum beschreibt den Raum im Umfeld eines Zentralen Ortes, den Einzelhandelsgroßprojekte, die im Zentralen Ort angesiedelt werden sollen oder bereits bestehen, im Wesentlichen versorgen sollen.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:RP_ZentralerOrt:sonstigerTyp:2200</gml:identifier>
+               <gml:name>Kongruenzraum</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..*</def:cardinality>
+         <def:valueTypeName>RP_ZentralerOrtSonstigeTypen</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:RP_Geometrieobjekt"/>
+</def:TypeDefinition>

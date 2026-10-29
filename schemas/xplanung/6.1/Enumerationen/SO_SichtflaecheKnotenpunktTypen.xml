@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="SO_SichtflaecheKnotenpunktTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung von Kombinationen sich treffender Straßentypen</description>
+   <identifier codeSpace="urn:xplan">SO_SichtflaecheKnotenpunktTypen</identifier>
+   <name>SO_SichtflaecheKnotenpunktTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="SO_SichtflaecheKnotenpunktTypen_1000">
+         <description>Knotenpunkt Anliegerstraße - Anliegerweg</description>
+         <identifier codeSpace="urn:xplan">SO_SichtflaecheKnotenpunktTypen:1000</identifier>
+         <name>AnlgStr-AnlgWeg</name>
+         <name codeSpace="lesbarerName">Anliegerstraße - Anliegerweg</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_SichtflaecheKnotenpunktTypen_2000">
+         <description>Knotenpunkt Anliegerstraße - Anliegerstraße</description>
+         <identifier codeSpace="urn:xplan">SO_SichtflaecheKnotenpunktTypen:2000</identifier>
+         <name>AnlgStr-AnlgStr</name>
+         <name codeSpace="lesbarerName">Anliegerstraße - Anliegerstraße</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_SichtflaecheKnotenpunktTypen_3000">
+         <description>Knotenpunkt Sammelstraße - Anliegerstraße</description>
+         <identifier codeSpace="urn:xplan">SO_SichtflaecheKnotenpunktTypen:3000</identifier>
+         <name>SammelStr-AnlgStr</name>
+         <name codeSpace="lesbarerName">Sammelstraße - Anliegerstraße</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_SichtflaecheKnotenpunktTypen_4000">
+         <description>Knotenpunkt mit einer Haupt-Sammelstraße</description>
+         <identifier codeSpace="urn:xplan">SO_SichtflaecheKnotenpunktTypen:4000</identifier>
+         <name>HauptSammelStr</name>
+         <name codeSpace="lesbarerName">Haupt-Sammelstraße</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_SichtflaecheKnotenpunktTypen_5000">
+         <description>Knotenpunkt mit einer angebaute Hauptverkehrsstraße (Bebauung parallel zur Straße ist vorhanden)</description>
+         <identifier codeSpace="urn:xplan">SO_SichtflaecheKnotenpunktTypen:5000</identifier>
+         <name>HauptVerkStrAngeb</name>
+         <name codeSpace="lesbarerName">Angebaute Hauptverkehrsstraße</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_SichtflaecheKnotenpunktTypen_6000">
+         <description>Knotenpunkt mit einer nicht angebaute Hauptverkehrsstraße (Keine Bebauung parallel zur Straße )</description>
+         <identifier codeSpace="urn:xplan">SO_SichtflaecheKnotenpunktTypen:6000</identifier>
+         <name>HauptVerkStrNichtAngeb</name>
+         <name codeSpace="lesbarerName">Nicht angebaute Hauptverkehrsstraße</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_SichtflaecheKnotenpunktTypen_9999">
+         <description>Sonstiger Knotenpunkt</description>
+         <identifier codeSpace="urn:xplan">SO_SichtflaecheKnotenpunktTypen:9999</identifier>
+         <name>SonstigerKnotenpunkt</name>
+         <name codeSpace="lesbarerName">Sonstiger Knotenpunkt</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

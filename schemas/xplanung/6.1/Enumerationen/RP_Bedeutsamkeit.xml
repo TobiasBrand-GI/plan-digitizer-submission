@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_Bedeutsamkeit"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">RP_Bedeutsamkeit</identifier>
+   <name>RP_Bedeutsamkeit</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Bedeutsamkeit_1000">
+         <description>Regional Bedeutsam.</description>
+         <identifier codeSpace="urn:xplan">RP_Bedeutsamkeit:1000</identifier>
+         <name>Regional</name>
+         <name codeSpace="lesbarerName">Regional</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Bedeutsamkeit_2000">
+         <description>Überregional Bedeutsam.</description>
+         <identifier codeSpace="urn:xplan">RP_Bedeutsamkeit:2000</identifier>
+         <name>Ueberregional</name>
+         <name codeSpace="lesbarerName">Überregional</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Bedeutsamkeit_3000">
+         <description>Großräumig Bedeutsam.</description>
+         <identifier codeSpace="urn:xplan">RP_Bedeutsamkeit:3000</identifier>
+         <name>Grossraeumig</name>
+         <name codeSpace="lesbarerName">Großräumig</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Bedeutsamkeit_4000">
+         <description>Landesweit Bedeutsam.</description>
+         <identifier codeSpace="urn:xplan">RP_Bedeutsamkeit:4000</identifier>
+         <name>Landesweit</name>
+         <name codeSpace="lesbarerName">Landesweit</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Bedeutsamkeit_5000">
+         <description>Bundesweit Bedeutsam.</description>
+         <identifier codeSpace="urn:xplan">RP_Bedeutsamkeit:5000</identifier>
+         <name>Bundesweit</name>
+         <name codeSpace="lesbarerName">Bundesweit</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Bedeutsamkeit_6000">
+         <description>Europäisch Bedeutsam.</description>
+         <identifier codeSpace="urn:xplan">RP_Bedeutsamkeit:6000</identifier>
+         <name>Europaeisch</name>
+         <name codeSpace="lesbarerName">Europäisch</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Bedeutsamkeit_7000">
+         <description>International Bedeutsam.</description>
+         <identifier codeSpace="urn:xplan">RP_Bedeutsamkeit:7000</identifier>
+         <name>International</name>
+         <name codeSpace="lesbarerName">International</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Bedeutsamkeit_8000">
+         <description>Flächenerschließend Bedeutsam.</description>
+         <identifier codeSpace="urn:xplan">RP_Bedeutsamkeit:8000</identifier>
+         <name>Flaechenerschliessend</name>
+         <name codeSpace="lesbarerName">Flächenerschließend</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Bedeutsamkeit_9000">
+         <description>Herausragend Bedeutsam.</description>
+         <identifier codeSpace="urn:xplan">RP_Bedeutsamkeit:9000</identifier>
+         <name>Herausragend</name>
+         <name codeSpace="lesbarerName">Herausragend</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

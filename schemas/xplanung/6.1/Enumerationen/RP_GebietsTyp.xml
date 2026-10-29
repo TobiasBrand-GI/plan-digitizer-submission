@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_GebietsTyp"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Typen von Gebieten</description>
+   <identifier codeSpace="urn:xplan">RP_GebietsTyp</identifier>
+   <name>RP_GebietsTyp</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_GebietsTyp_1000">
+         <description>Vorranggebiete sind für bestimmte raumbedeutsame Funktionen oder Nutzungen vorgesehen. In ihnen sind andere raumbedeutsame Nutzungen ausgeschlossen, soweit diese mit den vorrangigen Funktionen, Nutzungen oder Zielen der Raumordnung nicht vereinbar sind.</description>
+         <identifier codeSpace="urn:xplan">RP_GebietsTyp:1000</identifier>
+         <name>Vorranggebiet</name>
+         <name codeSpace="lesbarerName">Vorranggebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_GebietsTyp_1001">
+         <description>Vorrangstandort.</description>
+         <identifier codeSpace="urn:xplan">RP_GebietsTyp:1001</identifier>
+         <name>Vorrangstandort</name>
+         <name codeSpace="lesbarerName">Vorrangstandort</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_GebietsTyp_1100">
+         <description>Vorbehaltsgebiete sind Gebiete, in denen bestimmten raumbedeutsamen Funktionen oder Nutzungen bei der Abwägung mit konkurrierenden raumbedeutsamen Nutzungen besonderes Gewicht begemessen werden soll. Vorbehaltsgebiete besitzen den Charakter von Grundsätzen der Raumordnung.</description>
+         <identifier codeSpace="urn:xplan">RP_GebietsTyp:1100</identifier>
+         <name>Vorbehaltsgebiet</name>
+         <name codeSpace="lesbarerName">Vorbehaltsgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_GebietsTyp_1101">
+         <description>Vorbehaltsstandort.</description>
+         <identifier codeSpace="urn:xplan">RP_GebietsTyp:1101</identifier>
+         <name>Vorbehaltsstandort</name>
+         <name codeSpace="lesbarerName">Vorbehaltsstandort</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_GebietsTyp_1200">
+         <description>Eignungsgebiete steuern raumbedeutsame Maßnahmen im bauplanungsrechtlichen Außenbereich. Diese Maßnahmen sind außerhalb dieser Gebiete regelmäßig ausgeschlossen, z.B. die Planung und Einrichtung von Windkraftanlagen. &#xD;
+Eignungsgebiete haben den Charakter von Zielen der Raumordnung.</description>
+         <identifier codeSpace="urn:xplan">RP_GebietsTyp:1200</identifier>
+         <name>Eignungsgebiet</name>
+         <name codeSpace="lesbarerName">Eignungsgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_GebietsTyp_1300">
+         <description>Vorranggebiet mit Wirkung eines Eignungsgebietes. Das ausgewiesene Gebiet entspricht einem Vorranggebiet und entfaltet gleichzeitig eine Ausschlusswirkung der entsprechenden Nutzung (i.d.R. Realisierung von Windenergieanlagen) im übrigen Planungsraum.</description>
+         <identifier codeSpace="urn:xplan">RP_GebietsTyp:1300</identifier>
+         <name>VorrangMitAusschluss</name>
+         <name codeSpace="lesbarerName">Vorranggebiet mit Ausschlusswirkung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_GebietsTyp_1310">
+         <description>Vorramggebiet ohne Wirkung von Eignungsgebieten. Das ausgewiesene Gebiet entspricht einem Vorranggebiet, schließt dabei aber die Ausweisung der entsprechenden Nutzung (i.d.R. eine Realisierung von Windenergieanlagen) im übrigen Planungsraum nicht aus.</description>
+         <identifier codeSpace="urn:xplan">RP_GebietsTyp:1310</identifier>
+         <name>VorrangOhneAusschluss</name>
+         <name codeSpace="lesbarerName">Vorranggebiet ohne Ausschlusswirkung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_GebietsTyp_1400">
+         <description>Ausschlussgebiet.</description>
+         <identifier codeSpace="urn:xplan">RP_GebietsTyp:1400</identifier>
+         <name>Ausschlussgebiet</name>
+         <name codeSpace="lesbarerName">Ausschlussgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_GebietsTyp_1500">
+         <description>Vorsorgegebiet.</description>
+         <identifier codeSpace="urn:xplan">RP_GebietsTyp:1500</identifier>
+         <name>Vorsorgegebiet</name>
+         <name codeSpace="lesbarerName">Vorsorgegebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_GebietsTyp_1501">
+         <description>Vorsorgestandort.</description>
+         <identifier codeSpace="urn:xplan">RP_GebietsTyp:1501</identifier>
+         <name>Vorsorgestandort</name>
+         <name codeSpace="lesbarerName">Vorsorgestandort</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_GebietsTyp_1600">
+         <description>Vorzugsraum.</description>
+         <identifier codeSpace="urn:xplan">RP_GebietsTyp:1600</identifier>
+         <name>Vorzugsraum</name>
+         <name codeSpace="lesbarerName">Vorzugsraum</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_GebietsTyp_1700">
+         <description>Potenzialgebiet.</description>
+         <identifier codeSpace="urn:xplan">RP_GebietsTyp:1700</identifier>
+         <name>Potenzialgebiet</name>
+         <name codeSpace="lesbarerName">Potenzialgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_GebietsTyp_1800">
+         <description>Schwerpunktraum.</description>
+         <identifier codeSpace="urn:xplan">RP_GebietsTyp:1800</identifier>
+         <name>Schwerpunktraum</name>
+         <name codeSpace="lesbarerName">Schwerpunktraum</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_GebietsTyp_9999">
+         <description>Sonstiges Gebiet.</description>
+         <identifier codeSpace="urn:xplan">RP_GebietsTyp:9999</identifier>
+         <name>SonstigesGebiet</name>
+         <name codeSpace="lesbarerName">Sonstiges Gebiet</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

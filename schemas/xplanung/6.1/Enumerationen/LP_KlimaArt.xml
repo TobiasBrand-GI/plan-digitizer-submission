@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="LP_KlimaArt"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Ausprägungen in Bezug auf Planungsgegenstand Klima, an die sich das Ziel, das Erfordernis oder die Maßnahme richtet..</description>
+   <identifier codeSpace="urn:xplan">LP_KlimaArt</identifier>
+   <name>LP_KlimaArt</name>
+   <dictionaryEntry>
+      <Definition gml:id="LP_KlimaArt_1000">
+         <description>Bioklimatische Funktion</description>
+         <identifier codeSpace="urn:xplan">LP_KlimaArt:1000</identifier>
+         <name>BioklimatischeFunktion</name>
+         <name codeSpace="lesbarerName">Bioklimatische Funktion</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_KlimaArt_2000">
+         <description>Luftleitbahn</description>
+         <identifier codeSpace="urn:xplan">LP_KlimaArt:2000</identifier>
+         <name>Luftleitbahn</name>
+         <name codeSpace="lesbarerName">Luftleitbahn</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_KlimaArt_3100">
+         <description>Frischluftbahn</description>
+         <identifier codeSpace="urn:xplan">LP_KlimaArt:3100</identifier>
+         <name>Frischluftbahn</name>
+         <name codeSpace="lesbarerName">Frischluftbahn</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_KlimaArt_3200">
+         <description>Frischluftentstehungsgebiet</description>
+         <identifier codeSpace="urn:xplan">LP_KlimaArt:3200</identifier>
+         <name>Frischluftentstehungsgebiet</name>
+         <name codeSpace="lesbarerName">Frischluftentstehungsgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_KlimaArt_4100">
+         <description>Kaltluftbahn</description>
+         <identifier codeSpace="urn:xplan">LP_KlimaArt:4100</identifier>
+         <name>Kaltluftbahn</name>
+         <name codeSpace="lesbarerName">Kaltluftbahn</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_KlimaArt_4200">
+         <description>Kaltluftentstehungsgebiet</description>
+         <identifier codeSpace="urn:xplan">LP_KlimaArt:4200</identifier>
+         <name>Kaltluftentstehungsgebiet</name>
+         <name codeSpace="lesbarerName">Kaltluftentstehungsgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_KlimaArt_5000">
+         <description>Stadtklima</description>
+         <identifier codeSpace="urn:xplan">LP_KlimaArt:5000</identifier>
+         <name>Stadtklima</name>
+         <name codeSpace="lesbarerName">Stadtklima</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_KlimaArt_6000">
+         <description>Treibhausgas-Senken (Klimaschutzflächen)</description>
+         <identifier codeSpace="urn:xplan">LP_KlimaArt:6000</identifier>
+         <name>THGSenkenKlimaschutzflaechen</name>
+         <name codeSpace="lesbarerName">THG-Senken Klimaschutzflächen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="LP_KlimaArt_9999">
+         <description>Sonstiger Planungsgegenstand Schutzgut Klima (siehe klimaText)</description>
+         <identifier codeSpace="urn:xplan">LP_KlimaArt:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="SO_KlassifizNachWasserrecht"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Basis Klassifizierung von Festlegungen nach Wasserrecht.</description>
+   <identifier codeSpace="urn:xplan">SO_KlassifizNachWasserrecht</identifier>
+   <name>SO_KlassifizNachWasserrecht</name>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachWasserrecht_2000">
+         <description>Allgemeines Überschwemmungsgebiet nach WHG</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachWasserrecht:2000</identifier>
+         <name>Ueberschwemmungsgebiet</name>
+         <name codeSpace="lesbarerName">Überschwemmungsgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachWasserrecht_20000">
+         <description>Überschwemmungsgebiet nach §76 Abs.2 WHG</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachWasserrecht:20000</identifier>
+         <name>FestgesetztesUeberschwemmungsgebiet</name>
+         <name codeSpace="lesbarerName">Festgesetztes Überschwemmungsgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachWasserrecht_20001">
+         <description>N Noch nicht festgesetztes Überschwemmungsgebiet, das vorläufig gesichert ist nach. § 76 Abs. 3 WHG</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachWasserrecht:20001</identifier>
+         <name>NochNichtFestgesetztesUeberschwemmungsgebiet</name>
+         <name codeSpace="lesbarerName">Noch nicht festgesetztes Überschwemmungsgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachWasserrecht_20002">
+         <description>Überschwemmungsgefährdetes Gebiet nach §31c des vor dem 1.3.2010 gültigen WHG</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachWasserrecht:20002</identifier>
+         <name>UeberschwemmGefaehrdetesGebiet</name>
+         <name codeSpace="lesbarerName">Überschwemmungsgefährdetes Gebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachWasserrecht_3000">
+         <description>Risikogebiet nach § 76 Abs. 3 WHG</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachWasserrecht:3000</identifier>
+         <name>Risikogebiet</name>
+         <name codeSpace="lesbarerName">Risikogebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachWasserrecht_4000">
+         <description>Risikogebiet außerhalb von Überschwemmungsgebieten  nach. § 78b Abs. 1 WHG</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachWasserrecht:4000</identifier>
+         <name>RisikogebietAusserhUeberschwemmgebiet</name>
+         <name codeSpace="lesbarerName">Risikogebiet außerhalb Überschwemmungsgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachWasserrecht_5000">
+         <description>Hochwasserentstehungsgebiet nach § 78d Abs. 1 WHG</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachWasserrecht:5000</identifier>
+         <name>Hochwasserentstehungsgebiet</name>
+         <name codeSpace="lesbarerName">Hochwasserentstehungsgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachWasserrecht_9999">
+         <description>Sonstige Klassifizierung nach Wasserrecht.</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachWasserrecht:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

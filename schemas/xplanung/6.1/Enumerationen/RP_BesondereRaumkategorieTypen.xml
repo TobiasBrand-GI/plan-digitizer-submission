@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_BesondereRaumkategorieTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Besondere Typen von Raumkategorien.</description>
+   <identifier codeSpace="urn:xplan">RP_BesondereRaumkategorieTypen</identifier>
+   <name>RP_BesondereRaumkategorieTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BesondereRaumkategorieTypen_1000">
+         <description>Grenzgebiete.</description>
+         <identifier codeSpace="urn:xplan">RP_BesondereRaumkategorieTypen:1000</identifier>
+         <name>Grenzgebiet</name>
+         <name codeSpace="lesbarerName">Grenzgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BesondereRaumkategorieTypen_2000">
+         <description>Bergbaufolgelandschaft.</description>
+         <identifier codeSpace="urn:xplan">RP_BesondereRaumkategorieTypen:2000</identifier>
+         <name>Bergbaufolgelandschaft</name>
+         <name codeSpace="lesbarerName">Bergbaufolgelandschaft</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_BesondereRaumkategorieTypen_3000">
+         <description>Braunkohlenfolgelandschaften.</description>
+         <identifier codeSpace="urn:xplan">RP_BesondereRaumkategorieTypen:3000</identifier>
+         <name>Braunkohlenfolgelandschaft</name>
+         <name codeSpace="lesbarerName">Braunkohlenfolgelandschaft</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

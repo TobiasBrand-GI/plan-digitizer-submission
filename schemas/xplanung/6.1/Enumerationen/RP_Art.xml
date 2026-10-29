@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="RP_Art"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">RP_Art</identifier>
+   <name>RP_Art</name>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Art_1000">
+         <description>Regionalplan.</description>
+         <identifier codeSpace="urn:xplan">RP_Art:1000</identifier>
+         <name>Regionalplan</name>
+         <name codeSpace="lesbarerName">Regionalplan</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Art_2000">
+         <description>Sachlicher Teilplan auf der räumlichen Ebene einer Region</description>
+         <identifier codeSpace="urn:xplan">RP_Art:2000</identifier>
+         <name>SachlicherTeilplanRegionalebene</name>
+         <name codeSpace="lesbarerName">Sachlicher Teilplan Regionalebene</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Art_2001">
+         <description>Sachlicher Teilplan auf räumlicher Ebene eines Bundeslandes</description>
+         <identifier codeSpace="urn:xplan">RP_Art:2001</identifier>
+         <name>SachlicherTeilplanLandesebene</name>
+         <name codeSpace="lesbarerName">Sachlicher Teilplan Landesebene</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Art_3000">
+         <description>Braunkohlenplan.</description>
+         <identifier codeSpace="urn:xplan">RP_Art:3000</identifier>
+         <name>Braunkohlenplan</name>
+         <name codeSpace="lesbarerName">Braunkohlenplan</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Art_4000">
+         <description>Landesweiter Raumordnungsplan auf räumlicher Ebene eines Bundeslandes</description>
+         <identifier codeSpace="urn:xplan">RP_Art:4000</identifier>
+         <name>LandesweiterRaumordnungsplan</name>
+         <name codeSpace="lesbarerName">Landesweiter Raumordnungsplan</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Art_5000">
+         <description>Raumordnungsplan für das Bundesgebiet mit übergreifenden Standortkonzepten für Seehäfen, Binnenhäfen sowie Flughäfen gem. §17 Abs. 2 ROG.</description>
+         <identifier codeSpace="urn:xplan">RP_Art:5000</identifier>
+         <name>StandortkonzeptBund</name>
+         <name codeSpace="lesbarerName">Standortkonzept Bund</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Art_5001">
+         <description>Plan des Bundes für den Gesamtraum und die ausschließliche Wirtschaftszone (AWZ).</description>
+         <identifier codeSpace="urn:xplan">RP_Art:5001</identifier>
+         <name>AWZPlan</name>
+         <name codeSpace="lesbarerName">AWZ-Plan</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Art_6000">
+         <description>Räumlicher Teilplan auf regionaler Ebene</description>
+         <identifier codeSpace="urn:xplan">RP_Art:6000</identifier>
+         <name>RaeumlicherTeilplan</name>
+         <name codeSpace="lesbarerName">Räumlicher Teilplan</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="RP_Art_9999">
+         <description>Sonstiges Planwerk der Raumordnung auf Bundesebene, Landesebene oder regionaler Ebene.</description>
+         <identifier codeSpace="urn:xplan">RP_Art:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

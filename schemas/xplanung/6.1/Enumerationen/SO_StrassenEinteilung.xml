@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="SO_StrassenEinteilung"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Aufzählung von Basis-Klassifizierungen der Festlegungen nach Straßenrecht.</description>
+   <identifier codeSpace="urn:xplan">SO_StrassenEinteilung</identifier>
+   <name>SO_StrassenEinteilung</name>
+   <dictionaryEntry>
+      <Definition gml:id="SO_StrassenEinteilung_1000">
+         <description>Bundesautobahn</description>
+         <identifier codeSpace="urn:xplan">SO_StrassenEinteilung:1000</identifier>
+         <name>Bundesautobahn</name>
+         <name codeSpace="lesbarerName">Bundesautobahn</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_StrassenEinteilung_1100">
+         <description>Bundesstraße</description>
+         <identifier codeSpace="urn:xplan">SO_StrassenEinteilung:1100</identifier>
+         <name>Bundesstrasse</name>
+         <name codeSpace="lesbarerName">Bundesstraße</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_StrassenEinteilung_1200">
+         <description>Landes- oder Staatsstraße</description>
+         <identifier codeSpace="urn:xplan">SO_StrassenEinteilung:1200</identifier>
+         <name>LandesStaatsstrasse</name>
+         <name codeSpace="lesbarerName">Landes- oder Staatsstraße</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_StrassenEinteilung_1300">
+         <description>Kreisstraße</description>
+         <identifier codeSpace="urn:xplan">SO_StrassenEinteilung:1300</identifier>
+         <name>Kreisstrasse</name>
+         <name codeSpace="lesbarerName">Kreisstraße</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_StrassenEinteilung_1400">
+         <description>Gemeindestraße</description>
+         <identifier codeSpace="urn:xplan">SO_StrassenEinteilung:1400</identifier>
+         <name>Gemeindestrasse</name>
+         <name codeSpace="lesbarerName">Gemeindestraße</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_StrassenEinteilung_9999">
+         <description>Sonstige öffentliche Straße</description>
+         <identifier codeSpace="urn:xplan">SO_StrassenEinteilung:9999</identifier>
+         <name>SonstOeffentlStrasse</name>
+         <name codeSpace="lesbarerName">Sonstige öffentliche Straße</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

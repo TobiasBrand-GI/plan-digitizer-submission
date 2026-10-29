@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="BP_SchallleistungspegelBerechnungsgrundlage"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">BP_SchallleistungspegelBerechnungsgrundlage</identifier>
+   <name>BP_SchallleistungspegelBerechnungsgrundlage</name>
+   <dictionaryEntry>
+      <Definition gml:id="BP_SchallleistungspegelBerechnungsgrundlage_1000">
+         <description>Berechnung  nach DIN 45691 "Geräuschkontingentierung"</description>
+         <identifier codeSpace="urn:xplan">BP_SchallleistungspegelBerechnungsgrundlage:1000</identifier>
+         <name>DIN45691</name>
+         <name codeSpace="lesbarerName">DIN45691</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_SchallleistungspegelBerechnungsgrundlage_2000">
+         <description>Berechnung nach DIN 18005 "Schallschutz im Städtebau"</description>
+         <identifier codeSpace="urn:xplan">BP_SchallleistungspegelBerechnungsgrundlage:2000</identifier>
+         <name>DIN18005</name>
+         <name codeSpace="lesbarerName">DIN18005</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_SchallleistungspegelBerechnungsgrundlage_3000">
+         <description>Berechnung nach VDI 2714 "Schallausbreitung im Freien"</description>
+         <identifier codeSpace="urn:xplan">BP_SchallleistungspegelBerechnungsgrundlage:3000</identifier>
+         <name>VDI2714</name>
+         <name codeSpace="lesbarerName">VDI2714</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_SchallleistungspegelBerechnungsgrundlage_4000">
+         <description>Berechnung nach DIN ISO 9613-2 "Dämpfung des Schalls bei der Ausbreitung im Freien - Teil 2"</description>
+         <identifier codeSpace="urn:xplan">BP_SchallleistungspegelBerechnungsgrundlage:4000</identifier>
+         <name>ISO9613_2</name>
+         <name codeSpace="lesbarerName">ISO9613_2</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

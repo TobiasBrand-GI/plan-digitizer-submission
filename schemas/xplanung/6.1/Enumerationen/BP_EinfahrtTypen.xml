@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="BP_EinfahrtTypen"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">BP_EinfahrtTypen</identifier>
+   <name>BP_EinfahrtTypen</name>
+   <dictionaryEntry>
+      <Definition gml:id="BP_EinfahrtTypen_1000">
+         <description>Nur Einfahrt möglich</description>
+         <identifier codeSpace="urn:xplan">BP_EinfahrtTypen:1000</identifier>
+         <name>Einfahrt</name>
+         <name codeSpace="lesbarerName">Einfahrt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_EinfahrtTypen_2000">
+         <description>Nur Ausfahrt möglich</description>
+         <identifier codeSpace="urn:xplan">BP_EinfahrtTypen:2000</identifier>
+         <name>Ausfahrt</name>
+         <name codeSpace="lesbarerName">Ausfahrt</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="BP_EinfahrtTypen_3000">
+         <description>Ein- und Ausfahrt möglich</description>
+         <identifier codeSpace="urn:xplan">BP_EinfahrtTypen:3000</identifier>
+         <name>EinAusfahrt</name>
+         <name codeSpace="lesbarerName">Ein- und Ausfahrt</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

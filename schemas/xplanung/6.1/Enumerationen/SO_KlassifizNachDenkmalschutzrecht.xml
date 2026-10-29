@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="SO_KlassifizNachDenkmalschutzrecht"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <description>Basis Klassifizierung von Ausweisungen nach Denkmalschutzrecht.</description>
+   <identifier codeSpace="urn:xplan">SO_KlassifizNachDenkmalschutzrecht</identifier>
+   <name>SO_KlassifizNachDenkmalschutzrecht</name>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachDenkmalschutzrecht_1000">
+         <description>Denkmalschutz Ensemble</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachDenkmalschutzrecht:1000</identifier>
+         <name>DenkmalschutzEnsemble</name>
+         <name codeSpace="lesbarerName">Denkmalschutz-Ensemble</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachDenkmalschutzrecht_1100">
+         <description>Denkmalschutz Einzelanlage</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachDenkmalschutzrecht:1100</identifier>
+         <name>DenkmalschutzEinzelanlage</name>
+         <name codeSpace="lesbarerName">Denkmalschutz-Einzelanlage</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachDenkmalschutzrecht_1200">
+         <description>Grabungsschutzgebiet</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachDenkmalschutzrecht:1200</identifier>
+         <name>Grabungsschutzgebiet</name>
+         <name codeSpace="lesbarerName">Grabungsschutzgebiet</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachDenkmalschutzrecht_1300">
+         <description>Engere Pufferzone um eine Welterbestätte</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachDenkmalschutzrecht:1300</identifier>
+         <name>PufferzoneWeltkulturerbeEnger</name>
+         <name codeSpace="lesbarerName">Pufferzone Weltkulturerbe enger</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachDenkmalschutzrecht_1400">
+         <description>Weitere Pufferzone um eine Welterbestätte</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachDenkmalschutzrecht:1400</identifier>
+         <name>PufferzoneWeltkulturerbeWeiter</name>
+         <name codeSpace="lesbarerName">Pufferzone Weltkulturerbe weiter</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachDenkmalschutzrecht_1500">
+         <description>Archäologisches Denkmal</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachDenkmalschutzrecht:1500</identifier>
+         <name>ArchaeologischesDenkmal</name>
+         <name codeSpace="lesbarerName">Archaeologisches Denkmal</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachDenkmalschutzrecht_1600">
+         <description>Bodendenkmal</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachDenkmalschutzrecht:1600</identifier>
+         <name>Bodendenkmal</name>
+         <name codeSpace="lesbarerName">Bodendenkmal</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="SO_KlassifizNachDenkmalschutzrecht_9999">
+         <description>Sonstige Klassifizierung nach Denkmalschutzrecht.</description>
+         <identifier codeSpace="urn:xplan">SO_KlassifizNachDenkmalschutzrecht:9999</identifier>
+         <name>Sonstiges</name>
+         <name codeSpace="lesbarerName">Sonstiges</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

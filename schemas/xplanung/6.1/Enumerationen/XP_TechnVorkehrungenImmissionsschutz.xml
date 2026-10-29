@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2"
+            xmlns:gml="http://www.opengis.net/gml/3.2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            gml:id="XP_TechnVorkehrungenImmissionsschutz"
+            xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+   <identifier codeSpace="urn:xplan">XP_TechnVorkehrungenImmissionsschutz</identifier>
+   <name>XP_TechnVorkehrungenImmissionsschutz</name>
+   <dictionaryEntry>
+      <Definition gml:id="XP_TechnVorkehrungenImmissionsschutz_1000">
+         <description>Allgemeine Lärmschutzvorkehrung</description>
+         <identifier codeSpace="urn:xplan">XP_TechnVorkehrungenImmissionsschutz:1000</identifier>
+         <name>Laermschutzvorkehrung</name>
+         <name codeSpace="lesbarerName">Lärmschutzvorkehrung</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_TechnVorkehrungenImmissionsschutz_10000">
+         <description>Fassaden mit Schallschutzmaßnahmen</description>
+         <identifier codeSpace="urn:xplan">XP_TechnVorkehrungenImmissionsschutz:10000</identifier>
+         <name>FassadenMitSchallschutzmassnahmen</name>
+         <name codeSpace="lesbarerName">Fassaden mit Schallschutzmaßnahmen</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_TechnVorkehrungenImmissionsschutz_10001">
+         <description>Lärmschutzwand</description>
+         <identifier codeSpace="urn:xplan">XP_TechnVorkehrungenImmissionsschutz:10001</identifier>
+         <name>Laermschutzwand</name>
+         <name codeSpace="lesbarerName">Lärmschutzwand</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_TechnVorkehrungenImmissionsschutz_10002">
+         <description>Lärmschutzwall</description>
+         <identifier codeSpace="urn:xplan">XP_TechnVorkehrungenImmissionsschutz:10002</identifier>
+         <name>Laermschutzwall</name>
+         <name codeSpace="lesbarerName">Lärmschutzwall</name>
+      </Definition>
+   </dictionaryEntry>
+   <dictionaryEntry>
+      <Definition gml:id="XP_TechnVorkehrungenImmissionsschutz_9999">
+         <description>Sonstige Vorkehrung zum Immissionsschutz</description>
+         <identifier codeSpace="urn:xplan">XP_TechnVorkehrungenImmissionsschutz:9999</identifier>
+         <name>SonstigeVorkehrung</name>
+         <name codeSpace="lesbarerName">Sonstige Vorkehrung</name>
+      </Definition>
+   </dictionaryEntry>
+</Dictionary>

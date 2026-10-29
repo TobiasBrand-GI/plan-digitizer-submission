@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='./ShapeChangeDefinitionsType.xsl'?>
+<def:TypeDefinition xmlns:def="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5"
+                    xmlns:gml="http://www.opengis.net/gml/3.2"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    gml:id="779"
+                    xsi:schemaLocation="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5 ShapeChangeDefinitions.xsd">
+   <gml:description>Festsetzung einer von der Bebauung freizuhaltenden Schutzfläche und ihre Nutzung, sowie einer Fläche für besondere Anlagen und Vorkehrungen zum Schutz vor schädlichen Umwelteinwirkungen und sonstigen Gefahren im Sinne des Bundes-Immissionsschutzgesetzes sowie die zum Schutz vor solchen Einwirkungen oder zur Vermeidung oder Minderung solcher Einwirkungen zu treffenden baulichen und sonstigen technischen Vorkehrungen (§9, Abs. 1, Nr. 24 BauGB).&#xD;
+Die Klasse wird innbesondere benutzt, um 5 db Lärmpegelbereiche gemäß DIN-4109:2016-1, oder alternativ Maßgebliche (1 db) Außenlärmpegelbereiche gemäß  DIN 4109-1: 2018-01 festzusetzen.</gml:description>
+   <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:featureType:xplan::xplan:6.1:BP_Immissionsschutz</gml:identifier>
+   <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">BP_Immissionsschutz</gml:name>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="779_1798">
+         <gml:description>Festgesetzte Nutzung einer Schutzfläche</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Immissionsschutz:nutzung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">nutzung</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>CharacterString</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="779_7847">
+         <gml:description>Festlegung der erforderlichen Luftschalldämmung von Außenbauteilen nach DIN-4109:2016-1.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Immissionsschutz:laermpegelbereich</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">laermpegelbereich</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="779_7847_2639_7840">
+               <gml:description>Lärmpegelbereich I nach  DIN 4109.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Immissionsschutz:laermpegelbereich:1000</gml:identifier>
+               <gml:name>I</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="779_7847_2639_7841">
+               <gml:description>Lärmpegelbereich II nach  DIN 4109.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Immissionsschutz:laermpegelbereich:1100</gml:identifier>
+               <gml:name>II</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="779_7847_2639_7842">
+               <gml:description>Lärmpegelbereich III nach  DIN 4109.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Immissionsschutz:laermpegelbereich:1200</gml:identifier>
+               <gml:name>III</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="779_7847_2639_7843">
+               <gml:description>Lärmpegelbereich IV nach  DIN 4109.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Immissionsschutz:laermpegelbereich:1300</gml:identifier>
+               <gml:name>IV</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="779_7847_2639_7844">
+               <gml:description>Lärmpegelbereich V nach  DIN 4109.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Immissionsschutz:laermpegelbereich:1400</gml:identifier>
+               <gml:name>V</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="779_7847_2639_7845">
+               <gml:description>Lärmpegelbereich VI nach  DIN 4109.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Immissionsschutz:laermpegelbereich:1500</gml:identifier>
+               <gml:name>VI</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="779_7847_2639_7846">
+               <gml:description>Lärmpegelbereich VII nach  DIN 4109.</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Immissionsschutz:laermpegelbereich:1600</gml:identifier>
+               <gml:name>VII</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="779_7847_2639_8904">
+               <gml:description>Spezifizierung eines Lärmpegelbereiches über das Codelist-Attribut "sonstLaermpegelbereich"</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Immissionsschutz:laermpegelbereich:1700</gml:identifier>
+               <gml:name>SpefizBereich</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>BP_Laermpegelbereich</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="779_8905">
+         <gml:description>Spezifikation eines nicht in der DIN-4109:2016-1 spezifizierten Lärmpegelbereiches über eine Codeliste. Dies Attribut darf nur verwendet werden, wenn "laermpegelbereich" den Wert 1700 hat oder unbelegt ist.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Immissionsschutz:sonstLaermpegelbereich</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">sonstLaermpegelbereich</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>BP_SonstLaermpegelbereich</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="779_8902">
+         <gml:description>Maßgeblicher Außenlärmpegel (in db) nach DIN 4109-1: 2018-01 für den Tag.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Immissionsschutz:massgeblAussenLaermpegelTag</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">massgeblAussenLaermpegelTag</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Measure</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="779_8903">
+         <gml:description>Maßgeblicher Außenlärmpegel (in db) nach DIN 4109-1: 2018-01 für die Nacht.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Immissionsschutz:massgeblAussenLaermpegelNacht</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">massgeblAussenLaermpegelNacht</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>Measure</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="779_8005">
+         <gml:description>Differenzierung der Immissionsschutz-Fläche. Es wird empfohlen, dies Attribut grundsätzlich zu belegen. In Version 7 wird es voraussichtlich ein Pflichtattribut werden.</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Immissionsschutz:typ</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">typ</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="779_8005_2664_7998">
+               <gml:description>BP_ Immissionsschutz mit typ = 1000 entspricht dem Planzeichen 15.8 (Satz 2) „Umgrenzung der von der Bebauung freizuhaltenden Schutzflächen (§ 9 Abs. 1 Nr. 24 und Abs. 6 BauGB)“</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Immissionsschutz:typ:1000</gml:identifier>
+               <gml:name>Schutzflaeche</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="779_8005_2664_7999">
+               <gml:description>BP_Immissionsschutz mit typ = 2000  entspricht dem Planzeichen 15.6 (Satz 2) „Umgrenzung der Flächen für besondere Anlagen und Vorkehrungen zum Schutz vor schädlichen Umwelteinwirkungen im Sinne des Bundes-Immissionsschutzgesetzes (§ 9 Abs. 1 Nr. 24 und Abs. 6 BauGB)</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Immissionsschutz:typ:2000</gml:identifier>
+               <gml:name>BesondereAnlagenVorkehrungen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>XP_ImmissionsschutzTypen</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="779_8006">
+         <gml:description>Klassifizierung der auf der Fläche zu treffenden baulichen oder sonstigen technischen Vorkehrungen</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Immissionsschutz:technVorkehrung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">technVorkehrung</gml:name>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="779_8006_2665_8000">
+               <gml:description>Allgemeine Lärmschutzvorkehrung</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Immissionsschutz:technVorkehrung:1000</gml:identifier>
+               <gml:name>Laermschutzvorkehrung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="779_8006_2665_8001">
+               <gml:description>Fassaden mit Schallschutzmaßnahmen</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Immissionsschutz:technVorkehrung:10000</gml:identifier>
+               <gml:name>FassadenMitSchallschutzmassnahmen</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="779_8006_2665_8002">
+               <gml:description>Lärmschutzwand</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Immissionsschutz:technVorkehrung:10001</gml:identifier>
+               <gml:name>Laermschutzwand</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="779_8006_2665_8003">
+               <gml:description>Lärmschutzwall</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Immissionsschutz:technVorkehrung:10002</gml:identifier>
+               <gml:name>Laermschutzwall</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <gml:dictionaryEntry>
+            <def:ListedValueDefinition gml:id="779_8006_2665_8004">
+               <gml:description>Sonstige Vorkehrung zum Immissionsschutz</gml:description>
+               <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Immissionsschutz:technVorkehrung:9999</gml:identifier>
+               <gml:name>SonstigeVorkehrung</gml:name>
+            </def:ListedValueDefinition>
+         </gml:dictionaryEntry>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>XP_TechnVorkehrungenImmissionsschutz</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <gml:dictionaryEntry>
+      <def:PropertyDefinition gml:id="779_8007">
+         <gml:description>Detaillierte Klassifizierung der auf der Fläche zu treffenden baulichen oder sonstigen technischen Vorkehrungen</gml:description>
+         <gml:identifier codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5">urn:x-shapechange:def:propertyType:xplan::xplan:6.1:BP_Immissionsschutz:detaillierteTechnVorkehrung</gml:identifier>
+         <gml:name codeSpace="http://www.interactive-instruments.de/ShapeChange/Definitions/0.5/name">detaillierteTechnVorkehrung</gml:name>
+         <def:cardinality>0..1</def:cardinality>
+         <def:valueTypeName>XP_DetailTechnVorkehrungImmissionsschutz</def:valueTypeName>
+         <def:type>attribute</def:type>
+      </def:PropertyDefinition>
+   </gml:dictionaryEntry>
+   <def:classification>featureType</def:classification>
+   <def:supertypeRef xlink:href="urn:x-shapechange:def:featureType:xplan::xplan:6.1:BP_Geometrieobjekt"/>
+</def:TypeDefinition>
