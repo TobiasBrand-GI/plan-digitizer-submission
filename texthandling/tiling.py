@@ -1,5 +1,3 @@
-"""Split a rasterio dataset into VLM-sized image tiles."""
-
 import base64
 
 import cv2
@@ -9,14 +7,11 @@ from rasterio.windows import Window
 
 def iter_tiles(dataset, tile_size=1024, overlap=64):
     """
-    Yield (window, bgr) pairs covering `dataset`, in tile_size x tile_size
-    pixel windows with `overlap` pixels shared between adjacent tiles so
-    text straddling a tile boundary isn't cut off mid-token. bgr is an
-    OpenCV-order (BGR) uint8 array -- callers annotate/encode it as needed
-    (see annotate.py / encode_png_b64).
-
-    a text region sitting in the overlap strip can be reported twice, once
-    per tile. Fine for a first pass; revisit once real output is inspected.
+    Yields (window, bgr) pairs covering dataset in tile_size x tile_size
+    pixel windows, with overlap pixels shared between adjacent tiles so text
+    straddling a boundary isn't cut off mid-token. bgr is an OpenCV BGR
+    uint8 array. A text region in the overlap strip can be reported twice,
+    once per tile.
     """
     stride = tile_size - overlap
     for row_off in range(0, dataset.height, stride):

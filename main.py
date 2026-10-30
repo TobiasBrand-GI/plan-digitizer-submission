@@ -44,6 +44,8 @@ class Item(BaseModel):
 
 @app.get("/items/{item_id}")
 def read_item(item_id: int, q: str | None = None):
+    """Demo route: masks a hardcoded sample GeoTIFF's red pixels, writes
+    rot_maske.tif, and returns the dataset width alongside item_id/q."""
     dataset = rasterio.open('483229_88_roevekamp_bplan-satzung_gezeichnet20240923_modifiziert.tif')
 
     red_mask, masked_output, meta = masking.red(dataset)
@@ -127,13 +129,9 @@ def process_plan(tif: str, umring: str, ags: str | None = None, gemeinde_name: s
     """
     Runs the full pipeline end to end by calling /polygons, /text-extraction,
     /link-text-to-areas and /export-xplan in sequence against one shared
-    run_dir -- so the per-stage path handling lives in exactly one place
-    (those four routes), not duplicated here.
-
-    Every output (intermediate and final) is written into a fresh directory
-    under runs/, named <timestamp>_<plan name> (plan name = the tif's own
-    filename, without extension), so consecutive calls never overwrite each
-    other's files.
+    run_dir. Every output is written into a fresh directory under runs/,
+    named <timestamp>_<plan name>, so consecutive calls never overwrite
+    each other's files.
     """
     plan_name = os.path.splitext(os.path.basename(tif))[0]
     run_dir = _new_run_dir(plan_name)
@@ -148,6 +146,8 @@ PIPELINE_STEPS = ["Segmenting areas", "Extracting text", "Linking text to areas"
 
 
 def _new_run_dir(plan_name):
+    """Creates and returns a fresh timestamped run directory under
+    RUNS_DIR for plan_name."""
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     run_dir = os.path.join(RUNS_DIR, f"{timestamp}_{plan_name}")
     os.makedirs(run_dir, exist_ok=True)
@@ -158,6 +158,7 @@ def _run_pipeline(tif, umring, run_dir, plan_name, ags=None, gemeinde_name=None,
     """The four routes in sequence against one run_dir. on_step(n) is called
     before step n (1-based, see PIPELINE_STEPS) starts."""
     def step(n):
+        """Logs and runs on_step(n) for pipeline step n (1-based) before it starts."""
         print(f"[{plan_name}] {PIPELINE_STEPS[n - 1].lower()} -> {run_dir}")
         if on_step is not None:
             on_step(n)
@@ -183,13 +184,6 @@ def _run_pipeline(tif, umring, run_dir, plan_name, ags=None, gemeinde_name=None,
 
 
 # --- Web UI jobs -------------------------------------------------------------
-#
-# A job is one full pipeline run started from the web UI. It runs in its own
-# process, not in the server: the system GDAL can segfault on some rasters
-# (see processing/polygonizing.polygonize), which would otherwise take the
-# whole server down. Progress goes through <run_dir>/status.json, so it
-# needs no shared memory and survives a server restart. Only one job runs at
-# a time -- runs are heavy and share one Mistral rate limit.
 
 _JOB_ID = re.compile(r"^[\w.-]+$")
 _TIF_SUFFIXES = (".tif", ".tiff")
@@ -198,6 +192,8 @@ _jobs = {}  # job id -> multiprocessing.Process, for jobs started by this server
 
 
 def _write_status(run_dir, **status):
+    """Atomically writes run_dir/status.json with the given status fields
+    plus the pipeline step list."""
     path = os.path.join(run_dir, "status.json")
     with open(path + ".tmp", "w", encoding="utf-8") as f:
         json.dump({"total_steps": len(PIPELINE_STEPS), "steps": PIPELINE_STEPS, **status}, f)
@@ -216,6 +212,8 @@ def _run_job(run_dir, tif, umring, plan_name, ags, gemeinde_name):
 
 
 def _job_dir(job_id):
+    """Returns the run directory for job_id; 404s if job_id is malformed
+    or the directory doesn't exist."""
     run_dir = os.path.join(RUNS_DIR, job_id)
     if not _JOB_ID.match(job_id) or not os.path.isdir(run_dir):
         raise HTTPException(status_code=404, detail="Unknown job")
@@ -231,6 +229,7 @@ def _upload_name(upload, suffixes):
 
 
 def _save_upload(upload, target_dir, name):
+    """Saves upload's contents to target_dir/name and returns the path."""
     path = os.path.join(target_dir, name)
     with open(path, "wb") as f:
         shutil.copyfileobj(upload.file, f)
@@ -273,6 +272,9 @@ def create_job(tif: UploadFile = File(...), umring: UploadFile = File(...),
 
 @app.get("/jobs/{job_id}")
 def job_status(job_id: str):
+    """Returns job_id's status.json contents, marking it failed if its
+    process died without writing one or isn't tracked (e.g. after a
+    server restart)."""
     run_dir = _job_dir(job_id)
     try:
         with open(os.path.join(run_dir, "status.json"), encoding="utf-8") as f:
@@ -302,6 +304,9 @@ def download_job(job_id: str):
 
 @app.get("/debug")
 def get_dots_debug():
+    """Debug route: runs masking.debug_bboxes on a hardcoded sample raster,
+    writes an annotated PNG, and prints per-contour stats sorted by
+    circularity."""
     dataset = utils.open_rgb('./tif/z_207_08.tif', './debug')
     height = dataset.height
     width = dataset.width
@@ -326,6 +331,7 @@ def get_dots_debug():
 
 @app.put("/items/{item_id}")
 def update_item(item_id: int, item: Item):
+    """Demo route: echoes back item's name and item_id."""
     return {"item_name": item.name, "item_id": item_id}
 
 

@@ -1,17 +1,3 @@
-"""
-XSD validation of an exported XPlanGML 6.1 document, fully offline.
-
-The entry schema is XPlanung-Operationen.xsd (it defines the XPlanAuszug
-root, everything else is included from there). Two schemas are imported by
-absolute w3.org URL -- xlink.xsd (from the GML profile) and xml.xsd (from
-xlink.xsd) -- and are redirected to local copies under schemas/ instead of
-being fetched on every validation. Network access is disabled, so a missing
-local copy fails loudly instead of silently going online.
-
-This only checks XSD conformance (structure, types, element order). The
-XPlanValidator's semantic and geometric rules are a separate step.
-"""
-
 import functools
 import os
 
@@ -28,6 +14,8 @@ _LOCAL_COPIES = {
 
 class _LocalSchemaResolver(etree.Resolver):
     def resolve(self, url, pubid, context):
+        """Redirects a known schema URL to its local copy; defers to lxml's
+        default resolution for any other URL."""
         local = _LOCAL_COPIES.get(url)
         if local is None:
             return None  # fall through to lxml's default (relative paths inside schemas/)

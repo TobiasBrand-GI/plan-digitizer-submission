@@ -1,49 +1,3 @@
-"""Merge nearby OCR word-boxes into coherent multi-word groups ahead of a
-second VLM classification pass -- e.g. so "GRZ" and "0,4" (two separate
-Tesseract words) get seen and classified together as "GRZ 0,4", instead of
-as two disconnected fragments with no indication they belong together.
-
-Only meant to run on words NOT already known to be atomic single-value
-labels that should never merge with a neighbor (parcel_number -- see
-extract.py's first classification pass and EXCLUDED_LABELS).
-
-Candidate-neighbor search uses a cKDTree, same as
-processing/polygonizing.py's dotted-line reconstruction
-(build_graph_greedy_matching / dots_to_lines_gdal), and the same
-spatial-resolution-aware distance convention: a real-world MAX_GAP_METERS
-threshold converted to pixels via the raster's spatial_res (meters/pixel,
-e.g. rasterio Dataset.res[0]) instead of a fixed or box-relative pixel gap
--- so grouping behaves consistently regardless of the source image's
-resolution.
-
-Unlike build_graph_greedy_matching (which over-fetches a fixed k=6 nearest
-neighbors per point before filtering by distance -- fine there, since dot
-chains are locally sparse), this uses an uncapped RADIUS query
-(query_pairs) instead of a k nearest neighbor cap. A k-cap is the wrong
-tool for a pure distance threshold: under high local candidate density
-(e.g. many low-OCR-confidence detections crowding one area), a word's true
-partner can silently fall outside the top-k by center distance and never
-even get gap-tested -- not because the gap check rejects it, but because
-the check never runs on that pair at all (see conversation/testing: this
-caused legitimate multi-line groups to split once MIN_CONFIDENCE was
-lowered and candidate volume roughly doubled).
-
-Merging is restricted to words on the SAME PHYSICAL LINE (their Y-ranges
-overlap) -- isotropic 2D proximity used to also bridge separate lines
-whenever a document's line-spacing was tight (true for this content: e.g.
-"SD/KW 10-35 mit THmax." on one line and "SD/KW 35-45 mit THmax." on the
-line below got merged into one flat string). Once words from different
-lines are joined into a single space-separated string, the positional
-information needed to correctly re-pair each label with its own value is
-gone for good -- no later VLM prompt can reliably reconstruct which value
-belonged with which label (see conversation/testing: this produced wrong
-cross-line pairings like a THmax label ending up next to a completely
-different line's SD/KW range). Restricting to same-line merging keeps each
-physical line intact as its own group; any cross-line association a
-downstream consumer needs happens on those clean per-line readings, not by
-flattening them together here.
-"""
-
 import networkx as nx
 import numpy as np
 from scipy.spatial import cKDTree
@@ -74,16 +28,11 @@ def _gap(a, b):
 
 def group_words(words, spatial_res, max_gap_meters=MAX_GAP_METERS):
     """
-    words : list of {"bbox": (x0, y0, x1, y1), "text": str, ...}.
-    spatial_res : the raster's ground resolution in meters/pixel (e.g.
-        rasterio Dataset.res[0]). max_gap_meters is converted to a pixel
-        distance from this, matching dots_to_lines_gdal's convention.
-
-    Returns a list of groups, each:
-        {"bbox": merged (x0, y0, x1, y1), "words": [original word dicts, in
-         reading order], "text": concatenated text}
-    A word with no same-line neighbor within range becomes its own
-    single-item group.
+    words : list of {"bbox", "text", ...} dicts. spatial_res : raster ground
+    resolution (meters/pixel), used to convert max_gap_meters to pixels.
+    Returns a list of groups, each {"bbox": merged box, "words": member word
+    dicts in reading order, "text": concatenated text}; an unmatched word
+    becomes its own single-item group.
     """
     n = len(words)
     graph = nx.Graph()

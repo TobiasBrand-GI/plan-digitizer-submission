@@ -1,15 +1,3 @@
-"""Top-level entry point: mask the red-drawn area outlines in a GeoTIFF,
-trace them into polygons, and clip/dissolve them against allowed ALKIS
-land-use types -- producing areas.geojson, the polygon layer
-linking.join.link_text_to_areas later attaches text-block attributes to.
-
-File-path-in, file-path-out, matching texthandling.extract_text_features
-and linking.join.link_text_to_areas rather than requiring callers to share
-in-memory state. Every intermediate and final file is written under
-`out_dir`, so a caller can point two different runs at two different
-directories without one overwriting the other's outputs.
-"""
-
 import os
 
 import numpy as np
@@ -28,17 +16,12 @@ DEFAULT_ALLOWED_VALUES = [
 def segment_areas(tif_path, umring_path, vectors_path, out_dir,
                    allowed_values=DEFAULT_ALLOWED_VALUES):
     """
-    tif_path : source GeoTIFF to mask/segment.
-    umring_path : boundary GeoJSON clipping the ALKIS usage-type layer.
-    vectors_path : ALKIS usage-type shapefile (nutzungFlurstueck_kgt.shp).
-    out_dir : directory every intermediate and final output is written
-        into (created if missing): rot_maske_3.tif, shp/polygon3.shp,
-        dots.tif, lines.geojson, buffers.geojson, dots_contours.tif, and
-        finally areas.geojson.
-    allowed_values : ALKIS "nutzart" values kept when clipping/dissolving
-        (see polygonizing.intersect_usage_types_by_lines).
-
-    Returns the path to areas.geojson.
+    tif_path : source GeoTIFF to mask/segment. umring_path : boundary
+    GeoJSON clipping the ALKIS usage-type layer. vectors_path : ALKIS
+    usage-type shapefile. out_dir : directory every intermediate/final
+    output is written into (created if missing). allowed_values : ALKIS
+    "nutzart" values kept when clipping/dissolving. Returns the path to
+    areas.geojson.
     """
     os.makedirs(out_dir, exist_ok=True)
 

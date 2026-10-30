@@ -5,7 +5,8 @@ from numpy.ma.core import floor, ceil
 from processing import utils
 
 def red(dataset):
-
+    """Returns a binary mask (morphologically closed) of red-colored pixels
+    in dataset, covering both ends of the red hue wraparound in HSV."""
     hsv_image, meta, rgb_image = utils.transform_to_hsv(dataset)
 
     lower_red1 = np.array([0, 50, 50])
@@ -32,7 +33,8 @@ def red(dataset):
     return closed
 
 def edges(dataset):
-
+    """Returns (Canny edge mask, updated raster meta) from a Gaussian-blurred
+    version of dataset's RGB image."""
     hsv_image, meta, rgb_image = utils.transform_to_hsv(dataset)
 
     blurred_image = cv2.GaussianBlur(rgb_image, (5, 5), 0)
@@ -47,6 +49,9 @@ def edges(dataset):
     return retrieved_edges, meta
 
 def dots(dataset, height, width, spatial_res):
+    """Detects small circular dot contours (dotted boundary-line markers) in
+    dataset via contour area/circularity filtering. Returns (dot_img marking
+    dot centers, list of (x, y, radius) dots, line_mask of contour outlines)."""
     img = dataset.read()
     img = np.squeeze(img)
     img = np.moveaxis(img, 0, -1)  # (H, W, bands)
@@ -118,6 +123,9 @@ def dots(dataset, height, width, spatial_res):
     return dot_img, dots1, line_mask
 
 def debug_bboxes(dataset, height, width):
+    """Debug helper: detects contours in dataset and draws their bounding
+    boxes with area/circularity labels on a BGR copy. Returns (annotated
+    image, list of per-contour metric dicts)."""
     img = dataset.read()
     img = np.squeeze(img)
     img = np.moveaxis(img, 0, -1)  # (H, W, bands)

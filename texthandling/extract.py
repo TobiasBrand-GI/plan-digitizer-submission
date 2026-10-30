@@ -1,39 +1,3 @@
-"""Top-level entry point: GeoTIFF -> GeoJSON of extracted text regions.
-
-Four-stage pipeline:
-  1. Tesseract (ocr.py) measures precise per-word pixel bboxes, per tile.
-  2. A first VLM pass (mistral_client.classify_regions) verifies/corrects
-     each word's text and adds a semantic label, referring to each by a
-     numbered box (annotate.py) rather than re-localizing it itself -- VLM
-     spatial grounding was measurably noisier than a dedicated CV text
-     detector, while a CV text detector alone can't tell a parcel number
-     from a street name (see conversation/testing).
-  3. Words not already known to be atomic single-value labels (see
-     EXCLUDED_LABELS) are spatially merged into coherent multi-word groups
-     (group.py) and sent through a second VLM pass, so e.g. "GRZ" and "0,4"
-     -- two separate Tesseract words -- get classified together as
-     "GRZ 0,4" instead of as two disconnected fragments.
-  4. Once every tile has been processed, dissolve.py merges duplicate
-     detections of the same real-world text that got independently found
-     in 2+ overlapping tiles (see tiling.py's overlap) into one feature.
-     This can only happen after the full tile loop, so results are
-     accumulated in memory rather than streamed straight to the output
-     layer.
-  5. reconcile.py resolves whatever conflicts dissolve.py couldn't settle
-     locally, using one final text-only VLM call that sees the rest of the
-     extraction's confirmed results as context plus general zoning-plan
-     domain knowledge.
-  6. blocks.py merges nearby CONFIRMED lines into one polygon per block
-     (e.g. a full zone specification), for downstream processing that
-     needs one feature per zone rather than one per line -- geometry only,
-     each line's own text is kept intact and joined, never re-flattened.
-  7. structure.py parses each block's lines into key/value attributes
-     (e.g. "GRZ 0,4" -> GRZ=0,4) via one more text-only VLM call, and the
-     output schema is built dynamically from whatever keys are actually
-     discovered, since a Bebauungsplan's attribute vocabulary isn't known
-     ahead of time.
-"""
-
 import rasterio
 from osgeo import ogr, osr
 
@@ -57,25 +21,11 @@ def extract_text_features(geotiff_path, out_path, api_key=None,
                            ocr_upscale=ocr.UPSCALE, ocr_min_confidence=ocr.MIN_CONFIDENCE,
                            block_max_gap_meters=blocks.MAX_GAP_METERS):
     """
-    Run OCR + two-pass VLM classification over a GeoTIFF, dissolve
-    cross-tile duplicates, merge nearby confirmed lines into per-block
-    polygons, and write the results to `out_path` as GeoJSON -- one
-    feature per block:
-      - geometry: the bounding box of that block's member lines' combined
-        extent, in the raster's CRS
-      - block_max_gap_meters: how far apart (straight-line distance) two
-        lines can be and still count as the same block -- tune per
-        document if lines that should merge don't, or ones that shouldn't
-        do (see blocks.py)
-      - properties: TEXT_FIELDS (joined text, label, OCR confidence, and
-        conflict1/conflict2 if a merged-away line disagreed with another
-        -- see dissolve.py) PLUS one field per attribute key discovered by
-        structure.py (e.g. GRZ, GFZ, THmax -- varies per document, empty
-        for blocks that don't have that particular attribute)
-
-    The raster is processed in overlapping tiles (see tiling.py) since a
-    GeoTIFF is typically far larger than a VLM's usable input resolution.
-    Tiles with no OCR-detected words skip both VLM calls entirely.
+    Runs OCR + two-pass VLM classification over geotiff_path, dissolves
+    cross-tile duplicates, merges lines into per-block polygons, and writes
+    one feature per block to out_path as GeoJSON (geometry = block bbox;
+    properties = TEXT_FIELDS plus structure.py's discovered keys). Tiles
+    with no OCR words skip both VLM calls.
     """
     client = mistral_client.get_client(api_key)
 
@@ -86,6 +36,8 @@ def extract_text_features(geotiff_path, out_path, api_key=None,
         records = []  # accumulated across all tiles; dissolved once the loop finishes
 
         def record(bbox_px, text, label, confidence, member_words):
+            """Appends a record for this detection to the enclosing records
+            list; skipped entirely if label is excluded."""
             if label in EXCLUDED_LABELS:
                 return
             records.append({

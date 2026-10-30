@@ -1,15 +1,3 @@
-"""Final pass: resolve dissolve.py's conflict1/conflict2 disagreements
-using a text-only VLM call that sees the rest of the extraction's confirmed
-results as context and applies general knowledge of German zoning-plan
-(Bebauungsplan) conventions -- GRZ/GFZ ratios, elevation reference points,
-WA/MI/etc. zoning codes, plausible building heights -- rather than
-dissolve.py's local completeness/length/confidence heuristic alone.
-
-Runs once per whole extraction (not per tile), and only for entries that
-actually have a conflict -- confirmed entries are included as read-only
-context, not re-classified.
-"""
-
 from . import mistral_client
 
 

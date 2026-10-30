@@ -1,26 +1,3 @@
-"""Experiment: replace open_rgb()'s gdal.Translate(rgbExpand="rgb") call.
-
-On tif/z_206.tif, gdal.Translate(...) -- and even the plainer
-driver.CreateCopy() it wraps internally, with no rgbExpand at all --
-segfaults (confirmed via direct testing: exit code 139/SIGSEGV, reproduced
-both with and without rgbExpand). That's a native crash in GDAL 3.10.0's
-GTiff driver, not a Python exception open_rgb()'s existing try/except
-RuntimeError can catch -- it kills the process/thread outright, which is
-why the API call "gets stuck" with no error: the worker handling the
-request dies mid-call and never replies.
-
-Reading the same file works fine both via rasterio and via GDAL's own
-ReadAsArray -- the crash is isolated to GDAL's copy-to-new-file path, not
-reading. This script avoids that path entirely: read the palette-indexed
-band and its colormap via rasterio, expand to RGB with a numpy LUT (same
-technique linking/lines.py's detect_line_segments() already uses for
-palette rasters, just producing 3 bands instead of 1 luminance band), and
-write the result with rasterio's own writer.
-
-Run directly to try it against z_206.tif:
-    python3 processing/open_rgb_experiment.py
-"""
-
 import os
 
 import numpy as np

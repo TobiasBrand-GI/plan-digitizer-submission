@@ -1,62 +1,3 @@
-"""Detect candidate connector-line paths in the source GeoTIFF: thin lines
-drawn from an area polygon to the text block describing it (see
-docs/superpowers/specs/2026-09-01-text-area-linking-design.md).
-
-Runs OpenCV's Line Segment Detector (LSD) over the WHOLE raster in a single
-pass -- not tiled -- consistent with how the rest of processing/ operates
-(masking, dot-chaining, Voronoi skeletonization all work on the full
-raster), and avoids reintroducing the tile-boundary fragmentation problem
-texthandling had to solve for OCR. LSD needs no threshold tuning, unlike
-cv2.HoughLinesP (see the design spec's Alternatives Considered section).
-
-A genuine connector line can be broken into several collinear fragments by
-crossing hatch-fill strokes or other linework -- merge_segments_into_paths
-bridges these back into one candidate path via the same networkx
-connected-components pattern already used throughout this codebase
-(group.py, dissolve.py, blocks.py, processing/utils.py's
-eliminate_small_polygons), so relate.py doesn't need to reason about
-fragments itself.
-
-LSD also detects a single stroke with real width as TWO nearly-parallel
-segments -- one per contour edge -- rather than the stroke's true
-centerline (confirmed on real project data: ~28% of raw segments are part
-of such a pair). merge_parallel_contour_pairs() collapses these into one
-synthesized centerline segment BEFORE merge_segments_into_paths runs, so
-relate.py's matching isn't working against two candidates each offset from
-the true line by up to half the stroke width -- offsets large enough to
-push a marginal match past buffer_tolerance_meters entirely (confirmed:
-one real pair sat within 1.1m of a genuine text block, just outside the
-0.5m match tolerance, purely from stroke-width offset). This is a
-DIFFERENT case from merge_segments_into_paths' own degenerate-path
-fallback below: that fallback only triggers when contour edges are close
-enough to snap together at both ends (within ENDPOINT_SNAP_TOLERANCE_METERS);
-a real measured pair sat ~0.4m apart, wider than that tolerance, so it
-never reached the fallback at all -- it simply produced two separate,
-individually-valid-looking, slightly-mispositioned candidate paths.
-
-A THIRD, distinct case: where a genuine connector line crosses another real
-line (a building/parcel boundary edge, hatch fill, etc.), LSD frequently
-terminates the connector right at the junction instead of detecting it as
-passing through -- a known behavior of edge-based line detectors, since the
-local pixel neighborhood at a crossing no longer looks like a single
-straight edge. This leaves an actual multi-meter break in the detected
-segments (confirmed visually on real plan data: a traced connector had two
-gaps, one ~5-6m wide, exactly where it crosses a building outline), not the
-sub-pixel jitter ENDPOINT_SNAP_TOLERANCE_METERS is sized for.
-bridge_collinear_gaps() closes these -- run AFTER merge_parallel_contour_pairs
-(so it works on one centerline per stroke, not duplicate contour pairs) and
-BEFORE merge_segments_into_paths -- by joining two segments that are
-tightly collinear (same infinite line, not just similarly angled) AND do
-NOT overlap (overlap means "two edges of one stroke", the different case
-merge_parallel_contour_pairs already owns) into one spanning segment,
-provided the gap between them is within MAX_COLLINEAR_GAP_METERS. That
-bound follows this project's existing convention for "a real interruption,
-not a different feature" gaps (texthandling/blocks.py's
-MAX_GAP_METERS=10.0, texthandling/group.py's MAX_GAP_METERS=5.5) -- a
-starting point for tuning against more real data, not yet exhaustively
-calibrated.
-"""
-
 import itertools
 import math
 
@@ -181,24 +122,24 @@ def _angle_deg(segment):
 
 
 def _angle_diff_deg(a, b):
+    """Smallest angular difference between two 0-180deg orientations, in degrees."""
     diff = abs(a - b)
     return min(diff, 180 - diff)
 
 
 def _segment_length(segment):
+    """Euclidean length of a two-point ((x0, y0), (x1, y1)) segment."""
     (x0, y0), (x1, y1) = segment
     return math.hypot(x1 - x0, y1 - y0)
 
 
 def _perpendicular_offset_and_overlap(a, b):
     """
-    How segment b relates to segment a's own direction: perp_offset is
-    b's average perpendicular distance from a's infinite line; overlap
-    is how much of the shorter segment's length -- both projected onto
-    a's direction -- overlaps with the other's projected extent. Two
-    edges of the same stroke are near-zero perp_offset with ~full overlap;
-    two lines that merely cross near one end have low overlap even if
-    perp_offset happens to be small at the crossing point.
+    Returns (perp_offset, overlap_fraction) describing how b relates to a's
+    direction: perp_offset is b's average perpendicular distance from a's
+    line; overlap_fraction is how much of the shorter segment overlaps the
+    other's projected extent. High overlap with near-zero offset means the
+    same stroke's two edges.
     """
     (ax0, ay0), (ax1, ay1) = a
     (bx0, by0), (bx1, by1) = b
@@ -209,6 +150,8 @@ def _perpendicular_offset_and_overlap(a, b):
     ux, uy = adx / alen, ady / alen
 
     def project(px, py):
+        """Projects (px, py) onto a's direction; returns (position along a,
+        signed perpendicular distance from a)."""
         vx, vy = px - ax0, py - ay0
         t = vx * ux + vy * uy  # position along a's direction
         perp = vx * -uy + vy * ux  # signed perpendicular distance from a
@@ -247,21 +190,12 @@ def merge_parallel_contour_pairs(segments, angle_tolerance_deg=PARALLEL_ANGLE_TO
                                   max_offset_meters=PARALLEL_MAX_OFFSET_METERS,
                                   min_overlap_fraction=PARALLEL_MIN_OVERLAP_FRACTION):
     """
-    Detect segment pairs that are really the two contour edges of ONE
-    stroke (see module docstring) -- nearly parallel, similar length,
-    small perpendicular offset, running alongside each other for most of
-    their length -- and replace each such pair with a single synthesized
-    centerline segment. Segments that don't pair up are returned as-is.
-
-    Intended to run on detect_line_segments()'s raw output, BEFORE
-    merge_segments_into_paths -- halving false duplication there so its
-    existing collinear/endpoint-bridging logic (and relate.py's matching
-    downstream) operates on one segment per real stroke fragment, not two.
-
-    O(n^2) worst case (each unpaired segment scans the remainder once) --
-    same complexity class as merge_segments_into_paths' own pairwise
-    checks; measured ~2.8s at ~4300 real segments, acceptable at this
-    project's scale.
+    Merges segment pairs that are really the two contour edges of one
+    stroke (parallel, similar length, small offset, mostly overlapping)
+    into a single centerline segment; unpaired segments are returned as-is.
+    Run on detect_line_segments()'s raw output before
+    merge_segments_into_paths, to avoid duplicate segments downstream.
+    O(n^2) worst case.
     """
     n = len(segments)
     used = [False] * n
@@ -324,25 +258,12 @@ def bridge_collinear_gaps(segments, angle_tolerance_deg=COLLINEAR_GAP_ANGLE_TOLE
                            max_perpendicular_offset_meters=COLLINEAR_GAP_MAX_PERPENDICULAR_OFFSET_METERS,
                            max_gap_meters=MAX_COLLINEAR_GAP_METERS):
     """
-    Detect segment pairs that are really the SAME straight line interrupted
-    by a crossing feature (see module docstring) -- tightly collinear,
-    negligible perpendicular offset, NOT overlapping -- and replace each
-    such pair with one segment spanning their full combined extent.
-    Segments that don't pair up are returned as-is.
-
-    Intended to run on merge_parallel_contour_pairs()'s output, BEFORE
-    merge_segments_into_paths -- so the latter's own endpoint-snap bridging
-    (jitter-scale, ENDPOINT_SNAP_TOLERANCE_METERS) only has to handle small
-    gaps, with real multi-meter interruptions already closed here.
-
-    The "NOT overlapping" requirement is what keeps this from overlapping
-    in *purpose* with merge_parallel_contour_pairs: two segments that run
-    alongside each other for most of their length are the two edges of one
-    stroke (that function's job), not two ends of the same interrupted
-    centerline (this function's job) -- a pair can't be both.
-
-    O(n^2) worst case, same complexity class as merge_parallel_contour_pairs
-    and merge_segments_into_paths' own pairwise checks.
+    Bridges segment pairs that are really one straight line interrupted by
+    a crossing feature (collinear, negligible offset, NOT overlapping) into
+    one segment spanning their combined extent; unpaired segments are
+    returned as-is. Run after merge_parallel_contour_pairs and before
+    merge_segments_into_paths, so only small jitter gaps remain for the
+    latter's bridging. O(n^2) worst case.
     """
     n = len(segments)
     angles = [_angle_deg(s) for s in segments]
@@ -385,15 +306,11 @@ def bridge_collinear_gaps(segments, angle_tolerance_deg=COLLINEAR_GAP_ANGLE_TOLE
 def merge_segments_into_paths(segments, endpoint_tolerance_meters=ENDPOINT_SNAP_TOLERANCE_METERS,
                                angle_tolerance_deg=ANGLE_TOLERANCE_DEG):
     """
-    Merge fragmented, endpoint-adjacent, nearly-collinear segments (see
-    detect_line_segments) into candidate paths.
-
-    Returns a list of paths; each path is a list of (x, y) "loose end"
-    points -- points touched by exactly one of THAT PATH's OWN segments,
-    i.e. the true ends of the (possibly multi-fragment) line. A path with
-    only one segment has exactly 2 loose ends (its own two endpoints).
-    relate.py tests these points directly against polygon/text-block
-    geometries -- no path ordering/traversal is needed downstream.
+    Merges fragmented, endpoint-adjacent, nearly-collinear segments into
+    candidate paths. Returns a list of paths; each path is a list of (x, y)
+    "loose end" points -- the true ends of the (possibly multi-fragment)
+    line, touched by exactly one of that path's own segments. relate.py
+    tests these points directly, without path traversal.
     """
     n = len(segments)
     if n == 0:

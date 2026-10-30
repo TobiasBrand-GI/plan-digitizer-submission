@@ -9,7 +9,10 @@ from collections import defaultdict
 
 
 def polygonize(input_img, dst_ds, crs_wkt):
-
+    """Polygonizes the HA=255 regions of input_img's raster band, smooths
+    each polygon via simplify + square-buffer shrink/grow, writes the
+    results into dst_ds's layer, and returns their union as a
+    GeometryCollection mask."""
     #  get raster datasource
     src_ds = input_img
     srcband = src_ds.GetRasterBand(1)
@@ -107,6 +110,7 @@ def build_graph_greedy_matching(points, max_dist, k_candidates=6):
     parent = list(range(n))
 
     def find(x):
+        """Union-find root lookup with path compression."""
         while parent[x] != x:
             parent[x] = parent[parent[x]]
             x = parent[x]
@@ -211,6 +215,9 @@ def dots_to_lines_gdal(dataset, dots1, output_path, spatial_res,
     ds = None  # flush + close, writes to disk
 
 def postprocess_dotted_lines(in_path, out_path):
+    """Buffers each line from in_path, dissolves the buffers, builds a
+    Voronoi skeleton of the dissolved shape, filters it to segments within
+    the buffer, and writes the resulting centerlines to out_path."""
     if in_path is None:
         raise ValueError("Path cannot be None")
 
@@ -289,20 +296,11 @@ def postprocess_dotted_lines(in_path, out_path):
 def intersect_usage_types_by_lines(umring_path, alkis_path, lines_path, out_path, mask_polygons,
                                    field_name="nutzart", allowed_values=None):
     """
-    1. Clip the ALKIS shapefile to the Umring (boundary) polygon from a GeoJSON.
-    2. Dissolve the clipped geometries by `field_name` (e.g. "nutzungsart"),
-       optionally restricted to `allowed_values`.
-    3. Convert the dissolved polygons' boundaries to line segments.
-    4. Merge those segments with the existing lines from `lines_path`.
-    5. Node the combined linework and polygonize it into new polygons.
-    6. Save the resulting polygons to `out_path` as GeoJSON.
-
-    Parameters
-    ----------
-    allowed_values : iterable, optional
-        If given, only ALKIS features whose `field_name` value is in this
-        set are considered -- everything else is skipped before clipping/
-        dissolving. If None (default), all values are included.
+    Clips the ALKIS shapefile to the Umring boundary, dissolves by
+    field_name (optionally restricted to allowed_values), converts the
+    dissolved boundaries to line segments, merges them with lines_path's
+    existing lines, nodes and polygonizes the combined linework, and saves
+    the result to out_path as GeoJSON.
     """
     allowed_set = set(allowed_values) if allowed_values is not None else None
     # 1. Umring boundary (dissolve all its features into one clip geometry)

@@ -1,6 +1,3 @@
-"""Reproject a tile-local pixel bounding box into the raster's CRS as an
-OGR polygon."""
-
 import rasterio.transform
 from osgeo import ogr
 
@@ -8,8 +5,7 @@ from osgeo import ogr
 def bbox_to_geom(dataset, window, bbox_px):
     """
     bbox_px : (x0, y0, x1, y1), absolute pixel coordinates local to the tile
-        that was read from `window` (i.e. exactly what ocr.detect_words()
-        measured).
+        read from `window`.
     window : the rasterio.windows.Window the tile was read from -- used to
         offset the tile-local pixel coords back into full-raster pixel space.
 

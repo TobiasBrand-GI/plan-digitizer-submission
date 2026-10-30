@@ -1,17 +1,3 @@
-"""
-OGR geometry -> GML 3.2 element for the XPlanung export.
-
-Every geometry goes through prepare() first: 2D only, EPSG:25832, valid,
-polygonal parts only, and ring orientation as GML expects it (exterior
-counter-clockwise, interiors clockwise). Shapefiles store exterior rings
-clockwise, so this matters for shp/polygon3.shp in particular.
-
-The GML itself comes from OGR's ExportToGML (FORMAT=GML32), which writes
-gml:Polygon / gml:MultiSurface with gml:posList -- the encodings the
-XPlanung GML profile (schemas/xplanung/6.1/GmlProfile/gmlProfilexplan.xsd)
-allows for rings.
-"""
-
 from lxml import etree
 from osgeo import ogr, osr
 
@@ -23,6 +9,7 @@ SRS_NAME = f"EPSG:{EPSG}"
 
 
 def _target_srs():
+    """Returns an osr.SpatialReference for EPSG:25832 with GIS (x, y) axis order."""
     srs = osr.SpatialReference()
     srs.ImportFromEPSG(EPSG)
     srs.SetAxisMappingStrategy(osr.OAMS_TRADITIONAL_GIS_ORDER)
@@ -35,6 +22,8 @@ def _signed_area(points):
 
 
 def _oriented_ring(ring, counter_clockwise):
+    """Returns a copy of ring with point order flipped if needed to match the
+    requested winding direction."""
     points = ring.GetPoints()
     if (_signed_area(points) > 0) != counter_clockwise:
         points = points[::-1]
@@ -45,6 +34,8 @@ def _oriented_ring(ring, counter_clockwise):
 
 
 def _oriented_polygon(polygon):
+    """Returns a copy of polygon with the exterior ring counter-clockwise and
+    every interior ring clockwise, as GML requires."""
     oriented = ogr.Geometry(ogr.wkbPolygon)
     for i in range(polygon.GetGeometryCount()):
         oriented.AddGeometry(_oriented_ring(polygon.GetGeometryRef(i), counter_clockwise=(i == 0)))

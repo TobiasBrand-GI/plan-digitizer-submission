@@ -1,11 +1,3 @@
-"""
-Pure string parsers for the raw attribute values the structuring pass
-(texthandling/structure.py) produces, e.g. "8,5 m", "max. 48°",
-"25 - 35°", "WA II". No I/O, no OGR -- every function takes a string and
-returns plain Python values, or raises ParseError so mapping.py can turn
-the failure into a report entry instead of silently dropping the value.
-"""
-
 import re
 from typing import NamedTuple
 

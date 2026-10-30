@@ -1,40 +1,3 @@
-"""Thin wrapper around the Mistral API's vision-capable chat completion,
-used to verify/classify OCR-detected text regions (see ocr.py) -- the VLM
-is no longer asked to localize text itself; Tesseract already measured
-precise bboxes ahead of time (see conversation/testing: VLM spatial
-grounding was measurably noisier than a dedicated CV text detector).
-
-extract_text_features() calls classify_regions() up to twice per raster
-tile with no concurrency -- on a large plan this can exceed the API's
-requests-per-second limit even while token usage stays well under quota.
-MISTRAL_REQUEST_DELAY_MS (set in .env) inserts a fixed delay before every
-call in this module, regardless of which of the three functions triggers
-it, so every caller is covered without threading a parameter through
-extract.py/reconcile.py/structure.py. Defaults to 0 (no delay) -- opt in by
-setting it once request-rate errors show up.
-
-A fixed delay only lowers HOW OFTEN the limit gets hit -- it can't
-guarantee staying under it (the exact limit isn't published, and it can
-still trip on a burst of larger-than-usual tiles). _complete_with_retry()
-additionally catches the API's own 429 response and backs off -- honoring
-its Retry-After header when present, otherwise doubling from
-MISTRAL_REQUEST_DELAY_MS -- and retries, up to MISTRAL_MAX_RETRIES times,
-so a rate-limit hit slows the run down instead of crashing it.
-
-THREAD SAFETY: main.py's /text-extraction route is a plain `def`, which
-FastAPI/Starlette runs in a threadpool -- two concurrent requests run this
-module's code in two different threads. A plain time.sleep() per call only
-paces calls made by the SAME thread; it does nothing to stop a second
-thread from firing its own call in the middle of that sleep, so concurrent
-requests can combine to exceed the real limit even though each looks
-individually compliant. _throttle() below coordinates across ALL threads
-in this process via a shared lock and a "next allowed call time", so the
-configured delay is enforced against the process's TOTAL call rate, not
-per-thread. It does NOT coordinate across separate OS processes (e.g.
-`uvicorn --workers N>1`, or a second script/test run hitting the same key
-at the same time) -- if requests still exceed the limit after this fix,
-check for exactly that."""
-
 import os
 import threading
 import time
@@ -128,6 +91,8 @@ def build_classification_prompt(words):
 
 
 def get_client(api_key=None):
+    """Returns a Mistral client using api_key or the MISTRAL_API_KEY env
+    var; raises RuntimeError if neither is set."""
     api_key = api_key or os.environ.get("MISTRAL_API_KEY")
     if not api_key:
         raise RuntimeError("MISTRAL_API_KEY not set (pass api_key= or set the env var)")
@@ -136,14 +101,11 @@ def get_client(api_key=None):
 
 def classify_regions(client, image_b64, words, model=DEFAULT_MODEL, prompt=None):
     """
-    Send one base64-encoded, numbered-box-annotated PNG tile (see
-    annotate.draw_numbered_boxes) to the VLM, along with OCR's guess for
-    each numbered box. Returns a list of classifications:
-        [{"index": int, "is_text": bool, "corrected_text": str, "label": str}, ...]
-
-    Geometry is NOT requested here -- callers pair each classification back
-    up with words[classification["index"]]["bbox"] (Tesseract's measured
-    bbox) before reprojecting via geocode.bbox_to_geom().
+    Sends one numbered-box-annotated PNG tile (see annotate.draw_numbered_boxes)
+    to the VLM along with OCR's guess for each box. Returns a list of
+    classifications: [{"index", "is_text", "corrected_text", "label"}, ...].
+    Geometry is NOT requested -- callers pair each result back to
+    words[index]["bbox"] themselves.
     """
     response = _complete_with_retry(
         client,
@@ -166,13 +128,11 @@ def classify_regions(client, image_b64, words, model=DEFAULT_MODEL, prompt=None)
 
 def build_reconcile_prompt(context, conflicts):
     """
-    context : dissolve.dissolve_duplicates() entries that had NO conflict
-        (read-only background -- what else this plan already confirms).
-    conflicts : entries that DID have a conflict. Uses "all_readings" (every
-        distinct reading in the cluster) rather than just conflict1/conflict2
-        -- a cluster can have 3+ overlapping candidates, and this needs full
-        visibility to merge complementary fragments instead of only seeing
-        the top-2 by dissolve.py's local completeness ranking.
+    context : dissolve.dissolve_duplicates() entries with no conflict
+    (read-only background). conflicts : entries that DID conflict; uses
+    "all_readings" (every distinct reading in the cluster, not just
+    conflict1/conflict2) so complementary fragments can be merged even in
+    a 3+-way conflict.
     """
     context_lines = "\n".join(
         f'  - "{r["text"]}"' + (f', labeled {r["label"]}' if r.get("label") else "")

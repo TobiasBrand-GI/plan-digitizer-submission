@@ -1,23 +1,3 @@
-"""
-Structured-output schema for the VLM's classification pass (see
-mistral_client.classify_regions), and the subset of it that becomes GeoJSON
-feature attributes.
-
-Geometry is NOT part of this schema -- Tesseract (ocr.py) already measured
-precise per-word pixel bboxes ahead of time; the VLM's job is purely to
-verify/correct each detected word's text and add semantic labels, referring
-to each by the numbered box annotate.py drew for it (see conversation --
-VLM-reported bboxes were measurably noisier than a dedicated CV detector's).
-
-Each classification the model reports is expected to look like:
-    {
-        "index": 3,                  # matches the numbered box drawn on the image
-        "is_text": true,             # false if OCR misread a drawing line/hatch mark
-        "corrected_text": "...",     # OCR's text, corrected if it misread something
-        "label": "...",              # e.g. "street_name", "house_number" -- optional
-    }
-"""
-
 CLASSIFICATION_SCHEMA = {
     "type": "object",
     "properties": {

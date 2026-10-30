@@ -1,10 +1,3 @@
-"""Attach parsed key/value attributes (see mistral_client.structure_blocks)
-to blocks.merge_blocks() output, and discover the full set of distinct
-attribute keys used across the whole extraction -- needed up front to
-declare the output layer's fields, since a Bebauungsplan's attribute
-vocabulary isn't known ahead of time (see extract.py, which creates one
-OGR field per discovered key before writing any feature)."""
-
 from . import mistral_client
 
 

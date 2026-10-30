@@ -9,12 +9,14 @@ Automatically digitalize features from German zoning plans
 - A [Mistral AI](https://console.mistral.ai/) API key (used for text classification)
 - The ALKIS land-use shapefile `nutzungFlurstueck_kgt.shp` (with its `.shx`, `.dbf`, `.prj` files)
 
+> Example ALKIS files and other geodata are available under: [https://1drv.ms/f/c/c7dff35ae91c49d4/IgAP84ogdOcrSpqd-Gtv1hNsAYgKMsRr1KE3bky_pJ1MH84?e=402uU5](https://1drv.ms/f/c/c7dff35ae91c49d4/IgAP84ogdOcrSpqd-Gtv1hNsAYgKMsRr1KE3bky_pJ1MH84?e=402uU5)
+
 ### Setup
 
 1. Clone the repository and change into it:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/TobiasBrand-GI/plan-digitizer-submission.git
+   cd plan-digitizer-submission
    ```
 2. Copy the example environment file and adjust it:
    ```bash
@@ -36,19 +38,9 @@ Automatically digitalize features from German zoning plans
 - **API documentation:** <http://localhost:8000/docs>
 - The system itself states that it listens on http://0.0.0.0:8000, which can lead to issues, if this IP is not mapped as *localhost* on the local machine.
 
-### Local development
-
-The dev container in `.devcontainer/gdal/` provides the same GDAL 3.10 / Python 3.12 environment. Inside it:
-
-```bash
-pip install -r requirements.txt
-fastapi dev main.py
-```
-
-Outside the dev container, GDAL with its Python bindings (`osgeo`) and the `tesseract-ocr` system package must be installed first.
-
 ## License
 
 - **Code:** GNU Affero General Public License v3.0 (see [`LICENSE`](LICENSE)).
 - **Research data** in [`data/test_results`](data/test_results): Creative Commons Attribution 4.0 International (CC BY 4.0, see [`data/LICENSE`](data/LICENSE)).
 - **Third-party material keeps its own license:** XPlanung schemas in `schemas/` (XLeitstelle), ALKIS data (dl-de/zero-2-0), zoning plans (respective municipalities).
+  - Due to file size, plans, ALKIS and other geodata files are available here: [https://1drv.ms/f/c/c7dff35ae91c49d4/IgAP84ogdOcrSpqd-Gtv1hNsAYgKMsRr1KE3bky_pJ1MH84?e=402uU5](https://1drv.ms/f/c/c7dff35ae91c49d4/IgAP84ogdOcrSpqd-Gtv1hNsAYgKMsRr1KE3bky_pJ1MH84?e=402uU5)

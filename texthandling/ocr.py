@@ -1,27 +1,3 @@
-"""Tesseract-based text detection: precise per-word pixel bounding boxes.
-
-Used as a preprocessing stage ahead of the VLM (see mistral_client.py /
-extract.py) because a dedicated CV text detector measures geometry far more
-precisely than VLM spatial grounding does (see conversation/testing).
-
-Requires the `tesseract-ocr` system package (e.g. `apt-get install
-tesseract-ocr`) in addition to the `pytesseract` Python binding -- there is
-no pure-Python fallback here.
-
-Raw Tesseract badly under-detects text on this cluttered CAD-plan style
-content and produces significant noise from misread drawing linework;
-upscaling + adaptive thresholding first (the defaults below) is what makes
-it usable (see conversation/testing).
-
-Tesseract's LSTM engine parallelizes its matrix ops across OpenMP threads,
-and floating-point summation order isn't guaranteed identical across thread
-interleavings -- this produces tiny run-to-run jitter in confidence scores
-for marginal detections, which can flip a word across MIN_CONFIDENCE between
-otherwise-identical runs (see conversation/testing: same input, different
-detected words). Forcing single-threaded execution below removes that
-nondeterminism at the source, at the cost of some throughput.
-"""
-
 import os
 
 import cv2

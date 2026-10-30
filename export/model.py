@@ -1,19 +1,3 @@
-"""
-Target object model for the XPlanung 6.1 export -- only the subset of
-XPlanGML the pipeline can actually fill (Plan, Bereich, building-area
-polygons, building windows).
-
-Code values are taken from schemas/xplanung/6.1/Enumerationen/*.xml,
-property names and cardinalities from XPlanGML_BPlan.xsd /
-XPlanGML_Basisschema.xsd. Field order here does NOT define the XML
-element order -- serialize.py owns that, since the XSD sequence spans the
-whole inheritance chain (XP_Objekt -> BP_Objekt -> BP_Flaechenobjekt -> ...).
-
-References between objects (gehoertZuBereich, planinhalt, bereich,
-gehoertZuPlan) are not stored here: serialize.py derives them from
-containment in XPlanAuszug.
-"""
-
 import uuid
 from enum import IntEnum
 from typing import ClassVar
@@ -23,6 +7,7 @@ from pydantic import BaseModel, ConfigDict, Field
 
 
 def new_gml_id():
+    """Returns a fresh, unique gml:id value."""
     return f"GML_{uuid.uuid4()}"
 
 
@@ -166,6 +151,8 @@ class BaugebietsTeilFlaeche(_GeometryModel):
 
     @property
     def allgArtDerBaulNutzung(self):
+        """Derives the general use category (XP_AllgArtDerBaulNutzung) from
+        besondereArtDerBaulNutzung per §1 Abs. 2 BauNVO; None if unset."""
         if self.besondereArtDerBaulNutzung is None:
             return None
         return _ALLG_FROM_BESONDERE[self.besondereArtDerBaulNutzung.name]

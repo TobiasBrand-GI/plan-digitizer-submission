@@ -1,18 +1,3 @@
-"""
-Turns the pipeline's vector outputs into export.model objects:
-
-    linked_areas.geojson  -> BaugebietsTeilFlaeche  (geometry + parsed text attributes)
-    shp/polygon3.shp      -> UeberbaubareGrundstuecksFlaeche  (geometry only)
-    umring GeoJSON        -> raeumlicherGeltungsbereich / geltungsbereich
-
-The structuring pass (texthandling/structure.py) produces free-form keys,
-so every key goes through an explicit alias -> parser -> model-field path.
-Anything that can't be mapped becomes an Issue instead of being dropped
-silently -- the caller writes those to the export report for manual review.
-
-Geometries are cloned but not repaired here; that's geometry.py's job.
-"""
-
 import re
 from dataclasses import dataclass
 
@@ -94,6 +79,7 @@ def map_area(properties, geometry, source="linked_areas.geojson", feature_index=
     dachgestaltungen = []
 
     def issue(key, raw, reason):
+        """Appends an Issue for this feature to the enclosing issues list."""
         issues.append(Issue(source, feature_index, key, raw, reason))
 
     for key, raw in properties.items():

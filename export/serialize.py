@@ -1,21 +1,3 @@
-"""
-export.model.XPlanAuszug -> XPlanGML 6.1 document (lxml tree).
-
-Element order follows the XSD sequences, which run along the whole
-inheritance chain -- for an area object:
-    XP_Objekt          hoehenangabe*, gehoertZuBereich, rechtscharakter
-    BP_Flaechenobjekt  position, flaechenschluss
-    <class itself>     dachgestaltung*, GFZ, GRZ, Z..., allgArt..., besondereArt...
-Only properties the model carries are written; everything else in those
-sequences is optional (minOccurs=0) and simply left out.
-
-Precondition: every geometry has already gone through geometry.prepare()
-(the caller drops/report those that came back None).
-
-References (gehoertZuBereich, planinhalt, bereich, gehoertZuPlan) are
-xlink:href="#<gml:id>" and derived from containment in XPlanAuszug.
-"""
-
 from enum import IntEnum
 
 from lxml import etree
@@ -36,14 +18,17 @@ UOM_ANGLE = "grad"
 
 
 def _x(tag):
+    """Returns tag qualified with the xplan namespace, in lxml's {uri}tag form."""
     return f"{{{XPLAN_NS}}}{tag}"
 
 
 def _g(tag):
+    """Returns tag qualified with the gml namespace, in lxml's {uri}tag form."""
     return f"{{{GML_NS}}}{tag}"
 
 
 def _format(value):
+    """Formats a Python value as the XML text XPlanGML expects for it."""
     if isinstance(value, bool):  # before int -- bool is an int subclass
         return "true" if value else "false"
     if isinstance(value, IntEnum):  # code list values are written as their code
@@ -63,14 +48,18 @@ def _text(parent, tag, value, **attrib):
 
 
 def _ref(parent, tag, target_id):
+    """Appends <xplan:tag xlink:href="#target_id"/>, an xlink reference to
+    another feature's gml:id."""
     etree.SubElement(parent, _x(tag), {f"{{{XLINK_NS}}}href": f"#{target_id}"})
 
 
 def _geometry(parent, tag, geom, gml_id):
+    """Appends <xplan:tag> wrapping geom's GML representation under gml_id."""
     etree.SubElement(parent, _x(tag)).append(geometry.to_gml(geom, gml_id))
 
 
 def _hoehenangabe(parent, hoehenangabe):
+    """Appends an XP_Hoehenangabe element with its bezugspunkt and height bounds."""
     element = etree.SubElement(etree.SubElement(parent, _x("hoehenangabe")), _x("XP_Hoehenangabe"))
     _text(element, "bezugspunkt", hoehenangabe.bezugspunkt)
     for name in ("hMin", "hMax", "hZwingend", "h"):
@@ -78,6 +67,7 @@ def _hoehenangabe(parent, hoehenangabe):
 
 
 def _dachgestaltung(parent, dachgestaltung):
+    """Appends a BP_Dachgestaltung element with its pitch bounds and roof forms."""
     element = etree.SubElement(etree.SubElement(parent, _x("dachgestaltung")), _x("BP_Dachgestaltung"))
     for name in ("DNmin", "DNmax", "DN", "DNzwingend"):
         _text(element, name, getattr(dachgestaltung, name), uom=UOM_ANGLE)
@@ -100,6 +90,8 @@ def _flaechenobjekt(member, tag, obj, bereich_id):
 
 
 def _baugebiet(member, area, bereich_id):
+    """Writes a BP_BaugebietsTeilFlaeche feature: the shared flaechenobjekt
+    part plus roof and use-type properties specific to this class."""
     element = _flaechenobjekt(member, "BP_BaugebietsTeilFlaeche", area, bereich_id)
     for dachgestaltung in area.dachgestaltung:
         _dachgestaltung(element, dachgestaltung)
@@ -109,6 +101,8 @@ def _baugebiet(member, area, bereich_id):
 
 
 def _plan(member, plan, bereich_id):
+    """Writes the BP_Plan feature: name, boundary, municipalities, plan type,
+    and a reference to its Bereich."""
     element = etree.SubElement(member, _x("BP_Plan"), {_g("id"): plan.gml_id})
     _text(element, "name", plan.name)
     _geometry(element, "raeumlicherGeltungsbereich", plan.raeumlicherGeltungsbereich, f"{plan.gml_id}_geom")
@@ -122,6 +116,8 @@ def _plan(member, plan, bereich_id):
 
 
 def _bereich(member, bereich, plan_id, planinhalt_ids):
+    """Writes the BP_Bereich feature: its boundary and references to its
+    plan and the feature objects it contains."""
     element = etree.SubElement(member, _x("BP_Bereich"), {_g("id"): bereich.gml_id})
     _text(element, "nummer", bereich.nummer)
     if bereich.geltungsbereich is not None:
@@ -142,6 +138,7 @@ def build(auszug):
     etree.SubElement(root, _g("boundedBy")).append(geometry.envelope(all_geoms))
 
     def feature_member():
+        """Appends and returns a new gml:featureMember element under root."""
         return etree.SubElement(root, _g("featureMember"))
 
     bereich_id = auszug.bereich.gml_id
@@ -158,5 +155,6 @@ def build(auszug):
 
 
 def write(auszug, path):
+    """Builds auszug's XML tree and writes it to path as UTF-8 GML. Returns path."""
     etree.ElementTree(build(auszug)).write(path, xml_declaration=True, encoding="UTF-8", pretty_print=True)
     return path

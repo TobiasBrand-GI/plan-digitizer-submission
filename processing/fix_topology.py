@@ -1,30 +1,3 @@
-#!/usr/bin/env python3
-"""
-Detect and repair single-geometry topology (validity) errors using only
-GDAL/OGR (no shapely/fiona required).
-
-Strategy per invalid feature, in increasing order of aggressiveness:
-    1. snap_to_grid()               - collapses near-duplicate vertices onto
-                                       a shared precision grid. Fixes GEOS
-                                       "side location conflict" / "TopologyException"
-                                       errors caused by coordinates that are
-                                       almost-but-not-quite identical.
-    2. RemoveDuplicatePoints()      - fixes repeated/zero-length vertices
-    3. MakeValid()                  - proper GEOS repair (splits rings etc.)
-    4. MakeValid(METHOD=STRUCTURE)  - more robust GEOS algorithm for
-                                       degenerate/near-duplicate node cases
-                                       (needs GDAL>=3.4 & GEOS>=3.10)
-    5. Buffer(0)                    - classic self-intersection fix
-    6. SimplifyPreserveTopology(t)  - last resort, alters shape
-    7. remove_offending_vertex()    - brute-force: drop the single vertex
-                                       that is causing the invalidity
-
-Valid / repaired features go to OUTPUT_PATH.
-Anything that could not be repaired goes to ERROR_PATH for manual review.
-
-Requires GDAL built with GEOS support (almost all packaged builds are).
-"""
-
 from osgeo import ogr, gdal
 
 gdal.UseExceptions()
@@ -70,6 +43,8 @@ def find_features_near_point(layer, x, y, tolerance=1e-3):
 
 
 def _geom_has_point_near(geom, x, y, tolerance):
+    """True if geom has any vertex within tolerance of (x, y), recursing
+    into Multi*/GeometryCollection parts."""
     gtype = ogr.GT_Flatten(geom.GetGeometryType())
     if gtype in (ogr.wkbPolygon, ogr.wkbLineString, ogr.wkbLinearRing):
         if gtype == ogr.wkbPolygon:
@@ -92,16 +67,11 @@ def _geom_has_point_near(geom, x, y, tolerance):
 
 def snap_to_grid(geom, grid_size=GRID_SIZE):
     """
-    Snap all coordinates onto a fixed precision grid, collapsing
-    near-duplicate vertices onto identical points. This is the primary
-    fix for GEOS "side location conflict" / TopologyException errors
-    that occur at a shared node between multiple features.
-
-    Uses OGRGeometry.SetPrecision() when available (GDAL >= 3.9, which
-    wraps GEOS's precision-model snapping and also fixes resulting
-    self-intersections). Falls back to manual coordinate rounding on
-    older GDAL, which is more portable but only collapses points, it
-    does not re-node the geometry.
+    Snaps all coordinates onto a fixed precision grid, collapsing
+    near-duplicate vertices -- the primary fix for GEOS "side location
+    conflict"/TopologyException errors at a shared node. Uses
+    OGRGeometry.SetPrecision() when available (GDAL >= 3.9); falls back to
+    manual coordinate rounding, which only collapses points, not re-node.
     """
     try:
         # GDAL >= 3.9: proper GEOS precision-model snap
@@ -121,6 +91,8 @@ def _round_geometry_coords(geom, precision):
     gtype = ogr.GT_Flatten(geom.GetGeometryType())
 
     def round_ring(ring):
+        """Returns a copy of ring with every coordinate rounded to
+        `precision` decimal places."""
         new_ring = ogr.Geometry(ring.GetGeometryType())
         for i in range(ring.GetPointCount()):
             x, y, z = ring.GetPoint(i)
@@ -149,14 +121,10 @@ def _round_geometry_coords(geom, precision):
 
 def remove_offending_vertex(geom):
     """
-    Brute-force attempt to find and remove the single vertex responsible
-    for an invalid geometry (e.g. a spike that creates a self-intersection).
-
-    Tries removing each vertex of each ring in turn and re-checks validity.
-    Returns a repaired clone, or None if no single-vertex removal fixes it.
-
-    NOTE: this only handles the simple case where ONE vertex is the cause.
-    Complex multi-point self-intersections will not be fixed by this.
+    Brute-force repair: tries removing each vertex of each ring in turn and
+    re-checks validity, returning a repaired clone on the first fix found
+    (or None if no single-vertex removal works). Only handles the case
+    where exactly one vertex causes the invalidity.
     """
     gtype = geom.GetGeometryType()
     flat_type = ogr.GT_Flatten(gtype)
@@ -284,6 +252,9 @@ def fix_geometry(geom):
 
 
 def main():
+    """Reads INPUT_PATH, repairs invalid geometries via fix_geometry(), and
+    writes valid/repaired features to OUTPUT_PATH and unfixable ones to
+    ERROR_PATH with their failure reason."""
     src_ds = ogr.Open(INPUT_PATH)
     if src_ds is None:
         raise RuntimeError(f"Could not open {INPUT_PATH}")

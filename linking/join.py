@@ -1,18 +1,3 @@
-"""Orchestrates text-block-to-area-polygon linking end to end: loads area
-polygons and text blocks (already produced by processing/ and
-texthandling/), detects and merges connector-line candidates from the
-source GeoTIFF, matches them, and writes three outputs -- linked area
-polygons, any text blocks that couldn't be matched, and every candidate
-line the detection+merge stage produced (not just the ones that ended up
-matched), for visualizing/debugging what lines.py actually recognized and
-processed.
-
-File-path-in, file-path-out, matching every other orchestration function
-in this codebase (processing.polygonizing.intersect_usage_types_by_lines,
-texthandling.extract_text_features) rather than requiring the areas/
-text-handling pipelines to share in-memory state.
-"""
-
 import rasterio
 from osgeo import ogr
 
@@ -20,6 +5,8 @@ from . import lines, relate
 
 
 def _load_polygons(path):
+    """Returns (list of cloned geometries, spatial reference) for every
+    feature in the vector file at path."""
     ds = ogr.Open(path, 0)
     if ds is None:
         raise RuntimeError(f"Could not open {path}")
@@ -32,6 +19,8 @@ def _load_polygons(path):
 
 
 def _load_text_blocks(path):
+    """Returns (geometries, attribute dicts, field names) for every feature
+    in the text-block vector file at path."""
     ds = ogr.Open(path, 0)
     if ds is None:
         raise RuntimeError(f"Could not open {path}")
@@ -49,6 +38,8 @@ def _load_text_blocks(path):
 
 
 def _create_output_datasource(path):
+    """Creates a fresh GeoJSON datasource at path, deleting any stale file
+    already there."""
     driver = ogr.GetDriverByName("GeoJSON")
     try:
         if driver.Open(path) is not None:
@@ -64,32 +55,10 @@ def link_text_to_areas(areas_path, text_features_path, geotiff_path,
                         polygon_tolerance_meters=relate.POLYGON_BUFFER_TOLERANCE_METERS,
                         text_tolerance_meters=relate.TEXT_BUFFER_TOLERANCE_METERS):
     """
-    areas_path : GeoJSON of area polygons (e.g. processing's areas.geojson,
-        which currently has empty properties -- this join populates them
-        for the first time, it does not merge with existing attributes).
-    text_features_path : GeoJSON of structured text blocks (e.g.
-        texthandling's text_features.geojson).
-    geotiff_path : source raster to detect connector lines in.
-    out_path : written with one feature per area polygon -- ALL of them,
-        never dropped. A matched text block's fields are populated;
-        link_conflict is set if the match was ambiguous; fields are empty
-        if the polygon was never matched. If more than one text block
-        matches the same polygon, their field values are combined
-        (semicolon-joined per field) rather than the later one silently
-        overwriting the earlier -- same never-silently-drop principle as
-        texthandling/structure.py's same-key-twice handling.
-    unmatched_out_path : any text block that never matched a polygon on the
-        single matching pass (see relate.py -- there is no retry pass),
-        kept as a standalone feature for manual follow-up -- never guessed
-        by distance-based fallback.
-    detected_lines_out_path : one LineString feature per candidate path
-        lines.merge_segments_into_paths() produced -- the ENTIRE detection
-        + aggregation result, not just the handful that ended up matched
-        (see relate.py). For visualizing/debugging what lines.py actually
-        recognized and merged, independent of whether relate.py's
-        relational filter later accepted or rejected it.
-
-    Returns (out_path, unmatched_out_path, detected_lines_out_path).
+    Links text blocks to area polygons via connector lines detected in the
+    source GeoTIFF. Writes linked area polygons (all kept, matched fields
+    merged), unmatched text blocks, and every detected candidate line, for
+    debugging. Returns (out_path, unmatched_out_path, detected_lines_out_path).
     """
     polygons, srs = _load_polygons(areas_path)
     text_geoms, text_attrs, text_field_names = _load_text_blocks(text_features_path)

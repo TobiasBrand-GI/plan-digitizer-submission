@@ -1,7 +1,3 @@
-"""Draw numbered reference boxes onto a tile image, so the VLM's
-classification pass (mistral_client.classify_regions) can refer to each
-Tesseract-detected word by index instead of having to re-localize it."""
-
 import cv2
 
 _BOX_COLOR_BGR = (0, 0, 255)  # red -- distinct from typical B/W plan content

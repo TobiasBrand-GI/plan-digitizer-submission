@@ -23,6 +23,8 @@ def dataset_crs(dataset):
     return CRS.from_epsg(FALLBACK_EPSG)
 
 def transform_to_hsv(dataset):
+    """Returns (hsv_image, raster meta, rgb_image) built from dataset's
+    first three bands."""
     r = dataset.read(1)
     g = dataset.read(2)
     b = dataset.read(3)
@@ -33,6 +35,9 @@ def transform_to_hsv(dataset):
     return hsv_image, meta, rgb_image
 
 def export_lines_to_vector(lines, transform, crs_wkt, output_path="lines.geojson"):
+    """Writes lines (pixel-coordinate (x1, y1)-(x2, y2) pairs) as
+    georeferenced LineString features to output_path, converting pixel to
+    geo coordinates via transform and using crs_wkt as the layer's SRS."""
     # Setup driver and datasource
     driver = ogr.GetDriverByName("GeoJSON")
     datasource = driver.CreateDataSource(output_path)
@@ -69,7 +74,9 @@ def export_lines_to_vector(lines, transform, crs_wkt, output_path="lines.geojson
     datasource = None  # flush and close
 
 def open_rgb(path, out_dir):
-
+    """Opens path with rasterio; if single-band, expands it to RGB via
+    gdal.Translate (written under out_dir) and returns that dataset,
+    otherwise returns the original dataset unchanged."""
     print("opening ori tif")
     dataset_tmp = rasterio.open(path)
 
@@ -96,18 +103,11 @@ def open_rgb(path, out_dir):
 
 def remove_spikes(ordered_points, angle_threshold_deg=25, max_iterations=5):
     """
-    Removes vertices that create sharp spikes (near-reversal turns)
-    in an ordered chain of points.
-
-    ordered_points: Nx2 array of (x, y) points, already in path order
-    angle_threshold_deg: minimum interior angle allowed at a vertex.
-        A vertex is considered a spike if the path "folds back" on
-        itself more sharply than this angle. Lower = more aggressive
-        removal (also removes gentle real bends); higher = only
-        removes near-total reversals.
-    max_iterations: removing one spike can reveal another
-        (the new neighbor pairing might itself now be a spike),
-        so repeat until stable or max_iterations reached.
+    Removes vertices that create sharp spikes (near-reversal turns) in
+    ordered_points, an Nx2 array of path-ordered (x, y) points. A vertex is
+    a spike if its interior angle is below angle_threshold_deg (lower =
+    more aggressive). Repeats up to max_iterations times, since removing
+    one spike can reveal another.
     """
     points = np.array(ordered_points, dtype=float)
 
@@ -214,32 +214,11 @@ def _circumcenter(a, b, c):
 
 def voronoi_polygons(points, extent_padding=0.1):
     """
-    Build Voronoi polygons for a set of (x, y) points, using only osgeo.ogr.
-
-    OGR has no native Voronoi method -- it only wraps GEOS's Delaunay
-    triangulation (Geometry.DelaunayTriangulation()). So this builds the
-    Voronoi diagram as the DUAL of that triangulation: each triangle's
-    circumcenter becomes a Voronoi vertex, and each site's cell is formed
-    by connecting the circumcenters of all triangles touching it, sorted
-    by angle around the site.
-
-    Cells on the outer edge of the point set are mathematically unbounded,
-    so every cell is clipped to a padded bounding box of the input points.
-
-    Parameters
-    ----------
-    points : Multipoint
-        Input site points (e.g. points sampled along a buffer boundary).
-    extent_padding : float
-        Fraction of the point set's width/height to pad the clipping
-        extent by, so boundary cells don't get sliced flush at the hull.
-
-    Returns
-    -------
-    list of ogr.Geometry
-        One polygon per input point, in the same order as `points`
-        (skipping any point that couldn't form a valid cell, e.g. an
-        exact duplicate coordinate).
+    Builds Voronoi polygons for points (an OGR MultiPoint) via the dual of
+    GEOS's Delaunay triangulation: each triangle's circumcenter becomes a
+    Voronoi vertex, and each site's cell connects its touching triangles'
+    circumcenters by angle, then clips to a padded bounding box. Returns one
+    ogr.Geometry polygon per input point, skipping invalid ones.
     """
 
     triangles = points.DelaunayTriangulation()  # GeometryCollection of triangle Polygons
@@ -328,21 +307,11 @@ def _split_into_segments(line):
 
 def polygons_to_lines(polygons):
     """
-    Convert a list of Voronoi (or any) polygon geometries into their boundary
-    lines, exploded down to individual 2-point segment LineStrings (i.e.
-    one feature-worth of geometry per edge, not per ring or per polygon).
-
-    Parameters
-    ----------
-    polygons : list of ogr.Geometry
-        Polygon (or MultiPolygon) geometries, e.g. from voronoi_polygons().
-
-    Returns
-    -------
-    list of ogr.Geometry
-        Single-part, 2-point LineString segments. Shared edges between
-        adjacent cells are NOT deduplicated -- each polygon contributes
-        its own copy of every segment along its boundary.
+    Converts a list of polygon (or MultiPolygon) geometries, e.g. from
+    voronoi_polygons(), into their boundary lines exploded down to
+    individual 2-point segment LineStrings -- one per edge, not per ring or
+    polygon. Shared edges between adjacent cells are NOT deduplicated; each
+    polygon contributes its own copy.
     """
     lines = []
     for poly in polygons:
@@ -419,6 +388,8 @@ def _sum_linear_length(geom):
 
 
 def _shared_boundary_length(geom_a, geom_b):
+    """Length of the shared boundary (linear intersection) between geom_a
+    and geom_b; 0 if they don't share an edge."""
     inter = geom_a.Intersection(geom_b)
     if inter is None or inter.IsEmpty():
         return 0.0
@@ -499,38 +470,12 @@ def eliminate_small_polygons(polygons, min_area=150.0,
                               keep_attributes_from="largest",
                               retriangulate_every=25):
     """
-    Dissolve polygons smaller than `min_area` into the neighboring polygon
-    with which they share the longest border. Equivalent to QGIS's
-    "Eliminate Selected Polygons" tool (merge with largest shared border
-    mode).
-
-    Accepts polygons from any of:
-      - an ogr.Geometry GeometryCollection or MultiPolygon
-        (e.g. the direct output of noded.Polygonize())
-      - a single ogr.Geometry Polygon
-      - a plain Python list/iterable of ogr.Geometry Polygons
-      - an ogr.Layer (attributes are read if present)
-
-    Candidate adjacency is found via GDAL/OGR's own Delaunay triangulation
-    over polygon centroids. The merge process is driven by a networkx
-    weighted graph (edge weight = shared boundary length), using
-    max-weight-edge contraction.
-
-    Parameters
-    ----------
-    polygons : ogr.Geometry | ogr.Layer | iterable of ogr.Geometry
-    min_area : float
-        Area threshold in the source CRS units (e.g. m^2 for a projected CRS).
-    keep_attributes_from : str
-        "largest" or "smallest" -- whose attributes survive the merge
-        (only meaningful if the source carries attributes, i.e. a Layer).
-    retriangulate_every : int
-        Re-run Delaunay every N merges to pick up newly-created adjacencies.
-        Set to 0 to disable.
-
-    Returns
-    -------
-    ogr.Geometry (GeometryCollection) containing the resulting polygons.
+    Dissolves polygons smaller than min_area into the neighbor with which
+    they share the longest border (like QGIS's Eliminate tool). Accepts a
+    GeometryCollection/MultiPolygon, a single Polygon, a list of Polygons,
+    or an ogr.Layer. Adjacency comes from Delaunay triangulation over
+    centroids, re-run periodically as merges proceed. Returns a
+    GeometryCollection of resulting polygons.
     """
     import itertools
     next_id = itertools.count()
@@ -570,6 +515,9 @@ def eliminate_small_polygons(polygons, min_area=150.0,
         return []
 
     def build_edges(node_ids):
+        """Adds adjacency edges (weighted by shared boundary length) to G
+        for every Delaunay-candidate pair among node_ids that actually
+        touch; returns how many edges were added."""
         pairs = _delaunay_candidate_pairs(node_ids, geoms)
         added = 0
         for a, b in pairs:
@@ -681,6 +629,8 @@ def eliminate_small_polygons(polygons, min_area=150.0,
     return result
 
 def snap_to_grid(geom, grid_size=GRID_SIZE):
+    """Snaps geom's coordinates to grid_size via SetPrecision, falling back
+    to fix_topology's coordinate rounding if unavailable."""
     try:
         g = geom.SetPrecision(grid_size)
         if g is not None:
@@ -703,6 +653,9 @@ def buffer_sandwich(geom, eps=0.01):  # 1cm -- meaningful in a metric CRS
     return geom
 
 def safe_intersection(geom_a, geom_b, context=""):
+    """Returns geom_a.Intersection(geom_b), retrying with buffer_sandwich()
+    on one or both sides if GEOS raises a RuntimeError; returns None if
+    every attempt fails."""
     try:
         return geom_a.Intersection(geom_b)
     except RuntimeError as e:
