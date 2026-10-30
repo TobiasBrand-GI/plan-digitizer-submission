@@ -9,6 +9,7 @@ Automatically digitalize features from German zoning plans
 - A [Mistral AI](https://console.mistral.ai/) API key (used for text classification)
 - The ALKIS land-use shapefile `nutzungFlurstueck_kgt.shp` (with its `.shx`, `.dbf`, `.prj` files)
 
+> [!IMPORTANT]
 > Example ALKIS files and other geodata are available under: [https://1drv.ms/f/c/c7dff35ae91c49d4/IgAP84ogdOcrSpqd-Gtv1hNsAYgKMsRr1KE3bky_pJ1MH84?e=402uU5](https://1drv.ms/f/c/c7dff35ae91c49d4/IgAP84ogdOcrSpqd-Gtv1hNsAYgKMsRr1KE3bky_pJ1MH84?e=402uU5)
 
 ### Setup
