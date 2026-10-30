@@ -24,7 +24,7 @@ Automatically digitalize features from German zoning plans
    cp .env.example .env
    ```
    In `.env`, replace `<KEY>` with your Mistral API key. `MISTRAL_REQUEST_DELAY_MS` (pause between API requests) and `MISTRAL_MAX_RETRIES` (retries of a failed request) can be left at their defaults.
-3. If needed, replace the ALKIS shapefile in `vectors/`:
+3. Place the ALKIS shapefile in `vectors/`:
    ```
    vectors/nutzungFlurstueck_kgt.shp   (+ .shx, .dbf, .prj)
    ```
